@@ -296,37 +296,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Handy",
-    "spike": 14.0,
-    "target_count": 5,
-    "unit_count": 2,
-    "editorial_units": [
-      "SRF Kids News",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "SRF Kids News",
-      "Schweiz aktuell"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Kids News",
-        "channel": "SRF 1",
-        "quote": "...Sobald jemand ein Tier hier hineinlegt, bekommt Jasmin eine Meldung auf ihrem Handy. Hier sehen wir, dass Fridolin abgegeben wurde. Dann gehen wir dorthin. Wenn...",
-        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...oder Kulisse, nicht um dort Spass zu haben, sondern, um den Anlass mit dem Handy zu dokumentieren. Von mir aus gesehen Das war für mich der Hauptgrund, den...",
-        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
-      }
-    ],
-    "score": 14.0,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
     "phrase": "neue",
     "spike": 14.0,
     "target_count": 5,
@@ -350,6 +319,37 @@
         "title": "Schweiz aktuell",
         "channel": "SRF info",
         "quote": "...des Hochstuckli-Lifts für die nächsten Jahre finanziell zu unterstützen. Die neue Gemeindepräsidentin will dem Lift eine Gnadenfrist geben. Der eine Grund ist,...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Handy",
+    "spike": 14.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Sobald jemand ein Tier hier hineinlegt, bekommt Jasmin eine Meldung auf ihrem Handy. Hier sehen wir, dass Fridolin abgegeben wurde. Dann gehen wir dorthin. Wenn...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...oder Kulisse, nicht um dort Spass zu haben, sondern, um den Anlass mit dem Handy zu dokumentieren. Von mir aus gesehen Das war für mich der Hauptgrund, den...",
         "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
       }
     ],
@@ -498,37 +498,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Einnahme",
-    "spike": 10.0,
-    "target_count": 5,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Telesguard"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF info",
-        "quote": "...und das Wachstum tragen dazu bei, das wir rund einen Drittel der Einnahmen aus dem Gewerbe und der Industrie haben. Das sei nicht immer so gewesen....",
-        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...Jahr nicht, sondern es ist schon einige Jahre so, dass wir den Winter mit Einnahmen vom Sommer quersubventionieren. Aufwand und Ertrag stimmten also nicht mehr....",
-        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
-      }
-    ],
-    "score": 10.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Lift",
     "spike": 10.0,
     "target_count": 5,
@@ -552,6 +521,37 @@
         "title": "Schweiz aktuell",
         "channel": "SRF info",
         "quote": "...im Kanton Schwyz macht jetzt eine Rolle rückwärts: ein ausrangierter Skilift wird nächsten Winter wieder in Betrieb genommen. Raphael Prinz hat sich das...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Einnahme",
+    "spike": 10.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...und das Wachstum tragen dazu bei, das wir rund einen Drittel der Einnahmen aus dem Gewerbe und der Industrie haben. Das sei nicht immer so gewesen....",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Jahr nicht, sondern es ist schon einige Jahre so, dass wir den Winter mit Einnahmen vom Sommer quersubventionieren. Aufwand und Ertrag stimmten also nicht mehr....",
         "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
       }
     ],
@@ -887,37 +887,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Bergbahn",
-    "spike": 7.8,
-    "target_count": 5,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Telesguard"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF info",
-        "quote": "...Nachricht begrüsse ich Sie zu \"Telesguard\": Das sind die heutigen Themen: Die Bergbahnen Brigels Waltensburg Andiast sind in finanzieller Not. Jetzt soll die...",
-        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...Erkenntnisse der schweizerischen Sicherheits- untersuchungsstelle SUST, der Bergbahnen Titlis und dem Gon- delhersteller Garaventa zusammen. Viele Fragen sind...",
-        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
-      }
-    ],
-    "score": 7.8,
-    "rank": 26,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Drittel",
     "spike": 7.8,
     "target_count": 5,
@@ -945,38 +914,38 @@
       }
     ],
     "score": 7.8,
-    "rank": 27,
+    "rank": 26,
     "imageUrl": ""
   },
   {
-    "phrase": "Ostern",
-    "spike": 7.0,
+    "phrase": "Bergbahn",
+    "spike": 7.8,
     "target_count": 5,
     "unit_count": 2,
     "editorial_units": [
-      "SRF Kids News",
-      "Schweiz aktuell"
+      "Schweiz aktuell",
+      "Telesguard"
     ],
     "programs": [
-      "SRF Kids News",
-      "Schweiz aktuell"
+      "Schweiz aktuell",
+      "Telesguard"
     ],
     "quotes": [
       {
-        "title": "SRF Kids News",
-        "channel": "SRF 1",
-        "quote": "...Haustier. Es ist nicht wie ein Plüschtier. Und die beiden Hasen passen zu Ostern, die bald anstehen. Auf srfkids.ch findest du eine coole Bastelaktion für...",
-        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Nachricht begrüsse ich Sie zu \"Telesguard\": Das sind die heutigen Themen: Die Bergbahnen Brigels Waltensburg Andiast sind in finanzieller Not. Jetzt soll die...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...kann. Immer mehr schliessen. Jetzt trifft es auch das Terminus in Olten. An Ostern ist dort ausgetanzt, nach 30 Jahren. Mario Gutknecht will wissen, warum...",
+        "quote": "...Erkenntnisse der schweizerischen Sicherheits- untersuchungsstelle SUST, der Bergbahnen Titlis und dem Gon- delhersteller Garaventa zusammen. Viele Fragen sind...",
         "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
       }
     ],
-    "score": 7.0,
-    "rank": 28,
+    "score": 7.8,
+    "rank": 27,
     "imageUrl": ""
   },
   {
@@ -1007,32 +976,38 @@
       }
     ],
     "score": 7.0,
-    "rank": 29,
+    "rank": 28,
     "imageUrl": ""
   },
   {
-    "phrase": "Hand",
+    "phrase": "Ostern",
     "spike": 7.0,
-    "target_count": 2,
+    "target_count": 5,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Telesguard"
+      "SRF Kids News",
+      "Schweiz aktuell"
     ],
     "programs": [
-      "Tagesschau",
-      "Telesguard"
+      "SRF Kids News",
+      "Schweiz aktuell"
     ],
     "quotes": [
       {
-        "title": "Telesguard",
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Haustier. Es ist nicht wie ein Plüschtier. Und die beiden Hasen passen zu Ostern, die bald anstehen. Auf srfkids.ch findest du eine coole Bastelaktion für...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...dringend Geld - sie brauchen viel und am liebsten von der öffentlichen Hand. Dass die Saison bereits Mitte März endet, war von Anfang an klar. Es kostet...",
-        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+        "quote": "...kann. Immer mehr schliessen. Jetzt trifft es auch das Terminus in Olten. An Ostern ist dort ausgetanzt, nach 30 Jahren. Mario Gutknecht will wissen, warum...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
       }
     ],
     "score": 7.0,
-    "rank": 30,
+    "rank": 29,
     "imageUrl": ""
   },
   {
@@ -1060,6 +1035,31 @@
         "channel": "SRF 1",
         "quote": "...eingezeichnet ist. Es gibt aber auch einen Kaltlufttropfen, kalte Luft in der Höhe, die nähergekommen ist und feuchte Luft in unser Land gebracht hat. Es gab...",
         "urn": "urn:srf:video:720630a2-d129-41b0-a33a-045e4bad012e"
+      }
+    ],
+    "score": 7.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Hand",
+    "spike": 7.0,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dringend Geld - sie brauchen viel und am liebsten von der öffentlichen Hand. Dass die Saison bereits Mitte März endet, war von Anfang an klar. Es kostet...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
       }
     ],
     "score": 7.0,

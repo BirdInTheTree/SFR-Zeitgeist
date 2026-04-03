@@ -280,37 +280,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Regina Kolb",
-    "spike": 6.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "quotes": [
-      {
-        "title": "10 vor 10",
-        "channel": "SRF info",
-        "quote": "...auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      }
-    ],
-    "score": 6.0,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Philipp Schlatter",
     "spike": 6.0,
     "target_count": 6,
@@ -334,6 +303,37 @@
         "title": "Schweiz aktuell",
         "channel": "SRF info",
         "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 6.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Regina Kolb",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
         "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
       }
     ],
@@ -595,44 +595,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Kriegspartei",
-    "spike": 4.1,
-    "target_count": 8,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...scheint derzeit nicht in Sicht. Petra Frey. Nacht für Nacht greifen die Kriegsparteien Ziele in Iran, Israel, den Golfstaaten und im Libanon an. Am Morgen erst...",
-        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF info",
-        "quote": "...dass sie sich dazu durchringen können. Es steht drin, dass die G7 alle Kriegsparteien auffordern, keine Zivilpersonen und die vielen Einrichtungen mehr...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Ende im sehr Ungewissen liegt. Petra Frey. Nacht für Nacht greifen sich die Kriegsparteien gegenseitig an: Ziele in Iran, Israel, den Golfstaaten und im Libanon. Am...",
-        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
-      }
-    ],
-    "score": 4.1,
-    "rank": 18,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Herbst",
     "spike": 4.1,
     "target_count": 10,
@@ -663,6 +625,44 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...das Stimmvolk erst vor drei Wochen angenommen hat. So wird voraussichtlich im Herbst einmal mehr darüber abgestimmt, wie die sog. Heiratsstrafe abgeschafft werden...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 4.1,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Kriegspartei",
+    "spike": 4.1,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...scheint derzeit nicht in Sicht. Petra Frey. Nacht für Nacht greifen die Kriegsparteien Ziele in Iran, Israel, den Golfstaaten und im Libanon an. Am Morgen erst...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...dass sie sich dazu durchringen können. Es steht drin, dass die G7 alle Kriegsparteien auffordern, keine Zivilpersonen und die vielen Einrichtungen mehr...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Ende im sehr Ungewissen liegt. Petra Frey. Nacht für Nacht greifen sich die Kriegsparteien gegenseitig an: Ziele in Iran, Israel, den Golfstaaten und im Libanon. Am...",
         "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
       }
     ],
@@ -908,44 +908,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "FDP",
-    "spike": 3.4,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
-        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...zu besetzen sein. Mit Volkswirtschaftsdirektorin Carmen Walker Späh von der FDP hat heute bereits die dritte Person aus der Regierung bekannt gegeben, dass...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
-        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
-      }
-    ],
-    "score": 3.4,
-    "rank": 26,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Bild",
     "spike": 1.5,
     "target_count": 11,
@@ -999,38 +961,45 @@
       }
     ],
     "score": 3.4,
-    "rank": 27,
+    "rank": 26,
     "imageUrl": ""
   },
   {
-    "phrase": "SWISS TXT Accessibility Services Philipp Schlatter",
+    "phrase": "FDP",
     "spike": 3.4,
     "target_count": 6,
     "unit_count": 2,
     "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
-      "10 vor 10",
-      "Schweiz aktuell"
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "10 vor 10",
-        "channel": "SRF info",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend und herzlich willkommen zu \"10 vor 10\" Wir blicken auf das heutige G7-Aussenministertreffen und die...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Ganz herzlich willkommen, schön, dass Sie eingeschaltet haben. Einen guten Abend. Das ist heute in der Schweiz...",
+        "quote": "...zu besetzen sein. Mit Volkswirtschaftsdirektorin Carmen Walker Späh von der FDP hat heute bereits die dritte Person aus der Regierung bekannt gegeben, dass...",
         "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
       }
     ],
     "score": 3.4,
-    "rank": 28,
+    "rank": 27,
     "imageUrl": ""
   },
   {
@@ -1061,7 +1030,7 @@
       }
     ],
     "score": 3.3,
-    "rank": 29,
+    "rank": 28,
     "imageUrl": ""
   },
   {
@@ -1099,7 +1068,7 @@
       }
     ],
     "score": 3.3,
-    "rank": 30,
+    "rank": 29,
     "imageUrl": ""
   },
   {
@@ -1130,7 +1099,7 @@
       }
     ],
     "score": 3.2,
-    "rank": 31,
+    "rank": 30,
     "imageUrl": ""
   },
   {
@@ -1168,7 +1137,7 @@
       }
     ],
     "score": 2.9,
-    "rank": 32,
+    "rank": 31,
     "imageUrl": ""
   },
   {
@@ -1225,7 +1194,7 @@
       }
     ],
     "score": 2.9,
-    "rank": 33,
+    "rank": 32,
     "imageUrl": ""
   },
   {
@@ -1263,7 +1232,7 @@
       }
     ],
     "score": 2.9,
-    "rank": 34,
+    "rank": 33,
     "imageUrl": ""
   },
   {
@@ -1317,7 +1286,7 @@
       }
     ],
     "score": 2.8,
-    "rank": 35,
+    "rank": 34,
     "imageUrl": ""
   },
   {
@@ -1345,6 +1314,44 @@
         "channel": "SRF info",
         "quote": "...Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die...",
         "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 2.7,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mio.",
+    "spike": 2.7,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Maienfeld. Die SVP widmete die Versammlung ihrer Initiative gegen eine 10-Mio.-Schweiz, die im Juni zur Abstimmung kommt. Die SVP beklagte den Verlust von...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...informiert. Im Fokus steht dieses Grundstück am Ägerisee, das 2017 für 16 Mio. Fr. verkauft wurde. Nicht nur der zu niedrige Verkaufspreis, sondern auch die...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Wir wollen kein zweites Singapur werden, wir wollen nicht 12, 13, 14, 15 Mio. werden in der Schweiz. Mit jedem Bauprofil, mit jedem Wohnsilo, der entsteht,...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
       }
     ],
     "score": 2.7,

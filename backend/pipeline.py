@@ -131,7 +131,15 @@ def extract_quote(text: str, phrase: str, context_chars: int = 80) -> str:
     return snippet
 
 
-def build_zeitgeist(target_date: str) -> list[dict]:
+def load_nlp():
+    """Load spaCy model once."""
+    print("Loading spaCy model...")
+    nlp = spacy.load("de_core_news_md")
+    nlp.max_length = 2_000_000
+    return nlp
+
+
+def build_zeitgeist(target_date: str, nlp=None) -> list[dict]:
     """
     Main pipeline: compute zeitgeist for a target date.
 
@@ -143,10 +151,8 @@ def build_zeitgeist(target_date: str) -> list[dict]:
     6. Score = spike × log₂(program_count)
     7. Return top GRID_SIZE entries
     """
-    print(f"Loading spaCy model...")
-    nlp = spacy.load("de_core_news_md")
-    # Increase max length for concatenated subtitle text
-    nlp.max_length = 2_000_000
+    if nlp is None:
+        nlp = load_nlp()
 
     # --- Load target day ---
     target_programs = filter_news(load_day(target_date))
@@ -299,9 +305,10 @@ def main():
         dates = find_processable_days()
         print(f"=== SRF Zeitgeist Pipeline (News Only) — Batch ===")
         print(f"Processing {len(dates)} days: {dates[0]} → {dates[-1]}\n")
+        nlp = load_nlp()
         generated = []
         for d in dates:
-            results = build_zeitgeist(d)
+            results = build_zeitgeist(d, nlp=nlp)
             if results:
                 out = save_zeitgeist(results, d)
                 generated.append(d.replace("-", ""))

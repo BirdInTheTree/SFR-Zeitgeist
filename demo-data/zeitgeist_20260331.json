@@ -46,37 +46,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Alliance SwissPass",
-    "spike": 308.0,
-    "target_count": 22,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Verkehrsmitteln um durchschnittlich 3,9 % Das hat der Strategierat der Alliance SwissPass beschlossen. Betroffen sind national gültige Billette und Abonnemente....",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Ab Dezember kostet der öffentliche Verkehr bei uns ordentlich mehr. Die Alliance SwissPass, zu der fast alle Schweizer ÖV-Betriebe gehören, auch regionale und...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
-      }
-    ],
-    "score": 308.0,
-    "rank": 2,
-    "imageUrl": ""
-  },
-  {
     "phrase": "GA",
     "spike": 308.0,
     "target_count": 22,
@@ -100,6 +69,37 @@
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...der ÖV. Tickets werden ab Dezember 4 % teurer. Bahnfreunde fühlen sich übergangen. Ärztinnen und Ärzte klagen über zunehmende Bürokratie. Jetzt starten sie...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+      }
+    ],
+    "score": 308.0,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Alliance SwissPass",
+    "spike": 308.0,
+    "target_count": 22,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Verkehrsmitteln um durchschnittlich 3,9 % Das hat der Strategierat der Alliance SwissPass beschlossen. Betroffen sind national gültige Billette und Abonnemente....",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Ab Dezember kostet der öffentliche Verkehr bei uns ordentlich mehr. Die Alliance SwissPass, zu der fast alle Schweizer ÖV-Betriebe gehören, auch regionale und...",
         "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
       }
     ],
@@ -146,82 +146,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Celine Dion",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden. Celine Dion feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 5,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Krämpf",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Pause. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst. Von der Balladen-Königin zu König Fussball. Nach der 3:4-Niederlage...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 6,
-    "imageUrl": ""
-  },
-  {
     "phrase": "steigend Kosten",
     "spike": 182.0,
     "target_count": 13,
@@ -256,7 +180,7 @@
       }
     ],
     "score": 182.0,
-    "rank": 7,
+    "rank": 5,
     "imageUrl": ""
   },
   {
@@ -294,7 +218,7 @@
       }
     ],
     "score": 182.0,
-    "rank": 8,
+    "rank": 6,
     "imageUrl": ""
   },
   {
@@ -332,7 +256,45 @@
       }
     ],
     "score": 182.0,
-    "rank": 9,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Celine Dion",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden. Celine Dion feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 182.0,
+    "rank": 8,
     "imageUrl": ""
   },
   {
@@ -366,6 +328,44 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Botschaft: \"Paris, ich bin bereit!\" Heute dann wendet sie sich in einer Videobotschaft persönlich an ihre Fans: Sie fühle sich stark, sagt sie, und: Dieses Jahr...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 182.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Krämpf",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Pause. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst. Von der Balladen-Königin zu König Fussball. Nach der 3:4-Niederlage...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
         "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
       }
     ],
@@ -412,7 +412,7 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Messer",
+    "phrase": "Gesetzesentwurf",
     "spike": 126.0,
     "target_count": 9,
     "unit_count": 2,
@@ -429,62 +429,24 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum Tatzeitpunkt war der junge...",
+        "quote": "...die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist höchst umstritten. Kritikerinnen und Kritiker...",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
+        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
         "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
+        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
         "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
       }
     ],
     "score": 126.0,
     "rank": 12,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Jugendanwaltschaft",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen einen 17-jährigen Jugendlichen Anklage erhoben. Dieser hatte vor zwei...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 13,
     "imageUrl": ""
   },
   {
@@ -522,83 +484,7 @@
       }
     ],
     "score": 126.0,
-    "rank": 14,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "israelische Parlament",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Gesetzesentwurf",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist höchst umstritten. Kritikerinnen und Kritiker...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 16,
+    "rank": 13,
     "imageUrl": ""
   },
   {
@@ -632,6 +518,120 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Gefühl zu instrumentalisieren. Er hat das Gesetz so durchgebracht. Aber Kritiker sagen, er habe das auf eine Art und Weise gemacht, die nicht nur Strafen...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 126.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "orthodox Jude",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Jugendlichen Anklage erhoben. Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 126.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Hisbollah-Miliz",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Grund für den israelischen Armeeeinsatz im Süden Libanons sind Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 126.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Jugendanwaltschaft",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen einen 17-jährigen Jugendlichen Anklage erhoben. Dieser hatte vor zwei...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
         "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
       }
     ],
@@ -678,82 +678,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "orthodox Jude",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Jugendlichen Anklage erhoben. Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 19,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Hisbollah-Miliz",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Grund für den israelischen Armeeeinsatz im Süden Libanons sind Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 20,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Oberste Gericht",
     "spike": 126.0,
     "target_count": 9,
@@ -784,6 +708,82 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Israels eingeläutet. Gekippt werden könnte das Gesetz nur noch durch das Oberste Gericht. Warum weitet Israel dieses Gesetz aus? Das will ich von Nikolaus Wildner...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 126.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Messer",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum Tatzeitpunkt war der junge...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 126.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "israelische Parlament",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
         "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
       }
     ],
@@ -868,44 +868,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Post-App",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...als E-Mails. Dafür kosten sie aber auch. Digitale Briefe können z.B. mit der Post-App auf dem Smartphone verschickt werden. Dafür lädt man eine Datei in der App...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 24,
-    "imageUrl": ""
-  },
-  {
     "phrase": "digital Brief",
     "spike": 84.0,
     "target_count": 6,
@@ -936,6 +898,44 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der Bundesrat will das so. Der digitale Brief gehört ab...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+      }
+    ],
+    "score": 84.0,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Post-App",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...als E-Mails. Dafür kosten sie aber auch. Digitale Briefe können z.B. mit der Post-App auf dem Smartphone verschickt werden. Dafür lädt man eine Datei in der App...",
+        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
         "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
       }
     ],
@@ -1027,51 +1027,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "SWISS TXT Accessibility Services Chiara Winkelmann",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "SRF Börse",
-      "Tagesschau"
-    ],
-    "programs": [
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend. Sie schiessen wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163...",
-        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend und willkommen zur \"Tagesschau\", hier zunächst die Übersicht: Ab morgen stellt die Post Briefe auch...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "SRF Börse in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend. Sie schiessen wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163...",
-        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend und willkommen zur \"Tagesschau\", hier zunächst die Übersicht: Ab morgen stellt die Post Briefe auch...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 28,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Osterwochenende",
     "spike": 70.0,
     "target_count": 10,
@@ -1106,7 +1061,7 @@
       }
     ],
     "score": 70.0,
-    "rank": 29,
+    "rank": 28,
     "imageUrl": ""
   },
   {
@@ -1144,7 +1099,7 @@
       }
     ],
     "score": 60.7,
-    "rank": 30,
+    "rank": 29,
     "imageUrl": ""
   },
   {
@@ -1201,7 +1156,7 @@
       }
     ],
     "score": 55.3,
-    "rank": 31,
+    "rank": 30,
     "imageUrl": ""
   },
   {
@@ -1239,7 +1194,7 @@
       }
     ],
     "score": 45.5,
-    "rank": 32,
+    "rank": 31,
     "imageUrl": ""
   },
   {
@@ -1277,7 +1232,7 @@
       }
     ],
     "score": 36.4,
-    "rank": 33,
+    "rank": 32,
     "imageUrl": ""
   },
   {
@@ -1315,7 +1270,7 @@
       }
     ],
     "score": 28.0,
-    "rank": 34,
+    "rank": 33,
     "imageUrl": ""
   },
   {
@@ -1346,7 +1301,7 @@
       }
     ],
     "score": 26.4,
-    "rank": 35,
+    "rank": 34,
     "imageUrl": ""
   },
   {
@@ -1381,6 +1336,44 @@
         "channel": "SRF info",
         "quote": "...sein. Aber der Hintergrund dieses Berufs ist sehr anspruchsvoll. Man muss Zeugnisse ausstellen, man muss Elterngespräche führen, man ist Teil eines Teams Ralph...",
         "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af"
+      }
+    ],
+    "score": 26.2,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Schnitt",
+    "spike": 26.2,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Börse"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "...wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163 gegründet - pro Tag. Das sind so viele wie noch nie. Im ersten Quartal...",
+        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...auch regionale und städtische, erhöht die Preise ab Dezember um 3,9 % - im Schnitt, notabene. Bähram Alagheband berichtet über die Gründe und die Reaktionen....",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+      },
+      {
+        "title": "SRF Börse in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163 gegründet - pro Tag. Das sind so viele wie noch nie. Im ersten Quartal...",
+        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4"
       }
     ],
     "score": 26.2,

@@ -429,6 +429,63 @@
     "imageUrl": ""
   },
   {
+    "phrase": "Folge",
+    "spike": 308.0,
+    "target_count": 22,
+    "unit_count": 5,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...den Leitzins ein weiteres Mal bei 0 % und legt damit zum dritten Mal in Folge eine Zinspause ein. Wegen des Irankrieges sei die Bereitschaft, am...",
+        "urn": "urn:srf:video:6b67dd6c-acc7-490d-b569-b2098b8e7400"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...nach Italien oder Frankreich führt häufig über eine Schweizer Autobahn. Die Folge: Stau an der Grenze, Stau vor dem Gotthard, Lärm und Abgase für die Anwohner....",
+        "urn": "urn:srf:video:0138c0a5-a80f-415d-a4c2-ebee8e5be11c"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ihre Attacken auf die Energieinfrastruktur am Golf - mit deutlichen Folgen für Preise und Märkte. Der EU-Gipfel in Brüssel sucht nach gemeinsamen...",
+        "urn": "urn:srf:video:3654e590-782d-4676-9692-724370713f34"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...von Stunden Tausende feindliche Ziele identifizieren, ihre Bewegungen verfolgen und schlägt sogar passende Waffensysteme vor. Was früher Wochen von Analysen...",
+        "urn": "urn:srf:video:1fee185f-70d8-4bfe-a253-5a095cde5e5a"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...und kam klar zum Entschluss, die Gemeindegrenze nicht anzupassen. Das hat Folgen. Erstens sinkt die Einwohnerzahl. Wir verlieren Steuergelder und die...",
+        "urn": "urn:rtr:video:fc19fcc5-37f2-49d6-a8d8-c38b02b2e68f"
+      }
+    ],
+    "score": 715.2,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
     "phrase": "Strasse",
     "spike": 308.0,
     "target_count": 22,
@@ -481,7 +538,7 @@
       }
     ],
     "score": 715.2,
-    "rank": 9,
+    "rank": 10,
     "imageUrl": ""
   },
   {
@@ -534,63 +591,6 @@
         "title": "Telesguard",
         "channel": "SRF info",
         "quote": "...Dabei ist auch der HCD. Ob er gegen Bern oder Zug spielen wird, wird heute Abend entschieden. Was aber feststeht: Für den HCD-Star Matej Stransky und den...",
-        "urn": "urn:rtr:video:fc19fcc5-37f2-49d6-a8d8-c38b02b2e68f"
-      }
-    ],
-    "score": 715.2,
-    "rank": 10,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Folge",
-    "spike": 308.0,
-    "target_count": 22,
-    "unit_count": 5,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...den Leitzins ein weiteres Mal bei 0 % und legt damit zum dritten Mal in Folge eine Zinspause ein. Wegen des Irankrieges sei die Bereitschaft, am...",
-        "urn": "urn:srf:video:6b67dd6c-acc7-490d-b569-b2098b8e7400"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...nach Italien oder Frankreich führt häufig über eine Schweizer Autobahn. Die Folge: Stau an der Grenze, Stau vor dem Gotthard, Lärm und Abgase für die Anwohner....",
-        "urn": "urn:srf:video:0138c0a5-a80f-415d-a4c2-ebee8e5be11c"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...ihre Attacken auf die Energieinfrastruktur am Golf - mit deutlichen Folgen für Preise und Märkte. Der EU-Gipfel in Brüssel sucht nach gemeinsamen...",
-        "urn": "urn:srf:video:3654e590-782d-4676-9692-724370713f34"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...von Stunden Tausende feindliche Ziele identifizieren, ihre Bewegungen verfolgen und schlägt sogar passende Waffensysteme vor. Was früher Wochen von Analysen...",
-        "urn": "urn:srf:video:1fee185f-70d8-4bfe-a253-5a095cde5e5a"
-      },
-      {
-        "title": "Telesguard",
-        "channel": "SRF info",
-        "quote": "...und kam klar zum Entschluss, die Gemeindegrenze nicht anzupassen. Das hat Folgen. Erstens sinkt die Einwohnerzahl. Wir verlieren Steuergelder und die...",
         "urn": "urn:rtr:video:fc19fcc5-37f2-49d6-a8d8-c38b02b2e68f"
       }
     ],
@@ -768,61 +768,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Katar",
-    "spike": 350.0,
-    "target_count": 25,
-    "unit_count": 4,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Börse",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...im Nahen Osten: Der Iran griff erneut die Flüssig- gasanlage Ras Laffan in Katar an. Der Angriff hat die Anlage laut dem Betreiber Qatar Energy schwer...",
-        "urn": "urn:srf:video:6b67dd6c-acc7-490d-b569-b2098b8e7400"
-      },
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "...Kriegsparteien in Nahost Raffinerien und Gasfelder in Iran, Saudi-Arabien und Katar an. Der Ölpreis schnellt nach oben: Ein Barrel kostet heute zeitweise über...",
-        "urn": "urn:srf:video:2c3bf141-cafe-4920-8220-e2b8df5cb6c6"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Der Iran teilt sich im Persischen Golf mit dem gegenüberliegenden Katar das grösste Gasfeld der Welt, South Pars genannt, wobei der katarische Teil...",
-        "urn": "urn:srf:video:3654e590-782d-4676-9692-724370713f34"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...in den letzten 24 Std. wurden Angriffe in Kuwait, Saudi-Arabien, Bahrain, Katar und in den Emiraten gemeldet - und das, obschon diese Länder nicht...",
-        "urn": "urn:srf:video:1fee185f-70d8-4bfe-a253-5a095cde5e5a"
-      },
-      {
-        "title": "SRF Börse in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Kriegsparteien in Nahost Raffinerien und Gasfelder in Iran, Saudi-Arabien und Katar an. Der Ölpreis schnellt nach oben: Ein Barrel kostet heute zeitweise über...",
-        "urn": "urn:srf:video:52ec6591-8abb-4732-92f4-768205fcfed0"
-      }
-    ],
-    "score": 700.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Krieg",
     "spike": 350.0,
     "target_count": 25,
@@ -870,6 +815,61 @@
         "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Entspannung geben, ist bereits wieder verflogen. Vergangene Nacht greifen die Kriegsparteien in Nahost Raffinerien und Gasfelder in Iran, Saudi-Arabien und Katar...",
+        "urn": "urn:srf:video:52ec6591-8abb-4732-92f4-768205fcfed0"
+      }
+    ],
+    "score": 700.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Katar",
+    "spike": 350.0,
+    "target_count": 25,
+    "unit_count": 4,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Börse",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...im Nahen Osten: Der Iran griff erneut die Flüssig- gasanlage Ras Laffan in Katar an. Der Angriff hat die Anlage laut dem Betreiber Qatar Energy schwer...",
+        "urn": "urn:srf:video:6b67dd6c-acc7-490d-b569-b2098b8e7400"
+      },
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "...Kriegsparteien in Nahost Raffinerien und Gasfelder in Iran, Saudi-Arabien und Katar an. Der Ölpreis schnellt nach oben: Ein Barrel kostet heute zeitweise über...",
+        "urn": "urn:srf:video:2c3bf141-cafe-4920-8220-e2b8df5cb6c6"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Der Iran teilt sich im Persischen Golf mit dem gegenüberliegenden Katar das grösste Gasfeld der Welt, South Pars genannt, wobei der katarische Teil...",
+        "urn": "urn:srf:video:3654e590-782d-4676-9692-724370713f34"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...in den letzten 24 Std. wurden Angriffe in Kuwait, Saudi-Arabien, Bahrain, Katar und in den Emiraten gemeldet - und das, obschon diese Länder nicht...",
+        "urn": "urn:srf:video:1fee185f-70d8-4bfe-a253-5a095cde5e5a"
+      },
+      {
+        "title": "SRF Börse in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Kriegsparteien in Nahost Raffinerien und Gasfelder in Iran, Saudi-Arabien und Katar an. Der Ölpreis schnellt nach oben: Ein Barrel kostet heute zeitweise über...",
         "urn": "urn:srf:video:52ec6591-8abb-4732-92f4-768205fcfed0"
       }
     ],

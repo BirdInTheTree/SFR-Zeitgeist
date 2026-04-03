@@ -358,68 +358,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Eidg",
-    "spike": 252.0,
-    "target_count": 18,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...darf das Kernraftwerk Gösgen wieder seinen Betrieb aufnehmen, schreibt das Eidg. Nuklearinspektorat. Das Werk ging Ende Mai letzten Jahres planmässig für die...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...häusliche und sexualisierte Gewalt lancierte. Gian Beeli, Co-Direktor des eidg. Büros für Gleichstellung von Mann und Frau, erklärt, wo diese nun steht. Die...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      }
-    ],
-    "score": 252.0,
-    "rank": 8,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Calgary",
-    "spike": 252.0,
-    "target_count": 18,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Skip Xenia Schwaller. Gold für die Schweiz an der Curling-WM im kanadischen Calgary. Das Team um Skip Xenia Schwaller schlägt im Final Kanada mit 7:5. Der...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...rund um Skip Xenia Schwaller. Sie gewannen in der Nacht auf heute in Calgary überraschend die WM-Goldmedaille. Im Final bezwangen die Schweizerinnen den...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      }
-    ],
-    "score": 252.0,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Skip Xenia Schwaller",
     "spike": 252.0,
     "target_count": 18,
@@ -447,7 +385,38 @@
       }
     ],
     "score": 252.0,
-    "rank": 10,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Eidg",
+    "spike": 252.0,
+    "target_count": 18,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...darf das Kernraftwerk Gösgen wieder seinen Betrieb aufnehmen, schreibt das Eidg. Nuklearinspektorat. Das Werk ging Ende Mai letzten Jahres planmässig für die...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...häusliche und sexualisierte Gewalt lancierte. Gian Beeli, Co-Direktor des eidg. Büros für Gleichstellung von Mann und Frau, erklärt, wo diese nun steht. Die...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
+      }
+    ],
+    "score": 252.0,
+    "rank": 9,
     "imageUrl": ""
   },
   {
@@ -475,6 +444,37 @@
         "channel": "SRF 1",
         "quote": "...kann. Übrigens ist ein sehr grosser Teil des Verkehrs einheimisch. Das haben Messungen gezeigt. Das Bundesamt ASTRA führt bald die Möglichkeit ein, den...",
         "urn": "urn:rtr:video:af0f3ea1-9f62-4141-ac28-57bbcd831cf1"
+      }
+    ],
+    "score": 252.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Calgary",
+    "spike": 252.0,
+    "target_count": 18,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Skip Xenia Schwaller. Gold für die Schweiz an der Curling-WM im kanadischen Calgary. Das Team um Skip Xenia Schwaller schlägt im Final Kanada mit 7:5. Der...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...rund um Skip Xenia Schwaller. Sie gewannen in der Nacht auf heute in Calgary überraschend die WM-Goldmedaille. Im Final bezwangen die Schweizerinnen den...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
       }
     ],
     "score": 252.0,
@@ -619,189 +619,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Notstand",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...in der Atmosphäre nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den...",
-        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den...",
-        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
-      }
-    ],
-    "score": 210.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "global Klima",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...und die Treibhausgaskonzentration in der Atmosphäre nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...steigen, die Ozeane heizen sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und...",
-        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...steigen, die Ozeane heizen sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und...",
-        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
-      }
-    ],
-    "score": 210.0,
-    "rank": 16,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "UNO-Generalsekretär Antonio Guterres",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
-        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
-        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
-      }
-    ],
-    "score": 210.0,
-    "rank": 17,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Antonio Guterres",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
-        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
-        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
-      }
-    ],
-    "score": 210.0,
-    "rank": 18,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Megaschön",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "programs": [
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...bin noch sprachlos im Moment. Ich kann es noch nicht richtig glauben, aber megaschön. Die letzten 24 Std. und zwei Wochen waren wie ein Traum. Wir sind megastolz....",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...nicht, wir als Einheimische das machen können. Es ist irgendwie surreal, aber megaschön. Der einheimische DJ Massimo Gurini war auch von Anfang an dabei - oder...",
-        "urn": "urn:rtr:video:af0f3ea1-9f62-4141-ac28-57bbcd831cf1"
-      }
-    ],
-    "score": 210.0,
-    "rank": 19,
-    "imageUrl": ""
-  },
-  {
     "phrase": "Gletscher",
     "spike": 210.0,
     "target_count": 15,
@@ -836,45 +653,7 @@
       }
     ],
     "score": 210.0,
-    "rank": 20,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Planet",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen Klimaindikatoren stehen auf...",
-        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...auf- genommener und abgegebener Wärme - so hoch ist wie nie zuvor. Unser Planet speichert Wärme schneller, als er sie abgeben kann. Die Luft ist draussen....",
-        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...auf- genommener und abgegebener Wärme - so hoch ist wie nie zuvor. Unser Planet speichert Wärme schneller, als er sie abgeben kann. Die Luft ist draussen....",
-        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
-      }
-    ],
-    "score": 210.0,
-    "rank": 21,
+    "rank": 15,
     "imageUrl": ""
   },
   {
@@ -912,7 +691,152 @@
       }
     ],
     "score": 210.0,
-    "rank": 22,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Megaschön",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...bin noch sprachlos im Moment. Ich kann es noch nicht richtig glauben, aber megaschön. Die letzten 24 Std. und zwei Wochen waren wie ein Traum. Wir sind megastolz....",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...nicht, wir als Einheimische das machen können. Es ist irgendwie surreal, aber megaschön. Der einheimische DJ Massimo Gurini war auch von Anfang an dabei - oder...",
+        "urn": "urn:rtr:video:af0f3ea1-9f62-4141-ac28-57bbcd831cf1"
+      }
+    ],
+    "score": 210.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "global Klima",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...und die Treibhausgaskonzentration in der Atmosphäre nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...steigen, die Ozeane heizen sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und...",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...steigen, die Ozeane heizen sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und...",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 210.0,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Planet",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen Klimaindikatoren stehen auf...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...auf- genommener und abgegebener Wärme - so hoch ist wie nie zuvor. Unser Planet speichert Wärme schneller, als er sie abgeben kann. Die Luft ist draussen....",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...auf- genommener und abgegebener Wärme - so hoch ist wie nie zuvor. Unser Planet speichert Wärme schneller, als er sie abgeben kann. Die Luft ist draussen....",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 210.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Notstand",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...in der Atmosphäre nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den...",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sich auf, Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den...",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 210.0,
+    "rank": 20,
     "imageUrl": ""
   },
   {
@@ -946,6 +870,82 @@
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...vor 170 Jahren, heisst es im heute veröffentlichten Klimabericht der Weltorganisation für Meteorologie. Hauptgrund dafür seien die Treibhausgase in der Atmosphäre:...",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 210.0,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "UNO-Generalsekretär Antonio Guterres",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...nimmt weiter zu. Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Eis und Gletscher schmelzen. Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 210.0,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Antonio Guterres",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Das globale Klima befinde sich in einem Notstand, sagt UNO-Generalsekretär Antonio Guterres heute. Unser Planet wird an seine Grenzen gebracht. Alle wichtigen...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Das globale Klima befinde sich im Notstand, sagt UNO-Generalsekretär Antonio Guterres und ergänzt mit Bezug auf den aktuellen Klimabericht: Dieser bestätigt, dass...",
         "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
       }
     ],
@@ -1023,120 +1023,6 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Fragestellung",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...exakter Auswahl und Menge automatisch zusammenstellen? Das ist eine konkrete Fragestellung, mit der sich die Studierenden in der Learning Factory beschäftigt haben....",
-        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...in die Zukunft investieren muss, damit man wirklich vorwärts kommt in dieser Fragestellung, wir sind ja immer mehr miteinander unterwegs, im ganzen Land, in der ganzen...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...exakter Auswahl und Menge automatisch zusammenstellen? Das ist eine konkrete Fragestellung, mit der sich die Studierenden in der Learning Factory beschäftigt haben....",
-        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
-      }
-    ],
-    "score": 182.0,
-    "rank": 26,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Detail",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...etwas bewirken kann. An der heutigen Medienkonferenz hat die Kantonspolizei Details bekannt gegeben: 13 Hausdurchsuchungen, zehn Personen seien festgenommen...",
-        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...An so grossen gemeinsamen Übungen bringen wir alles zusammen und arbeiten im Detail an den Synergien, die wir zwischen Luft-, Land-, See- und Spezialkräften...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...etwas bewirken kann. An der heutigen Medienkonferenz hat die Kantonspolizei Details bekannt gegeben: 13 Hausdurchsuchungen, zehn Personen seien festgenommen...",
-        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
-      }
-    ],
-    "score": 182.0,
-    "rank": 27,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Innovation",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Wohlhabende Länder müssen ihren fairen Beitrag zur Finanzierung von Innovation leisten. Ein System, das Innovation nicht angemessen honoriert, gefährdet...",
-        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...erlaubt. Wir haben hier in der Schweiz über 1'100 Mitarbeitende und die ganze Innovation, Forschung und Entwicklung findet hier am Hauptsitz in Zürich statt. Mit der...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Wohlhabende Länder müssen ihren fairen Beitrag zur Finanzierung von Innovation leisten. Ein System, das Innovation nicht angemessen honoriert, gefährdet...",
-        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
-      }
-    ],
-    "score": 182.0,
-    "rank": 28,
-    "imageUrl": ""
-  },
-  {
     "phrase": "St. Gallen",
     "spike": 182.0,
     "target_count": 13,
@@ -1167,6 +1053,120 @@
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...gekostet. gehen die Zahlen in der schweizweiten Kriminalstatistik. Im Kanton St. Gallen hat die Pädo-Kriminalität die Polizei stark beschäftigt. wollen die Frösche...",
+        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Hause",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...umsetzen. Im Tiefsteuerkarton Zug sind viele grosse Industrieunternehmen zu Hause. Diese Firmen seien gute Steuer- zahler, die wolle man behalten. Und Zug habe...",
+        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Eine Zunahme zeigte sich jedoch am vermeintlich sichersten Ort, im eigenen Zuhause. Dies beobachtet auch die St. Galler Strafrechts- professorin Nora...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...umsetzen. Im Tiefsteuerkarton Zug sind viele grosse Industrieunternehmen zu Hause. Diese Firmen seien gute Steuer- zahler, die wolle man behalten. Und Zug habe...",
+        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Forschung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...produktion in der Schweiz, in Kaiseraugst, einstellen. Dafür wird mehr auf Forschung in der Schweiz gesetzt. Der Pharmakonzern hat heute ein neues Institut für...",
+        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...haben hier in der Schweiz über 1'100 Mitarbeitende und die ganze Innovation, Forschung und Entwicklung findet hier am Hauptsitz in Zürich statt. Mit der neuen...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...produktion in der Schweiz, in Kaiseraugst, einstellen. Dafür wird mehr auf Forschung in der Schweiz gesetzt. Der Pharmakonzern hat heute ein neues Institut für...",
+        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Fragestellung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...exakter Auswahl und Menge automatisch zusammenstellen? Das ist eine konkrete Fragestellung, mit der sich die Studierenden in der Learning Factory beschäftigt haben....",
+        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...in die Zukunft investieren muss, damit man wirklich vorwärts kommt in dieser Fragestellung, wir sind ja immer mehr miteinander unterwegs, im ganzen Land, in der ganzen...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...exakter Auswahl und Menge automatisch zusammenstellen? Das ist eine konkrete Fragestellung, mit der sich die Studierenden in der Learning Factory beschäftigt haben....",
         "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
       }
     ],
@@ -1213,7 +1213,7 @@
     "imageUrl": ""
   },
   {
-    "phrase": "Forschung",
+    "phrase": "Detail",
     "spike": 182.0,
     "target_count": 13,
     "unit_count": 2,
@@ -1230,24 +1230,62 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "...produktion in der Schweiz, in Kaiseraugst, einstellen. Dafür wird mehr auf Forschung in der Schweiz gesetzt. Der Pharmakonzern hat heute ein neues Institut für...",
+        "quote": "...etwas bewirken kann. An der heutigen Medienkonferenz hat die Kantonspolizei Details bekannt gegeben: 13 Hausdurchsuchungen, zehn Personen seien festgenommen...",
         "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...haben hier in der Schweiz über 1'100 Mitarbeitende und die ganze Innovation, Forschung und Entwicklung findet hier am Hauptsitz in Zürich statt. Mit der neuen...",
+        "quote": "...An so grossen gemeinsamen Übungen bringen wir alles zusammen und arbeiten im Detail an den Synergien, die wir zwischen Luft-, Land-, See- und Spezialkräften...",
         "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...produktion in der Schweiz, in Kaiseraugst, einstellen. Dafür wird mehr auf Forschung in der Schweiz gesetzt. Der Pharmakonzern hat heute ein neues Institut für...",
+        "quote": "...etwas bewirken kann. An der heutigen Medienkonferenz hat die Kantonspolizei Details bekannt gegeben: 13 Hausdurchsuchungen, zehn Personen seien festgenommen...",
         "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
       }
     ],
     "score": 182.0,
     "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Innovation",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Wohlhabende Länder müssen ihren fairen Beitrag zur Finanzierung von Innovation leisten. Ein System, das Innovation nicht angemessen honoriert, gefährdet...",
+        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...erlaubt. Wir haben hier in der Schweiz über 1'100 Mitarbeitende und die ganze Innovation, Forschung und Entwicklung findet hier am Hauptsitz in Zürich statt. Mit der...",
+        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Wohlhabende Länder müssen ihren fairen Beitrag zur Finanzierung von Innovation leisten. Ein System, das Innovation nicht angemessen honoriert, gefährdet...",
+        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 32,
     "imageUrl": ""
   },
   {
@@ -1285,7 +1323,7 @@
       }
     ],
     "score": 182.0,
-    "rank": 32,
+    "rank": 33,
     "imageUrl": ""
   },
   {
@@ -1323,87 +1361,11 @@
       }
     ],
     "score": 182.0,
-    "rank": 33,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Hause",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...umsetzen. Im Tiefsteuerkarton Zug sind viele grosse Industrieunternehmen zu Hause. Diese Firmen seien gute Steuer- zahler, die wolle man behalten. Und Zug habe...",
-        "urn": "urn:srf:video:d7bca2c2-5b7d-4deb-b77a-94e4905ce233"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Eine Zunahme zeigte sich jedoch am vermeintlich sichersten Ort, im eigenen Zuhause. Dies beobachtet auch die St. Galler Strafrechts- professorin Nora...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...umsetzen. Im Tiefsteuerkarton Zug sind viele grosse Industrieunternehmen zu Hause. Diese Firmen seien gute Steuer- zahler, die wolle man behalten. Und Zug habe...",
-        "urn": "urn:srf:video:796eb2db-b2d0-441f-ba13-1e18295103cb"
-      }
-    ],
-    "score": 182.0,
     "rank": 34,
     "imageUrl": ""
   },
   {
-    "phrase": "SWISS TXT Accessibility Services Kira Euler",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Börse"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend. An den Börsen werden Erwartungen gehandelt. Wie schnell sich diese verändern können, zeigt der...",
-        "urn": "urn:srf:video:ec308fac-71af-465a-8609-b00b73aa56e7"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Mit \"10 vor 10\" in eine neue Woche, guten Abend. Heute haben wir folgende Themen für Sie: Über die Hälfte der...",
-        "urn": "urn:srf:video:8709f92d-d594-406a-a0c4-f5c684aa9376"
-      },
-      {
-        "title": "SRF Börse in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend. An den Börsen werden Erwartungen gehandelt. Wie schnell sich diese verändern können, zeigt der...",
-        "urn": "urn:srf:video:d3d77850-2247-47f8-9de0-7af9e8d37a6b"
-      }
-    ],
-    "score": 182.0,
-    "rank": 35,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Helium",
+    "phrase": "Jean-Marie Le Pen",
     "spike": 168.0,
     "target_count": 12,
     "unit_count": 2,
@@ -1420,19 +1382,57 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Rohstoffe der Weltwirtschaft wie die Petrochemie, Düngemittel, Schwefel und Helium. Der Handel mit diesen Gütern ist vollständig unterbrochen, was...",
+        "quote": "...in der ersten Runde nur auf den dritten Platz kam - und der Rechtsextremist Jean-Marie Le Pen in die Stichwahl einzog. Zum Sport: Zum allerersten Mal an der Curling-WM auf...",
         "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Rohstoffe der Weltwirtschaft, wie die Petrochemie, Düngemittel, Schwefel und Helium. Der Handel mit diesen Gütern ist vollständig unterbrochen, was...",
+        "quote": "...schied er überraschend im ersten Wahlgang aus - der rechtsextreme Jean-Marie Le Pen zog in die Stichwahl ein. Ein politischer Schock für Frankreich. * Aufschreie...",
         "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Rohstoffe der Weltwirtschaft, wie die Petrochemie, Düngemittel, Schwefel und Helium. Der Handel mit diesen Gütern ist vollständig unterbrochen, was...",
+        "quote": "...schied er überraschend im ersten Wahlgang aus - der rechtsextreme Jean-Marie Le Pen zog in die Stichwahl ein. Ein politischer Schock für Frankreich. * Aufschreie...",
+        "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
+      }
+    ],
+    "score": 168.0,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Lionel Jospin",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...schneller, als er sie abgeben kann. Der frühere französische Premierminister Lionel Jospin ist im Alter von 88 Jahren gestorben. Der Sozialist Jospin war von 1997 bis...",
+        "urn": "urn:srf:video:2c527f47-6c40-421d-8ea3-68bd055c1cc0"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Einzug ins Parlament verfehlt. Er war der Mann der 35-Std.-Woche - nun ist Lionel Jospin tot: Der frühere sozialistische Premier starb gestern im Alter von 88 Jahren,...",
+        "urn": "urn:srf:video:97577018-2b4d-4948-8307-52daadce5ab8"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Einzug ins Parlament verfehlt. Er war der Mann der 35-Std.-Woche - nun ist Lionel Jospin tot: Der frühere sozialistische Premier starb gestern im Alter von 88 Jahren,...",
         "urn": "urn:srf:video:ec0f5c16-f9cd-4d9b-b61f-641bb3b83e09"
       }
     ],
