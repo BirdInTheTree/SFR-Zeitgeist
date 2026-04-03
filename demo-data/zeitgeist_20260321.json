@@ -1,0 +1,1288 @@
+[
+  {
+    "phrase": "Erde",
+    "spike": 28.0,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...viel Futter und es ist warm, doch der Zugvogel spürt, dass die Tage kürzer werden. Das ist sein Signal: Zieh los in den Süden! Er fliegt rechtzeitig weg,...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ein Informationskrieg oder eher ein Propagandakrieg. Von allen Seiten werden das Netz und Social-Media-Kanäle mit falschen oder tendenziösen Inhalten...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      }
+    ],
+    "score": 28.0,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Nähe",
+    "spike": 16.8,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Meerschweinchen draussen aussetzen. Damit das nicht passiert, gibt es in der Nähe von Thun/BE die erste Tierklappe in der Schweiz. Wie diese genau...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Bodenbewegungen überwachen. Der Riss befindet sich an einem Hang in der Nähe des Dorfs Vissoie, südlich der Gemeinde Chippis. Sollte der Berg in einem...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...mehr einsteigen. Der Absturz passiert kurz nach der Station Trübsee, in der Nähe eines Stützmasten. Laut aktuellen Erkenntnissen bringt eine starke Böe die...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 26.6,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Realität",
+    "spike": 17.5,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...fahre und wie sehr mich jede Demo ärgert \" Eine Karikatur ist dazu da, die Realität satirisch zu kommentieren. Doch in Zeiten von kruden Verschwörungstheorien...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Stimmvolk abgesegnet werden. Verschliesst man damit nicht die Augen vor der Realität? Viele Skitage wird es nicht mehr geben Das ist richtig, es gibt sicher...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 17.5,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Lust",
+    "spike": 10.5,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...dass es sehr viel Arbeit ist. Hasen sind keine Stofftiere, die man nach Lust und Laune zur Seite legen kann. Jeder Tag bedeutet viel Arbeit. Dessen muss...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...ermuntern, mit dem ökologischeren ÖV anzureisen. Für jene, die trotzdem keine Lust haben, ihre Einkäufe mit dem Zug zu transportieren, gibt es als Zugabe noch...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Jahreszeit dauert es länger oder weniger lang. Merkt man, dass die Leute mehr Lust haben, Dinge zu pflanzen? Klar, und es gibt auch viele Spontankäufe. Man muss...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 16.6,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Saison",
+    "spike": 10.5,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Weltrekordpunktzahl. Er brilliert in Torun mit einer Weltbestleistung, mit Saison- und persönlichen Bestleistungen. Er ist von Disziplin 1 an in Führung, und...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...erfolgreich, dass das Areal nun vergrössert wird. Diesen Sonntag geht die Skisaison für die Bergbahnen Brigels Waltensburg Andiast zu Ende. Der Winter war alles...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...an einen anderen Skiort. In den meisten Skigebieten unter 1'500 m ist jetzt Saisonschluss. Viele davon sind sowieso dabei, umzusatteln, damit sie den Gästen...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 16.6,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Winter",
+    "spike": 7.5,
+    "target_count": 8,
+    "unit_count": 4,
+    "editorial_units": [
+      "Meteo",
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Meteo",
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...wieder zwitschern? Kurz vor dem Frühling kehren immer mehr Vögel aus ihren Winterquartieren zurück. Aus Gebieten im Süden, wo es wärmer ist als bei uns. Für...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...Mit einem frischen Start gibt es 16-18 °C am Nachmittag. Dann wird es wieder winterlich. Im Laufe des Mittwochs kommt eine Kaltfront von Westen her. Dies ist...",
+        "urn": "urn:srf:video:720630a2-d129-41b0-a33a-045e4bad012e"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...die Skisaison für die Bergbahnen Brigels Waltensburg Andiast zu Ende. Der Winter war alles andere als einfach - einerseits wegen des fehlenden Schnees aber...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...macht jetzt eine Rolle rückwärts: ein ausrangierter Skilift wird nächsten Winter wieder in Betrieb genommen. Raphael Prinz hat sich das mal angeschaut. Die...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.9,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Hang",
+    "spike": 9.3,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Israel vor drei Wochen begonnen mit der Maximalgewicht Ziel eines Regime- Change, in Teheran. In seinem Post heute Nacht ist nicht mal mehr in abgeschwächt...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dass sie nicht auf die Strasse rannte oder an an einem gefährlichen Ort den Hang hinunter. Jetzt muss ich ihr die Hand geben, um sie zu unterstützen. Kinder...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...der Kollision reisst die Gondel vom Seil, stürzt in die Tiefe und rollt den Hang runter. Eine 61-jährige Frau kommt beim Absturz ums Leben. Sie war in einer...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.8,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "März",
+    "spike": 14.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...haben. Und dann steht der nächste Termin im Kalender der Störche an. Im März legen sie meist ihre Eier. Ein paar Wochen später schlüpfen die Küken. Genau...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Jungen fehlen, was die Stammgäste bedauern: Die verpassen etwas! Soll man im März schon Tomaten setzen? Und was ist jetzt wichtig im Garten? Wir fragen nach im...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.0,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Handy",
+    "spike": 14.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Sobald jemand ein Tier hier hineinlegt, bekommt Jasmin eine Meldung auf ihrem Handy. Hier sehen wir, dass Fridolin abgegeben wurde. Dann gehen wir dorthin. Wenn...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...oder Kulisse, nicht um dort Spass zu haben, sondern, um den Anlass mit dem Handy zu dokumentieren. Von mir aus gesehen Das war für mich der Hauptgrund, den...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "neue",
+    "spike": 14.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...das Kleine Sumpfhuhn in seine Liste einträgt, hat Yvan schon wieder etwas Neues entdeckt. Denn die Suche nach dem nächsten Vogel geht schon wieder weiter....",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...des Hochstuckli-Lifts für die nächsten Jahre finanziell zu unterstützen. Die neue Gemeindepräsidentin will dem Lift eine Gnadenfrist geben. Der eine Grund ist,...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 14.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Gebiet",
+    "spike": 8.4,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...dem Frühling kehren immer mehr Vögel aus ihren Winterquartieren zurück. Aus Gebieten im Süden, wo es wärmer ist als bei uns. Für Ivan und Mischa ist das eine...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Vissoie, südlich der Gemeinde Chippis. Sollte der Berg in einem Stück im Gebiet Les Fios herunterrutschen, könnte die Erdmasse den Fluss La Navisence stauen....",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Garaventa zusammen. Viele Fragen sind allerdings noch offen. Im Skigebiet Titlis am Mittwoch, kurz vor 11 Uhr: Die betroffene Gondel ist unterwegs...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 13.3,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zürich",
+    "spike": 11.7,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...den Sprung in die Zürcher Stadtregierung. Ich freue mich darauf, Lösungen für Zürich zu finden, die nicht nur für Zürich Zukunft bringen. Alles Gute. - Danke....",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Alexander Bücheli kennt die Schwei- zer Klubszene seit Jahrzehnten. Auch in Zürich gäbe es weniger Orte zum Tanzen. Hier gab es während 20 oder sogar 30 Jahren...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 11.7,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Januar",
+    "spike": 6.5,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...sogar in der Schweiz. Bei den Störchen im Süden meldet sich etwa Ende Januar wieder ihr Terminkalender: ab nach Hause! Viele kehren jedes Jahr zu...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dass es ihr besser geht, denn das gibt mir Energie. Sie macht es so gut. Ende Januar haben sie mit dem neuen Medikament begonnen. Wegen einer Grippe wurde die...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Ab übernächster Woche kommt dann der Detailhandel, der Grosshandel. Im Januar haben sie 50'000 solche Tomatenstücke gesetzt, davon können sie bis November...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.2,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Chance",
+    "spike": 10.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...immer wieder Tiere ausgesetzt werden. V.a. Hasen und Nagetiere haben keine Chance in der freien Wildbahn, aufgrund der vielen Fressfeinde und der Kälte. Ein...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...sondern es ging um die Sache. Es freut uns jetzt natürlich, dass wir die Chance haben, den Skilift zu betreiben. Grundsätzlich ist es positiv, dass man das...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Einnahme",
+    "spike": 10.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...und das Wachstum tragen dazu bei, das wir rund einen Drittel der Einnahmen aus dem Gewerbe und der Industrie haben. Das sei nicht immer so gewesen....",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Jahr nicht, sondern es ist schon einige Jahre so, dass wir den Winter mit Einnahmen vom Sommer quersubventionieren. Aufwand und Ertrag stimmten also nicht mehr....",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Lift",
+    "spike": 10.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...seitens Gemeinde wird es keinesfalls gehen. Die Konzession für diesen Sessellift läuft in drei Jahren aus. Sanieren oder ersetzen - das ist die Frage. Ein...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...im Kanton Schwyz macht jetzt eine Rolle rückwärts: ein ausrangierter Skilift wird nächsten Winter wieder in Betrieb genommen. Raphael Prinz hat sich das...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bedürfnis",
+    "spike": 10.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Geld, das nicht von den Banken kommt, denn die Banken geben uns für unsere Bedürfnisse kein Geld. Wir müssen das anderweitig lösen. Und wenn ich sage viel Geld,...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...so, aber die Essenszeiten haben sich geändert und wir versuchen, dieses Bedürfnis zu stillen und daher auch vor Ort zu produzieren. Vielen Dank. Der Frühling...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 10.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Frühling",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...dieser Sendung heraus. Hörst du es auch schon wieder zwitschern? Kurz vor dem Frühling kehren immer mehr Vögel aus ihren Winterquartieren zurück. Aus Gebieten im...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "Mit deutschen Untertiteln von SWISS TXT Heute am 20. März ist astronomischer Frühlingsanfang - mit dieser guten Nachricht begrüsse ich Sie zu \"Telesguard\": Das...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Guten Abend miteinander, herzlich willkommen. Wir zeigen Ihnen auch heute, am Frühlingsbeginn, was in der Schweiz läuft und geht. Das sind unsere Themen:...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 9.5,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Spass",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wird Bildmaterial von echten US-Angriffen als Videospiel verpackt. Spiel, Spass und superiore Feuerkraft. Fake News gibt's aber auch in den USA. Dieser...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...aus einer Halfpipe: 7,72 m. Wettkämpfe, die den aktiven Sportler/-innen Spass machen und die sie sogar mitgestalten können. Das ist für Shaun White der...",
+        "urn": "urn:srf:video:2e45ffda-9bb3-439e-a1e8-6c98ec25fced"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...dieser Anlass ist mittlerweile eher eine Hülle oder Kulisse, nicht um dort Spass zu haben, sondern, um den Anlass mit dem Handy zu dokumentieren. Von mir aus...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 9.5,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Stück",
+    "spike": 9.3,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...schön. Die Goldammer ist echt schön. Silberreiher. - Silberreiher? Drei Stück. - Drei? Ich sehe nur zwei. Ah doch, drei Silberreiher. Muss man die melden?...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...des Dorfs Vissoie, südlich der Gemeinde Chippis. Sollte der Berg in einem Stück im Gebiet Les Fios herunterrutschen, könnte die Erdmasse den Fluss La...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      }
+    ],
+    "score": 9.3,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rekord",
+    "spike": 9.3,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...erneut Hallen-Weltmeister im Siebenkampf und knackt den 14 Jahre alten Weltrekord. Nach drei Wochen Krieg will US-Präsident Trump die Angriffe auf den Iran...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Das Landquart Fashion Outlet läuft. Jedes Jahr verzeichne man einen neuen Rekord. Im Moment kommen ca. 2 Mio. Besucher/-innen pro Jahr. Genauso soll es...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      }
+    ],
+    "score": 9.3,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Süden",
+    "spike": 4.1,
+    "target_count": 5,
+    "unit_count": 4,
+    "editorial_units": [
+      "Meteo",
+      "SRF Kids News",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Meteo",
+      "SRF Kids News",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...kehren immer mehr Vögel aus ihren Winterquartieren zurück. Aus Gebieten im Süden, wo es wärmer ist als bei uns. Für Ivan und Mischa ist das eine besondere...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Cartoonisten Ruedi Widmer. Im Osten ab dem Morgen freundlicher, im Westen und Süden noch länger nass. Sein Trainer sagte einst über ihn, er sei wie ein Ferrari:...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...Nacht geht es so weiter. In den östlichen Alpen wird es nass, aber auch im Süden. Dort liegt die Schneefallgrenze bei 600-900 m. Im Laufe der Nacht und morgen...",
+        "urn": "urn:srf:video:720630a2-d129-41b0-a33a-045e4bad012e"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...vergleicht, die grösser sind und höher liegen - vielleicht nicht nur nach Süden hin exponiert, kann man sich fragen, ob wir eine Zukunft haben. Aber die...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      }
+    ],
+    "score": 8.2,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Stadt",
+    "spike": 4.1,
+    "target_count": 7,
+    "unit_count": 4,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Partei, verlässt die Bundespolitik nach 15 Jahren. Er wurde in die Zürcher Stadtregierung gewählt. Rafael von Matt blickt mit Balthasar Glättli zurück auf...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Razzien. Seitdem sitzen viele von ihnen hier fest: in Phnom Penh, der Hauptstadt Kambodschas. Jeden Tag stehen sie vor den Botschaften ihrer Länder an und...",
+        "urn": "urn:srf:video:2e45ffda-9bb3-439e-a1e8-6c98ec25fced"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...günstig. Es gibt eine grosse Auswahl an Marken, die man zu Hause oder in der Stadt aufsuchen muss. Hier ist alles an einem Ort. Es ist kein Ort, wo ich öfter...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Ein klassischer Klub, wie man ihn von früher kennt, in einer Kleinstadt, wird mit wenigen Ausnahmen sehr schwierig werden. Dass die Jungen nicht mehr...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 8.2,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "bisschen",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...sie einen Trick: die Thermik. Das ist warme Luft, die nach oben steigt, ein bisschen wie ein unsichtbarer Lift. In diesen Aufwinden können Störche hochgleiten und...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...macht das nichts? Sie sind ziemlich robust. Die müssen jetzt noch ein bisschen wachsen, bevor sie verkauft werden. So sehen sie dann aus, wenn sie etwas...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.8,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Herausforderung",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...in Melchsee-Frutt an den Start gehen, ist so ein Schneesporttag mit grossen Herausforderungen verbunden. Heute haben sie diese gemeistert. Ich bin stolz. - Stolz? Elin...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...der Betrieb lief, es war voll und brummte. Seit etwa 15 Jahren aber sind die Herausforderungen grösser. Die Jungen trinken weniger Alkohol. Statt in den Klub gehen sie...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.8,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bergbahn",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Nachricht begrüsse ich Sie zu \"Telesguard\": Das sind die heutigen Themen: Die Bergbahnen Brigels Waltensburg Andiast sind in finanzieller Not. Jetzt soll die...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Erkenntnisse der schweizerischen Sicherheits- untersuchungsstelle SUST, der Bergbahnen Titlis und dem Gon- delhersteller Garaventa zusammen. Viele Fragen sind...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.8,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Drittel",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Die vielen Arbeitsplätze und das Wachstum tragen dazu bei, das wir rund einen Drittel der Einnahmen aus dem Gewerbe und der Industrie haben. Das sei nicht immer so...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Terminus - kein Fotomotiv für die Jungen. Heute habe der Klub nur noch einen Drittel der Besucher von früher. Alexander Bücheli kennt die Schwei- zer Klubszene...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.8,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Ostern",
+    "spike": 7.0,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Haustier. Es ist nicht wie ein Plüschtier. Und die beiden Hasen passen zu Ostern, die bald anstehen. Auf srfkids.ch findest du eine coole Bastelaktion für...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...kann. Immer mehr schliessen. Jetzt trifft es auch das Terminus in Olten. An Ostern ist dort ausgetanzt, nach 30 Jahren. Mario Gutknecht will wissen, warum...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Meldung",
+    "spike": 7.0,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...und eine Kamera. Sobald jemand ein Tier hier hineinlegt, bekommt Jasmin eine Meldung auf ihrem Handy. Hier sehen wir, dass Fridolin abgegeben wurde. Dann gehen...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...geben, aber am Ende dürfte sich Donald Trump durchsetzen. Und noch eine Meldung aus den USA: Robert Mueller, der Leiter der Sonderermittlungen in der...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      }
+    ],
+    "score": 7.0,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Hand",
+    "spike": 7.0,
+    "target_count": 2,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dringend Geld - sie brauchen viel und am liebsten von der öffentlichen Hand. Dass die Saison bereits Mitte März endet, war von Anfang an klar. Es kostet...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      }
+    ],
+    "score": 7.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Höhe",
+    "spike": 7.0,
+    "target_count": 3,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Dann Saisonbestleistung im Stabhochsprung: 5.30 m. Nur Ehammer meistert diese Höhe heute und distanziert die Konkurrenz noch ein wenig. Der Weltrekord scheint...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...eingezeichnet ist. Es gibt aber auch einen Kaltlufttropfen, kalte Luft in der Höhe, die nähergekommen ist und feuchte Luft in unser Land gebracht hat. Es gab...",
+        "urn": "urn:srf:video:720630a2-d129-41b0-a33a-045e4bad012e"
+      }
+    ],
+    "score": 7.0,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Energie",
+    "spike": 4.4,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Trainer sagte einst über ihn, er sei wie ein Ferrari: bis unters Dach mit Energie geladen. Dass Simon Ehammer tatsächlich über eine eindrucksvolle Anzahl PS...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...für sie machen, weiterhoffen, dass es ihr besser geht, denn das gibt mir Energie. Sie macht es so gut. Ende Januar haben sie mit dem neuen Medikament...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Gewächshäuser auch immer wieder in der Kritik, sie haben bisher mit fossiler Energie geheizt, aber jetzt stellen sie um. Ab nächster Woche werden wir Tagwärme...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 7.0,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Seite",
+    "spike": 3.4,
+    "target_count": 7,
+    "unit_count": 4,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...viel Arbeit ist. Hasen sind keine Stofftiere, die man nach Lust und Laune zur Seite legen kann. Jeder Tag bedeutet viel Arbeit. Dessen muss man sich bewusst...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...anders klang. Man macht keinen Waffenstillstand, wenn man dabei ist, die Gegenseite auszulöschen. Der Iran dreht derweil weiter an der Eskalationsschraube. Die...",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Investitionen an. Wir - alle zusammen - werden gefordert sein. Ohne Hilfe seitens Gemeinde wird es keinesfalls gehen. Die Konzession für diesen Sessellift...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...dass die Skilifte ausser Betrieb genommen werden. Wir wurden von mehreren Seiten ge- beten, dieses Anliegen aufzunehmen. Der andere Grund: Die...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 6.8,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Grund",
+    "spike": 2.9,
+    "target_count": 8,
+    "unit_count": 5,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Kids News",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...V.a. Hasen und Nagetiere haben keine Chance in der freien Wildbahn, aufgrund der vielen Fressfeinde und der Kälte. Ein Degu z.B. würde diese Kälte nicht...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...trägt er eine Beinprothese und setzt auf Respekt und Akzeptanz. Das ist ein Grund, warum ich das überhaupt mache. Ich trainiere nicht separat mit einem Team....",
+        "urn": "urn:srf:video:0978f177-6114-4d58-9165-be5c9a0995b9"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...tabu für Schweizer Waffenexporte - das hat der Bundesrat heute entschieden. Grund: Der Krieg, den Donald Trump gegen den Iran führt. Neue Rüstungsdeals mit den...",
+        "urn": "urn:srf:video:2e45ffda-9bb3-439e-a1e8-6c98ec25fced"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...in Strömen und die Verantwortlichen des Outlets haben das Areal aus diesem Grund um 5'000 m2 vergrössert. Donatella Bonifazi berichtet über diese Entwicklung....",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Die neue Gemeindepräsidentin will dem Lift eine Gnadenfrist geben. Der eine Grund ist, dass wir es alle bedauerten, als es vor drei Jahren hiess, dass die...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 6.8,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Schnee",
+    "spike": 4.3,
+    "target_count": 7,
+    "unit_count": 3,
+    "editorial_units": [
+      "Meteo",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Meteo",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...In den östlichen Alpen wird es nass, aber auch im Süden. Dort liegt die Schneefallgrenze bei 600-900 m. Im Laufe der Nacht und morgen früh muss man...",
+        "urn": "urn:srf:video:720630a2-d129-41b0-a33a-045e4bad012e"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Der Winter war alles andere als einfach - einerseits wegen des fehlenden Schnees aber v.a. wegen der finanziellen Misere. Die Kassen sind leer - und das...",
+        "urn": "urn:rtr:video:23b7a511-7e3e-400e-b26c-487358c3ad18"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...sie den Gästen auch anderes als Skifahren bieten können, wenn es zu wenig Schnee hat. Sattel-Hochstuckli im Kanton Schwyz macht jetzt eine Rolle rückwärts:...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 6.8,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Junge",
+    "spike": 4.2,
+    "target_count": 6,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...Küken. Genau dann, wenn es in der Schweiz wieder wärmer ist und es für die Jungen viel zu fressen gibt. Schon eindrücklich: Die Störche wissen Bescheid, ohne...",
+        "urn": "urn:srf:video:9fcd33c4-a212-49f1-94ab-7d4be626e514"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...der neuen Liga. Ich möchte nicht einer aus der alten Generation sein, der den Jungen sagt, was sie tun sollen, sondern mit ihnen zusammen etwas aufbauen. Die...",
+        "urn": "urn:srf:video:2e45ffda-9bb3-439e-a1e8-6c98ec25fced"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Schwimmen. Der beliebte Klub in Olten schliesst, wie viele andere Klubs. Die Jungen fehlen, was die Stammgäste bedauern: Die verpassen etwas! Soll man im März...",
+        "urn": "urn:srf:video:f8fb8156-8b30-4c64-be99-8cc2f6406394"
+      }
+    ],
+    "score": 6.7,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]

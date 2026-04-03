@@ -1,0 +1,348 @@
+/* SRF Zeitgeist — after Harris 10x10
+   White ground. Black type. Red accent. Photos dominate.
+   The data speaks. The interface is silent. */
+
+:root {
+    --red: #d4281c;
+    --black: #111;
+    --grey: #999;
+    --light: #ccc;
+    --bg: #fff;
+    --font: 'DM Sans', 'Helvetica Neue', sans-serif;
+    --cols: 6;
+    --rows: 6;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg);
+    font-family: var(--font);
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ===== LAYOUT ===== */
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 16px 24px 14px;
+}
+
+/* ===== HEADER ===== */
+header {
+    flex-shrink: 0;
+    margin-bottom: 6px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.x { color: var(--red); }
+
+.subtitle {
+    display: none;
+}
+
+/* ===== MAIN AREA ===== */
+.main-area {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    min-height: 0;
+}
+
+/* ===== GRID ===== */
+.grid {
+    flex: 0 0 84%;
+    display: grid;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr);
+    gap: 3px;
+}
+
+.cell {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: #1a1a1a;
+}
+
+.cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.15s ease;
+}
+
+.cell.lit img { opacity: 0.12; }
+
+/* Label: hidden by default, visible on hover */
+.cell .label {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--black);
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+    padding: 4px;
+    background: rgba(255,255,255,0.92);
+    transition: opacity 0.12s ease;
+}
+
+.cell.lit .label {
+    opacity: 1;
+}
+
+/* No-image cells: dark with dim word */
+.cell.no-img {
+    background: #1a1a1a;
+}
+
+.cell.no-img .label {
+    background: none;
+    color: rgba(255,255,255,0.35);
+    font-size: 9px;
+    font-weight: 400;
+    opacity: 1;
+    letter-spacing: 0.3px;
+}
+
+.cell.no-img.lit .label {
+    color: var(--black);
+    background: rgba(255,255,255,0.92);
+    font-weight: 700;
+    font-size: 11px;
+}
+
+/* Empty filler cells */
+.cell.empty {
+    background: #222;
+    cursor: default;
+}
+
+/* ===== WORD COLUMN ===== */
+.word-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 0;
+    user-select: none;
+}
+
+.w {
+    font-size: 7px;
+    line-height: 1.05;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ccc;
+    transition: all 0.1s ease;
+    padding: 0;
+}
+
+.w .num {
+    display: inline-block;
+    width: 12px;
+    text-align: right;
+    margin-right: 2px;
+    font-size: inherit;
+    color: #ddd;
+    font-variant-numeric: tabular-nums;
+}
+
+.w .txt {
+    font-weight: 400;
+}
+
+/* Fish-eye: active — largest text element after title */
+.w.on {
+    font-size: 22px;
+    color: var(--red);
+    line-height: 1.1;
+    padding: 3px 0;
+}
+
+.w.on .txt {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.w.on .num {
+    color: var(--grey);
+    width: 22px;
+    margin-right: 3px;
+}
+
+/* Fish-eye: ±1 — readable, black */
+.w.near1 {
+    font-size: 14px;
+    color: var(--black);
+    line-height: 1.1;
+    padding: 1px 0;
+}
+
+.w.near1 .txt { font-weight: 500; }
+.w.near1 .num { width: 18px; color: var(--light); }
+
+/* Fish-eye: ±2 — still readable, grey */
+.w.near2 {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.1;
+    padding: 0.5px 0;
+}
+
+.w.near2 .txt { font-weight: 400; }
+.w.near2 .num { width: 14px; }
+
+/* Fish-eye: ±3-6 — same as default, dust */
+.w.far {
+    font-size: 7px;
+    color: #ccc;
+}
+
+/* ===== ZOOM OVERLAY ===== */
+.zoom {
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.97);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.zoom.hidden { display: none; }
+
+.zoom-inner {
+    max-width: 640px;
+    width: 90%;
+}
+
+.zoom-inner img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: contain;
+    display: block;
+    background: #eee;
+}
+
+.zoom-caption {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.zoom-word {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--black);
+    display: block;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.zoom-headlines {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.zoom-headlines strong {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--light);
+    display: block;
+    margin-bottom: 6px;
+}
+
+.zoom-headlines a {
+    display: block;
+    color: var(--red);
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.zoom-headlines a:hover { text-decoration: underline; }
+
+/* ===== FULLSCREEN ===== */
+.fullscreen {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fullscreen.hidden { display: none; }
+
+.fullscreen img {
+    max-width: 95vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.fs-word {
+    position: absolute;
+    bottom: 8%;
+    left: 0; right: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 0;
+    pointer-events: none;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+
+.footer-title {
+    font-size: 39px;
+    font-weight: 400;
+    color: var(--black);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+footer nav {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+footer a {
+    color: var(--grey);
+    text-decoration: none;
+    transition: color 0.12s;
+}
+
+footer a:hover { color: var(--red); }
+
+.sep { margin: 0 4px; color: var(--light); }

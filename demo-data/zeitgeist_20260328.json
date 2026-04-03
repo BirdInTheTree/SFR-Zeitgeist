@@ -1,0 +1,1354 @@
+[
+  {
+    "phrase": "Änderung",
+    "spike": 16.8,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wie gehört, Ja. Während die Mitte-Partei die Nein-Parole beschliesst. Zur Änderung des Zivildienstgesetzes, mit der die Zahl der Zivildienstler gesenkt werden...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...der zu niedrige Verkaufspreis, sondern auch die Vorgänge rund um die Grundbuchänderung haben viele Fragen hinterlassen. 15 Kantonsratsmitglieder untersuchen seit...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wie gehört, Ja. Während die Mitte-Partei die Nein-Parole beschliesst. Zur Änderung des Zivildienstgesetzes, mit der die Zahl der Zivildienstler gesenkt werden...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 16.8,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "verbündeter",
+    "spike": 10.0,
+    "target_count": 10,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [],
+    "score": 15.8,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Parteipräsident",
+    "spike": 10.5,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...hat. Den Vorwurf, die Mitte missachte so den Volksentscheid, lässt der Parteipräsident aber nicht gelten: Das Volk wollte sicher die Heiratsstrafe abschaffen. Jetzt...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...antritt. Was bedeutet das nun? Luca Laube und Andrea Thurnherr berichten: Der Parteipräsident der Zürcher FDP braucht eine neue Regierungsrätin oder einen neuen...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...hat. Den Vorwurf, die Mitte missachte so den Volksentscheid, lässt der Parteipräsident aber nicht gelten: Das Volk wollte sicher die Heiratsstrafe abschaffen. Jetzt...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 10.5,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Stimme",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...du kannst das Zünglein an der Waage sein. Welche Schulband gewinnt den ESSC? Stimme ab bis am Montagmittag, dem 30. März. Apropos Musik-News: Nach vier Jahren...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...toll. Ich freue mich riesig darüber, dass die Jungen mitreden wollen und ihre Stimmen Gehör finden. Im Einwohnerrat reden wir immer über die Zukunft von Riehen -...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 7.8,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rede",
+    "spike": 7.5,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...und so talentiert\", dachte ich, als ich eure Musikvideos angeschaut habe. Die Rede ist vom Schulbandwettbewerb Eurovision School Song Contest. Auf srfkids.ch...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Parteileitung offensichtlich schon länger gefällt. Denn mitten in der Rede von Partei- präsident Philipp Matthias Bregy lief auf der Grossleinwand im...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...schon eine Weile vor der Versammlung gefällt. Denn mitten in der Rede des Präsidenten lief auf der Grossleinwand schon ein Werbevideo für ein Ja...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 7.5,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Schwierigkeit",
+    "spike": 7.0,
+    "target_count": 3,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...offiziell auch eine ausländische Agentin. Und das bringt eine Vielzahl von Schwierigkeiten mit sich. Die Finanzierung unserer Organisation ist massiv erschwert, und...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...wieder reinkriegen, zu den Margen, die wir haben. Genau das ist die Schwierigkeit. Wenn der Markt sich um Hunderte von Dollar rauf- und runterbewegt, muss man...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...offiziell auch eine ausländische Agentin. Und das bringt eine Vielzahl von Schwierigkeiten mit sich. Die Finanzierung unserer Organisation ist massiv erschwert, und...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 7.0,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Grundstück",
+    "spike": 6.4,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...die Bürgergemeinde gegenüber RTR sagte, werde nun ein neues Projekt für das Grundstück gesucht. Der Krieg im Iran sorgt bereits seit Wochen für grosse Turbulenzen,...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...heute mitteilt, werde man ab Juli auf Sendung gehen. Der Verkauf eines Villengrundstücks am Ägerisee sorgt im Kanton Zug seit Jahren für Streit - juristisch und...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 6.4,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Tankstelle",
+    "spike": 3.9,
+    "target_count": 5,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Meteo",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...in der Luft. Dann kann sich dieser Linsen förmiger Wolke Bildern. Sie bleibt Tankstelle. Sie kann auch mehrstöckig aussehen. Dann erinnert sie an ein UFO. Auf diesem...",
+        "urn": "urn:srf:video:ad3c8eeb-1381-4743-910d-b34b87283495"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Rund 2 Fr. zahlt man heute für einen Liter Benzin oder Diesel an vielen Tankstellen in der Schweiz. Löst der Krieg im Iran eine weltweite Energiekrise aus? Und...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Kanton Graubünden und im Tessin handelt. Neben Heizöl beliefert es ca. 350 Tankstellen mit Treibstoff. Der Ölhandel basiert auf dem Wiederbeschaffungsmodell, d.h.,...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...in der Luft. Dann kann sich dieser Linsen förmiger Wolke Bildern. Sie bleibt Tankstelle. Sie kann auch mehrstöckig aussehen. Dann erinnert sie an ein UFO. Auf diesem...",
+        "urn": "urn:srf:video:aa2b0767-6402-4805-a6f9-cdbf544587c8"
+      }
+    ],
+    "score": 6.2,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Regina Kolb",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 6.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Philipp Schlatter",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...ein schönes Wochenende, auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 6.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Budget",
+    "spike": 5.6,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...für die Organisation Ziviler Beistand massiv zurückfahren. Dies als Folge der Budgetkürzungen durch die Trump-Regierung. Das bringt die angesehene...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...haben eine sehr grosszügige Gastgeberin. Ja, natürlich, auch wir haben ein Budget, an das wir uns halten. Wir wünschen viel Erfolg. Janick Steinmann, sie...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...für die Organisation Ziviler Beistand massiv zurückfahren. Dies als Folge der Budgetkürzungen durch die Trump-Regierung. Das bringt die angesehene...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 5.6,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "schön Wochenende",
+    "spike": 3.4,
+    "target_count": 7,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...auch wieder bei uns begrüssen zu können. Besten Dank fürs Interesse und ein schönes Wochenende, auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter,...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Oktober zu sehen. Und uns gibt es am Montag wieder - wenn Sie wollen. Ein schönes Wochenende und bis zum nächsten Mal. SWISS TXT / Accessibility Services Ursina Giger",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Ganz herzlich willkommen, schön, dass Sie eingeschaltet haben. Einen guten Abend. Das ist heute in der Schweiz aktuell:...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 5.4,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zehntausend",
+    "spike": 5.3,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...gehen sie auf die Strasse. Hier in der Hauptstadt Washington setzen sich Zehntausende in Bewegung. Landesweit sollen über 3'000 weitere Proteste folgen. Donald...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Jan Tiedemann beobachtet die Genfer Reederei seit Jahren. Es sind Zehntausende, Hunderttausende Dollar am Tag an Kosten, an Charter-, an Kapitalkosten....",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...gehen sie auf die Strasse. Hier in der Hauptstadt Washington setzen sich Zehntausende auf den Weg und setzen damit ein Zeichen der Empörung. Donald Trump führe...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 5.3,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bewegung",
+    "spike": 5.3,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Strasse. Hier in der Hauptstadt Washington setzen sich Zehntausende in Bewegung. Landesweit sollen über 3'000 weitere Proteste folgen. Donald Trump führe...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...gleich drei Sitze frei werden, haben viel mehr eine Chance, und es gibt mehr Bewegung. Am wahrscheinlichsten sei jedoch, dass die Parteien ihre Sitze verteidigen...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 5.3,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Laufend",
+    "spike": 5.2,
+    "target_count": 3,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Telesguard"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...trocken sein. Die Aussichten sind aber noch unsicher. Behalten Sie auf dem Laufenden.",
+        "urn": "urn:srf:video:ad3c8eeb-1381-4743-910d-b34b87283495"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...TXT \"Telesguard\" mit den Nachrichten aus Graubünden. Mit uns sind Sie auf dem Laufenden. Guten Abend und willkommen. Heute geht es u.a. um diese Themen: Der...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...trocken sein. Die Aussichten sind aber noch unsicher. Behalten Sie auf dem Laufenden.",
+        "urn": "urn:srf:video:aa2b0767-6402-4805-a6f9-cdbf544587c8"
+      }
+    ],
+    "score": 5.2,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "jung Mensch",
+    "spike": 4.7,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...wieder von schlimmen Unfällen beim Trainsurfing. Wieso gehen gerade so viele junge Menschen ein so krasses Risiko ein? Diese Frage beschäftigt auch Julietta,...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...aber auch ein Stück weit wahr, wenn man sagt: \"Die Alten regieren, die Jungen verlieren.\" Riehen, eine Vorortsgemeinde von Basel, bildet hier eine überraschende...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 4.7,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Partei",
+    "spike": 4.4,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...versammlung in Zug bekannt gab. Curdin Vincenz. Den Entscheid hatte die Parteileitung offensichtlich schon länger gefällt. Denn mitten in der Rede von...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...antritt. Was bedeutet das nun? Luca Laube und Andrea Thurnherr berichten: Der Parteipräsident der Zürcher FDP braucht eine neue Regierungsrätin oder einen neuen...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zur \"Tagesschau\" Das sind unsere Schlagzeilen von heute Samstag: Die Mitte-Partei hält an ihrer Initiative zur Abschaffung der Heiratsstrafe fest - trotz...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 4.4,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Kriegspartei",
+    "spike": 4.1,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...scheint derzeit nicht in Sicht. Petra Frey. Nacht für Nacht greifen die Kriegsparteien Ziele in Iran, Israel, den Golfstaaten und im Libanon an. Am Morgen erst...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...dass sie sich dazu durchringen können. Es steht drin, dass die G7 alle Kriegsparteien auffordern, keine Zivilpersonen und die vielen Einrichtungen mehr...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Ende im sehr Ungewissen liegt. Petra Frey. Nacht für Nacht greifen sich die Kriegsparteien gegenseitig an: Ziele in Iran, Israel, den Golfstaaten und im Libanon. Am...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 4.1,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Herbst",
+    "spike": 4.1,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...mehr benachteiligt werden. Die Mitte-Initiative kommt voraussichtlich im Herbst vors Volk. Und auch die SVP hielt heute ihre Delegiertenversammlung ab, im...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...an den Glasfenstern des Grossmünsters orientiert. Bis voraussichtlich im Herbst nächstes Jahr kann man das Kunstwerk noch sehen, so lange dauert die...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...das Stimmvolk erst vor drei Wochen angenommen hat. So wird voraussichtlich im Herbst einmal mehr darüber abgestimmt, wie die sog. Heiratsstrafe abgeschafft werden...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 4.1,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Washington",
+    "spike": 4.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...und Simon Roth. Gegen Trump gehen sie auf die Strasse. Hier in der Hauptstadt Washington setzen sich Zehntausende in Bewegung. Landesweit sollen über 3'000 weitere...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...eine gemeinsame Linie gerungen. Und das bei ständig wechselnden Signalen aus Washington. Die USA sprechen von erfolgreichen Verhandlungen mit dem Iran, entsenden...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Simon Roth. Gegen Trump gehen sie auf die Strasse. Hier in der Hauptstadt Washington setzen sich Zehntausende auf den Weg und setzen damit ein Zeichen der...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 4.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Frieden",
+    "spike": 3.9,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...beschäftigt auch die Wählerschaft in den USA. Viele sind derzeit unzufrieden mit der Politik von US-Präsident Donald Trump. Das zeigt sich heute auf den...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...am G7-Treffen in Frankreich nicht deutlich. Verhandeln die USA gerade einen Frieden oder marschieren sie bald ein? Und bestraft Trump bald die Europäer in der...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Das ist ein sehr gutes Zeichen. Und ich glaube, der Präsident will ein Friedensabkommen. Aus dem Iran allerdings kommen weiterhin martialische Töne. Man...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.9,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Kanton Graubünden",
+    "spike": 3.9,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...aus dem Engadin. Conrad-Storz AG, ein Unternehmen, das mit Öl im ganzen Kanton Graubünden und im Tessin handelt. Neben Heizöl beliefert es ca. 350 Tankstellen mit...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...besonders bei den Obstbäumen. Auf dem Plantahof in Landquart im Kanton Graubünden hilft da: Eis. In rund einem Jahr wählt der Kanton Zürich sein Parlament und...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 3.9,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mitte",
+    "spike": 3.6,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...den Steuern - und muss wahrscheinlich bald wieder darüber abstimmen. Denn die Mitte hält an ihrer Initiative mit dem Titel \"für faire Bundessteuern\" fest, wie...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...von der SVP nochmals antritt. Noch unklar ist, ob Silvia Steiner von der Mitte bleibt, Mario Fehr, der aus der SP ausgetreten und nun parteilos ist, und der...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zur \"Tagesschau\" Das sind unsere Schlagzeilen von heute Samstag: Die Mitte-Partei hält an ihrer Initiative zur Abschaffung der Heiratsstrafe fest -...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.6,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Regierung",
+    "spike": 2.3,
+    "target_count": 8,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Menschenmassen, die heute hier in der Hauptstadt Washington D.C. gegen die Regierung auf die Strasse gehen. Doch Massendemonstrationen gab es bereits während...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...das Signal vor Ort ankommen kann. Doch darüber redet man ungern. Die deutsche Regierung betont, man habe aufgrund von bestehenden Verträgen keinen Einfluss darauf,...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Das ist heute in der Schweiz aktuell: Abgang zum Dritten in der Zürcher Regierung: Auch Carmen Walker Späh will nicht mehr. So gibt es nächstes Jahr eine...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Menschenmassen, die heute hier in der Hauptstadt Washington D.C. gegen die Regierung auf die Strasse gehen. Doch Massendemonstrationen gab es bereits während...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.6,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Spiel",
+    "spike": 2.2,
+    "target_count": 8,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...- erfolglos. Das war Kurt Hirschfeld, Regisseur und Direktor des Zürcher Schauspielhauses - ein Dokumentarfilm über jemanden, der zu unrecht in Vergessenheit...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Denn die Direktiven erteilt der Präsident. Und die ändern derzeit täglich. Beispiel 1: Das Hin und Her um die Sicherung der Strasse von Hormus. Letzte Woche tut...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Den grössten Fanzuwachs - mit fast 400 mehr - hatte der HC Lugano. Er spielt im Viertelfinal gegen die ZSC Lions, hier Bilder vom letzten Heimspiel am...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...- erfolglos. Das war Kurt Hirschfeld, Regisseur und Direktor des Zürcher Schauspielhauses - ein Dokumentarfilm über jemanden, der zu unrecht in Vergessenheit...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.5,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "FDP",
+    "spike": 3.4,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...zu besetzen sein. Mit Volkswirtschaftsdirektorin Carmen Walker Späh von der FDP hat heute bereits die dritte Person aus der Regierung bekannt gegeben, dass...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...unser Modell ist gerechter, moderner und v.a. leichter umsetzbar. Bei der FDP, die vor drei Wochen erfolgreich die Individualbesteuerung durchgebracht hat,...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.4,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bild",
+    "spike": 1.5,
+    "target_count": 11,
+    "unit_count": 5,
+    "editorial_units": [
+      "10 vor 10",
+      "Meteo",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Enthaltung, für die Unterstützung der Volksinitiative aus. Ein ganz anderes Bild heute an der Delegiertenversammlung der Mitte-Partei in Zug, die ebenfalls...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...Wolkenformationen. Z.B. aus dem Kanton Wallis. Wir wurden nach diesen Wolkenbildungen gefragt. Es gab aber auch in anderen Regionen der Schweiz an der Grenze...",
+        "urn": "urn:srf:video:ad3c8eeb-1381-4743-910d-b34b87283495"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Ab jetzt ist das Befahren der Strasse von Hormus verboten. Satellitenbilder zeigen die Situation: Laut verschiedenen Schätzungen sind bis zu 2'000...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dafür gelobt, dass er Sujets von hier, aus unserem Tal, behandelte. Kaum ein Bild erinnert an ihn: Matias Spescha, Meister der Grautöne, Formen und Räume, wie...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...regieren, die Jungen verlieren.\" Riehen, eine Vorortsgemeinde von Basel, bildet hier eine überraschende Ausnahme. Das neu gewählte Parlament ist dort...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 3.4,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SWISS TXT Accessibility Services Philipp Schlatter",
+    "spike": 3.4,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend und herzlich willkommen zu \"10 vor 10\" Wir blicken auf das heutige G7-Aussenministertreffen und die...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Ganz herzlich willkommen, schön, dass Sie eingeschaltet haben. Einen guten Abend. Das ist heute in der Schweiz...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 3.4,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Spannung",
+    "spike": 3.3,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "\"Leitungen unter Spannung\", \"Abstand halten\" Du solltest diesen Stromleitungen nicht zu nahe kommen,...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...die im Eishockey nicht so zu Hause sind. Es ist die ganze Intensität, die Spannung ist viel grösser. Es geht um mehr. Man kann die Spiele in die...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 3.3,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SVP",
+    "spike": 3.3,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Die Mitte-Initiative kommt voraussichtlich im Herbst vors Volk. Und auch die SVP hielt heute ihre Delegiertenversammlung ab, im bündnerischen Maienfeld. Die...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...dass sie nicht mehr wollen: Jacqueline Fehr von der SP, Ernst Stocker von der SVP und heute auch Carmen Walker Späh von der FDP. Schon bekannt ist, dass...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eine Abstimmung verliert, als aus Vernunft gar nicht erst antritt. Auch die SVP hat heute ihre Delegierten zusammengezogen, im bündnerischen Maienfeld. Und...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 3.3,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "grös",
+    "spike": 3.2,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Laufenden zu sein. Wir sind kein Spekulationshaus. Wir sind Versorger. Der grösste Teil unseres Jobs ist das Risikomanagement. Wir müssen schauen, dass wir...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...nicht lernen. Riehen mit gut 22'000 Einwohnerinnen und Einwohnern steht vor grösseren politischen Auseinandersetzungen: Die Gemeinde muss sparen und plant...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 3.2,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zug",
+    "spike": 2.9,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...bei deinen \"SRF Kids News\" Vielleicht bist du genau so gerne mit dem Zug unterwegs wie ich. Dazu haben wir heute aber ein trauriges Thema: den...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...\"für faire Bundessteuern\" fest, wie sie an der Delegierten- versammlung in Zug bekannt gab. Curdin Vincenz. Den Entscheid hatte die Parteileitung...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Bundessteuern\" fest. So bekannt gegeben an ihrer Delegiertenversammlung in Zug. Was brisant ist, denn: Die Initiative steht im Gegensatz zur...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 2.9,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Woche",
+    "spike": 1.2,
+    "target_count": 15,
+    "unit_count": 5,
+    "editorial_units": [
+      "10 vor 10",
+      "Meteo",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...zur \"Tagesschau\" um 18 Uhr, schön sind Sie mit dabei. Erst vor drei Wochen hat die Schweizer Stimmbevölkerung Ja gesagt zu Abschaffung der...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Das Wochenende hat frostig kalt, aber vielerorts sonnig angefangen. Einige von Ihnen...",
+        "urn": "urn:srf:video:ad3c8eeb-1381-4743-910d-b34b87283495"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Beispiel 1: Das Hin und Her um die Sicherung der Strasse von Hormus. Letzte Woche tut Donald Trump so, als ob es ihn nicht störe, dass die NATO-Partner ihm...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Projekt für das Grundstück gesucht. Der Krieg im Iran sorgt bereits seit Wochen für grosse Turbulenzen, auch auf dem Ölmarkt. Die Angriffe auf die Energie-...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Verkehrs, das hat die Staatsanwaltschaft heute mitgeteilt. Letzte Woche war eine Gondel des Titlis Xpress im Gebiet Trüebsee-Stand abgestürzt. Eine...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 2.9,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mehrheit",
+    "spike": 2.9,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Mitte macht, das muss sie selbst wissen. Die SVP ist überzeugt, dass eine Mehrheit der Stimmbevölkerung am Ende Ja sagen könnte zur Einschränkung der...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...können wir grossen Einfluss gewinnen und je nachdem auch eine Mehrheit erreichen. Obwohl sie im Parlament von Riehen - auch zu siebt - klar in der...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die Mitte macht, das muss sie selbst wissen. Die SVP ist überzeugt, dass eine Mehrheit der Stimmbevölkerung am Ende Ja sagen könnte zur Einschränkung der...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef"
+      }
+    ],
+    "score": 2.9,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Z.B.",
+    "spike": 1.4,
+    "target_count": 6,
+    "unit_count": 4,
+    "editorial_units": [
+      "10 vor 10",
+      "Meteo",
+      "SRF Kids News",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "SRF Kids News",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...gefährlich ist, checken wir jetzt gemeinsam ab. Strom benutzt du jeden Tag. Z.B., wenn du eine elektrische Lampe einschaltest. Damit die Lampe funktioniert,...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...Berge gezogen. Haben viele Fotos bekommen mit speziellen Wolkenformationen. Z.B. aus dem Kanton Wallis. Wir wurden nach diesen Wolkenbildungen gefragt. Es gab...",
+        "urn": "urn:srf:video:ad3c8eeb-1381-4743-910d-b34b87283495"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Japan haben sich über Jahrzehnte von den USA militärisch abhängig gemacht. Z.B. im Schutz vor Russland oder China. Aber die Beziehung ist komplizierter....",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...wenig darauf achtete, was Carigiet machte und was über ihn geschrieben wurde. Z.B. wurde er dafür gelobt, dass er Sujets von hier, aus unserem Tal, behandelte....",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Berge gezogen. Haben viele Fotos bekommen mit speziellen Wolkenformationen. Z.B. aus dem Kanton Wallis. Wir wurden nach diesen Wolkenbildungen gefragt. Es gab...",
+        "urn": "urn:srf:video:aa2b0767-6402-4805-a6f9-cdbf544587c8"
+      }
+    ],
+    "score": 2.8,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Dach",
+    "spike": 2.7,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "Schweiz aktuell"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "...du die Lösung bestimmt bald. Heimlich auf einen Zug klettern und auf dem Dach mitfahren - das klingt wie eine Szene aus einem Actionfilm, aber Trainsurfing...",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+      }
+    ],
+    "score": 2.7,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]

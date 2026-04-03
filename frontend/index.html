@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRF Zeitgeist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <header>
+            <h1>SRF <span class="x">Zeitgeist</span></h1>
+            <p class="subtitle" id="subtitle"></p>
+        </header>
+
+        <div class="main-area">
+            <div id="grid" class="grid"></div>
+            <div id="word-col" class="word-col"></div>
+        </div>
+
+        <!-- Zoom overlay: click on cell -->
+        <div id="zoom" class="zoom hidden">
+            <div class="zoom-inner">
+                <img id="zoom-img" src="" alt="">
+                <div class="zoom-caption">
+                    <span class="zoom-word" id="zoom-word"></span>
+                    <div class="zoom-headlines" id="zoom-headlines">
+                        <strong>HEADLINES:</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fullscreen overlay: click on zoomed image -->
+        <div id="fullscreen" class="fullscreen hidden">
+            <img id="fs-img" src="" alt="">
+            <div class="fs-word" id="fs-word"></div>
+        </div>
+
+        <footer>
+            <div class="footer-title" id="footer-title"></div>
+            <nav>
+                <a href="#" id="prev">‹ previous day</a>
+                <span class="sep">·</span>
+                <a href="#" id="next">next day ›</a>
+                <span class="sep">·</span>
+                <a href="#">about</a>
+            </nav>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

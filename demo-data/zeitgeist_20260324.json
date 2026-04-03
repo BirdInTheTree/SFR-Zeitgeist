@@ -1,0 +1,1356 @@
+[
+  {
+    "phrase": "Kugel",
+    "spike": 294.0,
+    "target_count": 21,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Lucas Pinheiro Braathen oder aufs Podest fahren, dann gehört die Riesenslalomkugel ihm. Es wäre seine fünfte in Folge. Doch nach der ersten Zwischenzeit der...",
+        "urn": "urn:srf:video:0a79bf17-e6e1-40f2-89c5-06b1c633ccb1"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...der Männer allerdings patzt er und muss in diesem Jahr die kleine Kristallkugel Konkurrent Lucas Pinheiro Braathen überlassen: Im Duell um die...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...gehen an den Nidwaldner. Ausgerechnet im Kampf um die Riesenslalom-Kugel wirft ihn ein grober Fehler aus der Bahn, der zweite dann vollends. Er...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Männer allerdings patzt er und muss in diesem Jahr die kleine Kristallkugel Konkurrent Lucas Pinheiro Braathen überlassen: Im Duell um die...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 466.0,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Baum",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "Meteo",
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...stürzte nach dem Start ab und streifte beim Absturz mit einem Flügel einen Baum. Die Maschine fing Feuer, wobei offenbar Sprengstoff an Bord explodierte. Die...",
+        "urn": "urn:srf:video:0a79bf17-e6e1-40f2-89c5-06b1c633ccb1"
+      }
+    ],
+    "score": 443.8,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Slalom",
+    "spike": 266.0,
+    "target_count": 19,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Zivilisten. Zum Ski-Weltcupfinal: Marco Odermatt führt zwar in der Riesenslalom- Disziplinenwertung 48 Punkte vor dem Brasilianer Lucas Pinheiro Braathen....",
+        "urn": "urn:srf:video:0a79bf17-e6e1-40f2-89c5-06b1c633ccb1"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss in diesem Jahr die kleine...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Ski-Weltcup stehen diese Woche die letzten Entscheidungen an. Heute im Slalom der Damen und im Herren-Riesenslalom, wo die Saison für einen erfolgs-...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss in diesem Jahr die kleine...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 421.6,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Tor",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...über einer halben Minute Fahrzeit rutschte Odermatt aus und verpasste das Tor. Damit war der Weg frei für seinen schärfsten Rivalen: Der Brasilianer Lucas...",
+        "urn": "urn:srf:video:17f38b26-f575-4a0f-a88d-45166e95d508"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Trades steht. Sind es Einzelhändler oder mehrere. Haben Sie für andere Investoren diese Trades platziert? Zuletzt gab es immer wieder um politische...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Forschung und Entwicklung hier haben. Aber in diesem Fall öffnet es Tür und Tor für alle Firmen, die eigentlich keinen Bezug zur Schweiz haben. Die kommen...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Trades steht. Sind es Einzelhändler oder mehrere. Haben Sie für andere Investoren diese Trades platziert? Zuletzt gab es immer wieder um politische...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 332.8,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Gesamtweltcup",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...wo sie weiter erforscht werden kann. Eine grosse Kristallkugel für den Gesamtweltcup und die Siege im Abfahrts- und Super-G-Weltcup. Marco Odermatts Saison war...",
+        "urn": "urn:srf:video:17f38b26-f575-4a0f-a88d-45166e95d508"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...gewünschten Ende für Ski-Dominator Marco Odermatt. Er entscheidet zwar den Gesamtweltcup, die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...mit einer Enttäuschung endete. Marco Odermatt auf Siegeskurs: der Gesamtweltcup, die Super-G- und die Abfahrtswertung gehen an den Nidwaldner. Ausgerechnet...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...gewünschten Ende für Ski-Dominator Marco Odermatt. Er entscheidet zwar den Gesamtweltcup, die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 332.8,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Riesenslalom-Kugel",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Der Brasilianer Lucas Pinheiro Braathen holte sich mit dem Tagessieg die Riesenslalom-Kugel. Dazu die Einschätzung von SRF-Ski Experte Marc Berthod: Für Marco Odermatt...",
+        "urn": "urn:srf:video:17f38b26-f575-4a0f-a88d-45166e95d508"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Kristallkugel Konkurrent Lucas Pinheiro Braathen überlassen: Im Duell um die Riesenslalom-Kugel geht Marco Odermatt mit den besten Karten ins Rennen. Dann aber der grobe...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...und die Abfahrtswertung gehen an den Nidwaldner. Ausgerechnet im Kampf um die Riesenslalom-Kugel wirft ihn ein grober Fehler aus der Bahn, der zweite dann vollends. Er...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Kristallkugel Konkurrent Lucas Pinheiro Braathen überlassen: Im Duell um die Riesenslalom-Kugel geht Marco Odermatt mit den besten Karten ins Rennen. Dann aber der grobe...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 332.8,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Vorwurf",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 3,
+    "editorial_units": [
+      "SRF Börse",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [],
+    "score": 266.3,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rest",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...Für die Kühe, Schafe und Ziegen kann sie tödlich sein. Im Vergleich zum Rest der Schweiz gab es in Graubünden bisher nur wenig Fälle. Die Berge scheinen...",
+        "urn": "urn:rtr:video:22a2069c-715a-4f89-91de-dcb2af4fb83e"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...in die Schweiz, und nur 17 % sind richtige, echte Flüchtlinge. Und der grosse Rest ist trotzdem in der Schweiz geblieben, sei es über die vorübergehende...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      }
+    ],
+    "score": 224.0,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Start",
+    "spike": 133.0,
+    "target_count": 19,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Flugzeugwracks. Explosionen sind zu hören. Das Flugzeug stürzte nach dem Start ab und streifte beim Absturz mit einem Flügel einen Baum. Die Maschine fing...",
+        "urn": "urn:srf:video:0a79bf17-e6e1-40f2-89c5-06b1c633ccb1"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...offiziell auch heisst, zur Abstimmung. Heute hat die Partei ihre Kampagne gestartet: Curdin Vincenz. Die Kirche steht noch im Dorf, aber dahinter wachsen...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...wie jedes andere, das ich gewinnen will. Mit diesem Mindset bin ich an den Start gegangen, und jetzt ist es halt nicht so aufgegangen. Besser läuft es heute...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...offiziell auch heisst, zur Abstimmung. Heute hat die Partei ihre Kampagne gestartet: Curdin Vincenz. Die Kirche steht noch im Dorf, aber dahinter wachsen...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 210.8,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "rot Zahl",
+    "spike": 196.0,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...ist. Wir hatten nicht viel Niederschlag, es hat nicht viel Schnee gegeben. Trotzdem hat sich etwas gelöst. Das müssen wir genau anschauen. Oben im Wald ist der...",
+        "urn": "urn:srf:video:198b41fa-1d3b-4027-809d-3bf3ed189ec0"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...einigen in der Schuhbranche gehörig auf den Senkel. Warum man sich da wegen rot-weiss teils grün und blau ärgert, erfahren Sie im Beitrag von Rahel Winkelmann und...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist. Wir hatten nicht viel Niederschlag, es hat nicht viel Schnee gegeben. Trotzdem hat sich etwas gelöst. Das müssen wir genau anschauen. Oben im Wald ist der...",
+        "urn": "urn:srf:video:f4b89ccf-bab0-4d62-a77c-6332300104ef"
+      }
+    ],
+    "score": 196.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Erinnerung",
+    "spike": 196.0,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Touch. Nicht nur die Kleider - auch der Baustil aus Paris wurde imitiert. Die Erinnerungen zu den Fotos von damals dokumentieren, wie das Leben im Dorf war. Erst mit...",
+        "urn": "urn:srf:video:198b41fa-1d3b-4027-809d-3bf3ed189ec0"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...führt diesen Kampf heute noch, in einem politischen Klima, in dem selbst die Erinnerung an die Diktatur wieder umkämpft ist? Aus Argentinien, Karen Naundorf. Claudia...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Touch. Nicht nur die Kleider - auch der Baustil aus Paris wurde imitiert. Die Erinnerungen zu den Fotos von damals dokumentieren, wie das Leben im Dorf war. Erst mit...",
+        "urn": "urn:srf:video:f4b89ccf-bab0-4d62-a77c-6332300104ef"
+      }
+    ],
+    "score": 196.0,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "10-Millionen-Schweiz",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...kritisiert die SVP seit Langem. Sie hat deshalb die Initiative \"Keine 10-Millionen-Schweiz!\" lanciert. Mitte Juni kommt diese Nachhaltigkeits-Initiative, wie sie...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...10\" Die Zuwanderung begrenzen, das will die SVP mit ihrer Initiative \"Keine 10-Millionen-Schweiz\", über die wir im Juni abstimmen. In unserem Fokus nehmen wir den Puls bei...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...kritisiert die SVP seit Langem. Sie hat deshalb die Initiative \"Keine 10-Millionen-Schweiz!\" lanciert. Mitte Juni kommt diese Nachhaltigkeits-Initiative, wie sie...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Podestplatz",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Slalom des Winters liefert sie ab. Und auch für Wendy Holdener gibt's einen Podestplatz. Wendy Holdener gelingt im letzten Slalom der Saison ihr bestes Resultat des...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...fährt sie deutlich angriffiger und holt sich mit dieser Fahrt nicht nur den Podestplatz, sondern auch Platz 3 in der Disziplinenwertung. So die Saison beenden zu...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Slalom des Winters liefert sie ab. Und auch für Wendy Holdener gibt's einen Podestplatz. Wendy Holdener gelingt im letzten Slalom der Saison ihr bestes Resultat des...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Asylsuchender",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [],
+    "score": 182.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "ständig Wohnbevölkerung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ergreifen - insbesondere im Asylbereich und beim Familiennachzug. Wächst die ständige Wohnbevölkerung vor 2050 über 10 Mio., muss der Bundesrat den freien Personenverkehr mit der...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Wir wachsen einfach zu schnell. Das will die Initiative der SVP konkret: Die ständige Wohnbevölkerung der Schweiz darf bis 2050 die 10-Mio.-Grenze nicht überschreiten. Sonst muss...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ergreifen - insbesondere im Asylbereich und beim Familiennachzug. Wächst die ständige Wohnbevölkerung vor 2050 über 10 Mio., muss der Bundesrat den freien Personenverkehr mit der...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Initiative 10-Millionen-Schweiz",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Pass. Diese Entwicklung kritisiert die SVP seit Langem. Sie hat deshalb die Initiative \"Keine 10-Millionen-Schweiz!\" lanciert. Mitte Juni kommt diese Nachhaltigkeits-Initiative, wie sie...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...zu \"10 vor 10\" Die Zuwanderung begrenzen, das will die SVP mit ihrer Initiative \"Keine 10-Millionen-Schweiz\", über die wir im Juni abstimmen. In unserem Fokus nehmen wir den Puls...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Pass. Diese Entwicklung kritisiert die SVP seit Langem. Sie hat deshalb die Initiative \"Keine 10-Millionen-Schweiz!\" lanciert. Mitte Juni kommt diese Nachhaltigkeits-Initiative, wie sie...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "grob Fehler",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...geht Marco Odermatt mit den besten Karten ins Rennen. Dann aber der grobe Fehler bereits im ersten Lauf beim Führenden der Disziplinenwertung. Einen zweiten...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...den Nidwaldner. Ausgerechnet im Kampf um die Riesenslalom-Kugel wirft ihn ein grober Fehler aus der Bahn, der zweite dann vollends. Er verpasst das Tor. Die Kugel ist...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...geht Marco Odermatt mit den besten Karten ins Rennen. Dann aber der grobe Fehler bereits im ersten Lauf beim Führenden der Disziplinenwertung. Einen zweiten...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Personenfreizügigkeit",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Allerdings verlangt die Initiative im zweiten Schritt auch die Kündigung der Personenfreizügigkeit. Dazu werde es kaum kommen, sagt der Parteipräsident. Die EU hat ein riesiges...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Sonst muss der Bundesrat internationale Verträge kündigen, z.B. die Personenfreizügigkeit. Bereits ab 9,5 Mio. muss der Bundesrat Massnahmen treffen, etwa im...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Allerdings verlangt die Initiative im zweiten Schritt auch die Kündigung der Personenfreizügigkeit. Dazu werde es kaum kommen, sagt der Parteipräsident. Die EU hat ein riesiges...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Diktatur",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...spurlos. Wir zeigen, wie die Mütter heute darum kämpfen, dass die Opfer der Diktatur nicht vergessen werden. Um 10 vor 10. Danke Urs! Nach \"Meteo\" geht's hier...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Mütter immer noch um Gewissheit, was aus den Verschwundenen während der Diktatur geworden ist. Der Papst war da, US-Präsidenten und v.a. Elon Musk - auf...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...spurlos. Wir zeigen, wie die Mütter heute darum kämpfen, dass die Opfer der Diktatur nicht vergessen werden. Um 10 vor 10. Danke Urs! Nach \"Meteo\" geht's hier...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "letzter Slalom",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss in diesem Jahr die kleine Kristallkugel...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...im Asylbereich einschränken, aber auch in der vorläufigen Aufnahme usw. In letzter Konsequenz müsste der Bundesrat die Personen- freizügigkeit mit der EU kündigen. Ist...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss in diesem Jahr die kleine Kristallkugel...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Arbeitskraft",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...auf 10 Mio. würde grosse Herausforderungen bringen. Wenn der Zugang zu dieser Arbeitskraft, zu dieser Fachkraft, noch eingeschränkt wird, könnte das dieses Problem noch...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      }
+    ],
+    "score": 182.0,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mord",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Land kommt, eine massive Zunahme der schweren Delikte, Vergewaltigungen, Morde usw. Und die Beteiligung: Knapp 60 % sind keine Schweizer. Die Initiative...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...um der Opfer des damaligen Regimes zu gedenken. Die Diktatur folterte und ermordete Menschen und liess sie verschwinden. Seitdem verlangen unzählige Mütter...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Land kommt, eine massive Zunahme der schweren Delikte, Vergewaltigungen, Morde usw. Und die Beteiligung: Knapp 60 % sind keine Schweizer. Die Initiative...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wendy Holdener",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...zu nehmen. Auch im letzten Slalom des Winters liefert sie ab. Und auch für Wendy Holdener gibt's einen Podestplatz. Wendy Holdener gelingt im letzten Slalom der Saison...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...und jetzt ist es halt nicht so aufgegangen. Besser läuft es heute für Wendy Holdener. Im Slalom der Frauen holt die Schwyzerin Silber. Im zweiten Lauf fährt sie...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zu nehmen. Auch im letzten Slalom des Winters liefert sie ab. Und auch für Wendy Holdener gibt's einen Podestplatz. Wendy Holdener gelingt im letzten Slalom der Saison...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SVP-Präsident Marcel Dettling",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...also nicht eine massive Schwächung des Arbeitsmarkts bedeuten? Initiant und SVP-Präsident Marcel Dettling bei uns im Interview. Dann: Die Swissness-Diskussion um die On Schuhe geht in...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...der 10-Millionen-Schweiz- Initiative vereinbaren? Nathalie Christen hat bei SVP-Präsident Marcel Dettling im Bundeshaus nachgefragt. Herr Dettling, wollen Sie mit Ihrer Initiative...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...also nicht eine massive Schwächung des Arbeitsmarkts bedeuten? Initiant und SVP-Präsident Marcel Dettling bei uns im Interview. Dann: Die Swissness-Diskussion um die On Schuhe geht in...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Disziplinenwertung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Rennen. Dann aber der grobe Fehler bereits im ersten Lauf beim Führenden der Disziplinenwertung. Einen zweiten kurz darauf verzeiht es dann nicht mehr. Das Tor verpasst, die...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...sich mit dieser Fahrt nicht nur den Podestplatz, sondern auch Platz 3 in der Disziplinenwertung. So die Saison beenden zu dürfen, ist richtig cool. Wenn man Zweite wird und...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Rennen. Dann aber der grobe Fehler bereits im ersten Lauf beim Führenden der Disziplinenwertung. Einen zweiten kurz darauf verzeiht es dann nicht mehr. Das Tor verpasst, die...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mindset",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...es heute um ein Rennen wie jedes andere, das ich gewinnen wollte. Mit diesem Mindset ging ich an den Start. Jetzt ist es halt anders herausgekommen....",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...es heute um ein Rennen wie jedes andere, das ich gewinnen will. Mit diesem Mindset bin ich an den Start gegangen, und jetzt ist es halt nicht so aufgegangen....",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...es heute um ein Rennen wie jedes andere, das ich gewinnen wollte. Mit diesem Mindset ging ich an den Start. Jetzt ist es halt anders herausgekommen....",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "geregelt Verhältnis",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...der Parteipräsident. Die EU hat ein riesiges Interesse, dass wir hier ein geregeltes Verhältnis hinkriegen. Und die Kündigung ist die allerletzte Massnahme. Die Kündigung...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...ein sehr grosses Interesse daran, dass wir auch nachher mit ihren Leuten ein geregeltes Verhältnis haben. Und wir haben natürlich auch ein Interesse daran, dass es geregelt...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Parteipräsident. Die EU hat ein riesiges Interesse, dass wir hier ein geregeltes Verhältnis hinkriegen. Und die Kündigung ist die allerletzte Massnahme. Die Kündigung...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zuwanderung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die z.B. die alten Menschen in den Altersheimen pflegen. Erstens treibt die Zuwanderung, diese Massenzuwanderung, den Fachkräftemangel an. Zweitens: Nur fünf von...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Live-Untertiteln von SWISS TXT Guten Abend und willkommen zu \"10 vor 10\" Die Zuwanderung begrenzen, das will die SVP mit ihrer Initiative \"Keine...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die z.B. die alten Menschen in den Altersheimen pflegen. Erstens treibt die Zuwanderung, diese Massenzuwanderung, den Fachkräftemangel an. Zweitens: Nur fünf von...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "be Resultat",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Die \"Tagesschau\", guten Abend. Was tun, damit der Schweiz der Strom nicht ausgeht? Auch für Stromproduzentin Axpo...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend und willkommen zu \"10 vor 10\" Die Zuwanderung begrenzen, das will die SVP mit ihrer...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Die \"Tagesschau\", guten Abend. Was tun, damit der Schweiz der Strom nicht ausgeht? Auch für Stromproduzentin Axpo...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Marcel Dettling",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...massive Schwächung des Arbeitsmarkts bedeuten? Initiant und SVP-Präsident Marcel Dettling bei uns im Interview. Dann: Die Swissness-Diskussion um die On Schuhe geht in...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...im Juni abstimmen. In unserem Fokus nehmen wir den Puls bei Parteipräsident Marcel Dettling und in einem Altersheim, das stark auf ausländisches Pflegepersonal...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...massive Schwächung des Arbeitsmarkts bedeuten? Initiant und SVP-Präsident Marcel Dettling bei uns im Interview. Dann: Die Swissness-Diskussion um die On Schuhe geht in...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Familiennachzug",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...der Bundesrat Massnahmen ergreifen - insbesondere im Asylbereich und beim Familiennachzug. Wächst die ständige Wohnbevölkerung vor 2050 über 10 Mio., muss der...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...9,5 Mio. muss der Bundesrat Massnahmen treffen, etwa im Asylbereich oder beim Familiennachzug. Dass die Schweiz auf Fachkräfte aus dem Ausland angewiesen ist, bestreitet...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Bundesrat Massnahmen ergreifen - insbesondere im Asylbereich und beim Familiennachzug. Wächst die ständige Wohnbevölkerung vor 2050 über 10 Mio., muss der...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Argentinien",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...stösst in der Branche auf viel Kritik. Und: Vor 50 Jahren putschte sich in Argentinien das Militär an die Macht. Tausende von Menschen verschwanden spurlos. Wir...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...verschiedenen Unternehmen zunehmend für Kritik. 50 Jahre nach dem Putsch in Argentinien kämpfen Mütter immer noch um Gewissheit, was aus den Verschwundenen während...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...stösst in der Branche auf viel Kritik. Und: Vor 50 Jahren putschte sich in Argentinien das Militär an die Macht. Tausende von Menschen verschwanden spurlos. Wir...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Vorstoss",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wieder. Nun sollen die Regeln für 25er- Elektroroller verschärft werden. Ein Vorstoss von Nationalrat Matthias Jauslin will die E-Roller genau gleich behandeln wie...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...eine Schwächung des Werkplatzes Schweiz. Ich werde mich jetzt mit einem Vorstoss an den Bundesrat wenden, in der Sondersession, und fragen, wie wir denn...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wieder. Nun sollen die Regeln für 25er- Elektroroller verschärft werden. Ein Vorstoss von Nationalrat Matthias Jauslin will die E-Roller genau gleich behandeln wie...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Abfahrtswertung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Odermatt. Er entscheidet zwar den Gesamtweltcup, die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Marco Odermatt auf Siegeskurs: der Gesamtweltcup, die Super-G- und die Abfahrtswertung gehen an den Nidwaldner. Ausgerechnet im Kampf um die Riesenslalom-Kugel...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Odermatt. Er entscheidet zwar den Gesamtweltcup, die Super-G- sowie auch die Abfahrtswertung für sich. Beim letzten Riesenslalom der Männer allerdings patzt er und muss...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Argument",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Mio., muss der Bundesrat den freien Personenverkehr mit der EU kündigen. Ein Argument gegen die Initiative ist die Sorge um genügend Arbeitskräfte: Die Gegnerinnen...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...ist nichts als legitim, dass man etwas prominenter daraufhin weist. Ja, das Argument ist für die Firmen nachvollziehbar, die in der Schweiz produzieren und...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Mio., muss der Bundesrat den freien Personenverkehr mit der EU kündigen. Ein Argument gegen die Initiative ist die Sorge um genügend Arbeitskräfte: Die Gegnerinnen...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zuwanderer",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...diese Massenzuwanderung, den Fachkräftemangel an. Zweitens: Nur fünf von zehn Zuwanderern arbeiten überhaupt. Und nur einer von zehn Zuwanderern arbeitet in einem...",
+        "urn": "urn:srf:video:1f65078b-6882-4063-a6b0-628564a095aa"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...zurück zu einer massvollen Zuwanderung. Wir wollen nicht mehr über 100'000 Zuwanderer jedes Jahr. Mit unserer Initiative könnten wir jedes Jahr immer noch 40'000...",
+        "urn": "urn:srf:video:e631014d-3490-4891-b8d3-0daa327a88dc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...diese Massenzuwanderung, den Fachkräftemangel an. Zweitens: Nur fünf von zehn Zuwanderern arbeiten überhaupt. Und nur einer von zehn Zuwanderern arbeitet in einem...",
+        "urn": "urn:srf:video:803ddbd4-7d8c-4d84-b0f6-b89603a219c0"
+      }
+    ],
+    "score": 182.0,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]

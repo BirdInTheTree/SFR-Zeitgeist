@@ -1,0 +1,1437 @@
+[
+  {
+    "phrase": "Besatzung",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine Mondlandung ist nicht Teil...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung bekannt. Mit drei Premieren: Nebst dem Kommandanten Reid Wiseman, hier rechts...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...funktionieren kann. Und selbst wenn er funktionieren würde, birgt er für die Besatzung ein inakzeptables Risiko. Ich wiederhole meine Empfehlung von vor 23 Monaten:...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung bekannt. Mit drei Premieren: Nebst dem Kommandanten Reid Wiseman, hier rechts...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Astronaut",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Bedingungen des Weltalls. Das wird den Weg für künftige Landungen ebnen. Vier Astronauten werden zehn Tage unterwegs sein. Weiter von der Erde entfernt als je zuvor....",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Mitternacht soll die Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...laufen die letzten Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Mitternacht soll die Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "NASA",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die NASA will damit an die erfolgreichen Zeiten der Apollo-Missionen der 60er- und...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...dürfte fraglich sein. Heute noch soll sie starten, die Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape Canaveral in Florida....",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bosnien",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...des anderen Freud. Und so hat man sich einige 100 km weiter östlich in Bosnien- Herzegowina über alles gefreut, als im Penaltyschiessen klar war, sie lösen...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bosnien-Herzegowina",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...war, sie lösen ihr erstes WM-Ticket seit zwölf Jahren. Thomas von Grünigen. Bosnien-Herzegowina, Sekunden vor der Ekstase. Bis spät in die Nacht hinein wird in Sarajevo...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Penaltyschiessen",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei,...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten Apokalypse. Detlev Munz....",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...100 km weiter östlich in Bosnien- Herzegowina über alles gefreut, als im Penaltyschiessen klar war, sie lösen ihr erstes WM-Ticket seit zwölf Jahren. Thomas von...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten Apokalypse. Detlev Munz....",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Träne",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei, fine. Italiens Fussball liegt in Trümmern. Schon wieder....",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und Wolken ab bei rund 10 °C, im Süden ist es...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum dritten Mal fehlen die Azzurri am Turnier. Wortlos kommentieren die...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und Wolken ab bei rund 10 °C, im Süden ist es...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "WM",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Zum dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...und eine Fussball-Ikone analysieren das Debakel bei der italienischen WM-Qualifikation. Wie weit darf Gewalt im Netz gehen? Diese Frage wird derzeit...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Cape Canaveral",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Alls...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mond",
+    "spike": 280.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Nach mehr als einem halben Jahrhundert fliegen Menschen wieder zum Mond. In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...In dieser Nacht soll es nun endlich losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond geschickt werden. Über 50 Jahre ist es her, seit die USA im Rahmen des...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...In dieser Nacht soll es nun endlich losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 443.8,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Astronautin",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Mal alles klappt, machen sich nach Mitternacht drei Astronauten und eine Astronautin an Bord einer Orion-Kapsel auf den Weg, den Erdtrabanten zu umrunden. Die...",
+        "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond geschickt werden. Über 50 Jahre...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 355.0,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Tal der Tränen",
+    "spike": 238.0,
+    "target_count": 17,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Weltmeister nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei, fine. Italiens Fussball liegt in Trümmern. Schon wieder....",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...von Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum dritten Mal fehlen die Azzurri am Turnier. Wortlos kommentieren die zwei...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      }
+    ],
+    "score": 238.0,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Schock",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...Scuol, hat seine Mühe damit. Oh, mein Gott! Was ist das? Mein Gott, welch ein Schock. Er engagiert sich für das Idiom Vallader. Ihm bereitet diese neue Sprache...",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Schmerz. Auch im italienischen Restaurant Dieci in Rapperswil sitzt der Schock tief. Chef de Service Antonio de Blasio zeigt uns das Tagesmenu gewürzt mit...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      }
+    ],
+    "score": 224.0,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mondlandung",
+    "spike": 196.0,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine Mondlandung ist nicht Teil der Mission. Diese soll laut NASA frühestens in zwei Jahren...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Artemis II wollen sie dorthin zurück. Es ist der Testflug für eine erneute Mondlandung. Doch die USA erhalten Konkurrenz, diesmal nicht von Russland, sondern von...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      }
+    ],
+    "score": 196.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SWISS TXT Accessibility Services Evelyne Grüninger",
+    "spike": 196.0,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend miteinander, herzlich willkommen. Wir zeigen Ihnen, was die Schweiz bewegt. Von der Mafia bis zum...",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Willkommen bei \"10 vor 10\" An diesem Mittwochabend haben wir diese Themen für Sie: Bundesrätin Keller-Sutter reicht...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend miteinander, herzlich willkommen. Wir zeigen Ihnen, was die Schweiz bewegt. Von der Mafia bis zum...",
+        "urn": "urn:srf:video:f4ef211c-3760-4537-b980-522e3159ce77"
+      }
+    ],
+    "score": 196.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Europäischen Weltraumorganisation",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug zum Mond, bei dem man die...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...dass China 2030 die Mondlandung gelingen könnte. Der Generaldirektor der Europäischen Weltraumorganisation ESA sagte am letzten WEF in Davos, China sei enorm ambitioniert. China - und...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug zum Mond, bei dem man die...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bajraktarevic",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...dritten Apokalypse. Detlev Munz. Gegen 23.30 Uhr platzt Italiens WM-Traum. Bajraktarevic versenkt auch den dritten Penalty für Bosnien-Herzegowina, während Italien...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...seit Jahren bedrücken und eine ganz neue Stimmung kreieren. Der Elfmeter von Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...dritten Apokalypse. Detlev Munz. Gegen 23.30 Uhr platzt Italiens WM-Traum. Bajraktarevic versenkt auch den dritten Penalty für Bosnien-Herzegowina, während Italien...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Aprilscherz",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion, seit gestern Abend in Florida angedockt, wird...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...auch auf ein spannendes Direktduell gegen die Schweiz. Und bevor wir zum Aprilscherz des Tages kommen, ein Ausblick auf den \"Kulturplatz\" gleich im Anschluss. Die...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion, seit gestern Abend in Florida angedockt, wird...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Artemis-Programm",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...könnte. Es wäre ein Erfolg für die NASA, nach mehreren Verschiebungen. Das Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...prägt. Derzeit liegen die USA im Wettlauf zum Mond immer noch vorne. Doch das Artemis-Programm kämpft mit Problemen. Diverse Elemente der Mission sind technisch nicht...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...könnte. Es wäre ein Erfolg für die NASA, nach mehreren Verschiebungen. Das Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "kalt Krieg",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...geht es darum, die Schutzbautenwelt, die in der Schweiz ja immer noch aus dem Kalten Krieg in einem guten Zustand ist, jetzt wieder kriegstauglich zu machen....",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Ben Huwyler berichtet. Es war der wohl grösste Prestigesieg der Amerikaner im Kalten Krieg. Die Saturn-V-Rakete der NASA brachte die ersten Menschen zum Mond. Die...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...geht es darum, die Schutzbautenwelt, die in der Schweiz ja immer noch aus dem Kalten Krieg in einem guten Zustand ist, jetzt wieder kriegstauglich zu machen....",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mondmission",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion,...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...auch auf der Erde. In wenigen Stunden soll es also losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion,...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Livestream",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Stunden soll es losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Ebenfalls dort: Alle...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...soll es also losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Es begann in dieser Garage...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Stunden soll es losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Ebenfalls dort: Alle...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Weltraum",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...heisst der Konkurrent China. Beharrlich baut das Land seine Fähigkeiten im Weltraum aus. Das Raumfahrtprogramm ist wenig transparent, doch es wird allgemein...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Artemis",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...möglich sein wird, dürfte fraglich sein. Heute noch soll sie starten, die Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Generaldirektor",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...davon ausgegangen, dass China 2030 die Mondlandung gelingen könnte. Der Generaldirektor der Europäischen Weltraumorganisation ESA sagte am letzten WEF in Davos,...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 182.0,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "entscheidend Spiel",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister nach Penaltyschiessen und katapultierte...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Lebenserhaltungssystem",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...NASA spricht von einer historischen Mission. Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "halb Jahrhundert",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Die Stimmbevölkerung hatte die Abschaffung des Eigenmietwerts vor einem halben Jahr gutgeheissen. In den USA will Präsident Donald Trump die Regeln für die Briefwahl...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben Jahrhundert. Ein neuer Chef soll das in Schieflage geratene Bundesamt für...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben Jahrhundert. Ein neuer Chef soll das in Schieflage geratene Bundesamt für...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Flugrout",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...zehn Tage unterwegs sein. Weiter von der Erde entfernt als je zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...zehn Tage unterwegs sein - weiter von der Erde entfernt als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zehn Tage unterwegs sein - weiter von der Erde entfernt als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Weltraumbahnhof Cape Canaveral",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Alls...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Trainer",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Traum gegeben. Jahre meines Lebens, mein Geld - alles, um dabei zu sein. Trainer, Spieler, Medien: Ein ganzes Land hadert. Ein Land trauert. Nicht eben erst...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...gelingt gegen Ende der regulären Spielzeit schliesslich der Ausgleich. Der Trainer ringt nach dem Spiel um Worte. Es macht mich wirklich fertig. Ich hätte heute...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...gelingt gegen Ende der regulären Spielzeit schliesslich der Ausgleich. Der Trainer ringt nach dem Spiel um Worte. Es macht mich wirklich fertig. Ich hätte heute...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "All",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...mia! Zum dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "NASA-Mondraket",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...der Apollo-Missionen der 60er- und 70er-Jahre anknüpfen. Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...des Menschen werden auf dem Weg zum Mars. Simon Roth: Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...des Menschen werden auf dem Weg zum Mars. Simon Roth: Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Orion-Raumfähre",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Mission. Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "historisch Mission",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Menschen wieder in die Tiefen des Alls bringen. Die NASA spricht von einer historischen Mission. Wir testen die Navigations- und Lebenserhaltungssysteme der...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wieder in die Tiefen des Weltalls bringen. Die NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wieder in die Tiefen des Weltalls bringen. Die NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "äusser Punkt",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...entfernt als je zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+      }
+    ],
+    "score": 140.0,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]

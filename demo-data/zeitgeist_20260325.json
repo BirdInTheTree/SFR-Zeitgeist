@@ -1,0 +1,1419 @@
+[
+  {
+    "phrase": "Urteil",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Angeklagten. Der Mann ist grösstenteils geständig, bis zum rechtskräftigen Urteil gilt auch für ihn die Unschuldsvermutung. Der Prozess am Regionalgericht...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...nicht mehr investiert wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Manche Social-Media-Plattformen machen süchtig - so das mögliche Leiturteil eines Prozesses in Los Angeles. Google und Meta werden schuldig gesprochen,...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Angeklagten. Der Mann ist grösstenteils geständig, bis zum rechtskräftigen Urteil gilt auch für ihn die Unschuldsvermutung. Der Prozess am Regionalgericht...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...nicht mehr investiert wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 355.0,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Buch",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...an Kleinkram, den man in einem Laden nicht suchen würde. Wir haben ein Buch über eine Giraffe, die traurig ist, weil sie so einen langen Hals hat. Jetzt...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...geht. Nein, mit dem gleichnamigen Erfolgsroman von Lewinsky hat das neue Buch nichts zu tun. Wie der Titel sagt - es geht um: \"Eine andere Geschichte\"...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...- auf Deutsch etwa Verschlimmscheisserung - so nennt Cory Doctorow sein Buch und das Phänomen, wenn aus nützlichen Plattformen Systeme werden, die ihre...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...an Kleinkram, den man in einem Laden nicht suchen würde. Wir haben ein Buch über eine Giraffe, die traurig ist, weil sie so einen langen Hals hat. Jetzt...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...geht. Nein, mit dem gleichnamigen Erfolgsroman von Lewinsky hat das neue Buch nichts zu tun. Wie der Titel sagt - es geht um: \"Eine andere Geschichte\"...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 355.0,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Freiheit",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...auf dem Weg, um die Sandbank abzutragen, so dass der junge Wal zurück in die Freiheit schwimmen kann. Zum Sport: Die Schweizer Tennisspielerin Belinda Bencic...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Auch die Schweizer Bevölkerung will unsere bewährte Demokratie, unsere Freiheiten schützen. Für die Sicherheit braucht es in den nächsten Jahren mehr Mittel....",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      }
+    ],
+    "score": 224.0,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Beobachter",
+    "spike": 224.0,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...das schlechteste Wahlergebnis seit mehr als 120 Jahren verzeichnen. Laut Beobachtern wurde Frederiksen sowohl von links als auch von rechts für ihre Politik...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...sich das fehlende Verständnis für die Südschweiz besonders, sagt der Politbeobachter. Es gibt dieses ungeklärte Verhältnis zu Italien - und damit auch zu Europa....",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      }
+    ],
+    "score": 224.0,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Fuss",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Insel Ogoz im Kanton Freiburg, die für kurze Zeit ausnahmsweise zu Fuss erreichbar ist und so für Touristenströme sorgt. Ich wünsche Ihnen weiter...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...im März 2023 jeweils einen Asylsuchenden verprügelt haben - mit Fusstritten, Faustschlägen und Würgen, im Dienstwagen und auf dem Polizeiposten....",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...they'd just said. Den Weg zur Amtseinsetzung in Canterbury pilgert sie zu Fuss. Sie steht für eine weltoffene, inklusive Kirche und segnet unterwegs...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...im März 2023 jeweils einen Asylsuchenden verprügelt haben - mit Fusstritten, Faustschlägen und Würgen, im Dienstwagen und auf dem Polizeiposten....",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...they'd just said. Den Weg zur Amtseinsetzung in Canterbury pilgert sie zu Fuss. Sie steht für eine weltoffene, inklusive Kirche und segnet unterwegs...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 221.9,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "heutig",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Gauff über den Halbfinaleinzug jubelt. Der vergleichsweise milde Start in den heutigen Tag trügt - eine Kaltfront nähert sich und bringt auch Schnee. Bis wo und...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...An den Beruf als Koch hatte ich bisher noch nicht gedacht. Nach dem heutigen Tag finde ich das spannender. Ja, vielleicht schaue ich mir den Beruf im...",
+        "urn": "urn:rtr:video:6b0d33ef-61cc-4f0b-96df-b871fe8edf2f"
+      }
+    ],
+    "score": 182.0,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Turnier",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau kompakt",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Tennisspielerin Belinda Bencic wusste bisher am prestigeträchtigen WTA-1'000-Turnier in Miami zu überzeugen. Nachdem sie sich in Florida in ihren ersten drei...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...ihre Familien und die Freiwilligen. Die Athleten sollen Sport treiben und Turniere bestreiten können. Sie sollen trotz intellektueller Herausforderungen stolz...",
+        "urn": "urn:rtr:video:6b0d33ef-61cc-4f0b-96df-b871fe8edf2f"
+      }
+    ],
+    "score": 182.0,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SWISS TXT Accessibility Services Annika Biedermann",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend am Mittwoch und willkommen zu \"Schweiz aktuell\" Regional und relevant, das sind die Schlagzeilen dieser...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Willkommen bei \"10 vor 10\" an diesem Mittwochabend. Manche Social-Media-Plattformen machen süchtig - so das mögliche...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Guten Abend am Mittwoch und willkommen zu \"Schweiz aktuell\" Regional und relevant, das sind die Schlagzeilen dieser...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 182.0,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Verteidigung",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...die Vorwürfe stets bestritten. Das Urteil ist noch nicht rechtskräftig, die Verteidigung hat bereits einen Weiterzug angekündigt. Jede Hand, die anpackt, ist eine...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...zu führen. Wir ordnen ein. Das unser Fokus heute. Und ausserdem: Der Verteidigungsminister Martin Pfister macht sich ein Bild vor Ort und wirbt bei...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die Vorwürfe stets bestritten. Das Urteil ist noch nicht rechtskräftig, die Verteidigung hat bereits einen Weiterzug angekündigt. Jede Hand, die anpackt, ist eine...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 182.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Chiara Winkelmann",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Abend, auf Wiedersehen. SWISS TXT / Accessibility Services Annika Biedermann, Chiara Winkelmann",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Nacht. Auf Wiedersehen. SWISS TXT / Accessibility Services Annika Biedermann, Chiara Winkelmann",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Abend, auf Wiedersehen. SWISS TXT / Accessibility Services Annika Biedermann, Chiara Winkelmann",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 182.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Angeles",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen Social-Media-Sucht verurteilt....",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...machen süchtig - so das mögliche Leiturteil eines Prozesses in Los Angeles. Google und Meta werden schuldig gesprochen, Konsumentinnen und Konsumenten...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen Social-Media-Sucht verurteilt....",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 168.0,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "wegweisend Urteil",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...auch dazu, das nicht mehr investiert wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...In die USA: Vor wenigen Stunden fiel in Los Angeles ein möglicherweise wegweisendes Urteil im Prozess gegen zwei Social-Media-Giganten. Die Alphabet-Tochter Google,...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...auch dazu, das nicht mehr investiert wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 168.0,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Los Angeles",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen Social-Media-Sucht verurteilt....",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...machen süchtig - so das mögliche Leiturteil eines Prozesses in Los Angeles. Google und Meta werden schuldig gesprochen, Konsumentinnen und Konsumenten...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wird im Öl- und Gasgeschäft. Es ist ein wegweisendes Urteil: Ein Gericht in Los Angeles hat zum ersten Mal Instagram und YouTube wegen Social-Media-Sucht verurteilt....",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 168.0,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Alphabet",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...süchtig geworden zu sein. Sie soll von den Mutterkonzernen Meta und Alphabet nun einen Schadensersatz von 3 Mio. $ erhalten. Das Urteil könnte laute...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...wegweisendes Urteil im Prozess gegen zwei Social-Media-Giganten. Die Alphabet-Tochter Google, zu der u.a. die Videoplattform YouTube gehört und der...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...süchtig geworden zu sein. Sie soll von den Mutterkonzernen Meta und Alphabet nun einen Schadensersatz von 3 Mio. $ erhalten. Das Urteil könnte laute...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 168.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Fach",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Sarah Mullally ist eine Quereinsteigerin. Die ausgebildete Pflegefachfrau ist keine weltfremde Geistliche, sagt, ihre Wahl habe sie überrascht und...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...stärker aufrüsten müsste. Links ist skeptisch. Unsere Armee braucht nicht einfach mehr Geld. Wir brauchen v.a. mehr Kompetenzen, wir brauchen einen klaren...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Sarah Mullally ist eine Quereinsteigerin. Die ausgebildete Pflegefachfrau ist keine weltfremde Geistliche, sagt, ihre Wahl habe sie überrascht und...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 168.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "stark Kraft",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Mette Frederiksen bleiben mit knapp 22 % der Wählerstimmen die stärkste Kraft. Auch wenn sie damit das schlechteste Wahlergebnis seit mehr als 120 Jahren...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Insgesamt steigen Konsumentenpreise - zumindest vorerst - nicht ganz so stark, wie die Leute es wahrnehmen. Hinzu kommt: Die USA profitieren volkswirtschaftlich...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Insgesamt steigen Konsumentenpreise - zumindest vorerst - nicht ganz so stark, wie die Leute es wahrnehmen. Hinzu kommt: Die USA profitieren volkswirtschaftlich...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 140.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Satz",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Ländern sind offenbar Diplomaten aus Pakistan und der Türkei im Einsatz. US-Präsident Trump hat die Verhandlungen gestern Abend bestätigt: Bei einem...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sein. Sie soll von den Mutterkonzernen Meta und Alphabet nun einen Schadensersatz von 3 Mio. $ erhalten. Das Urteil könnte laute Experten zahlreiche weitere...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sein. Sie soll von den Mutterkonzernen Meta und Alphabet nun einen Schadensersatz von 3 Mio. $ erhalten. Das Urteil könnte laute Experten zahlreiche weitere...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 140.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "SWISS TXT Accessibility Services Lilian Zbinden",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Das Wichtigste am Mittag - guten Tag und herzlich willkommen zur \"Tagesschau kompakt\" Die USA schlagen dem Iran...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Die \"Tagesschau\" - guten Abend! USA und Iran - wer verhandelt mit wem? Die USA legen Iran offenbar einen...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "Mit Live-Untertiteln von SWISS TXT Die \"Tagesschau\" - guten Abend! USA und Iran - wer verhandelt mit wem? Die USA legen Iran offenbar einen...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 140.0,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zeremonie",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...hat die Verhandlungen gestern Abend bestätigt: Bei einem Auftritt während der Zeremonie für die Vereidigung des neuen Ministers für innere Sicherheit sagt Donald...",
+        "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Sarah Mullally Einlass in die Kathedrale von Canterbury. So beginnt die Zeremonie zur Inthronisation der ersten Erzbischöfin von Canterbury in der Geschichte....",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Sarah Mullally Einlass in die Kathedrale von Canterbury. So beginnt die Zeremonie zur Inthronisation der ersten Erzbischöfin von Canterbury in der Geschichte....",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 140.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Beruf",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...Tag mit der Klasse in der Küche. Wir zeigen, wie die Gastronomie Lust auf die Berufswahl macht, in einer Branche, die um ihren Ruf kämpft. Aktuell ist noch...",
+        "urn": "urn:rtr:video:6b0d33ef-61cc-4f0b-96df-b871fe8edf2f"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Ich finde alles sehr spannend. Aber momentan bin ich glücklich mit meinem Beruf und kann mir nichts anderes vorstellen. Und so bleibt die Liste der neuen...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Ich finde alles sehr spannend. Aber momentan bin ich glücklich mit meinem Beruf und kann mir nichts anderes vorstellen. Und so bleibt die Liste der neuen...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 140.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Teilnehmende",
+    "spike": 140.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...gross, dass sie sechs Jahre später in Chicago die Special Olympics mit 1'000 Teilnehmenden gründete. In drei Jahren sind die Special Olympics erstmals in der Schweiz...",
+        "urn": "urn:rtr:video:6b0d33ef-61cc-4f0b-96df-b871fe8edf2f"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...einen halben Tag organisieren muss, und sich dann am Schluss von 2'500 Teilnehmenden nur eine Person für den Zivilschutz interessiert. Andere wollen keinen...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...einen halben Tag organisieren muss, und sich dann am Schluss von 2'500 Teilnehmenden nur eine Person für den Zivilschutz interessiert. Andere wollen keinen...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 140.0,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Frucht",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...bei -1 °C: Bei Minustemperaturen erfriert das Blütenorgan. Das ist hier der Fruchtstempel und hinten die Frucht. Und wenn dieses Organ erfriert, gibt es keine...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...bei -1 °C: Bei Minustemperaturen erfriert das Blütenorgan. Das ist hier der Fruchtstempel und hinten die Frucht. Und wenn dieses Organ erfriert, gibt es keine...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 126.0,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wasser",
+    "spike": 74.7,
+    "target_count": 16,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Jetzt im Frühling kommt man sogar zu Fuss dahin, weil es im Stausee wenig Wasser hat. Aber: Die Insel braucht aufwendige Pflege, sonst geht sie unter. Rolf...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...so gewinnt man 4 °C: Durch das Beregnen der ganzen Wiese gefriert das Wasser auf dem Gras. Durch das Gefrieren von Wasser wird Wärme freigesetzt, die dann...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Fall und könnte ein wichtiges Urteil gewesen sein. Das Urteil dürfte wie Wasser auf die Mühlen dieses Mannes sein: Cory Doctorow. Seit Jahren kritisiert er...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jetzt im Frühling kommt man sogar zu Fuss dahin, weil es im Stausee wenig Wasser hat. Aber: Die Insel braucht aufwendige Pflege, sonst geht sie unter. Rolf...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...so gewinnt man 4 °C: Durch das Beregnen der ganzen Wiese gefriert das Wasser auf dem Gras. Durch das Gefrieren von Wasser wird Wärme freigesetzt, die dann...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 118.3,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "tief Lag",
+    "spike": 70.0,
+    "target_count": 20,
+    "unit_count": 3,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...Gegen Abend und in der Nacht sinkt teils die Schneefallgrenze bis in die tiefsten Lagen. Flachland haben wir typisches Aprilwetter. Es kann Graupelschauer,...",
+        "urn": "urn:srf:video:521c650f-fb41-4a30-8cd4-7d5320d7a18c"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...wird es immer kälter, und im Lauf des Abends sinkt die Schneefallgrenze immer tiefer. In höheren Lagen wird viel Neuschnee erwartet. In tieferen Lagen rüsten sich...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...hereingezogen ist, wird es immer kälter. Die Schneefallgrenze sinkt bis in tiefe Lagen. Besonders am Nordhang gibt es dadurch sehr viel Neuschnee, und die...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...hereingezogen ist, wird es immer kälter. Die Schneefallgrenze sinkt bis in tiefe Lagen. Besonders am Nordhang gibt es dadurch sehr viel Neuschnee, und die...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...direkt vom Norden. Sie ist zwischen dem Hochdruckgebiet im Westen und dem Tiefdruckgebiet im Norden direkt in den Alpenraum geflossen. Die Luft ist nicht nur...",
+        "urn": "urn:srf:video:708b3baa-fc27-4236-973f-155f69fd8a7b"
+      }
+    ],
+    "score": 110.9,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rom",
+    "spike": 70.0,
+    "target_count": 15,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Englands. Sarah Mullally ist heute in Canterbury, quasi dem anglikanischen Rom, feierlich in ihr Amt als Erzbischöfin eingeführt worden. Die ehemalige...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Englands. Sarah Mullally ist heute in Canterbury, quasi dem anglikanischen Rom, feierlich als Kirchenoberhaupt inthronisiert worden. Als Erzbischöfin von...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Kaffee trinkt, und in der Schweiz, wo er arbeitet. Das Verhältnis zwischen Rom und Bern sei belastet. Wenn ich das wirkliche Problem ausmachen muss, dann...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Englands. Sarah Mullally ist heute in Canterbury, quasi dem anglikanischen Rom, feierlich als Kirchenoberhaupt inthronisiert worden. Als Erzbischöfin von...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 110.9,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Ogoz",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...aktuell\" Dort geht es ums Frühlingserwachen auf der paradiesischen Insel Ogoz im Kanton Freiburg, die für kurze Zeit ausnahmsweise zu Fuss erreichbar ist...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Schutzkonzept wurde der mutmassliche Täter lange nicht überführt. Die Insel Ogoz im Greyezersee ist beliebt für Ausflüge oder Hochzeiten. Gross ist der...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Schutzkonzept wurde der mutmassliche Täter lange nicht überführt. Die Insel Ogoz im Greyezersee ist beliebt für Ausflüge oder Hochzeiten. Gross ist der...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 98.0,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Sturm",
+    "spike": 91.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Meteo",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...nicht auf. Es kommt eine Kaltfront. Und vor dieser Kaltfront gab es bereits Sturmböen und in den Bergen sogar Orkanböen. Die Kaltfront hat den Jura bereits...",
+        "urn": "urn:srf:video:521c650f-fb41-4a30-8cd4-7d5320d7a18c"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...wappnen sich für die kommenden Tage: Eine Kaltfront bringt nochmals Frost, Sturm und Schnee. Was gilt denn nun? Einerseits verlegt das US-Militär offenbar...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wappnen sich für die kommenden Tage: Eine Kaltfront bringt nochmals Frost, Sturm und Schnee. Was gilt denn nun? Einerseits verlegt das US-Militär offenbar...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 91.0,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Anwalt",
+    "spike": 91.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...keiner seiner Teamkollegen habe ihn kontrolliert. Mir fragen nach beim Anwalt der Kitainhaberin: Es hat niemand mitbekommen, dass solche Übergriffe...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...3 Mio. $ Schadensersatz zugesprochen. Ein wichtiges Signal, findet der Anwalt. Allein aufgrund der Funktionen, die zur Sucht führen, können diese...",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...keiner seiner Teamkollegen habe ihn kontrolliert. Mir fragen nach beim Anwalt der Kitainhaberin: Es hat niemand mitbekommen, dass solche Übergriffe...",
+        "urn": "urn:srf:video:3417ce9a-f8af-4b88-b36a-6ac28ff234e4"
+      }
+    ],
+    "score": 91.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Timon Haugan",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...am Ende nicht ganz ins Ziel retten - zu stark war kurz zuvor die Fahrt von Timon Haugan. Dem Norweger, der zur Rennhälfte auf Rang 3 lag, gelingt eine entfesselte...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...am Ende nicht ganz ins Ziel retten - zu stark war kurz zuvor die Fahrt von Timon Haugan. Dem Norweger, der zur Rennhälfte auf Rang 3 lag, gelingt eine entfesselte...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...am Ende nicht ganz ins Ziel retten - zu stark war kurz zuvor die Fahrt von Timon Haugan. Dem Norweger, der zur Rennhälfte auf Rang 3 lag, gelingt eine entfesselte...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "global anglikanisch Kirche",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...von London. Als Erzbischöfin von Canterbury ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85 Mio. Gläubigen. Und die höchstrangige weibliche Geistliche in...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Vielen Dank Ihnen beiden. Der Krieg im Nahen Osten bringt weiterhin auch den globalen Ölmarkt durcheinander - der Ölpreis steigt: Das merken die amerikanischen Konsu- menten schnell...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Vielen Dank Ihnen beiden. Der Krieg im Nahen Osten bringt weiterhin auch den globalen Ölmarkt durcheinander - der Ölpreis steigt: Das merken die amerikanischen Konsu- menten schnell...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "15-Punkte-Plan",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...haben dem Iran offenbar ein Angebot gemacht für einen Waffenstillstand. Ein 15-Punkte-Plan soll durch Vermittlung von Pakistan, der Türkei und Ägypten an den Iran...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...die amerikanische Regierung dem Kriegsgegner Iran während Verhandlungen einen 15-Punkte-Plan für eine Waffenruhe vorgelegt haben. Der Iran spottet bloss - die USA...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die amerikanische Regierung dem Kriegsgegner Iran während Verhandlungen einen 15-Punkte-Plan für eine Waffenruhe vorgelegt haben. Der Iran spottet bloss - die USA...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "500-jährigen Geschichte",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Es ist eine Premiere in der anglikanischen Kirche: Erstmals in der bald 500-jährigen Geschichte steht eine Frau an der Spitze der Kirche Englands. Sarah Mullally ist heute...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Es ist eine Premiere in der anglikanischen Kirche: Erstmals in der bald 500-jährigen Geschichte steht eine Frau an der Spitze der Kirche Englands. Sarah Mullally ist heute...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Es ist eine Premiere in der anglikanischen Kirche: Erstmals in der bald 500-jährigen Geschichte steht eine Frau an der Spitze der Kirche Englands. Sarah Mullally ist heute...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Erzbischöfin von Canterbury",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Die ehemalige Krankenpflegerin war zuvor erste Bischöfin von London. Als Erzbischöfin von Canterbury ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...anglikanischen Rom, feierlich als Kirchenoberhaupt inthronisiert worden. Als Erzbischöfin von Canterbury ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...anglikanischen Rom, feierlich als Kirchenoberhaupt inthronisiert worden. Als Erzbischöfin von Canterbury ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "holprig Starthang",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...als Halbzeitführender aus dem Starthaus. Der Schweizer verliert nach einem holprigen Starthang jedoch bereits viel Zeit - und kann seinen Vorsprung am Ende nicht ganz ins...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...als Halbzeitführender aus dem Starthaus. Der Schweizer verliert nach einem holprigen Starthang jedoch bereits viel Zeit - und kann seinen Vorsprung am Ende nicht ganz ins...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...als Halbzeitführender aus dem Starthaus. Der Schweizer verliert nach einem holprigen Starthang jedoch bereits viel Zeit - und kann seinen Vorsprung am Ende nicht ganz ins...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mio. Gläubige",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85 Mio. Gläubigen. Und die höchstrangige weibliche Geistliche in der Geschichte der...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85 Mio. Gläubigen. Von einer Frau geführt zu werden, passt jedoch bei Weitem nicht allen....",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist sie auch das Oberhaupt der globalen anglikanischen Kirche mit rund 85 Mio. Gläubigen. Von einer Frau geführt zu werden, passt jedoch bei Weitem nicht allen....",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "hervorragend Saison",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Saison, schaffte es aber dennoch aufs Podest. Loic Meillard lässt seine hervorragende Saison mit einem weiteren Podestplatz ausklingen. Der Olympiasieger wird im Slalom...",
+        "urn": "urn:srf:video:7e318c74-bed1-4646-a605-97ad0ffd66f9"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Schweizer Sicht erfolgreich - dank Loic Meillard. Loic Meillard lässt seine hervorragende Saison mit einem weiteren Podestplatz ausklingen. Der Olympiasieger wird im Slalom...",
+        "urn": "urn:srf:video:24775d34-a900-42b5-8372-dd6fdad78805"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Schweizer Sicht erfolgreich - dank Loic Meillard. Loic Meillard lässt seine hervorragende Saison mit einem weiteren Podestplatz ausklingen. Der Olympiasieger wird im Slalom...",
+        "urn": "urn:srf:video:eae19542-e39d-472e-bed0-cf4a81755572"
+      }
+    ],
+    "score": 84.0,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]

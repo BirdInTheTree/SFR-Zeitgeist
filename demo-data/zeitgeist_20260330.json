@@ -1,0 +1,1390 @@
+[
+  {
+    "phrase": "Cyberangriff",
+    "spike": 252.0,
+    "target_count": 18,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...zur \"Tagesschau\" mit dem Wichtigsten am Montagmittag, kurz und kompakt. 325 Cyberangriffe auf kritische Infrastrukturen sind dem Bund im vergangenen Jahr gemeldet...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht unter Cyberangriff. Der Bund spricht von immer mehr solcher Straftaten. Und sie können alle...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Tankstelle fast 30 Rp. beträgt. In der Schweiz gab's im letzten Jahr 65'000 Cyberangriffe - wo und wie die Täter zuschlagen. Die Paintballer kämpfen gegen ihren...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht unter Cyberangriff. Der Bund spricht von immer mehr solcher Straftaten. Und sie können alle...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 399.4,
+    "rank": 1,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Spielzeug",
+    "spike": 238.0,
+    "target_count": 17,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...der Ostschweiz aus. Sie haben es v.a. auf teure Autos abgesehen. Spielen ohne Spielzeug - das probieren einige Kindergärten aus, z.B. jener in Kaiseraugst, zumindest...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...In der Wohnung von Markus von Känel in Bern. Eigentlich ist es eher ein Spielzeugparadies. Ein Zimmer ist den \"Masters of the Universe\" gewidmet, einer...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...auch Spielsachen. Im \"Eco Talk\" sprechen wir gleich über den Schweizer Spielzeugmarkt, und wir wollen von den Experten wissen, was gutes Spielzeug...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Ostschweiz aus. Sie haben es v.a. auf teure Autos abgesehen. Spielen ohne Spielzeug - das probieren einige Kindergärten aus, z.B. jener in Kaiseraugst, zumindest...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...In der Wohnung von Markus von Känel in Bern. Eigentlich ist es eher ein Spielzeugparadies. Ein Zimmer ist den \"Masters of the Universe\" gewidmet, einer...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 377.2,
+    "rank": 2,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Spielsache",
+    "spike": 238.0,
+    "target_count": 17,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...wird in Kaiseraugst mit Tüchern, Hölzern und Seilen gespielt. Die Spielsachen bleiben sicher bis dann in den Ferien. So viel \"Schweiz aktuell\" für heute....",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...a disturbance in the force. Möge der Spieltrieb mit ihm sein. Alles rund um Spielsachen für Gross und Klein gibt es heute Abend im \"Eco Talk\" Andi Lüscher spricht...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Osternestern liegen immer häufiger nicht nur Schokoladehasen, sondern auch Spielsachen. Im \"Eco Talk\" sprechen wir gleich über den Schweizer Spielzeugmarkt, und...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...wird in Kaiseraugst mit Tüchern, Hölzern und Seilen gespielt. Die Spielsachen bleiben sicher bis dann in den Ferien. So viel \"Schweiz aktuell\" für heute....",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...a disturbance in the force. Möge der Spieltrieb mit ihm sein. Alles rund um Spielsachen für Gross und Klein gibt es heute Abend im \"Eco Talk\" Andi Lüscher spricht...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 377.2,
+    "rank": 3,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Sturz",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Muriel Furrer an der Rad-WM in Zürich tödlich verunfallt. Nach einem Sturz blieb sie während mehr als 1 Std. unentdeckt. Die Zürcher Staatsanwaltschaft...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...abgeschlossen. Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jour- nalistin Karin A. Wenger gesprochen. Syrien, anderthalb Jahre nach dem Sturz des Assad-Regimes. So sieht es in Aleppo, der einst stolzen...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...abgeschlossen. Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jour- nalistin Karin A. Wenger gesprochen. Syrien, anderthalb Jahre nach dem Sturz des Assad-Regimes. So sieht es in Aleppo, der einst stolzen...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 266.3,
+    "rank": 4,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Cybersicherheit",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...gemeldet werden. Und das zahle sich aus, sagt der Direktor des Bundesamts für Cybersicherheit anlässlich der Vorstellung des Halbjahresberichts. Ja, wir haben schon erste...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...oder das Phishing-Mail mit der Klickaufforderung: Laut dem Bundesamt für Cybersicherheit gehören solche Vorfälle immer mehr zum Alltag. Die Botschaft lautet deshalb:...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      }
+    ],
+    "score": 210.0,
+    "rank": 5,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Halbjahresbericht",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Direktor des Bundesamts für Cybersicherheit anlässlich der Vorstellung des Halbjahresberichts. Ja, wir haben schon erste statistische Einblicke. Z.B, dass Behörden am...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...lautet deshalb: Unbedingt wachsam bleiben. Denn auch das zeigt der neue Halbjahresbericht: Ein Cyberangriff kann jede und jeden treffen. Rafael von Matt hat einige...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      }
+    ],
+    "score": 210.0,
+    "rank": 6,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Andi Lüscher",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...rund um Spielsachen für Gross und Klein gibt es heute Abend im \"Eco Talk\" Andi Lüscher spricht mit seinen Gästen über Trends, die chinesische Konkurrenz und...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...in unseren Bildern des Tages. Zuerst aber zum Hinweis auf den \"Eco Talk\" mit Andi Lüscher. Nächstes Wochenende ist Ostern. In den Osternestern liegen immer häufiger...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...rund um Spielsachen für Gross und Klein gibt es heute Abend im \"Eco Talk\" Andi Lüscher spricht mit seinen Gästen über Trends, die chinesische Konkurrenz und...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 182.0,
+    "rank": 7,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Netanjahu",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Israel und die Golfstaaten -, während sich Israels Ministerpräsident Benjamin Netanjahu zu seinen Zielen äussert. Ihm geht es auch um den Süd-Libanon, dort weitet er...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...rechtsextremen Minister Itamar Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Auf der Gegenseite war die Rede von einem diskriminierenden...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Israel und die Golfstaaten -, während sich Israels Ministerpräsident Benjamin Netanjahu zu seinen Zielen äussert. Ihm geht es auch um den Süd-Libanon, dort weitet er...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 182.0,
+    "rank": 8,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "unbekannt Nummer",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Ist da was dran? Wir haben nachgefragt. Dann: Ein seltsamer Anruf von einer unbekannten Nummer oder ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...hat beim Obersten Gericht bereits Klage eingereicht. Der Anruf von einer unbekannten Nummer, das SMS mit einer Zahlungserinnerung oder das Phishing-Mail mit der...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Ist da was dran? Wir haben nachgefragt. Dann: Ein seltsamer Anruf von einer unbekannten Nummer oder ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 182.0,
+    "rank": 9,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "deutlich Gewinn",
+    "spike": 182.0,
+    "target_count": 13,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...und soziale Themen mehr Gewicht haben. Der Trend in den Kantonen also: deutliche Gewinne für die SVP und eine Umschichtung im linksgrünen Lager. Unter dem Strich...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...neuen Woche weiter? Wir untertiteln in Echtzeit: wir sehen weiterhin einen deutlichen Preisanstieg, u.a. auch, weil es über das Wochenende von Donald Trump die...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...und soziale Themen mehr Gewicht haben. Der Trend in den Kantonen also: deutliche Gewinne für die SVP und eine Umschichtung im linksgrünen Lager. Unter dem Strich...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 182.0,
+    "rank": 10,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Al-Scharaa",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...auf srf.ch/news oder der SRF News App. Der syrische Übergangspräsident Ahmed al-Scharaa ist zu Besuch in Berlin. Heute Morgen wurde er vom deutschen...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 168.0,
+    "rank": 11,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "syrisch Übergangspräsident Ahmed al-Scharaa",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...der ETH. Mehr dazu auf srf.ch/news oder der SRF News App. Der syrische Übergangspräsident Ahmed al-Scharaa ist zu Besuch in Berlin. Heute Morgen wurde er vom deutschen...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Was heisst das für die nationalen Wahlen in eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Was heisst das für die nationalen Wahlen in eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 168.0,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Ahmed al-Scharaa",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...dazu auf srf.ch/news oder der SRF News App. Der syrische Übergangspräsident Ahmed al-Scharaa ist zu Besuch in Berlin. Heute Morgen wurde er vom deutschen...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 168.0,
+    "rank": 13,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Friedrich Merz",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Bellevue empfangen. Später auf dem Programm steht ein Treffen mit Kanzler Friedrich Merz. Themen sind dabei die Rückführung syrischer Flüchtlinge und die Hilfe beim...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Alexandra Gubser sagt: Es ist der bisher heikelste Staatsbesuch für Friedrich Merz, sein Gast: ein schwieriger. Dem Kanzler ist wohl bewusst, dass al-Scharaa...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Alexandra Gubser sagt: Es ist der bisher heikelste Staatsbesuch für Friedrich Merz, sein Gast: ein schwieriger. Dem Kanzler ist wohl bewusst, dass al-Scharaa...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 168.0,
+    "rank": 14,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Dritteinwirkung",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...relevantes Vergehen festgestellt, wie sie heute mitteilt. Weder konnte eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...zum Unfall abgeschlossen. Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...zum Unfall abgeschlossen. Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 15,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Streckensicherung",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder der Nothilfe nach dem Unfall festgestellt werden. Während in unseren...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen können. Lange war die Kritik am...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen können. Lange war die Kritik am...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 16,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Muriel Furrer",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Jahr 2017. Vor eineinhalb Jahren ist die Zürcher Nachwuchs- radrennfahrerin Muriel Furrer an der Rad-WM in Zürich tödlich verunfallt. Nach einem Sturz blieb sie...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Eineinhalb Jahre ist es her, dass die Zürcher Nachwuchs- Velorennfahrerin Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Eineinhalb Jahre ist es her, dass die Zürcher Nachwuchs- Velorennfahrerin Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 17,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Zürcher Staatsanwaltschaft",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Nach einem Sturz blieb sie während mehr als 1 Std. unentdeckt. Die Zürcher Staatsanwaltschaft hat nun die Untersuchung zum Unfall abgeschlossen und kein strafrechtlich...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher Staatsanwaltschaft hat jetzt die Untersuchung zum Unfall abgeschlossen. Sie teilt heute mit, sie...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher Staatsanwaltschaft hat jetzt die Untersuchung zum Unfall abgeschlossen. Sie teilt heute mit, sie...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 18,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Pflichtverletzung",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...sie heute mitteilt. Weder konnte eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder der Nothilfe nach dem Unfall...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Sie teilt heute mit, sie habe weder eine Dritteinwirkung beim Sturz noch eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 19,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Nothilfe",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder der Nothilfe nach dem Unfall festgestellt werden. Während in unseren Breitengraden...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen können. Lange war die Kritik am Veranstalter besonders gross,...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eine Pflichtverletzung im Zusammenhang mit der Streckensicherung oder bei der Nothilfe feststellen können. Lange war die Kritik am Veranstalter besonders gross,...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 20,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rad-WM",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Jahren ist die Zürcher Nachwuchs- radrennfahrerin Muriel Furrer an der Rad-WM in Zürich tödlich verunfallt. Nach einem Sturz blieb sie während mehr als 1...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...ist es her, dass die Zürcher Nachwuchs- Velorennfahrerin Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher Staatsanwaltschaft hat...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist es her, dass die Zürcher Nachwuchs- Velorennfahrerin Muriel Furrer an der Rad-WM in Zürich einen tödlichen Unfall hatte. Die Zürcher Staatsanwaltschaft hat...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 21,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Versicherung",
+    "spike": 126.0,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...worden - aus der Verwaltung, dem Telekommunikationssektor, von Banken oder Versicherungen. Seit einem Jahr müssen Cyberangriffe auf kritische Infrastrukturen von...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...hofft jetzt, dass die Polizei die gestohlenen Autos findet und dass ihm die Versicherung irgendwie entgegenkommt. Kindergartenerinnerungen: Dort gab es doch eine...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...hofft jetzt, dass die Polizei die gestohlenen Autos findet und dass ihm die Versicherung irgendwie entgegenkommt. Kindergartenerinnerungen: Dort gab es doch eine...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec"
+      }
+    ],
+    "score": 126.0,
+    "rank": 22,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wiederaufbau",
+    "spike": 112.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Themen sind dabei die Rückführung syrischer Flüchtlinge und die Hilfe beim Wiederaufbau des vom Bürgerkrieg schwer zerstörten Landes. Der Besuch wird von Protesten...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...will, dass in sein Land investiert wird. Syrien braucht Unterstützung beim Wiederaufbau. Der Beitrag von Katrin Stephani. Roter Teppich beim Schloss Bellevue, als...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...will, dass in sein Land investiert wird. Syrien braucht Unterstützung beim Wiederaufbau. Der Beitrag von Katrin Stephani. Roter Teppich beim Schloss Bellevue, als...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 112.0,
+    "rank": 23,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Bürgerkrieg",
+    "spike": 112.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...die Rückführung syrischer Flüchtlinge und die Hilfe beim Wiederaufbau des vom Bürgerkrieg schwer zerstörten Landes. Der Besuch wird von Protesten begleitet. Al-Scharaa...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...manche vielleicht vor über einem Jahr erwartet hätten. Es gibt keinen grossen Bürgerkrieg, aber die Sicherheitslage ist fragil. Wo das Land hinsteuert - sicher nicht...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...manche vielleicht vor über einem Jahr erwartet hätten. Es gibt keinen grossen Bürgerkrieg, aber die Sicherheitslage ist fragil. Wo das Land hinsteuert - sicher nicht...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 112.0,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Roger Federer",
+    "spike": 112.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...das zu seinem 26. Karrieretitel und dem Sunshine Double - dem ersten seit Roger Federer im Jahr 2017. Vor eineinhalb Jahren ist die Zürcher Nachwuchs-...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...- und das ist ein Rekord. Bruno Amstutz. Marco Odermatt! Das hat nicht einmal Roger Federer geschafft: Zum fünften Mal in Folge wird Marco Odermatt zum Sportler des...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...- und das ist ein Rekord. Bruno Amstutz. Marco Odermatt! Das hat nicht einmal Roger Federer geschafft: Zum fünften Mal in Folge wird Marco Odermatt zum Sportler des...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 112.0,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Schloss Bellevue",
+    "spike": 112.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Morgen wurde er vom deutschen Bundespräsidenten Frank-Walter Steinmeier am Schloss Bellevue empfangen. Später auf dem Programm steht ein Treffen mit Kanzler Friedrich...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...beim Wiederaufbau. Der Beitrag von Katrin Stephani. Roter Teppich beim Schloss Bellevue, als Syriens Übergangspräsident al-Scharaa vorfährt. Es ist ein Zeichen der...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...beim Wiederaufbau. Der Beitrag von Katrin Stephani. Roter Teppich beim Schloss Bellevue, als Syriens Übergangspräsident al-Scharaa vorfährt. Es ist ein Zeichen der...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 112.0,
+    "rank": 26,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Aufhellung",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Meteo",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...zu \"SRF Meteo\" Nebst dem nassen Winterwetter gibt es heute doch noch einige Aufhellungen. Am Bodensee konnte man einen Regenbogen bewundern. Aber das bedeutet keine...",
+        "urn": "urn:srf:video:5f66c2de-b8de-4d4a-9a85-15729fe82a26"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...der Schweiz und blieb im Mittelland lange weitgehend unentdeckt. Teils mit Aufhellungen, in den Alpen schneit's. Im Süden ist es meist sonnig. Die SVP ist die...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Schweiz und blieb im Mittelland lange weitgehend unentdeckt. Teils mit Aufhellungen, in den Alpen schneit's. Im Süden ist es meist sonnig. Die SVP ist die...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 27,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "syrisch Flüchtling Deutschland",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...aber übertrieben, unrealistisch und irrational. In Berlin wurde heute der syrische Übergangspräsident Ahmed al-Scharaa von der deutschen Bundesregierung zu Gesprächen empfangen. Der...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Was heisst das für die nationalen Wahlen in eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Was heisst das für die nationalen Wahlen in eineinhalb Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 28,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "al-Scharaa",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...und irrational. In Berlin wurde heute der syrische Übergangspräsident Ahmed al-Scharaa von der deutschen Bundesregierung zu Gesprächen empfangen. Der Besuch wird...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jahren? Der syrische Übergangspräsident und ehemalige Dschihadist Ahmed al-Scharaa weilt in Berlin. Es ist der bislang heikelste Staatsbesuch für Bundeskanzler...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 29,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "deutsch Unternehmen",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Berlin wurde heute der syrische Übergangspräsident Ahmed al-Scharaa von der deutschen Bundesregierung zu Gesprächen empfangen. Der Besuch wird von Protesten begleitet....",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...an, als wolle man den amerikanischen Forderungen entgegenkommen. Für viele in Deutschland ist es der umstrittenste Staatsbesuch des Jahres. Gemeint ist der Besuch des...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...an, als wolle man den amerikanischen Forderungen entgegenkommen. Für viele in Deutschland ist es der umstrittenste Staatsbesuch des Jahres. Gemeint ist der Besuch des...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 30,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "EU-Länder",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...der Schweizer Detailhandelsverband auch hierzulande eine Lösung. Wenn die EU-Länder eine solche Bearbeitungsgebühr einführen und die Schweiz als Herz Europas...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sich der Druck auf die Schweiz, heisst es beim Detailhandelsverband. Wenn die EU-Länder eine solche Bearbeitungsgebühr einführen und die Schweiz als Herz Europas...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sich der Druck auf die Schweiz, heisst es beim Detailhandelsverband. Wenn die EU-Länder eine solche Bearbeitungsgebühr einführen und die Schweiz als Herz Europas...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 31,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Syrer/-inn",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Jahre, das ist auch der Wunsch von Präsident al-Scharaa, sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren....",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Jahre, das ist auch der Wunsch von Präsident al-Scharaa, sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren....",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Jahre, das ist auch der Wunsch von Präsident al-Scharaa, sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren....",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 32,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "EU-Land",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [],
+    "score": 98.0,
+    "rank": 33,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Onlinehandel",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Europa und die Schweiz. Durch die wachsende Zahl kleiner Sendungen aus dem Onlinehandel steigen die Kosten für die Kontrollen bei der Einfuhr. Die EU hat deshalb...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...bereits jetzt gefordert, wegen der wachsenden Zahl kleiner Sendungen aus dem Onlinehandel. Falschdeklarationen oder mangelnde Produktsicherheit sind bei Billigimporten...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...bereits jetzt gefordert, wegen der wachsenden Zahl kleiner Sendungen aus dem Onlinehandel. Falschdeklarationen oder mangelnde Produktsicherheit sind bei Billigimporten...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 34,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Heimatland",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren. Al-Scharaa dankt Deutschland für die Aufnahme der Flüchtlinge....",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren. Al-Scharaa heisst alle Flüchtlinge willkommen, die nach Syrien...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sollen rund 80 % der Syrer/-innen, die sich in Deutschland aufhalten, in ihr Heimatland zurückkehren. Al-Scharaa heisst alle Flüchtlinge willkommen, die nach Syrien...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 35,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Mio. Euro",
+    "spike": 98.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...wie erst jetzt bekannt wird. Der Gesamtwert der Bilder wird auf bis zu 9 Mio. Euro geschätzt. Der Einbruch geschah laut der Kunststiftung mitten in der Nacht...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...angekurbelt. Für Syriens Wiederaufbau hat Deutschland bereits Zusagen von 218 Mio. Euro gemacht. Allerdings fliesst das Geld nicht an staatliche Stellen, sondern an...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...angekurbelt. Für Syriens Wiederaufbau hat Deutschland bereits Zusagen von 218 Mio. Euro gemacht. Allerdings fliesst das Geld nicht an staatliche Stellen, sondern an...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf"
+      }
+    ],
+    "score": 98.0,
+    "rank": 36,
+    "imageUrl": ""
+  }
+]
