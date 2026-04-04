@@ -1,124 +1,14 @@
 [
   {
-    "phrase": "Milch",
-    "spike": 322.0,
-    "target_count": 23,
-    "unit_count": 4,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt aufhorchen: Bei rund einem Drittel...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...wie das alte Handwerk dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...sie lagern in Böden, im Wasser, gelangen in die Nahrung - z.B. in die Milch - und letztlich in den menschlichen Körper. Die Kantone Zürich und die beiden...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte in der Milch erhöht sind. Die wichtigsten Fakten zu Herkunft und Folgen der...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...wie das alte Handwerk dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 644.0,
-    "rank": 1,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Appenzell Ausserrhoden",
-    "spike": 322.0,
-    "target_count": 23,
-    "unit_count": 4,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...sorgen immer wieder für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...können. Wie viel PFAS gibt es auf den Bauernhöfen? Das wollten die Kantone Appenzell Ausserrhoden, Appenzell Innerrhoden und Zürich wissen und nahmen deshalb in den letzten...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Der Richtwert der EU wird teilweise deutlich überschritten. Remi Bütler. Appenzell Ausserrhoden - ein Kanton mit viel Landwirtschaft, Ewigkeitschemikalien in der Milch und...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...können. Wie viel PFAS gibt es auf den Bauernhöfen? Das wollten die Kantone Appenzell Ausserrhoden, Appenzell Innerrhoden und Zürich wissen und nahmen deshalb in den letzten...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 644.0,
-    "rank": 2,
-    "imageUrl": ""
-  },
-  {
     "phrase": "PFAS",
+    "lemma": "PFAS",
     "spike": 322.0,
     "target_count": 23,
-    "unit_count": 4,
+    "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
       "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -133,47 +23,116 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...TXT Das ist die erste \"Tagesschau\" heute Donnerstag, herzlich willkommen. PFAS, die sog. Ewigkeits-Chemikalien, sorgen immer wieder für Schlagzeilen. Der...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...Handwerk dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln und dort...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...- weil sie kaum abbaubar sind. Für den Menschen sind die sog. PFAS gesundheitsgefährdend. Die Stoffe kommen in Kosmetik- artikeln vor, in...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte in der Milch erhöht sind. Die wichtigsten Fakten zu Herkunft und Folgen...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Handwerk dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln und dort...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
-    "score": 644.0,
-    "rank": 3,
-    "imageUrl": ""
+    "score": 510.4,
+    "rank": 1,
+    "imageUrl": "../demo-data/cropped/20260326_01_PFAS.jpg",
+    "timecode": "00:00:13.182",
+    "airTime": "12:45"
   },
   {
-    "phrase": "Ewigkeitschemikalie",
-    "spike": 238.0,
-    "target_count": 17,
-    "unit_count": 4,
+    "phrase": "Appenzell Ausserrhoden",
+    "lemma": "Appenzell Ausserrhoden",
+    "spike": 322.0,
+    "target_count": 23,
+    "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
       "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
+      "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...sorgen immer wieder für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt...",
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...können. Wie viel PFAS gibt es auf den Bauernhöfen? Das wollten die Kantone Appenzell Ausserrhoden, Appenzell Innerrhoden und Zürich wissen und nahmen deshalb in den letzten...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Der Richtwert der EU wird teilweise deutlich überschritten. Remi Bütler. Appenzell Ausserrhoden - ein Kanton mit viel Landwirtschaft, Ewigkeitschemikalien in der Milch und...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...können. Wie viel PFAS gibt es auf den Bauernhöfen? Das wollten die Kantone Appenzell Ausserrhoden, Appenzell Innerrhoden und Zürich wissen und nahmen deshalb in den letzten...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      }
+    ],
+    "score": 510.4,
+    "rank": 2,
+    "imageUrl": "../demo-data/cropped/20260326_02_Appenzell_Ausserrhoden.jpg",
+    "timecode": "00:00:18.268",
+    "airTime": "12:45"
+  },
+  {
+    "phrase": "Ewigkeitschemikalien",
+    "lemma": "Ewigkeitschemikalie",
+    "spike": 238.0,
+    "target_count": 17,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -188,442 +147,89 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...US-Regierung aber bislang als einseitig und unfair abgelehnt. PFAS, die sog. Ewigkeitschemikalien, sorgen immer wieder für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell...",
-        "urn": "urn:srf:video:61158b70-7f15-4080-aa9f-eeb2f72685dc"
+        "urn": "urn:srf:video:61158b70-7f15-4080-aa9f-eeb2f72685dc",
+        "startTime": "2026-03-26T18:00:00+01:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln und dort Schaden anrichten...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...So, wie es ursprünglich vorgesehen war. Umgangssprachlich nennt man sie Ewigkeitschemikalien - weil sie kaum abbaubar sind. Für den Menschen sind die sog. PFAS...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...in der Milch erhöht sind. Die wichtigsten Fakten zu Herkunft und Folgen der Ewigkeitschemikalien. Als erste weibliche Direktorin eines Männergefängnisses prägte Ines...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln und dort Schaden anrichten...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
-    "score": 476.0,
+    "score": 377.2,
+    "rank": 3,
+    "imageUrl": "../demo-data/cropped/20260326_03_Ewigkeitschemikalien.jpg",
+    "timecode": "00:01:15.771",
+    "airTime": "18:01"
+  },
+  {
+    "phrase": "Grundwasser",
+    "lemma": "Grundwasser",
+    "spike": 210.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Es begründet dies mit Risiken für Amphibien und Fische, ebenso für das Grundwasser. Chlorothalonil ist in der Schweiz seit sechs Jahren verboten, dagegen hatte...",
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Chemikalien kaum abbauen können, gelangen sie weiter in Gewässer und ins Grundwasser. Bis 2006 war es zudem erlaubt, Klärschlamm als Dünger auf...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
+      }
+    ],
+    "score": 210.0,
     "rank": 4,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "PFAS-Wert",
-    "spike": 280.0,
-    "target_count": 20,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt aufhorchen: Bei rund...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte in der Milch erhöht sind. Die wichtigsten Fakten zu Herkunft und Folgen der...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 443.8,
-    "rank": 5,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "PFAS-Werte",
-    "spike": 280.0,
-    "target_count": 20,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt aufhorchen: Bei rund...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte in der Milch erhöht sind. Die wichtigsten Fakten zu Herkunft und Folgen der...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 443.8,
-    "rank": 6,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Dach",
-    "spike": 224.0,
-    "target_count": 16,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Kids News",
-      "Telesguard"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Kids News",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Kids News",
-        "channel": "SRF 1",
-        "quote": "...du die Lösung bestimmt bald. Heimlich auf einen Zug klettern und auf dem Dach mitfahren - das klingt wie eine Szene aus einem Actionfilm, aber Trainsurfing...",
-        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
-      },
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...bereits verblüht sind, setzt man auf eine Kombination aus Kerzen und einem Dach, das die Wärme der Kerzen über Nacht in der Nähe der Bäume halten soll. Jedes...",
-        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...nicht nur Mietende, sondern auch Gemeinden, welche Bewohnern in Not ein Obdach bieten müssen. Die Recherche von Karin Bauer zeigt: Einige Gemeinden bringen...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      }
-    ],
-    "score": 355.0,
-    "rank": 7,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Probe",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...wissen und nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...ist es eine Bestätigung der Vorkenntnisse, die wir hatten - durch Gewässerproben, durch Bodenproben, auch durch Lebensmittelproben, die wir gemacht haben....",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...vorkommen, ist schon länger bekannt. Nun haben verschiedene Kantone Milchproben untersuchen lassen. Der Kanton Appenzell Ausserroden hat Milch von 169 Höfen...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...wissen und nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...ist es eine Bestätigung der Vorkenntnisse, die wir hatten - durch Gewässerproben, durch Bodenproben, auch durch Lebensmittelproben, die wir gemacht haben....",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 332.8,
-    "rank": 8,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Klärschlamm",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...oder Krebs auslösen. Vieles ist aber noch nicht so klar erforscht. Mit dem Klärschlamm seien die Ewigkeitschemikalien wahrscheinlich auf die Felder gekommen, heisst...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Ursachen sieht man im Kanton Appenzell Ausserrhoden neben Löschschaum auch Klärschlamm aus einer Kläranläge, mit dem noch in den 80er-Jahren gedüngt wurde. Schuld...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...sie weiter in Gewässer und ins Grundwasser. Bis 2006 war es zudem erlaubt, Klärschlamm als Dünger auf Landwirtschaftsböden aufzutragen. PFAS gelangen durch Böden...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...oder Krebs auslösen. Vieles ist aber noch nicht so klar erforscht. Mit dem Klärschlamm seien die Ewigkeitschemikalien wahrscheinlich auf die Felder gekommen, heisst...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Ursachen sieht man im Kanton Appenzell Ausserrhoden neben Löschschaum auch Klärschlamm aus einer Kläranläge, mit dem noch in den 80er-Jahren gedüngt wurde. Schuld...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 332.8,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Milchproben",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Zürich wissen und nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...10\"-Recherchen. Dann befassen auch wir uns mit den neuen PFAS-Messungen in Milchproben. Wir erklären, was die Ewigkeitschemikalien genau sind und wie gefährlich sie...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Umwelt vorkommen, ist schon länger bekannt. Nun haben verschiedene Kantone Milchproben untersuchen lassen. Der Kanton Appenzell Ausserroden hat Milch von 169 Höfen...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Zürich wissen und nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...10\"-Recherchen. Dann befassen auch wir uns mit den neuen PFAS-Messungen in Milchproben. Wir erklären, was die Ewigkeitschemikalien genau sind und wie gefährlich sie...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 332.8,
-    "rank": 10,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Käse",
-    "spike": 196.0,
-    "target_count": 14,
-    "unit_count": 3,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...die EU verbindliche PFAS-Höchstwerte für Lebensmittel einführen. Z.B. für Käse. Der Kanton Appenzell Ausserrhoden fordert nun Unterstützung vom Bund, um das...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...schon nächstes Jahr sein, liegt auf der Hand, dass z.B. Produzenten, die Käse in die EU exportieren, diese Milch nicht mehr annehmen würden. Das sagt...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Das könnte dann Schweizer Hersteller, die Nahrungsmittel wie z.B. Käse in die EU exportieren, empfindlich treffen. Die Ostschweizer Kantone fordern...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...schon nächstes Jahr sein, liegt auf der Hand, dass z.B. Produzenten, die Käse in die EU exportieren, diese Milch nicht mehr annehmen würden. Das sagt...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Das könnte dann Schweizer Hersteller, die Nahrungsmittel wie z.B. Käse in die EU exportieren, empfindlich treffen. Die Ostschweizer Kantone fordern...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 310.7,
-    "rank": 11,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Kanton Appenzell Ausserrhoden",
-    "spike": 196.0,
-    "target_count": 14,
-    "unit_count": 3,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...sorgen immer wieder für Schlagzeilen. Der jüngste Fall: Im Kanton Appenzell Ausserrhoden sind PFAS-Werte in der Milch getestet worden, und das Ergebnis lässt...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Im Kanton Appenzell Innerrhoden sind es 22 von 91 getesteten Höfen. Im Kanton Appenzell Ausserrhoden sind es 58, also mehr als jeder dritte der 169 untersuchten Höfe. Was heisst...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...22 von 91 und im Kanton Zürich 82 von 732. Als lokale Ursachen sieht man im Kanton Appenzell Ausserrhoden neben Löschschaum auch Klärschlamm aus einer Kläranläge, mit dem noch in den...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Im Kanton Appenzell Innerrhoden sind es 22 von 91 getesteten Höfen. Im Kanton Appenzell Ausserrhoden sind es 58, also mehr als jeder dritte der 169 untersuchten Höfe. Was heisst...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...22 von 91 und im Kanton Zürich 82 von 732. Als lokale Ursachen sieht man im Kanton Appenzell Ausserrhoden neben Löschschaum auch Klärschlamm aus einer Kläranläge, mit dem noch in den...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 310.7,
-    "rank": 12,
-    "imageUrl": ""
+    "imageUrl": "../demo-data/cropped/20260326_04_Grundwasser.jpg",
+    "timecode": "00:02:41.608",
+    "airTime": "12:47"
   },
   {
     "phrase": "Maria Keller",
+    "lemma": "Maria Keller",
     "spike": 196.0,
     "target_count": 14,
-    "unit_count": 3,
+    "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -636,278 +242,40 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...- einen schönen Abend. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
-        "urn": "urn:srf:video:61158b70-7f15-4080-aa9f-eeb2f72685dc"
+        "urn": "urn:srf:video:61158b70-7f15-4080-aa9f-eeb2f72685dc",
+        "startTime": "2026-03-26T18:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...Abend. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Nacht. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Abend. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
-    "score": 310.7,
-    "rank": 13,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "lang",
-    "spike": 252.0,
-    "target_count": 18,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Meteo"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Meteo",
-      "Meteo in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Meteo",
-        "channel": "SRF 1",
-        "quote": "...Die Schneefallgrenze liegt zwischen 408 100 m. Am Sonntag zieht das Ganze langsam Richtung Osten ab. Im Süden und im Westen, dem Jura entlang, kann sich die...",
-        "urn": "urn:srf:video:178084c6-4c37-4172-9885-e981a0fd6ea6"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...sind Teil unserer Umwelt und von uns selbst geworden - und das schon vor langer Zeit. In den 1930er-Jahren entdeckte der amerikanische Chemiker Roy...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Meteo in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Die Schneefallgrenze liegt zwischen 408 100 m. Am Sonntag zieht das Ganze langsam Richtung Osten ab. Im Süden und im Westen, dem Jura entlang, kann sich die...",
-        "urn": "urn:srf:video:06725d98-b33a-49a0-a17e-e51b6f3fd4c4"
-      }
-    ],
-    "score": 252.0,
-    "rank": 14,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Grundwasser",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Es begründet dies mit Risiken für Amphibien und Fische, ebenso für das Grundwasser. Chlorothalonil ist in der Schweiz seit sechs Jahren verboten, dagegen hatte...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Chemikalien kaum abbauen können, gelangen sie weiter in Gewässer und ins Grundwasser. Bis 2006 war es zudem erlaubt, Klärschlamm als Dünger auf...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      }
-    ],
-    "score": 210.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "effektiv Methode",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Telesguard"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...ist, wie es ist, und man ist darum bereit für den Kampf gegen den Frost. Die effektivste Methode: Kälte mit Kälte zu bekämpfen oder besser gesagt mit Eis. Überall auf den...",
-        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...zu finden - das zeigt eine Auswertung von 146 Messstationen von 2022. Die effektivste Methode, PFAS zu bekämpfen, ist, dass sie gar nicht in die Umwelt gelangen, dass...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      }
-    ],
-    "score": 210.0,
-    "rank": 16,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Weste",
-    "spike": 210.0,
-    "target_count": 15,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Telesguard"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...die Ecke schicken? Wir haben noch einen Schalter. Romeo? Gut! Das ist deine Weste. Leopold. Ich nehme dein Ticket, bitte. Nein, Red King ist eine andere...",
-        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...macht. Nach über 50 Jahren hat dieser ausgedient und wird nun von einer Weste abgelöst. Grund dafür sind strengere Vorgaben zur Sichtbarkeit im...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      }
-    ],
-    "score": 210.0,
-    "rank": 17,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Kläranlage",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...auf die Felder gekommen, heisst es vom Kanton Appenzell Ausserrhoden. In die Kläranlage sei z.B. das Abwasser der Textilindustrie und anderen Betrieben gekommen. Vor...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...der Industrie, aber auch aus Haushalten, etwa beim Waschen von Textilien. Da Kläranlagen diese Chemikalien kaum abbauen können, gelangen sie weiter in Gewässer und...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...auf die Felder gekommen, heisst es vom Kanton Appenzell Ausserrhoden. In die Kläranlage sei z.B. das Abwasser der Textilindustrie und anderen Betrieben gekommen. Vor...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 168.0,
-    "rank": 18,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Beweis",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...zu wenig gut sichtbar gewesen war. Die Polizei wollte das Gegenteil beweisen. Dann ist aber herausgekommen, dass sie selber die Beweise manipuliert...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...nicht mehr richtig greifen und es knirscht und nicht mehr richtig geht. Beweisen lässt sich nur schwer, dass PFAS eindeutig eine bestimmte Krankheit...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...zu wenig gut sichtbar gewesen war. Die Polizei wollte das Gegenteil beweisen. Dann ist aber herausgekommen, dass sie selber die Beweise manipuliert...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 168.0,
-    "rank": 19,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "untersucht Hof",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170 untersuchten Höfe die PFAS-Werte in der Milch erhöht sind. Die wichtigsten Fakten zu...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...nahmen deshalb in den letzten Monaten auf rund 1'000 Höfen Milchproben und untersuchten das Wasser der Tiere. Das sind die Resultate: Im Kanton Zürich haben 82 von 732...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 168.0,
-    "rank": 20,
-    "imageUrl": ""
+    "score": 196.0,
+    "rank": 5,
+    "imageUrl": "../demo-data/cropped/20260326_05_Maria_Keller.jpg",
+    "timecode": "00:04:30.814",
+    "airTime": "18:04"
   },
   {
     "phrase": "EU-Richtwert",
+    "lemma": "EU-Richtwert",
     "spike": 168.0,
     "target_count": 12,
     "unit_count": 2,
@@ -925,27 +293,33 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22 von 91 getesteten...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...meldet heute, jede dritte Probe weise einen höheren Wert auf, der über dem EU-Richtwert liegt. Was PFAS genau sind, und wieso sie im Körper gefährlich sein können,...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Resultate: Im Kanton Zürich haben 82 von 732 Höfen höhere PFAS-Werte, als im EU-Richtwert vorgesehen. Im Kanton Appenzell Innerrhoden sind es 22 von 91 getesteten...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
     "score": 168.0,
-    "rank": 21,
-    "imageUrl": ""
+    "rank": 6,
+    "imageUrl": "../demo-data/cropped/20260326_06_EU-Richtwert.jpg",
+    "timecode": "00:01:16.271",
+    "airTime": "19:01"
   },
   {
     "phrase": "Abwasser",
+    "lemma": "Abwasser",
     "spike": 168.0,
     "target_count": 12,
     "unit_count": 2,
@@ -963,407 +337,33 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...heisst es vom Kanton Appenzell Ausserrhoden. In die Kläranlage sei z.B. das Abwasser der Textilindustrie und anderen Betrieben gekommen. Vor 19 Jahren wurde das...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...der Nasszelle. Die Dusche ist vorne rechts. Im Januar mussten doch noch die Abwasserleitungen saniert werden? Wir sind immer noch dran. Funktionieren denn diese...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...heisst es vom Kanton Appenzell Ausserrhoden. In die Kläranlage sei z.B. das Abwasser der Textilindustrie und anderen Betrieben gekommen. Vor 19 Jahren wurde das...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
     "score": 168.0,
-    "rank": 22,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Immunsystem",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...in hoher Konzentration als gesundheitsschädlich. Sie sollen Auswirkungen aufs Immunsystem haben. Sie können auch Langzeitfolgen wie Hormonstörungen oder Krebs...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Auch Nieren- und Hodenkrebs auslösen. Sie schwächen und schädigen das Immunsystem, schädigen die Schilddrüsenfunktion, den Fettstoffwechsel. Sie führen bei...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...in hoher Konzentration als gesundheitsschädlich. Sie sollen Auswirkungen aufs Immunsystem haben. Sie können auch Langzeitfolgen wie Hormonstörungen oder Krebs...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
-      }
-    ],
-    "score": 168.0,
-    "rank": 23,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Randständige",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...der Schweiz ist so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Weil preisgünstige Wohnungen fehlen, bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...der Schweiz ist so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 24,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Nahrung",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...vor, in Teflonpfannen, sie lagern in Böden, im Wasser, gelangen in die Nahrung - z.B. in die Milch - und letztlich in den menschlichen Körper. Die Kantone...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...aufzutragen. PFAS gelangen durch Böden und Gewässer in die Nahrung und letztlich in unsere Körper. Dort können sie Schäden anrichten. Sie haben...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...vor, in Teflonpfannen, sie lagern in Böden, im Wasser, gelangen in die Nahrung - z.B. in die Milch - und letztlich in den menschlichen Körper. Die Kantone...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 25,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Gewässer",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Masse ist es eine Bestätigung der Vorkenntnisse, die wir hatten - durch Gewässerproben, durch Bodenproben, auch durch Lebensmittelproben, die wir gemacht...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Da Kläranlagen diese Chemikalien kaum abbauen können, gelangen sie weiter in Gewässer und ins Grundwasser. Bis 2006 war es zudem erlaubt, Klärschlamm als Dünger...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Masse ist es eine Bestätigung der Vorkenntnisse, die wir hatten - durch Gewässerproben, durch Bodenproben, auch durch Lebensmittelproben, die wir gemacht...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 26,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Männergefängniss",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...sind wir mit einer Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki....",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...und Folgen der Ewigkeitschemikalien. Als erste weibliche Direktorin eines Männergefängnisses prägte Ines Follador-Breitenmoser den Strafvollzug über Jahre. Jetzt geht...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...sind wir mit einer Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki....",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 27,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Asylheimen",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Gemeinden in 12 Kantonen an. Ein Drittel sagt: Obdachlose werden auch in Asylheimen oder in Unterkünften für Flüchtlinge untergebracht. Viele schreiben: Es seien...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 28,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Zeug",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...keine Antwort der NATO provoziert wird. Darum bin ich nicht mehr so überzeugt, dass die Neutralität ein wirklicher Schutz ist. Doch auch beim bereits...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...kalt, aber sonst gut - es ist ruhig, immer alles sauber. Wir haben unser Zeug hier und übernachten ab und zu hier. Und das Teilen von Dusche und WC geht?...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...keine Antwort der NATO provoziert wird. Darum bin ich nicht mehr so überzeugt, dass die Neutralität ein wirklicher Schutz ist. Doch auch beim bereits...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 29,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "letzter Rundgäng",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki. Hier geht's nun gleich zu \"Meteo\" Es ist nochmal warm Anziehen...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...sie dieser Tage pensioniert. Livia Baettig hat sie auf einem ihrer letzten Rundgänge begleitet. Strammen Schrittes geht die Direktorin auf ihren täglichen Rundgang durch...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki. Hier geht's nun gleich zu \"Meteo\" Es ist nochmal warm Anziehen...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 30,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Asylheim",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Wohnungen fehlen, bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 31,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Deutschschweiz",
-    "spike": 168.0,
-    "target_count": 12,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki. Hier geht's nun gleich...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...zur ersten weiblichen Direktorin eines Männergefängnisses in der Deutschschweiz. Nach 14 Jahren an der Spitze wird sie dieser Tage pensioniert. Livia Baettig...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki. Hier geht's nun gleich...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
-      }
-    ],
-    "score": 168.0,
-    "rank": 32,
-    "imageUrl": ""
+    "rank": 7,
+    "imageUrl": "../demo-data/cropped/20260326_07_Abwasser.jpg",
+    "timecode": "00:02:36.112",
+    "airTime": "19:02"
   },
   {
     "phrase": "Wohnungsmarkt",
+    "lemma": "Wohnungsmarkt",
     "spike": 168.0,
     "target_count": 12,
     "unit_count": 2,
@@ -1381,71 +381,127 @@
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...von \"10 vor 10\" - heute mit Wasiliki Goutziomitros: - Danke, Cornelia. Der Wohnungsmarkt ist in Teilen der Schweiz ist so stark unter Druck, dass Gemeinden gekündigte...",
-        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318"
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Das sind verschiedene Faktoren. Einerseits haben wir den Druck auf dem Wohnungsmarkt. Zu wenig Wohnungen? - Zu wenig Wohnungen bzw. bezahlbarer Wohnraum. Dann...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...von \"10 vor 10\" - heute mit Wasiliki Goutziomitros: - Danke, Cornelia. Der Wohnungsmarkt ist in Teilen der Schweiz ist so stark unter Druck, dass Gemeinden gekündigte...",
-        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418"
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
     "score": 168.0,
-    "rank": 33,
-    "imageUrl": ""
+    "rank": 8,
+    "imageUrl": "../demo-data/cropped/20260326_08_Wohnungsmarkt.jpg",
+    "timecode": "00:24:12.651",
+    "airTime": "19:54"
   },
   {
-    "phrase": "Sondermüll",
-    "spike": 154.0,
-    "target_count": 11,
+    "phrase": "Asylheim",
+    "lemma": "Asylheim",
+    "spike": 168.0,
+    "target_count": 12,
     "unit_count": 2,
     "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
+        "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...weil sie zu stark belastet sind? Muss man diese reinigen? Gelten die als Sondermüll? Usw. Diese Fragen muss der Bund beantworten. Das vom Bund eingeschlagene...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
+        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
-        "title": "Schweiz aktuell",
+        "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...genutzt werden können: Muss und kann man sie umzonen? Ist es Sondermüll nach Umweltrecht, müssen die Böden saniert, abgetragen werden? Diese grossen...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "quote": "...Wohnungen fehlen, bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
       },
       {
-        "title": "Schweiz aktuell in Gebärdensprache",
+        "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...genutzt werden können: Muss und kann man sie umzonen? Ist es Sondermüll nach Umweltrecht, müssen die Böden saniert, abgetragen werden? Diese grossen...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
-    "score": 154.0,
-    "rank": 34,
-    "imageUrl": ""
+    "score": 168.0,
+    "rank": 9,
+    "imageUrl": "../demo-data/cropped/20260326_09_Asylheim.jpg",
+    "timecode": "00:24:22.366",
+    "airTime": "19:54"
+  },
+  {
+    "phrase": "Männergefängnisses",
+    "lemma": "Männergefängniss",
+    "spike": 168.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sind wir mit einer Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki....",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...und Folgen der Ewigkeitschemikalien. Als erste weibliche Direktorin eines Männergefängnisses prägte Ines Follador-Breitenmoser den Strafvollzug über Jahre. Jetzt geht...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sind wir mit einer Pionierin unterwegs, der ersten Direktorin eines Männergefängnisses in der Deutschschweiz - auf einem ihrer letzten Rundgänge. Danke, Wasiliki....",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      }
+    ],
+    "score": 168.0,
+    "rank": 10,
+    "imageUrl": "../demo-data/cropped/20260326_10_Männergefängnisses.jpg",
+    "timecode": "00:24:40.495",
+    "airTime": "19:54"
   },
   {
     "phrase": "Grenzwert",
+    "lemma": "Grenzwert",
     "spike": 154.0,
     "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
       "Schweiz aktuell",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "Schweiz aktuell",
@@ -1457,69 +513,325 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...Drittel der getesteten Landwirtschaftsbetriebe liegen die Werte über dem Grenzwert der EU. Betroffen von den erhöhten PFAS-Werten in der Milch sind v.a. zwei...",
-        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2"
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...sich? Die Herausforderung ist, dass beim Fleisch laut Lebensmittel- gesetz Grenzwerte gelten. Wenn wir dort grossangelegte Flächen machen, kann ein Hof sein...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...sich? Die Herausforderung ist, dass beim Fleisch laut Lebensmittel- gesetz Grenzwerte gelten. Wenn wir dort grossangelegte Flächen machen, kann ein Hof sein...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
     "score": 154.0,
-    "rank": 35,
-    "imageUrl": ""
+    "rank": 11,
+    "imageUrl": "../demo-data/cropped/20260326_11_Grenzwert.jpg",
+    "timecode": "00:00:28.473",
+    "airTime": "12:45"
   },
   {
-    "phrase": "Grüezi",
-    "spike": 91.0,
-    "target_count": 13,
+    "phrase": "Schulden",
+    "lemma": "Schuld",
+    "spike": 56.0,
+    "target_count": 16,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "SRF Kids News",
-      "Schweiz aktuell"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "SRF Kids News",
       "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "SRF Kids News",
+        "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Kinderreporterin bei SRF Kids. Sie suchte Antworten bei Pro Juventute. Grüezi, Herr Reber. Danke, dass Sie sich Zeit nehmen für das Interview. Vielen Dank...",
-        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...von SWISS TXT Die Sendung mit den Geschichten aus den Regionen. Grüezi miteinander, ganz herzlich willkommen bei \"Schweiz aktuell\" - heute mit...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "quote": "...aus einer Kläranläge, mit dem noch in den 80er-Jahren gedüngt wurde. Schuld könnten ausserdem heute verbotene Verpackungsmaterialien und...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...Ihm wurde die Wohnung wegen seines Verhaltens gekündigt. * Laute Musik * Grüezi. Darf ich schnell reinkommen? * Unverständliche Äusserungen * Wir mussten...",
-        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32"
+        "quote": "...Wohnungen bzw. bezahlbarer Wohnraum. Dann sind es Leute, die aufgrund ihrer Schulden nichts mehr selber anmieten können. Aktuell sind es zehn Männer, v.a....",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Deshalb läuft jetzt auch gegen die Berner Kita eine Anzeige - es gilt die Unschuldsvermutung. Beim Prozess am Regionalgericht Bern-Mittelland geht es zuerst um...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823",
+        "startTime": "2026-03-26T06:10:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...aus einer Kläranläge, mit dem noch in den 80er-Jahren gedüngt wurde. Schuld könnten ausserdem heute verbotene Verpackungsmaterialien und...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      }
+    ],
+    "score": 88.8,
+    "rank": 12,
+    "imageUrl": "../demo-data/cropped/20260326_12_Schulden.jpg",
+    "timecode": "00:09:35.412",
+    "airTime": "19:39"
+  },
+  {
+    "phrase": "Yves Noel Balmer",
+    "lemma": "Yves Noel Balmer",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Reto Hannimann. Er war beim zuständigen Ausserrhoder Regierungsrat Yves Noel Balmer und sprach ihn als Erstes auf die vielen betroffenen Höfe an. Klar, wenn dann...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...das Vier- bis Fünffache überschritten. Der Ausserrhoder Gesundheitsdirektor Yves Noel Balmer zeigt sich besorgt. In gewissem Masse ist es eine Bestätigung der...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...von SWISS TXT Die Sendung mit den Geschichten aus den Regionen. Grüezi miteinander, ganz herzlich willkommen bei \"Schweiz aktuell\" - heute mit...",
-        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa"
+        "quote": "...Reto Hannimann. Er war beim zuständigen Ausserrhoder Regierungsrat Yves Noel Balmer und sprach ihn als Erstes auf die vielen betroffenen Höfe an. Klar, wenn dann...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...das Vier- bis Fünffache überschritten. Der Ausserrhoder Gesundheitsdirektor Yves Noel Balmer zeigt sich besorgt. In gewissem Masse ist es eine Bestätigung der...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
-    "score": 144.2,
-    "rank": 36,
-    "imageUrl": ""
+    "score": 84.0,
+    "rank": 13,
+    "imageUrl": "../demo-data/cropped/20260326_13_Yves_Noel_Balmer.jpg",
+    "timecode": "00:05:36.859",
+    "airTime": "19:05"
+  },
+  {
+    "phrase": "Ostschweizer",
+    "lemma": "Ostschweizer",
+    "spike": 84.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...mit Nachtragskrediten ins Parlament. Gibt es Forderungen an den Bund? Ja, die Ostschweizer Regierungskonferenz verabschiedete vor drei Wochen ein Positionspapier...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...vom Bund eine nationale Strategie im Kampf gegen Ewigkeitschemikalien. Die Ostschweizer Kantone mögen nicht unbedingt überrascht sein, wie hoch bei ihnen das...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...mit Nachtragskrediten ins Parlament. Gibt es Forderungen an den Bund? Ja, die Ostschweizer Regierungskonferenz verabschiedete vor drei Wochen ein Positionspapier...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...vom Bund eine nationale Strategie im Kampf gegen Ewigkeitschemikalien. Die Ostschweizer Kantone mögen nicht unbedingt überrascht sein, wie hoch bei ihnen das...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      }
+    ],
+    "score": 84.0,
+    "rank": 14,
+    "imageUrl": "../demo-data/cropped/20260326_14_Ostschweizer.jpg",
+    "timecode": "00:06:42.197",
+    "airTime": "19:06"
+  },
+  {
+    "phrase": "Sarah Häusermann",
+    "lemma": "Sarah Häusermann",
+    "spike": 17.8,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...mich fürs Interesse - einen schönen Abend. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
+        "urn": "urn:srf:video:61158b70-7f15-4080-aa9f-eeb2f72685dc",
+        "startTime": "2026-03-26T18:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...und schönen Abend. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Sie gut durch die Nacht. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-26T21:50:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...und schönen Abend. Auf Wiedersehen. SWISS TXT / Accessibility Services Sarah Häusermann, Maria Keller",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      }
+    ],
+    "score": 17.8,
+    "rank": 15,
+    "imageUrl": "../demo-data/cropped/20260326_15_Sarah_Häusermann.jpg",
+    "timecode": "00:04:30.814",
+    "airTime": "18:04"
+  },
+  {
+    "phrase": "Bauern",
+    "lemma": "Bauer",
+    "spike": 12.6,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...den viele wohl schon weggewünscht haben. Der Winter ist zurück - v.a. Obstbauern bangen um ihre Bäume, die z.T. bereits in voller Blüte sind. Und ein Tag auf...",
+        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e",
+        "startTime": "2026-03-26T17:40:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Untersuchungen auf Höfen in mehreren Kantonen gefunden. Für die betroffenen Bauern könnte das an die Existenz gehen. Blitzer am Strassenrand geben im Kanton...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Untersuchungen auf Höfen in mehreren Kantonen gefunden. Für die betroffenen Bauern könnte das an die Existenz gehen. Blitzer am Strassenrand geben im Kanton...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      }
+    ],
+    "score": 12.6,
+    "rank": 16,
+    "imageUrl": "../demo-data/cropped/20260326_16_Bauern.jpg",
+    "timecode": "00:00:22.244",
+    "airTime": "17:40"
+  },
+  {
+    "phrase": "Lawinengefahr",
+    "lemma": "Lawinengefahr",
+    "spike": 10.8,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Telesguard"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...zwischen 30-80 cm Neuschnee geben. Dieser Schnee beeinflusst auch die Lawinengefahr, die z.T. auf Stufe 4 von 5 steigt. Laut des Instituts für Schnee und...",
+        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e",
+        "startTime": "2026-03-26T17:40:00+01:00"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...es ist. Die Kombination von Wind und Neuschnee sorgt dafür, dass wir über die Lawinengefahr sprechen müssen. In Teilen der Alpen, Berner Oberland, Planerlampen,...",
+        "urn": "urn:srf:video:178084c6-4c37-4172-9885-e981a0fd6ea6",
+        "startTime": "2026-03-26T19:55:00+01:00"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...es ist. Die Kombination von Wind und Neuschnee sorgt dafür, dass wir über die Lawinengefahr sprechen müssen. In Teilen der Alpen, Berner Oberland, Planerlampen,...",
+        "urn": "urn:srf:video:06725d98-b33a-49a0-a17e-e51b6f3fd4c4",
+        "startTime": "2026-03-26T20:00:00+01:00"
+      }
+    ],
+    "score": 10.8,
+    "rank": 17,
+    "imageUrl": "../demo-data/cropped/20260326_17_Lawinengefahr.jpg",
+    "timecode": "00:04:41.794",
+    "airTime": "17:44"
   }
 ]

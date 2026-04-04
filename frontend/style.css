@@ -9,8 +9,8 @@
     --light: #ccc;
     --bg: #fff;
     --font: 'DM Sans', 'Helvetica Neue', sans-serif;
-    --cols: 6;
-    --rows: 6;
+    --cols: 7;
+    --rows: 7;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -84,6 +84,23 @@ header h1 {
 }
 
 .cell.lit img { opacity: 0.12; }
+
+/* Time badge — bottom-right corner of cell */
+.time-badge {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 9px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    padding: 1px 4px;
+    border-radius: 2px;
+    pointer-events: none;
+    z-index: 2;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.3px;
+}
 
 /* Label: hidden by default, visible on hover */
 .cell .label {

@@ -1,13 +1,13 @@
 [
   {
     "phrase": "Abos",
+    "lemma": "Abos",
     "spike": 336.0,
     "target_count": 24,
-    "unit_count": 3,
+    "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -20,70 +20,46 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...die Unterstützung einer kriminellen Organisation vorgeworfen. ÖV-Tickets und Abos werden teurer. Ab Dezember 2026 steigen die Preise für Fahrten mit...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...Arthur: Danke, Monika. Wie jetzt, der ÖV schlägt auf? Wir fragen nach, ob Abos und Tickets wirklich teurer werden müssen und was die Kunden dazu sagen....",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Wir befürchten einfach, dass die Leute zum Pendeln vermehrt z.B. auf Verbundabos oder sogar auf Einzeltickets umsteigen und dann im Freizeitverkehr, weil sie...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Arthur: Danke, Monika. Wie jetzt, der ÖV schlägt auf? Wir fragen nach, ob Abos und Tickets wirklich teurer werden müssen und was die Kunden dazu sagen....",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 532.5,
+    "score": 336.0,
     "rank": 1,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "GA",
-    "spike": 308.0,
-    "target_count": 22,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...zu töten. Zudem wird dem Jugendlichen die Unterstützung einer kriminellen Organisation vorgeworfen. ÖV-Tickets und Abos werden teurer. Ab Dezember 2026...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...der ÖV. Tickets werden ab Dezember 4 % teurer. Bahnfreunde fühlen sich übergangen. Ärztinnen und Ärzte klagen über zunehmende Bürokratie. Jetzt starten sie...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
-      }
-    ],
-    "score": 308.0,
-    "rank": 2,
-    "imageUrl": ""
+    "imageUrl": "../demo-data/cropped/20260331_01_Abos.jpg",
+    "timecode": "00:02:17.134",
+    "airTime": "12:47"
   },
   {
     "phrase": "Alliance SwissPass",
+    "lemma": "Alliance SwissPass",
     "spike": 308.0,
     "target_count": 22,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -94,895 +70,26 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...Verkehrsmitteln um durchschnittlich 3,9 % Das hat der Strategierat der Alliance SwissPass beschlossen. Betroffen sind national gültige Billette und Abonnemente....",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Ab Dezember kostet der öffentliche Verkehr bei uns ordentlich mehr. Die Alliance SwissPass, zu der fast alle Schweizer ÖV-Betriebe gehören, auch regionale und...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       }
     ],
     "score": 308.0,
-    "rank": 3,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "kanadisch Superstar",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der kanadische Superstar diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...auf die Bühne. Dies nach längerer, krankheitsbedingter Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie es sich für Dion gehört, wird...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...auf die Bühne. Dies nach längerer, krankheitsbedingter Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie es sich für Dion gehört, wird...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 4,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "steigend Kosten",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...für Einzelbillette. Die Alliance SwissPass begründet die Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden. Celine Dion feiert ihr Comeback....",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...erfahren Sie bei uns online unter srf.ch oder auf unserer SRF News-App. Die steigenden Kosten für Mietwohnungen belasten die Haushaltskasse massiv - in den Städten, aber...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...erfahren Sie bei uns online unter srf.ch oder auf unserer SRF News-App. Die steigenden Kosten für Mietwohnungen belasten die Haushaltskasse massiv - in den Städten, aber...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 5,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Pariser",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft verkündete Celine Dion gestern, an ihrem...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...geführt hätten. Nun will Dion zurück auf die Bühne. Die Tickets für die Pariser Konzerte dürften im Nu ausverkauft sein, denn wenn die grosse Stimme zurück...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...geführt hätten. Nun will Dion zurück auf die Bühne. Die Tickets für die Pariser Konzerte dürften im Nu ausverkauft sein, denn wenn die grosse Stimme zurück...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 6,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Eiffelturm",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft verkündete Celine Dion gestern, an ihrem 58....",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...wird das spektakulär. Die Botschaft kommt an keinem geringeren Ort als am Eiffelturm - mitten in Paris. Unter tosendem Applaus vieler Fans werden zuerst Songs...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...wird das spektakulär. Die Botschaft kommt an keinem geringeren Ort als am Eiffelturm - mitten in Paris. Unter tosendem Applaus vieler Fans werden zuerst Songs...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 7,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Celine Dion",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden. Celine Dion feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion kehrt nach schweren gesundheitlichen Problemen auf die Bühne zurück. Mit Bise...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 8,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Videobotschaft",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft verkündete Celine Dion gestern, an ihrem 58. Geburtstag, ihre Rückkehr auf...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Botschaft: \"Paris, ich bin bereit!\" Heute dann wendet sie sich in einer Videobotschaft persönlich an ihre Fans: Sie fühle sich stark, sagt sie, und: Dieses Jahr...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Botschaft: \"Paris, ich bin bereit!\" Heute dann wendet sie sich in einer Videobotschaft persönlich an ihre Fans: Sie fühle sich stark, sagt sie, und: Dieses Jahr...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Krämpf",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Pause. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst. Von der Balladen-Königin zu König Fussball. Nach der 3:4-Niederlage...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...- 2022 macht sie ihre Krankheit öffentlich: Das sog. Stiff-Person-Syndrom - Krämpfe, die sogar zu Rippenbrüchen geführt hätten. Nun will Dion zurück auf die...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 10,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Ärztin",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Tickets wirklich teurer werden müssen und was die Kunden dazu sagen. Dann: Ärztinnen und Ärzte haben genug vom Papierkram. Wir zeigen, wie bizarr die...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Tickets werden ab Dezember 4 % teurer. Bahnfreunde fühlen sich übergangen. Ärztinnen und Ärzte klagen über zunehmende Bürokratie. Jetzt starten sie eine...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Tickets wirklich teurer werden müssen und was die Kunden dazu sagen. Dann: Ärztinnen und Ärzte haben genug vom Papierkram. Wir zeigen, wie bizarr die...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 182.0,
-    "rank": 11,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Gesetzesentwurf",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist höchst umstritten. Kritikerinnen und Kritiker...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...in Echtzeit: Lieder gehört haben, Wie wir gehört haben, war dieser Gesetzesentwurf von der rechtsextremen Partei. Man man will schon lange die Todesstrafe...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 12,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Ben-Gvir",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...das umstrittene Gesetz verabschiedet, das auf den rechtsextremen Minister Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Gemäss...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...zentrale Treiber der neuen Vorlage - der rechtsextreme Sicherheitsminister Ben-Gvir - lässt sogar demonstrativ die Korken knallen. Lasst uns so viele Terroristen...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...zentrale Treiber der neuen Vorlage - der rechtsextreme Sicherheitsminister Ben-Gvir - lässt sogar demonstrativ die Korken knallen. Lasst uns so viele Terroristen...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 13,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Kritiker",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...einen Gesetzesentwurf gutgeheissen. Der Entscheid ist höchst umstritten. Kritikerinnen und Kritiker sehen das Gesetz als rassistisch an, weil es de facto nur...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Gefühl zu instrumentalisieren. Er hat das Gesetz so durchgebracht. Aber Kritiker sagen, er habe das auf eine Art und Weise gemacht, die nicht nur Strafen...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Gefühl zu instrumentalisieren. Er hat das Gesetz so durchgebracht. Aber Kritiker sagen, er habe das auf eine Art und Weise gemacht, die nicht nur Strafen...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 14,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "orthodox Jude",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Jugendlichen Anklage erhoben. Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Jahren hat ein damals 15-jähriger Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Hisbollah-Miliz",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Grund für den israelischen Armeeeinsatz im Süden Libanons sind Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...deutet nichts auf Deeskalation hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen....",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 16,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Jugendanwaltschaft",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen einen 17-jährigen Jugendlichen Anklage erhoben. Dieser hatte vor zwei...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 17,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "mehrfach versucht Mord",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...junge Schweizer mit tunesischer Herkunft 15 Jahre alt. Die Anklage wirft ihm mehrfachen versuchten Mord vor. Denn vor dem Messerangriff auf den orthodoxen Juden soll er versucht...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen der amerikanischen Regierung zur ihrer Strategie oder...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor. Informationen der amerikanischen Regierung zur ihrer Strategie oder...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 18,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Oberste Gericht",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...eine lebenslange Haft umgewandelt werden kann. Voraussichtlich wird noch das Oberste Gericht über das neue Gesetz urteilen. Kurz vor dem Mittag hat der israelische...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Israels eingeläutet. Gekippt werden könnte das Gesetz nur noch durch das Oberste Gericht. Warum weitet Israel dieses Gesetz aus? Das will ich von Nikolaus Wildner...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Israels eingeläutet. Gekippt werden könnte das Gesetz nur noch durch das Oberste Gericht. Warum weitet Israel dieses Gesetz aus? Das will ich von Nikolaus Wildner...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 19,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Messer",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Dieser hatte vor zwei Jahren in Zürich einen orthodoxen Juden mit einem Messer angegriffen und lebensgefährlich verletzt. Zum Tatzeitpunkt war der junge...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Schweizer mit tunesischen Wurzeln einen orthodoxen Juden mit einem Messer angegriffen und ihn lebensgefährlich verletzt. Jetzt ist die Anklage...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 20,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "israelische Parlament",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Aber den Wählerinnen und Wählern kann es nicht egal sein. Die Knesset, das israelische Parlament, hat das Gesetz zur Todesstrafe ausgeweitet. Ein höchst umstrittener...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 126.0,
-    "rank": 21,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Poldis",
-    "spike": 112.0,
-    "target_count": 8,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...News gibt's um 19.00 Uhr. \"Schweiz aktuell\" berichtet dann u.a. über Poldis - so werden Lehrpersonen ohne Diplom genannt. Die werden im Kanton Zürich...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Themen: Die Quereinsteiger in den Zürcher Schulen haben ausgedient. Die sog. Poldis sind nach den Sommerferien nicht mehr gefragt. Zalando arbeite im Tessin mit...",
-        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Themen: Die Quereinsteiger in den Zürcher Schulen haben ausgedient. Die sog. Poldis sind nach den Sommerferien nicht mehr gefragt. Zalando arbeite im Tessin mit...",
-        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af"
-      }
-    ],
-    "score": 112.0,
-    "rank": 22,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Empfänger",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...an eine E-Mail-Adresse. Zum Zweiten: In diesem System sind alle Versender und Empfänger verifiziert. Und zum Dritten ist es auch zeitgestempelt. Und es gibt eine...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...der App kann der kostenpflichtige, digitale Brief erstellt werden. Wenn der Empfänger ebenfalls die App hat, erscheint er dort. Wie eine E-Mail, einfach sicherer....",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...der App kann der kostenpflichtige, digitale Brief erstellt werden. Wenn der Empfänger ebenfalls die App hat, erscheint er dort. Wie eine E-Mail, einfach sicherer....",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 23,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "digital Brief",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...und ab die Post - ab morgen Mittwoch ist das auch anders möglich. Und zwar digital: Der sog. digitale Brief gehört neu zur Grundversorgung der Schweizer Post....",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der Bundesrat will das so. Der digitale Brief gehört ab...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der Bundesrat will das so. Der digitale Brief gehört ab...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 24,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Post-App",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...als E-Mails. Dafür kosten sie aber auch. Digitale Briefe können z.B. mit der Post-App auf dem Smartphone verschickt werden. Dafür lädt man eine Datei in der App...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Wir schauen dann, ob Sie die Möglichkeit haben, diesen Brief in der Post-App zu empfangen. Falls nicht, stellen wir ihn weiter physisch zu - mit...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 25,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Pete Hegseth",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...auch mit politischen Entscheiden. Zum Irankrieg: US- Verteidigungsminister Pete Hegseth trat heute in Washington vor die Medien. Neues zur Strategie der USA gab es...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...aber auch kriegsbereit. So war man heute gespannt auf die Medienkonferenz von Pete Hegseth, dem Pentagon-Chef. Der Beitrag von Petra Frey. Der Auftritt des...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...aber auch kriegsbereit. So war man heute gespannt auf die Medienkonferenz von Pete Hegseth, dem Pentagon-Chef. Der Beitrag von Petra Frey. Der Auftritt des...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
-      }
-    ],
-    "score": 84.0,
-    "rank": 26,
-    "imageUrl": ""
+    "rank": 2,
+    "imageUrl": "../demo-data/cropped/20260331_02_Alliance_SwissPass.jpg",
+    "timecode": "00:02:27.558",
+    "airTime": "12:47"
   },
   {
     "phrase": "Wettbewerbskommission",
+    "lemma": "Wettbewerbskommission",
     "spike": 84.0,
     "target_count": 6,
     "unit_count": 2,
@@ -1001,71 +108,40 @@
         "title": "SRF Börse",
         "channel": "SRF 1",
         "quote": "...0,9 % Ist die künstliche Intelligenz wettbewerbsfördernd oder -hemmend? Die Wettbewerbskommission äussert sich gleich in der \"Tagesschau\" Einen schönen Abend wünsche ich...",
-        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406"
+        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
+        "startTime": "2026-03-31T19:25:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...sehr deutlich in die Richtung, dass sich die Bedingungen verschlechtern. Die Wettbewerbskommission, kurz WEKO, überprüft Absprachen zwischen Unter- nehmen wie z.B. in der...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...0,9 % Ist die künstliche Intelligenz wettbewerbsfördernd oder -hemmend? Die Wettbewerbskommission äussert sich gleich in der \"Tagesschau\" Einen schönen Abend wünsche ich...",
-        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4"
+        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4",
+        "startTime": "2026-03-31T19:25:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...sehr deutlich in die Richtung, dass sich die Bedingungen verschlechtern. Die Wettbewerbskommission, kurz WEKO, überprüft Absprachen zwischen Unter- nehmen wie z.B. in der...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
     "score": 84.0,
-    "rank": 27,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Osterwochenende",
-    "spike": 70.0,
-    "target_count": 10,
-    "unit_count": 2,
-    "editorial_units": [
-      "Meteo",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "Meteo",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Meteo",
-        "channel": "SRF 1",
-        "quote": "...es wird wärmer. Am Montag fast 20 °C. Der Frühling zeigt sich so richtig zum Osterwochenende. Ostern werden also sonnig. Deutlich wärmer. Wir sind deutlich über dem...",
-        "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...die Nachfrage nicht zu klein. Wie läuft der Hase? Bei uns läuft es gut. Das Osterwochenende läuft sehr gut. Der Schokoladenpreis ist immer wieder gestiegen, jetzt kurz...",
-        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...die Nachfrage nicht zu klein. Wie läuft der Hase? Bei uns läuft es gut. Das Osterwochenende läuft sehr gut. Der Schokoladenpreis ist immer wieder gestiegen, jetzt kurz...",
-        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af"
-      }
-    ],
-    "score": 70.0,
-    "rank": 28,
-    "imageUrl": ""
+    "rank": 3,
+    "imageUrl": "../demo-data/cropped/20260331_03_Wettbewerbskommission.jpg",
+    "timecode": "00:02:00.240",
+    "airTime": "19:27"
   },
   {
     "phrase": "Digitalisierung",
+    "lemma": "Digitalisierung",
     "spike": 60.7,
     "target_count": 13,
     "unit_count": 2,
@@ -1083,39 +159,86 @@
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...ist es so möglich, verstärkt im Wettbewerb aufzutreten, weil ihnen KI und die Digitalisierung ermöglichen, ihre Produkte in einem viel grös- seren geografischen Raum...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...könnten. Dabei müssten laut Pro Bahn die Preise sinken, da durch die Digitalisierung die Effizienz stark gesteigert wurde. Aus unserer Sicht müsste man eigentlich...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...ist es so möglich, verstärkt im Wettbewerb aufzutreten, weil ihnen KI und die Digitalisierung ermöglichen, ihre Produkte in einem viel grös- seren geografischen Raum...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
     "score": 60.7,
-    "rank": 29,
-    "imageUrl": ""
+    "rank": 4,
+    "imageUrl": "../demo-data/cropped/20260331_04_Digitalisierung.jpg",
+    "timecode": "00:23:33.319",
+    "airTime": "19:53"
   },
   {
-    "phrase": "Angebot",
+    "phrase": "Lea Gnos",
+    "lemma": "Lea Gnos",
     "spike": 23.8,
-    "target_count": 34,
-    "unit_count": 5,
+    "target_count": 17,
+    "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt",
-      "Telesguard"
+      "Schweiz aktuell"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...mit, ab Sommer brauche man keine Poldis mehr, ausser in der Heilpädagogik. Lea Gnos hat zwei von ihnen begleitet. \" schlich sich Hilde aus dem Stall.\" \"'Oh, wow,...",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Ärzteschaft gegen bizarre Bürokratie mit einer Kampagne und mit Klebern. Lea Gnos. Sven Streit und seine Mitarbeiter spüren eine extreme Zunahme an Formularen....",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...mit, ab Sommer brauche man keine Poldis mehr, ausser in der Heilpädagogik. Lea Gnos hat zwei von ihnen begleitet. \" schlich sich Hilde aus dem Stall.\" \"'Oh, wow,...",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "score": 23.8,
+    "rank": 5,
+    "imageUrl": "../demo-data/cropped/20260331_05_Lea_Gnos.jpg",
+    "timecode": "00:01:08.289",
+    "airTime": "19:01"
+  },
+  {
+    "phrase": "Kanton Zürich",
+    "lemma": "Kanton Zürich",
+    "spike": 11.1,
+    "target_count": 23,
+    "unit_count": 3,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
       "Schweiz aktuell",
       "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
@@ -1127,41 +250,93 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Abonnemente. Allerdings werden nicht alle Preise im gleichen Ausmass erhöht. Angebote für Kinder, Jugendliche und Familien sollen gar nicht oder nur wenig teurer...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+        "quote": "...Süden Libanons sind Angriffe der Hisbollah-Miliz auf den Norden Israels. Im Kanton Zürich hat die Jugendanwaltschaft gegen einen 17-jährigen Jugendlichen Anklage...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "...erhalten. In Zürich haben sie eine neue Stelle gefunden. Im Engadin ist das Angebot nicht so gross. Es gibt kein anderes Akutspital im Engadin und für uns war...",
-        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb"
+        "quote": "...gemeinsam mit der Gemeinde Klosters und den Elektrizitätswerken des Kantons Zürich, sehr positiv. Wir sind sehr zufrieden. Wir haben die Anlage auf Madrisa im...",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-03-31T17:40:00+02:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "...verschiedenen. Hier ein Seitenwagen-Hase. Fahrzeuge sind angesagt. Rein vom Angebot her ist die Nachfrage nicht zu klein. Wie läuft der Hase? Bei uns läuft es...",
-        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb"
+        "quote": "...Bäckerei im Aargau, ob das auf das Geschäft abfärbt. Poldi, so nennt man im Kanton Zürich eine Person ohne Lehrdiplom, die trotzdem vor einer Schulklasse steht. Es ist...",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...E-Mail, einfach sicherer. Mit Zeitstempel, Siegel und Zustellbestätigung. Das Angebot sei v.a. für kleinere Firmen praktisch, glaubt die Post: Eine grosse Bank hat...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "quote": "...auch in ländlichen Gebieten. Als sehr schwierig gaben die Befragten v.a. die Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Bäckerei im Aargau, ob das auf das Geschäft abfärbt. Poldi, so nennt man im Kanton Zürich eine Person ohne Lehrdiplom, die trotzdem vor einer Schulklasse steht. Es ist...",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "score": 17.6,
+    "rank": 6,
+    "imageUrl": "../demo-data/cropped/20260331_06_Kanton_Zürich.jpg",
+    "timecode": "00:01:39.479",
+    "airTime": "12:46"
+  },
+  {
+    "phrase": "Löhne",
+    "lemma": "Lohn",
+    "spike": 16.5,
+    "target_count": 20,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...sind. Ich sehe solche Probleme bei uns nicht. Wir behandeln alle gleich, was Lohn oder Arbeitszeiten betrifft. Auf die Kritik der Unia, dass Leute entlassen...",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...sind die Kosten unserer Infrastruktur gestiegen, und wir haben das Angebot weiterentwickelt. Da müssen wir nachziehen. Wir müssen einen Teil unserer...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "quote": "...schon für viele grenzwertig. Ja, wenn die Preise steigen, sollten auch die Löhne steigen. Noch mehr bezahlen für den ÖV, das kommt bei den heute befragten...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sind. Ich sehe solche Probleme bei uns nicht. Wir behandeln alle gleich, was Lohn oder Arbeitszeiten betrifft. Auf die Kritik der Unia, dass Leute entlassen...",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
       }
     ],
-    "score": 55.3,
-    "rank": 30,
-    "imageUrl": ""
+    "score": 16.5,
+    "rank": 7,
+    "imageUrl": "../demo-data/cropped/20260331_07_Löhne.jpg",
+    "timecode": "00:08:46.941",
+    "airTime": "19:08"
   },
   {
-    "phrase": "ÖV",
-    "spike": 45.5,
+    "phrase": "öffentlichen Verkehr",
+    "lemma": "öffentlich Verkehr",
+    "spike": 16.5,
     "target_count": 13,
     "unit_count": 2,
     "editorial_units": [
@@ -1177,36 +352,43 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...vor 10\" gibt's folgendes Spannendes, Arthur: Danke, Monika. Wie jetzt, der ÖV schlägt auf? Wir fragen nach, ob Abos und Tickets wirklich teurer werden...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "quote": "...diskutiert und wie hilft oder schadet das dem Präsidenten? Da hatte ich die öffentliche Meinung in den letzten Wochen wenig verändert. Die jüngste Umfrage ist einige Tage...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...vor 10, willkommen zum Blick hinter die Schlagzeilen Jetzt also auch noch der ÖV. Tickets werden ab Dezember 4 % teurer. Bahnfreunde fühlen sich übergangen....",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "quote": "...ganz schön sein, allerdings auch ganz schön teuer. Ab Dezember kostet der öffentliche Verkehr bei uns ordentlich mehr. Die Alliance SwissPass, zu der fast alle Schweizer...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...vor 10\" gibt's folgendes Spannendes, Arthur: Danke, Monika. Wie jetzt, der ÖV schlägt auf? Wir fragen nach, ob Abos und Tickets wirklich teurer werden...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "quote": "...diskutiert und wie hilft oder schadet das dem Präsidenten? Da hatte ich die öffentliche Meinung in den letzten Wochen wenig verändert. Die jüngste Umfrage ist einige Tage...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 45.5,
-    "rank": 31,
-    "imageUrl": ""
+    "score": 16.5,
+    "rank": 8,
+    "imageUrl": "../demo-data/cropped/20260331_08_öffentlichen_Verkehr.jpg",
+    "timecode": "00:24:24.940",
+    "airTime": "19:54"
   },
   {
-    "phrase": "Konzert",
-    "spike": 36.4,
-    "target_count": 13,
+    "phrase": "Todesstrafe",
+    "lemma": "Todesstrafe",
+    "spike": 15.4,
+    "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
@@ -1215,36 +397,50 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Pause will der kanadische Superstar diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+        "quote": "...zur \"Tagesschau kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...wissen, will zurück auf die Bühne. Dies nach längerer, krankheitsbedingter Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "quote": "...bringt keine Klärung. Israels Parlament weitet das Gesetz zur Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...hat sich - trotz internationaler Kritik - für die Wiedereinführung der Todesstrafe ausgesprochen. Der gutgeheissene Gesetzentwurf betrifft de facto nur...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...wissen, will zurück auf die Bühne. Dies nach längerer, krankheitsbedingter Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "quote": "...bringt keine Klärung. Israels Parlament weitet das Gesetz zur Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 36.4,
-    "rank": 32,
-    "imageUrl": ""
+    "score": 15.4,
+    "rank": 9,
+    "imageUrl": "../demo-data/cropped/20260331_09_Todesstrafe.jpg",
+    "timecode": "00:00:14.994",
+    "airTime": "12:45"
   },
   {
-    "phrase": "Grundversorgung",
-    "spike": 28.0,
-    "target_count": 6,
+    "phrase": "israelische Parlament",
+    "lemma": "israelisch Parlament",
+    "spike": 15.4,
+    "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
@@ -1253,131 +449,648 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...auch anders möglich. Und zwar digital: Der sog. digitale Brief gehört neu zur Grundversorgung der Schweizer Post. Digitale Briefe sollen sicherer sein als E-Mails. Dafür...",
-        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b"
+        "quote": "...kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...gewünscht. Der Bundesrat will das so. Der digitale Brief gehört ab morgen zur Grundversorgung, ausgestattet mit digitalen Sicherheitsschlössern. Wie's funktioniert - im...",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0"
+        "quote": "...hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen. Auch drei Blauhelmsoldaten der...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...10 % nach oben geschoben. Zu einer aktuellen Meldung von heute Abend: Das israelische Parlament hat sich - trotz internationaler Kritik - für die Wiedereinführung der...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...gewünscht. Der Bundesrat will das so. Der digitale Brief gehört ab morgen zur Grundversorgung, ausgestattet mit digitalen Sicherheitsschlössern. Wie's funktioniert - im...",
-        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de"
+        "quote": "...hin. Bei Gefechten zwischen Israel und der Hisbollah-Miliz sind vier israelische Soldaten und Dutzende islamistische Kämpfer gefallen. Auch drei Blauhelmsoldaten der...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 28.0,
-    "rank": 33,
-    "imageUrl": ""
+    "score": 15.4,
+    "rank": 10,
+    "imageUrl": "../demo-data/cropped/20260331_10_israelische_Parlament.jpg",
+    "timecode": "00:00:18.537",
+    "airTime": "12:45"
   },
   {
-    "phrase": "September",
-    "spike": 26.4,
-    "target_count": 17,
+    "phrase": "Oberste Gericht",
+    "lemma": "oberer Gericht",
+    "spike": 15.4,
+    "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau kompakt",
-      "Telesguard"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
-      "Tagesschau kompakt",
-      "Telesguard"
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...sogar ein bisschen. Ich liebe es so sehr. Zehn Konzerte gibt die Sängerin im September und Oktober in der Nähe von Paris. Es ist das Comeback nach sechs Jahren...",
-        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58"
+        "quote": "...weil es de facto nur Palästinenser betrifft. Die Todesstrafe kann vom Militärgericht für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...verletzt. Jetzt ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor....",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...betrifft de facto nur Palästinenser. Die Todesstrafe kann vom Militärgericht für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...verletzt. Jetzt ist die Anklage eingereicht worden, der junge Mann muss vor Gericht, die Jugendanwaltschaft wirft dem Beschuldigten u.a. mehrfachen versuchten Mord vor....",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 15.4,
+    "rank": 11,
+    "imageUrl": "../demo-data/cropped/20260331_11_Oberste_Gericht.jpg",
+    "timecode": "00:01:05.254",
+    "airTime": "12:46"
+  },
+  {
+    "phrase": "besetzten Gebieten",
+    "lemma": "besetzt Gebiet",
+    "spike": 12.6,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...kann vom Militärgericht für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an Israelis verurteilt werden. Mit 62 Pro- und 48...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...kann vom Militärgericht für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an Israelis verurteilt werden. Mit 62 Pro- und 48...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 12.6,
+    "rank": 12,
+    "imageUrl": "../demo-data/cropped/20260331_12_besetzten_Gebieten.jpg",
+    "timecode": "00:00:35.385",
+    "airTime": "12:45"
+  },
+  {
+    "phrase": "umstrittene Gesetz",
+    "lemma": "umstritten Gesetz",
+    "spike": 12.6,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...gestern Abend einen Gesetzesentwurf gutgeheissen. Der Entscheid ist höchst umstritten. Kritikerinnen und Kritiker sehen das Gesetz als rassistisch an, weil es de facto...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...verurteilt werden. Mit 62 Pro- und 48 Kontra-Stimmen hat das Parlament das umstrittene Gesetz verabschiedet, das auf den rechtsextremen Minister Itamar Ben-Gvir...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 12.6,
+    "rank": 13,
+    "imageUrl": "../demo-data/cropped/20260331_13_umstrittene_Gesetz.jpg",
+    "timecode": "00:00:45.432",
+    "airTime": "12:45"
+  },
+  {
+    "phrase": "Ministerpräsident Netanjahu",
+    "lemma": "Ministerpräsident Netanjahu",
+    "spike": 12.6,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...verabschiedet, das auf den rechtsextremen Minister Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Gemäss israelischen Medienberichten hatte sich Netanjahu aber...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...das auf den rechtsextremen Minister Itamar Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Auf der Gegenseite war die Rede von einem diskriminierenden...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 12.6,
+    "rank": 14,
+    "imageUrl": "../demo-data/cropped/20260331_14_Ministerpräsident_Netanjahu.jpg",
+    "timecode": "00:00:52.306",
+    "airTime": "12:45"
+  },
+  {
+    "phrase": "Unterschrift",
+    "lemma": "Unterschrift",
+    "spike": 11.2,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...kann. Es kann sein, dass ein Telekomanbieter sagt: \"Ich brauche eine Unterschrift von einem Arzt, dass jemand auch wirklich verstorben ist\", obwohl es...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
         "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...sehr positiv. Wir sind sehr zufrieden. Wir haben die Anlage auf Madrisa im September in Betrieb genommen - als erste alpine Solaranlage der Schweiz. Nach dem...",
-        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb"
+        "channel": "SRF info",
+        "quote": "...Kanton Graubünden und die PostAuto AG haben auf eine Petition mit über 8'000 Unterschriften reagiert, die Ende Jahr verlangte, dass Fahrtickets weiterhin mit Bargeld...",
+        "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+        "startTime": "2026-03-31T05:55:00+02:00"
       }
     ],
-    "score": 26.4,
-    "rank": 34,
-    "imageUrl": ""
+    "score": 11.2,
+    "rank": 15,
+    "imageUrl": "../demo-data/cropped/20260331_15_Unterschrift.jpg",
+    "timecode": "00:06:27.459",
+    "airTime": "21:56"
   },
   {
-    "phrase": "Zeugnis",
-    "spike": 26.2,
-    "target_count": 15,
+    "phrase": "Solaranlage",
+    "lemma": "Solaranlage",
+    "spike": 11.2,
+    "target_count": 8,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Schweiz aktuell"
+      "Telesguard"
     ],
     "programs": [
       "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
+      "Telesguard"
     ],
     "quotes": [
       {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...dabei. Heute geht es um diese Themen: Nach dem ersten Winter der drei alpinen Solaranlagen in Graubünden sind die Erwartungen mehr als erfüllt. Nach 22 Jahren muss...",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-03-31T17:40:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...stapeln. Er braucht sehr viel Strom. Und dieser kommt vom eigenen Dach. Diese Solaranlage ist ein Paradebeispiel für eine Lokale Elektrizitätsgemeinschaft: Der...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 11.2,
+    "rank": 16,
+    "imageUrl": "../demo-data/cropped/20260331_16_Solaranlage.jpg",
+    "timecode": "00:00:20.912",
+    "airTime": "17:40"
+  },
+  {
+    "phrase": "Tessin",
+    "lemma": "Tessin",
+    "spike": 4.7,
+    "target_count": 23,
+    "unit_count": 4,
+    "editorial_units": [
+      "10 vor 10",
+      "Meteo",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Meteo",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...aber auch Aufhellungen geben. Vor allem in der Westschweiz, im Wallis oder im Tessin. Im Tessins lässt auch der Nordföhn. In der Nacht wird es kalt, die...",
+        "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+        "startTime": "2026-03-31T12:50:00+02:00"
+      },
+      {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "...sein. Aber der Hintergrund dieses Berufs ist sehr anspruchsvoll. Man muss Zeugnisse ausstellen, man muss Elterngespräche führen, man ist Teil eines Teams Ralph...",
-        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb"
+        "quote": "...sog. Poldis sind nach den Sommerferien nicht mehr gefragt. Zalando arbeite im Tessin mit einem Logistiker, der seine Angestellten mit miesen Verträgen unter Druck...",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Gebieten. Als sehr schwierig gaben die Befragten v.a. die Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer noch zwei...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...für einen Patienten verlangt. Er stelle auch dreimal mehr Arbeitsunfähigkeitszeugnisse aus als noch vor fünf Jahren. Das kann der Arbeitgeber sein, der ab dem...",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "quote": "...setzt die Grenzsteine zu Italien neu. Unterwegs mit einem Vermesser im Tessin. Zug fahren in der Schweiz kann ganz schön sein, allerdings auch ganz schön...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...sein. Aber der Hintergrund dieses Berufs ist sehr anspruchsvoll. Man muss Zeugnisse ausstellen, man muss Elterngespräche führen, man ist Teil eines Teams Ralph...",
-        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af"
+        "quote": "...sog. Poldis sind nach den Sommerferien nicht mehr gefragt. Zalando arbeite im Tessin mit einem Logistiker, der seine Angestellten mit miesen Verträgen unter Druck...",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
       }
     ],
-    "score": 26.2,
-    "rank": 35,
-    "imageUrl": ""
+    "score": 9.5,
+    "rank": 17,
+    "imageUrl": "../demo-data/cropped/20260331_17_Tessin.jpg",
+    "timecode": "00:00:56.888",
+    "airTime": "12:50"
   },
   {
-    "phrase": "Schnitt",
-    "spike": 26.2,
+    "phrase": "Paris",
+    "lemma": "Paris",
+    "spike": 8.4,
     "target_count": 15,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "SRF Börse"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache"
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "SRF Börse",
+        "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163 gegründet - pro Tag. Das sind so viele wie noch nie. Im ersten Quartal...",
-        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406"
+        "quote": "...Pause will der kanadische Superstar diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie es sich für Dion gehört, wird das spektakulär. Die Botschaft...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...einer drohenden massiven Energiekrise. Karina Rierola. * Lautes Hupen * Paris ist bereits in Proteststimmung. Reisecarfirmen machen die gestiegenen Benzin-...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Konzertpause. Der kanadische Superstar kündigt eine Konzertreihe in Paris an. Und wie es sich für Dion gehört, wird das spektakulär. Die Botschaft...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 8.4,
+    "rank": 18,
+    "imageUrl": "../demo-data/cropped/20260331_18_Paris.jpg",
+    "timecode": "00:03:01.486",
+    "airTime": "12:48"
+  },
+  {
+    "phrase": "Versicherung",
+    "lemma": "Versicherung",
+    "spike": 7.8,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...werden. Doch hier ändert sich gerade was. Die Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...hofft jetzt, dass die Polizei die gestohlenen Autos findet und dass ihm die Versicherung irgendwie entgegenkommt. Kindergartenerinnerungen: Dort gab es doch eine...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...werden. Doch hier ändert sich gerade was. Die Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 7.8,
+    "rank": 19,
+    "imageUrl": "../demo-data/cropped/20260331_19_Versicherung.jpg",
+    "timecode": "00:01:31.036",
+    "airTime": "19:31"
+  },
+  {
+    "phrase": "Zug",
+    "lemma": "Zug",
+    "spike": 4.8,
+    "target_count": 16,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich, Freiburg und...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...auch regionale und städtische, erhöht die Preise ab Dezember um 3,9 % - im Schnitt, notabene. Bähram Alagheband berichtet über die Gründe und die Reaktionen....",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845"
+        "quote": "...die Grenzsteine zu Italien neu. Unterwegs mit einem Vermesser im Tessin. Zug fahren in der Schweiz kann ganz schön sein, allerdings auch ganz schön teuer....",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
       },
       {
-        "title": "SRF Börse in Gebärdensprache",
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...wie Pilze aus dem Boden: neue Unternehmen. Aktuell werden in der Schweiz im Schnitt 163 gegründet - pro Tag. Das sind so viele wie noch nie. Im ersten Quartal...",
-        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4"
+        "quote": "...das Geld verpulvert ist. Das baselstädtische Parlament hat Ja gesagt zum Abzug. Aber zuerst muss noch das Volk entscheiden. Catherine Thommen. Das neue...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich, Freiburg und...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 26.2,
-    "rank": 36,
-    "imageUrl": ""
+    "score": 7.6,
+    "rank": 20,
+    "imageUrl": "../demo-data/cropped/20260331_20_Zug.jpg",
+    "timecode": "00:05:21.019",
+    "airTime": "19:35"
+  },
+  {
+    "phrase": "Elektrizitätswerken",
+    "lemma": "Elektrizitätswerk",
+    "spike": 6.6,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...des alpinen Kraftwerks gemeinsam mit der Gemeinde Klosters und den Elektrizitätswerken des Kantons Zürich, sehr positiv. Wir sind sehr zufrieden. Wir haben die...",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-03-31T17:40:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...wie Unternehmer Marc Wegmüller sind dabei auf die Unterstützung der lokalen Elektrizitätswerke angewiesen - doch das klappt nicht überall gleich gut. Alleine zwischen den...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 6.6,
+    "rank": 21,
+    "imageUrl": "../demo-data/cropped/20260331_21_Elektrizitätswerken.jpg",
+    "timecode": "00:06:25.933",
+    "airTime": "17:46"
+  },
+  {
+    "phrase": "Wallis",
+    "lemma": "Wallis",
+    "spike": 6.0,
+    "target_count": 12,
+    "unit_count": 2,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...m. Es kann aber auch Aufhellungen geben. Vor allem in der Westschweiz, im Wallis oder im Tessin. Im Tessins lässt auch der Nordföhn. In der Nacht wird es...",
+        "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+        "startTime": "2026-03-31T12:50:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Befragten v.a. die Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich,...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Befragten v.a. die Kantone Genf, Tessin und Uri an. Es folgen die Waadt, das Wallis, Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich,...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...die hineinziehen. Sonst ist es recht sonnig, in der Westschweiz und im Wallis sogar sehr sonnig. Am Karfreitag sind die Wolkenfelder noch den. Es geht...",
+        "urn": "urn:srf:video:49e4fe3f-6625-4c73-881c-512a5de2c483",
+        "startTime": "2026-03-31T19:55:00+02:00"
+      }
+    ],
+    "score": 6.0,
+    "rank": 22,
+    "imageUrl": "../demo-data/cropped/20260331_22_Wallis.jpg",
+    "timecode": "00:00:56.888",
+    "airTime": "12:50"
+  },
+  {
+    "phrase": "Freiburg",
+    "lemma": "Freiburg",
+    "spike": 5.6,
+    "target_count": 4,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich, Freiburg und Graubünden an. Es folgen Appenzell Innerrhoden, Neuenburg und Luzern....",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...simuliert wird. Schlagzeilen machte zudem, als bei einer Demonstration in Freiburg Anfang der 2000er Paintball-Markierer von der Polizei gegen Demonstrierende...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Schwyz und Zug. Immer noch zwei Drittel gaben dies für die Kantone Zürich, Freiburg und Graubünden an. Es folgen Appenzell Innerrhoden, Neuenburg und Luzern....",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 5.6,
+    "rank": 23,
+    "imageUrl": "../demo-data/cropped/20260331_23_Freiburg.jpg",
+    "timecode": "00:05:25.870",
+    "airTime": "19:35"
+  },
+  {
+    "phrase": "Mordes",
+    "lemma": "Mord",
+    "spike": 5.2,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an Israelis verurteilt werden. Mit 62 Pro- und 48 Kontra-Stimmen hat das...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...für Palästinenser verhängt werden, die in den besetzten Gebieten wegen Mordes an Israelis verurteilt werden. Mit 62 Pro- und 48 Kontra-Stimmen hat das...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      }
+    ],
+    "score": 5.2,
+    "rank": 24,
+    "imageUrl": "../demo-data/cropped/20260331_24_Mordes.jpg",
+    "timecode": "00:00:38.475",
+    "airTime": "12:45"
   }
 ]

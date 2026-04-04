@@ -1,545 +1,630 @@
 [
   {
-    "phrase": "Cape Canaveral",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Studium",
+    "lemma": "Studium",
+    "spike": 34.0,
+    "target_count": 34,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Alls...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...Ton, aber nicht beschönigend. # Ihr Chind sind au nöd fehlerfrei. Seit dem Studium komponiert der St. Galler Marius Tschirky Kinderlieder und gab mit seiner...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "channel": "SRF info",
+        "quote": "...am falschen Ort investiert. Es ergibt keinen Sinn, dass wir nach sechs Jahren Studium und acht bis neun Jahren Weiterbildung am Abend dasitzen",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-04-01T04:55:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...eine Mäusewelt. Auch für Ralph Böhler hat sich dank des Studiums eine ganz neue Welt eröffnet. Ich frage mich, ob die 2 Std. nächste Woche...",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-04-01T06:00:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in die Tiefen des Weltalls...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Ton, aber nicht beschönigend. # Ihr Chind sind au nöd fehlerfrei. Seit dem Studium komponiert der St. Galler Marius Tschirky Kinderlieder und gab mit seiner...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eine Mäusewelt. Auch für Ralph Böhler hat sich dank des Studiums eine ganz neue Welt eröffnet. Ich frage mich, ob die 2 Std. nächste Woche...",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
       }
     ],
-    "score": 443.8,
+    "score": 53.9,
     "rank": 1,
     "imageUrl": ""
   },
   {
-    "phrase": "NASA",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Protest",
+    "lemma": "Protest",
+    "spike": 34.0,
+    "target_count": 34,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...den Behörden abgebaut. In den US-Medien sorgte das für Schlagzeilen. Diesen Protest unterstützte im Baselbiet die JUSO mit einer Aktion am Denkmal in Rünenberg....",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-04-01T06:00:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...massiven Energiekrise. Karina Rierola. * Lautes Hupen * Paris ist bereits in Proteststimmung. Reisecarfirmen machen die gestiegenen Benzin- und Dieselpreise zu...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...den Behörden abgebaut. In den US-Medien sorgte das für Schlagzeilen. Diesen Protest unterstützte im Baselbiet die JUSO mit einer Aktion am Denkmal in Rünenberg....",
+        "urn": "urn:srf:video:1234d18e-dbe1-4fbf-bf84-17608f6f35af",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      },
+      {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die NASA will damit an die erfolgreichen Zeiten der Apollo-Missionen der 60er- und...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...des vom Bürgerkrieg schwer zerstörten Landes. Der Besuch wird von Protesten begleitet. Al-Scharaa ist wegen seiner dschihadistischen Vergangenheit...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...dürfte fraglich sein. Heute noch soll sie starten, die Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape Canaveral in Florida....",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...und Kundgebungen erwartet werden. Laut den Organisatoren der sog. No-Kings-Proteste soll es der grösste, gewaltfreie Protesttag in der Geschichte der USA...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83",
+        "startTime": "2026-03-28T18:00:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 53.9,
     "rank": 2,
     "imageUrl": ""
   },
   {
-    "phrase": "WM",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Mannschaften",
+    "lemma": "Mannschafte",
+    "spike": 27.0,
+    "target_count": 27,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Zum dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...und enttäuschend, auf diese Art zu scheitern. Während diesen Sommer für 48 Mannschaften mit der WM ein Höhepunkt ansteht, heisst es in Italien: Wiederaufbau. Schon...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+        "startTime": "2026-04-01T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...und eine Fussball-Ikone analysieren das Debakel bei der italienischen WM-Qualifikation. Wie weit darf Gewalt im Netz gehen? Diese Frage wird derzeit...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "channel": "SRF info",
+        "quote": "...erfreut sich auch in der Schweiz immer grösserer Beliebtheit. Doch wenn zwei Mannschaften mit Farbpistolen gegeneinander antreten: Ist das nun Sport oder doch eher...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Heimspiel am Montag. Heute findet in Lugano Spiel 4 zwi- schen den beiden Mannschaften statt. Pascal Schmitz ist vor Ort - aber noch nicht im Stadion. Wir...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Heimspiel am Montag. Heute findet in Lugano Spiel 4 zwi- schen den beiden Mannschaften statt. Pascal Schmitz ist vor Ort - aber noch nicht im Stadion. Wir...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 42.8,
     "rank": 3,
     "imageUrl": ""
   },
   {
-    "phrase": "Bosnien-Herzegowina",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Kontinent",
+    "lemma": "Kontinent",
+    "spike": 27.0,
+    "target_count": 27,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...war, sie lösen ihr erstes WM-Ticket seit zwölf Jahren. Thomas von Grünigen. Bosnien-Herzegowina, Sekunden vor der Ekstase. Bis spät in die Nacht hinein wird in Sarajevo...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...entstehen, wo Raumfahrende leben und arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...entstehen, wo Raumfahrende leben und arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...und 80'000 amerikanische Streitkräfte sind in Europa stationiert. Der Kontinent ist das Drehkreuz für US-Einsätze in Afrika, dem Mittleren Osten und...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...- mehr als jedes andere Land -, beim Krieg in der Ukraine, auf einem anderen Kontinent. Und jetzt, wo die USA die Hilfe der Europäer brauchen könnten im Iran, will...",
+        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e",
+        "startTime": "2026-03-27T12:45:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...vier Jahren ist es mit der Weltreise losgegangen, es hat 47 Länder auf fünf Kontinenten besucht und ist heute Mittag wieder zu Hause in Horw/LU angekommen. Als...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 42.8,
     "rank": 4,
     "imageUrl": ""
   },
   {
-    "phrase": "Mond",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Grenzwerte",
+    "lemma": "Grenzwert",
+    "spike": 25.0,
+    "target_count": 25,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Nach mehr als einem halben Jahrhundert fliegen Menschen wieder zum Mond. In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...In dieser Nacht soll es nun endlich losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond geschickt werden. Über 50 Jahre ist es her, seit die USA im Rahmen des...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...breit. Bei Konsumierenden, aber auch in der Landwirtschaft. Denn klare Grenzwerte fehlen. Aus Existenzangst fordern Betriebe nun Hilfe vom Staat. Pascal...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
       },
       {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...In dieser Nacht soll es nun endlich losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...sich? Die Herausforderung ist, dass beim Fleisch laut Lebensmittel- gesetz Grenzwerte gelten. Wenn wir dort grossangelegte Flächen machen, kann ein Hof sein...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Drittel der getesteten Landwirtschaftsbetriebe liegen die Werte über dem Grenzwert der EU. Betroffen von den erhöhten PFAS-Werten in der Milch sind v.a. zwei...",
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sich? Die Herausforderung ist, dass beim Fleisch laut Lebensmittel- gesetz Grenzwerte gelten. Wenn wir dort grossangelegte Flächen machen, kann ein Hof sein...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 39.6,
     "rank": 5,
     "imageUrl": ""
   },
   {
-    "phrase": "Bosnien",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "öffentlichen Verkehr",
+    "lemma": "öffentlich Verkehr",
+    "spike": 25.0,
+    "target_count": 25,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...ganz schön sein, allerdings auch ganz schön teuer. Ab Dezember kostet der öffentliche Verkehr bei uns ordentlich mehr. Die Alliance SwissPass, zu der fast alle Schweizer...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-04-01T04:55:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...des anderen Freud. Und so hat man sich einige 100 km weiter östlich in Bosnien- Herzegowina über alles gefreut, als im Penaltyschiessen klar war, sie lösen...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...diskutiert und wie hilft oder schadet das dem Präsidenten? Da hatte ich die öffentliche Meinung in den letzten Wochen wenig verändert. Die jüngste Umfrage ist einige Tage...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...diskutiert und wie hilft oder schadet das dem Präsidenten? Da hatte ich die öffentliche Meinung in den letzten Wochen wenig verändert. Die jüngste Umfrage ist einige Tage...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute mitgeteilt. Letzte Woche war eine...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute mitgeteilt. Letzte Woche war eine...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 39.6,
     "rank": 6,
     "imageUrl": ""
   },
   {
-    "phrase": "Penaltyschiessen",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Verbündeten",
+    "lemma": "verbündeter",
+    "spike": 24.0,
+    "target_count": 24,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei,...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten Apokalypse. Detlev Munz....",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...durch den Persischen Golf blockiert, wachsen nun Befürchtungen, die mit ihnen Verbündeten Huthi könnten die maritime Engstelle des Roten Meeres, die Strasse von Bab...",
+        "urn": "urn:srf:video:8034c605-abcc-4871-93d1-be42fb440b83",
+        "startTime": "2026-03-28T18:00:00+01:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...100 km weiter östlich in Bosnien- Herzegowina über alles gefreut, als im Penaltyschiessen klar war, sie lösen ihr erstes WM-Ticket seit zwölf Jahren. Thomas von...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "channel": "SRF info",
+        "quote": "...Aussenminister Rubio ein US-Spitzenvertreter persönlich mit den wichtigsten Verbündeten in der Gruppe der G7. Dazu begrüssen ich im Studio unseren internationalen...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
       },
       {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten Apokalypse. Detlev Munz....",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...uns regelmässig vor und nach den Sitzungen austauschen. Wir suchen dort auch Verbündete, auch ausserhalb von Parteien und Fraktionen. Wir haben z.B. bei der...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...uns regelmässig vor und nach den Sitzungen austauschen. Wir suchen dort auch Verbündete, auch ausserhalb von Parteien und Fraktionen. Wir haben z.B. bei der...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 38.0,
     "rank": 7,
     "imageUrl": ""
   },
   {
-    "phrase": "Astronaut",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Auseinandersetzungen",
+    "lemma": "Auseinandersetzung",
+    "spike": 23.0,
+    "target_count": 23,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau kompakt"
+      "Telesguard"
     ],
     "programs": [
       "10 vor 10",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Telesguard"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Bedingungen des Weltalls. Das wird den Weg für künftige Landungen ebnen. Vier Astronauten werden zehn Tage unterwegs sein. Weiter von der Erde entfernt als je zuvor....",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...das kein Problem ist und ich dieser Bibel neues Leben einhauchen darf. Die Auseinandersetzung mit der rätoromanischen Bibel, die vor über 280 Jahren in Scuol gedruckt...",
+        "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+        "startTime": "2026-03-31T05:55:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Mitternacht soll die Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...laufen die letzten Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...auch das Sozialdepartement. Es ist eine sehr komplexe Materie. Es gibt viele Auseinandersetzungen, eine angespannte Finanzlage Einfach wird es nicht, aber ich bin nicht...",
+        "urn": "urn:srf:video:b7cd0196-fd22-410d-836b-c15ee530e84c",
+        "startTime": "2026-03-29T18:00:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Mitternacht soll die Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...auch das Sozialdepartement. Es ist eine sehr komplexe Materie. Es gibt viele Auseinandersetzungen, eine angespannte Finanzlage Einfach wird es nicht, aber ich bin nicht...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...in der Zelle erhitzen. Ohne warme Mahlzeit kam es früher zu Spannungen und Auseinandersetzungen. Wenn die Insassen ruhig sind, wirkt sich diese Ruhe auch auf die...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-27T04:35:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 36.5,
     "rank": 8,
     "imageUrl": ""
   },
   {
-    "phrase": "Besatzung",
-    "spike": 280.0,
+    "phrase": "Rat",
+    "lemma": "Rat",
+    "spike": 20.0,
     "target_count": 20,
     "unit_count": 3,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine Mondlandung ist nicht Teil...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Abend, herzlich willkommen. Wir zeigen Ihnen, was in der Schweiz läuft. Vom Ratssaal bis in den Kindergarten nehmen wir Sie heute mit. Im Kanton Bern gewinnt...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Abend, herzlich willkommen. Wir zeigen Ihnen, was in der Schweiz läuft. Vom Ratssaal bis in den Kindergarten nehmen wir Sie heute mit. Im Kanton Bern gewinnt...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec",
+        "startTime": "2026-03-30T19:00:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung bekannt. Mit drei Premieren: Nebst dem Kommandanten Reid Wiseman, hier rechts...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...funktionieren kann. Und selbst wenn er funktionieren würde, birgt er für die Besatzung ein inakzeptables Risiko. Ich wiederhole meine Empfehlung von vor 23 Monaten:...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...zeitweise Regen und Schnee, im Süden ist es ziemlich sonnig. Als Nationalrat war Roger Nordmann vor einem Jahr zurückgetreten. Heute wurde der SP-Mann vom...",
+        "urn": "urn:srf:video:808c8639-95cf-41bd-8410-275b3f497b3b",
+        "startTime": "2026-03-29T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung bekannt. Mit drei Premieren: Nebst dem Kommandanten Reid Wiseman, hier rechts...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...zeitweise Regen und Schnee, im Süden ist es ziemlich sonnig. Als Nationalrat war Roger Nordmann vor einem Jahr zurückgetreten. Heute wurde der SP-Mann vom...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...auch Ferda plötzlich verloren. Sie fand aber mit Nur Betül einen Verein, der Rat und Beistand bot. Ferda hatte zudem gerade ein Kind bekommen. Wie Tausenden...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-27T04:35:00+01:00"
       }
     ],
-    "score": 443.8,
+    "score": 31.7,
     "rank": 9,
     "imageUrl": ""
   },
   {
-    "phrase": "Träne",
-    "spike": 280.0,
-    "target_count": 20,
+    "phrase": "Versicherung",
+    "lemma": "Versicherung",
+    "spike": 19.0,
+    "target_count": 19,
     "unit_count": 3,
     "editorial_units": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "SRF Börse",
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
-      "10 vor 10",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
+        "title": "SRF Börse",
         "channel": "SRF 1",
-        "quote": "...nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei, fine. Italiens Fussball liegt in Trümmern. Schon wieder....",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...dominieren den SMI mit einem Gewicht von zusammen 50 % ABB, UBS, Zürich Versicherung und Richemont machen weitere rund 25 % aus, die übrigen 13 SMI-Aktien dann...",
+        "urn": "urn:srf:video:3b640c47-925d-4d60-9075-2d496d55fd1c",
+        "startTime": "2026-04-01T19:25:00+02:00"
+      },
+      {
+        "title": "SRF Börse in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...dominieren den SMI mit einem Gewicht von zusammen 50 % ABB, UBS, Zürich Versicherung und Richemont machen weitere rund 25 % aus, die übrigen 13 SMI-Aktien dann...",
+        "urn": "urn:srf:video:fa62fbc3-eaae-47aa-8d75-f7cfd892efec",
+        "startTime": "2026-04-01T19:25:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und Wolken ab bei rund 10 °C, im Süden ist es...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...werden. Doch hier ändert sich gerade was. Die Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum dritten Mal fehlen die Azzurri am Turnier. Wortlos kommentieren die...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...hofft jetzt, dass die Polizei die gestohlenen Autos findet und dass ihm die Versicherung irgendwie entgegenkommt. Kindergartenerinnerungen: Dort gab es doch eine...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und Wolken ab bei rund 10 °C, im Süden ist es...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...werden. Doch hier ändert sich gerade was. Die Post muss neu Briefe - z.B. von Versicherungen oder Energieversorgern - auch digital zustellen, wenn gewünscht. Der...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 443.8,
+    "score": 30.1,
     "rank": 10,
     "imageUrl": ""
   },
   {
-    "phrase": "Astronautin",
-    "spike": 224.0,
-    "target_count": 16,
+    "phrase": "Kanton Bern",
+    "lemma": "Kanton Bern",
+    "spike": 19.0,
+    "target_count": 19,
     "unit_count": 3,
     "editorial_units": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Meteo",
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
-      "10 vor 10",
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Mal alles klappt, machen sich nach Mitternacht drei Astronauten und eine Astronautin an Bord einer Orion-Kapsel auf den Weg, den Erdtrabanten zu umrunden. Die...",
-        "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25"
-      },
-      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Vorberei- tungen am Cape Canaveral in Florida. Drei Astronauten und eine Astronautin sollen auf einen zehntägigen Flug um den Mond geschickt werden. Über 50 Jahre...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...um Stadt und Land, die politisch auseinanderdriften. Besonders krass im Kanton Bern, wie die Wahlen am Sonntag zeigten. Wir waren unterwegs im Wahlkampf, wo die...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Artemis-2-Mission heute Nacht abheben. Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...um Stadt und Land, die politisch auseinanderdriften. Besonders krass im Kanton Bern, wie die Wahlen am Sonntag zeigten. Wir waren unterwegs im Wahlkampf, wo die...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...läuft. Vom Ratssaal bis in den Kindergarten nehmen wir Sie heute mit. Im Kanton Bern gewinnt die SVP sieben Sitze im Parlament hinzu, die SP vier Sitze. Federn...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...läuft. Vom Ratssaal bis in den Kindergarten nehmen wir Sie heute mit. Im Kanton Bern gewinnt die SVP sieben Sitze im Parlament hinzu, die SP vier Sitze. Federn...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...gekriegt, die den Neuschnee zeigen. Eines z.B. von heute Morgen aus dem Kanton Bern. Auf rund 700 m. Gesehen, wie der ganze Garten voller Schnee ist. Wenn wir...",
+        "urn": "urn:srf:video:178084c6-4c37-4172-9885-e981a0fd6ea6",
+        "startTime": "2026-03-26T19:55:00+01:00"
       }
     ],
-    "score": 355.0,
+    "score": 30.1,
     "rank": 11,
     "imageUrl": ""
   },
   {
-    "phrase": "Tal der Tränen",
-    "spike": 238.0,
-    "target_count": 17,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Weltmeister nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der Tränen. Aus, vorbei, fine. Italiens Fussball liegt in Trümmern. Schon wieder....",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...von Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum dritten Mal fehlen die Azzurri am Turnier. Wortlos kommentieren die zwei...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
-      }
-    ],
-    "score": 238.0,
-    "rank": 12,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Schock",
-    "spike": 224.0,
-    "target_count": 16,
+    "phrase": "Wechsel",
+    "lemma": "Wechsel",
+    "spike": 30.0,
+    "target_count": 30,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -553,55 +638,111 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "...Scuol, hat seine Mühe damit. Oh, mein Gott! Was ist das? Mein Gott, welch ein Schock. Er engagiert sich für das Idiom Vallader. Ihm bereitet diese neue Sprache...",
-        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18"
+        "quote": "...die Alterszentren. In einem davon präsentierten die Verantwortlichen, wie der Wechsel der SGO zur Sanadura vonstatten ging. Es lief grundsätzlich gut, so, wie wir...",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Schmerz. Auch im italienischen Restaurant Dieci in Rapperswil sitzt der Schock tief. Chef de Service Antonio de Blasio zeigt uns das Tagesmenu gewürzt mit...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "channel": "SRF info",
+        "quote": "...verstorben ist\", obwohl es eigentlich einen Totenschein gibt. Es ist ein Wechsel zwischen grotesken Situationen und einer Alltagskultur des Misstrauens....",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-04-01T04:55:00+02:00"
       }
     ],
-    "score": 224.0,
+    "score": 30.0,
+    "rank": 12,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Diesel",
+    "lemma": "Diesel",
+    "spike": 27.0,
+    "target_count": 27,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Preisentwicklung untersucht: Seit Kriegsausbruch vor vier Wochen kletterte Diesel von durchschnittlich 1.74 Fr. auf 2.13 Fr. pro Liter geklettert: Ein Anstieg...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...vor 10\" - bitte Urs: Seit Beginn des Iran-Kriegs ist der Preis für Benzin und Diesel massiv angestiegen. Kleine Betreiber werfen den grossen nun vor, sie würden...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...vor 10\" - bitte Urs: Seit Beginn des Iran-Kriegs ist der Preis für Benzin und Diesel massiv angestiegen. Kleine Betreiber werfen den grossen nun vor, sie würden...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
+        "startTime": "2026-03-30T19:30:00+02:00"
+      }
+    ],
+    "score": 27.0,
     "rank": 13,
     "imageUrl": ""
   },
   {
-    "phrase": "Mondlandung",
-    "spike": 196.0,
-    "target_count": 14,
+    "phrase": "Umwelt",
+    "lemma": "Umwelt",
+    "spike": 24.0,
+    "target_count": 24,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
-      "Tagesschau kompakt"
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
+        "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine Mondlandung ist nicht Teil der Mission. Diese soll laut NASA frühestens in zwei Jahren...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...Einnahmen für den Strassenfonds und eine spürbare Entlastung für Mensch und Umwelt in den vieldurchfahrenen Alpenregionen. Auf der Strasse sind die Reaktionen...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...Artemis II wollen sie dorthin zurück. Es ist der Testflug für eine erneute Mondlandung. Doch die USA erhalten Konkurrenz, diesmal nicht von Russland, sondern von...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...können, sagt er. Wir haben festgestellt, dass die vorgefundenen PFAS von der Umwelt und der Gesellschaft kommen und nicht von der bäuerlichen Produktion....",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Einnahmen für den Strassenfonds und eine spürbare Entlastung für Mensch und Umwelt in den vieldurchfahrenen Alpenregionen. Auf der Strasse sind die Reaktionen...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
       }
     ],
-    "score": 196.0,
+    "score": 24.0,
     "rank": 14,
     "imageUrl": ""
   },
   {
-    "phrase": "Aprilscherz",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Umsatz",
+    "lemma": "Umsatz",
+    "spike": 24.0,
+    "target_count": 24,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -610,36 +751,48 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion, seit gestern Abend in Florida angedockt, wird...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...günstiger. Der Discounter Lidl meldete kürzlich ein Wachstum von 11 % beim Umsatz mit Bio-Produkten. Das setze die Grossverteiler wie Coop und Migros unter...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...auch auf ein spannendes Direktduell gegen die Schweiz. Und bevor wir zum Aprilscherz des Tages kommen, ein Ausblick auf den \"Kulturplatz\" gleich im Anschluss. Die...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...wertvollsten Technologieunternehmen. Allerdings eines, bei dem sehr viel vom Umsatz vom iPhone abhängt - gut die Hälfte. Und dieses Gerät ist bald 20 Jahre alt....",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion, seit gestern Abend in Florida angedockt, wird...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...günstiger. Der Discounter Lidl meldete kürzlich ein Wachstum von 11 % beim Umsatz mit Bio-Produkten. Das setze die Grossverteiler wie Coop und Migros unter...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...teilt der Branchenverband der Schweizer Musiklabels heute mit. Über 90 % der Umsätze fallen auf Streamingdienste. Auf tiefem Niveau stieg erstmals seit Jahren...",
+        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e",
+        "startTime": "2026-03-27T12:45:00+01:00"
       }
     ],
-    "score": 182.0,
+    "score": 24.0,
     "rank": 15,
     "imageUrl": ""
   },
   {
-    "phrase": "Livestream",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Hafen",
+    "lemma": "Hafen",
+    "spike": 23.0,
+    "target_count": 23,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -654,30 +807,34 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Stunden soll es losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Ebenfalls dort: Alle...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...soll es also losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Es begann in dieser Garage...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...und Luumäki. Die Absturzstellen sind nicht allzu weit von den russischen Häfen Primorsk und Ust-Luga entfernt. Die Ukraine hat in den letzten Tagen beide...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Stunden soll es losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF News App. Ebenfalls dort: Alle...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...und Luumäki. Die Absturzstellen sind nicht allzu weit von den russischen Häfen Primorsk und Ust-Luga entfernt. Die Ukraine hat in den letzten Tagen beide...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
+        "startTime": "2026-03-30T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Der amerikanische Flugzeugträger USS Gerald Ford liegt derzeit im Hafen von Kreta vor Anker. Nach einem Brand an Bord des Schiffes wurden Reparaturen...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
       }
     ],
-    "score": 182.0,
+    "score": 23.0,
     "rank": 16,
     "imageUrl": ""
   },
   {
-    "phrase": "Weltraum",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Netanjahu",
+    "lemma": "Netanjahu",
+    "spike": 22.0,
+    "target_count": 22,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -686,36 +843,48 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Tagesschau",
+        "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...auf den rechtsextremen Minister Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Gemäss israelischen Medienberichten hatte sich Netanjahu aber...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...rechtsextremen Minister Itamar Ben-Gvir zurückgeht. Auch Ministerpräsident Netanjahu stimmte dafür. Auf der Gegenseite war die Rede von einem diskriminierenden...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...heisst der Konkurrent China. Beharrlich baut das Land seine Fähigkeiten im Weltraum aus. Das Raumfahrtprogramm ist wenig transparent, doch es wird allgemein...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...Israel und die Golfstaaten -, während sich Israels Ministerpräsident Benjamin Netanjahu zu seinen Zielen äussert. Ihm geht es auch um den Süd-Libanon, dort weitet er...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape Canaveral im US-Bundesstaat Florida soll sie Menschen wieder in...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Israel und die Golfstaaten -, während sich Israels Ministerpräsident Benjamin Netanjahu zu seinen Zielen äussert. Ihm geht es auch um den Süd-Libanon, dort weitet er...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
+        "startTime": "2026-03-30T19:30:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 22.0,
     "rank": 17,
     "imageUrl": ""
   },
   {
-    "phrase": "Artemis-Programm",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Todesstrafe",
+    "lemma": "Todesstrafe",
+    "spike": 21.0,
+    "target_count": 21,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -724,36 +893,48 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...zur \"Tagesschau kompakt\" In Israel soll es für Terroristen künftig die Todesstrafe geben. Das israelische Parlament hat gestern Abend einen Gesetzesentwurf...",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...könnte. Es wäre ein Erfolg für die NASA, nach mehreren Verschiebungen. Das Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...bringt keine Klärung. Israels Parlament weitet das Gesetz zur Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...prägt. Derzeit liegen die USA im Wettlauf zum Mond immer noch vorne. Doch das Artemis-Programm kämpft mit Problemen. Diverse Elemente der Mission sind technisch nicht...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "channel": "SRF info",
+        "quote": "...hat sich - trotz internationaler Kritik - für die Wiedereinführung der Todesstrafe ausgesprochen. Der gutgeheissene Gesetzentwurf betrifft de facto nur...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...könnte. Es wäre ein Erfolg für die NASA, nach mehreren Verschiebungen. Das Artemis-Programm wurde 2017 ins Leben gerufen. Im April 2023 gab die NASA die Besatzung...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...bringt keine Klärung. Israels Parlament weitet das Gesetz zur Todesstrafe aus. Es kann faktisch nur gegen Palästinenser angewendet werden. Celine Dion...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 21.0,
     "rank": 18,
     "imageUrl": ""
   },
   {
-    "phrase": "Bajraktarevic",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Bosnien-Herzegowina",
+    "lemma": "Bosnien-Herzegowina",
+    "spike": 20.0,
+    "target_count": 20,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -762,36 +943,48 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+        "startTime": "2026-04-01T12:45:00+02:00"
+      },
+      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...dritten Apokalypse. Detlev Munz. Gegen 23.30 Uhr platzt Italiens WM-Traum. Bajraktarevic versenkt auch den dritten Penalty für Bosnien-Herzegowina, während Italien...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...seit Jahren bedrücken und eine ganz neue Stimmung kreieren. Der Elfmeter von Bajraktarevic schiesst Bosnien Herzegowina an die WM, und Italien ins Tal der Tränen. Zum...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...war, sie lösen ihr erstes WM-Ticket seit zwölf Jahren. Thomas von Grünigen. Bosnien-Herzegowina, Sekunden vor der Ekstase. Bis spät in die Nacht hinein wird in Sarajevo...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...dritten Apokalypse. Detlev Munz. Gegen 23.30 Uhr platzt Italiens WM-Traum. Bajraktarevic versenkt auch den dritten Penalty für Bosnien-Herzegowina, während Italien...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man deshalb von der dritten...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 20.0,
     "rank": 19,
     "imageUrl": ""
   },
   {
-    "phrase": "Mondmission",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "NASA",
+    "lemma": "NASA",
+    "spike": 20.0,
+    "target_count": 20,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -800,36 +993,48 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die NASA will damit an die erfolgreichen Zeiten der Apollo-Missionen der 60er- und...",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+        "startTime": "2026-04-01T12:45:00+02:00"
+      },
+      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion,...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...auch auf der Erde. In wenigen Stunden soll es also losgehen mit der ersten Mondmission seit über 50 Jahren. Den Livestream dazu sehen Sie auf srf.ch und in der SRF...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...dürfte fraglich sein. Heute noch soll sie starten, die Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape Canaveral in Florida....",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50 Jahren nicht zum Aprilscherz verkommt. Das Raumschiff Orion,...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles daran, damit ihre erste bemannte Mondmission seit über 50...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 20.0,
     "rank": 20,
     "imageUrl": ""
   },
   {
-    "phrase": "Europäischen Weltraumorganisation",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Cyberangriff",
+    "lemma": "Cyberangriff",
+    "spike": 20.0,
+    "target_count": 20,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -838,74 +1043,82 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug zum Mond, bei dem man die...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Tankstelle fast 30 Rp. beträgt. In der Schweiz gab's im letzten Jahr 65'000 Cyberangriffe - wo und wie die Täter zuschlagen. Die Paintballer kämpfen gegen ihren...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
-        "title": "10 vor 10",
+        "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...dass China 2030 die Mondlandung gelingen könnte. Der Generaldirektor der Europäischen Weltraumorganisation ESA sagte am letzten WEF in Davos, China sei enorm ambitioniert. China - und...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...zur \"Tagesschau\" mit dem Wichtigsten am Montagmittag, kurz und kompakt. 325 Cyberangriffe auf kritische Infrastrukturen sind dem Bund im vergangenen Jahr gemeldet...",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht unter Cyberangriff. Der Bund spricht von immer mehr solcher Straftaten. Und sie können alle...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug zum Mond, bei dem man die...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...ein verdächtiges SMS mit einer Zahlungsaufforderung - auch das geht unter Cyberangriff. Der Bund spricht von immer mehr solcher Straftaten. Und sie können alle...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
+        "startTime": "2026-03-30T19:30:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 20.0,
     "rank": 21,
     "imageUrl": ""
   },
   {
-    "phrase": "Generaldirektor",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Solaranlage",
+    "lemma": "Solaranlage",
+    "spike": 19.0,
+    "target_count": 19,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau"
+      "Telesguard"
     ],
     "programs": [
       "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Telesguard"
     ],
     "quotes": [
       {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...dabei. Heute geht es um diese Themen: Nach dem ersten Winter der drei alpinen Solaranlagen in Graubünden sind die Erwartungen mehr als erfüllt. Nach 22 Jahren muss...",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-04-01T05:40:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...davon ausgegangen, dass China 2030 die Mondlandung gelingen könnte. Der Generaldirektor der Europäischen Weltraumorganisation ESA sagte am letzten WEF in Davos,...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...arbeiten können. Der Mond als achter Kontinent, so die Vision, erklärt der Generaldirektor der Europäischen Weltraumorganisation. Es geht nicht um einen einmaligen Flug...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...stapeln. Er braucht sehr viel Strom. Und dieser kommt vom eigenen Dach. Diese Solaranlage ist ein Paradebeispiel für eine Lokale Elektrizitätsgemeinschaft: Der...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       }
     ],
-    "score": 182.0,
+    "score": 19.0,
     "rank": 22,
     "imageUrl": ""
   },
   {
-    "phrase": "Artemis",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Benedikt Hofer",
+    "lemma": "Benedikt Hofer",
+    "spike": 17.0,
+    "target_count": 17,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -920,30 +1133,118 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...möglich sein wird, dürfte fraglich sein. Heute noch soll sie starten, die Artemis-II-Mission der NASA. Derzeit laufen die letzten Vorberei- tungen am Cape...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
+        "quote": "...Bündnis. Und: Wieder mehren sich Verlautbarungen eines möglichen Kriegsendes. Benedikt Hofer. Tag 33 - was die Kriegsbilder zeigen, ist ziemlich beständig. So treffen...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Bündnis. Und: Wieder mehren sich Verlautbarungen eines möglichen Kriegsendes. Benedikt Hofer. Tag 33 - was die Kriegsbilder zeigen, ist ziemlich beständig. So treffen...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...bei der NATO über fehlende Unterstützung. Eine schwierige Gemengelage. Benedikt Hofer: Es ist Aussenminister Rubios Job, der Welt die US-Aussenpolitik zu erklären....",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
       }
     ],
-    "score": 182.0,
+    "score": 17.0,
     "rank": 23,
     "imageUrl": ""
   },
   {
-    "phrase": "kalt Krieg",
-    "spike": 182.0,
-    "target_count": 13,
+    "phrase": "Digitalisierung",
+    "lemma": "Digitalisierung",
+    "spike": 17.0,
+    "target_count": 17,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...könnten. Dabei müssten laut Pro Bahn die Preise sinken, da durch die Digitalisierung die Effizienz stark gesteigert wurde. Aus unserer Sicht müsste man eigentlich...",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-04-01T04:55:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ist es so möglich, verstärkt im Wettbewerb aufzutreten, weil ihnen KI und die Digitalisierung ermöglichen, ihre Produkte in einem viel grös- seren geografischen Raum...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist es so möglich, verstärkt im Wettbewerb aufzutreten, weil ihnen KI und die Digitalisierung ermöglichen, ihre Produkte in einem viel grös- seren geografischen Raum...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 17.0,
+    "rank": 24,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "TikTok",
+    "lemma": "TikTok",
+    "spike": 16.0,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Kids News"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Kids News",
+      "SRF Kids News in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Der Bundesrat bereitet ein Gesetz vor, um Plattformen wie Facebook, X oder TikTok zu regulieren. Der Entwurf sei aber zu schwach und zu wenig verbindlich, so...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      },
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF zwei",
+        "quote": "...sein, das zu tun? Die wollen einfach angeben oder viele Likes bekommen auf TikTok, YouTube, Instagram - was auch immer. Ich finde, man sollte das nicht tun....",
+        "urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b",
+        "startTime": "2026-03-30T11:35:00+02:00"
+      },
+      {
+        "title": "SRF Kids News in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sein, das zu tun? Die wollen einfach angeben oder viele Likes bekommen auf TikTok, YouTube, Instagram - was auch immer. Ich finde, man sollte das nicht tun....",
+        "urn": "urn:srf:video:cf640690-8e8d-42b1-8d16-6b2bce2fc2c6",
+        "startTime": "2026-03-27T18:40:00+01:00"
+      }
+    ],
+    "score": 16.0,
+    "rank": 25,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wohnungsmarkt",
+    "lemma": "Wohnungsmarkt",
+    "spike": 16.0,
+    "target_count": 16,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -958,454 +1259,704 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...geht es darum, die Schutzbautenwelt, die in der Schweiz ja immer noch aus dem Kalten Krieg in einem guten Zustand ist, jetzt wieder kriegstauglich zu machen....",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...Rechte, die man hat, kann man anwenden - das ist auch richtig und gut so. Der Wohnungsmarkt wird immer mehr umkämpft. Die Spannungen zwischen Vermietern und Mietern...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Rechte, die man hat, kann man anwenden - das ist auch richtig und gut so. Der Wohnungsmarkt wird immer mehr umkämpft. Die Spannungen zwischen Vermietern und Mietern...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
       },
       {
         "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Ben Huwyler berichtet. Es war der wohl grösste Prestigesieg der Amerikaner im Kalten Krieg. Die Saturn-V-Rakete der NASA brachte die ersten Menschen zum Mond. Die...",
-        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...geht es darum, die Schutzbautenwelt, die in der Schweiz ja immer noch aus dem Kalten Krieg in einem guten Zustand ist, jetzt wieder kriegstauglich zu machen....",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Das sind verschiedene Faktoren. Einerseits haben wir den Druck auf dem Wohnungsmarkt. Zu wenig Wohnungen? - Zu wenig Wohnungen bzw. bezahlbarer Wohnraum. Dann...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-27T04:35:00+01:00"
       }
     ],
-    "score": 182.0,
-    "rank": 24,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "All",
-    "spike": 140.0,
-    "target_count": 10,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...mia! Zum dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...könnte man vermuten. Italien verpasst zum dritten Mal in Serie eine Fussball-WM - das Land zwischen Scham und Tränen. Im Norden wechseln sich Sonne und...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
-      }
-    ],
-    "score": 140.0,
-    "rank": 25,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Artemis-2-Mission",
-    "spike": 140.0,
-    "target_count": 10,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...fliegen Menschen wieder zum Mond. In der Nacht auf morgen ist der Start der Artemis-2-Mission geplant. Die NASA will damit an die erfolgreichen Zeiten der Apollo-Missionen...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...losgehen: Der Mensch will wieder zum Mond. In wenigen Stunden sollen mit der Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
-      }
-    ],
-    "score": 140.0,
+    "score": 16.0,
     "rank": 26,
     "imageUrl": ""
   },
   {
-    "phrase": "Flugrout",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Kriegsausbruch",
+    "lemma": "Kriegsausbruch",
+    "spike": 15.0,
+    "target_count": 15,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...zehn Tage unterwegs sein. Weiter von der Erde entfernt als je zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...aufsucht, hat bemerkt: In letzter Zeit gibt's fürs Geld weniger Benzin. Seit Kriegsausbruch in Nahost ging es mit den Spritpreisen steil nach oben. Das zeigen auch...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...zehn Tage unterwegs sein - weiter von der Erde entfernt als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...vierten Woche. US-Präsident Trump lud heute zur ersten Kabinettssitzung seit Kriegsausbruch und behauptete in Richtung Iran einmal mehr: Sie betteln darum, einen Deal zu...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...zehn Tage unterwegs sein - weiter von der Erde entfernt als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...vierten Woche. US-Präsident Trump lud heute zur ersten Kabinettssitzung seit Kriegsausbruch und behauptete in Richtung Iran einmal mehr: Sie betteln darum, einen Deal zu...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 15.0,
     "rank": 27,
     "imageUrl": ""
   },
   {
-    "phrase": "halb Jahrhundert",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "G7-Länder",
+    "lemma": "G7-Länder",
+    "spike": 15.0,
+    "target_count": 15,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Die Stimmbevölkerung hatte die Abschaffung des Eigenmietwerts vor einem halben Jahr gutgeheissen. In den USA will Präsident Donald Trump die Regeln für die Briefwahl...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...ihre Wirtschaft. Heute trafen sich deshalb Energie- und Finanzminister der G7-Länder - der Gruppe der wichtigsten Industriestaaten - zu einer virtuellen Sitzung....",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben Jahrhundert. Ein neuer Chef soll das in Schieflage geratene Bundesamt für...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...von Paris: idyllisch. Weniger harmonisch zurzeit die Stimmung innerhalb der G7-Länder. Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Artemis-2-Mission wieder Menschen Richtung Mond fliegen - seit mehr als einem halben Jahrhundert. Ein neuer Chef soll das in Schieflage geratene Bundesamt für...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...von Paris: idyllisch. Weniger harmonisch zurzeit die Stimmung innerhalb der G7-Länder. Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 15.0,
     "rank": 28,
     "imageUrl": ""
   },
   {
-    "phrase": "NASA-Mondraket",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "US-Regierung",
+    "lemma": "US-Regierung",
+    "spike": 14.0,
+    "target_count": 14,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "SRF Börse",
+      "Tagesschau"
     ],
     "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...der Apollo-Missionen der 60er- und 70er-Jahre anknüpfen. Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...Mitgliedschaft im Verteidigungsbündnis ernsthaft überdenken, sagte Trump. Die US-Regierung wirft den europäischen Verbündeten seit Längerem vor, sie würden sich im...",
+        "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
+        "startTime": "2026-04-01T18:00:00+02:00"
       },
       {
-        "title": "Tagesschau",
+        "title": "SRF Börse",
         "channel": "SRF 1",
-        "quote": "...des Menschen werden auf dem Weg zum Mars. Simon Roth: Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die...",
+        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+        "startTime": "2026-03-27T19:25:00+01:00"
       },
       {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...des Menschen werden auf dem Weg zum Mars. Simon Roth: Riesig ist sie, die NASA-Mondrakete. Mit 98 m eine der grössten, die je gebaut wurde. Vom Weltraumbahnhof Cape...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die...",
+        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903",
+        "startTime": "2026-03-27T19:25:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 14.0,
     "rank": 29,
     "imageUrl": ""
   },
   {
-    "phrase": "Weltall",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Kurden",
+    "lemma": "Kurde",
+    "spike": 14.0,
+    "target_count": 14,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für künftige Landungen ebnen. Vier Astronauten werden zehn...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...Gewaltaus- brüche gegen syrische Minderheiten wie Drusen, Alawiten und Kurden. Nach dem Treffen folgt ein runder Tisch mit deutschen Unternehmen -...",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Damit reisen drei Astronauten und eine Astronautin an Bord weiter ins Weltall als je ein Mensch vor ihnen. Jaschar Dugalic: Die NASA setzt heute alles...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Gewaltaus- brüche gegen syrische Minderheiten wie Drusen, Alawiten und Kurden. Nach dem Treffen folgt ein runder Tisch mit deutschen Unternehmen -...",
+        "urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
+        "startTime": "2026-03-30T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Petition fordern Akademiker Frieden - endlich ein Ende des Krieges gegen die Kurden im Osten der Türkei. Wie die Hauptfiguren im Film werden sie aber selbst zur...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-27T04:35:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 14.0,
     "rank": 30,
     "imageUrl": ""
   },
   {
-    "phrase": "Trainer",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Eishockey",
+    "lemma": "Eishockey",
+    "spike": 14.0,
+    "target_count": 14,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...eine grosse Rochade im Kanton. Einen Zuschauerrekord erlebt die Schweizer Eishockey-Liga. Am meisten neue Fans hat der HC Lugano, der diese Saison besonders...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eine grosse Rochade im Kanton. Einen Zuschauerrekord erlebt die Schweizer Eishockey-Liga. Am meisten neue Fans hat der HC Lugano, der diese Saison besonders...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Traum gegeben. Jahre meines Lebens, mein Geld - alles, um dabei zu sein. Trainer, Spieler, Medien: Ein ganzes Land hadert. Ein Land trauert. Nicht eben erst...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...gelingt gegen Ende der regulären Spielzeit schliesslich der Ausgleich. Der Trainer ringt nach dem Spiel um Worte. Es macht mich wirklich fertig. Ich hätte heute...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...gelingt gegen Ende der regulären Spielzeit schliesslich der Ausgleich. Der Trainer ringt nach dem Spiel um Worte. Es macht mich wirklich fertig. Ich hätte heute...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...weitere Schneefälle dazu, und die Nächte werden frostig mit bis zu -6 °C. Zum Eishockey: Dort laufen die Playoffs der Männer auf Hochtouren, dem EV Zug droht heute...",
+        "urn": "urn:srf:video:da470479-3f99-4795-9824-cd36fe70e0a2",
+        "startTime": "2026-03-26T12:45:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 14.0,
     "rank": 31,
     "imageUrl": ""
   },
   {
-    "phrase": "entscheidend Spiel",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Asylheim",
+    "lemma": "Asylheim",
+    "spike": 14.0,
+    "target_count": 14,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "10 vor 10",
+      "Tagesschau"
     ],
     "programs": [
+      "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...für die Fussball-WM. Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister nach Penaltyschiessen und katapultierte...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Wohnungen fehlen, bringen Gemeinden gekündigte Mieter und Randständige im Asylheim unter. Appenzell Ausserrhoden meldet, dass bei einem Drittel der knapp 170...",
+        "urn": "urn:srf:video:bf168642-bdc4-45a5-aa44-39867627fa32",
+        "startTime": "2026-03-27T04:35:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen Bosnien-Herzegowina im Penaltyschiessen. In Italien spricht man...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...so stark unter Druck, dass Gemeinden gekündigte Mieter und Randständige in Asylheimen unterbringen. Das zeigen \"10 vor 10\"-Recherchen. Dann befassen auch wir uns...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 14.0,
     "rank": 32,
     "imageUrl": ""
   },
   {
-    "phrase": "vierfach Weltmeister",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "EVP",
+    "lemma": "EVP",
+    "spike": 12.0,
+    "target_count": 12,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Tagesschau in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Bosnien-Herzegowina gewann gestern Abend das entscheidende Spiel gegen den vierfachen Weltmeister nach Penaltyschiessen und katapultierte damit ein ganzes Land ins Tal der...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Kosten der Mitteparteien. Die GLP verliert einen Sitz, die Mitte drei und die EVP gleich vier. Philippe Messerli verliert seinen Sitz im Wahlkreis...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Kosten der Mitteparteien. Die GLP verliert einen Sitz, die Mitte drei und die EVP gleich vier. Philippe Messerli verliert seinen Sitz im Wahlkreis...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec",
+        "startTime": "2026-03-30T19:00:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Denn schon wieder, zum dritten Mal in Folge, findet eine Fussball-WM ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...es bei der SP zulasten der Grünen. Zu den Verlierern könnten GLP, Mitte und EVP gehören. Wir schalten zu Matthias Thomi, der für uns die Wahlen in Bern...",
+        "urn": "urn:srf:video:b7cd0196-fd22-410d-836b-c15ee530e84c",
+        "startTime": "2026-03-29T18:00:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Denn schon wieder, zum dritten Mal in Folge, findet eine Fussball-WM ohne den vierfachen Weltmeister statt. Die Squadra Azzurra scheitert im entscheidenden Spiel gegen...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...der Pohl Parteien gehen zulasten der Mitteparteien. Konkret verlieren GLP, EVP und Die Mitte. D. h. für das bürgerliche Parlament, es wird mit der links...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
       }
     ],
-    "score": 140.0,
+    "score": 12.0,
     "rank": 33,
     "imageUrl": ""
   },
   {
-    "phrase": "äusser Punkt",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Ägerisee",
+    "lemma": "Ägerisee",
+    "spike": 11.0,
+    "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
       "Tagesschau kompakt"
     ],
     "quotes": [
       {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...werde man ab Juli auf Sendung gehen. Der Verkauf eines Villengrundstücks am Ägerisee sorgt im Kanton Zug seit Jahren für Streit - juristisch und politisch: Es...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...entfernt als je zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...u.a. über die nächste Runde im jahrelangen Streit um ein Villen-Grundstück am Ägerisee. Von uns war's das, danke fürs Interesse und ein schönes Wochenende. SWISS...",
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
       },
       {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...als jemals zuvor. Die Flugroute der Mission ähnelt einer Acht. In ihrem äussersten Punkt wird die Besatzung rund 370'000 km von der Erde entfernt sein. Eine...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...werde man ab Juli auf Sendung gehen. Der Verkauf eines Villengrundstücks am Ägerisee sorgt im Kanton Zug seit Jahren für Streit - juristisch und politisch: Es...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 11.0,
     "rank": 34,
     "imageUrl": ""
   },
   {
-    "phrase": "historisch Mission",
-    "spike": 140.0,
-    "target_count": 10,
+    "phrase": "Radar",
+    "lemma": "Radar",
+    "spike": 11.0,
+    "target_count": 11,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Meteo",
+      "Schweiz aktuell"
     ],
     "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
     ],
     "quotes": [
       {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Menschen wieder in die Tiefen des Alls bringen. Die NASA spricht von einer historischen Mission. Wir testen die Navigations- und Lebenserhaltungssysteme der...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...wieder in die Tiefen des Weltalls bringen. Die NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
+        "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "...wieder in die Tiefen des Weltalls bringen. Die NASA spricht von einer historischen Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...vermutlich das rentabelste Mietobjekt im Kanton Glarus: Der Kanton hat den Radar von der Herstellerfirma ausgeliehen und jedes Jahr spült er Hundert- tausende...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
+      },
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "...geschneit, sondern auch am Nachmittag und Abend. Wir sehen das auf dem Radar. Am Alpennordrand hat es immer wieder geschneit, aber auch im Flachland. So...",
+        "urn": "urn:srf:video:178084c6-4c37-4172-9885-e981a0fd6ea6",
+        "startTime": "2026-03-26T19:55:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...vermutlich das rentabelste Mietobjekt im Kanton Glarus: Der Kanton hat den Radar von der Herstellerfirma ausgeliehen und jedes Jahr spült er Hundert- tausende...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      },
+      {
+        "title": "Meteo in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...geschneit, sondern auch am Nachmittag und Abend. Wir sehen das auf dem Radar. Am Alpennordrand hat es immer wieder geschneit, aber auch im Flachland. So...",
+        "urn": "urn:srf:video:06725d98-b33a-49a0-a17e-e51b6f3fd4c4",
+        "startTime": "2026-03-26T20:00:00+01:00"
       }
     ],
-    "score": 140.0,
+    "score": 11.0,
     "rank": 35,
     "imageUrl": ""
   },
   {
-    "phrase": "Orion-Raumfähre",
-    "spike": 140.0,
+    "phrase": "Mafiosi",
+    "lemma": "Mafiosi",
+    "spike": 10.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...Personen fest. Die Strafuntersuchungen ergaben, dass es wahrscheinlich vier Mafiosi ihren Wohnsitz in Roveredo hatten. Das schürte die Frage, ob die Bündner...",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Im 3'000-Seelen-Dorf Roveredo haben diese vier in Italien bestens bekannten Mafiosi gewohnt. Unauffällig, nur einen Steinwurf vom Gemeindehaus entfernt haben sie...",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Im 3'000-Seelen-Dorf Roveredo haben diese vier in Italien bestens bekannten Mafiosi gewohnt. Unauffällig, nur einen Steinwurf vom Gemeindehaus entfernt haben sie...",
+        "urn": "urn:srf:video:f4ef211c-3760-4537-b980-522e3159ce77",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "score": 10.0,
+    "rank": 36,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Briefkastenfirmen",
+    "lemma": "Briefkastenfirmen",
+    "spike": 10.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "...den ersten Blick ein idyllisches Dorf. Aber dieses Dorf gilt als Eldorado für Briefkastenfirmen. Das kann schnell illegale Geschäfte ermöglichen. Hier wurde Geld für den...",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...der Nähe zu Italien - es gebe auffallend viele Firmen: 350, aber 80 % sind Briefkastenfirmen. Der Fall der vier Mafiosi in Südbünden zeigt, dass es politische Massnahmen...",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Nähe zu Italien - es gebe auffallend viele Firmen: 350, aber 80 % sind Briefkastenfirmen. Der Fall der vier Mafiosi in Südbünden zeigt, dass es politische Massnahmen...",
+        "urn": "urn:srf:video:f4ef211c-3760-4537-b980-522e3159ce77",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "score": 10.0,
+    "rank": 37,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Berggebiet",
+    "lemma": "Berggebiet",
+    "spike": 10.0,
+    "target_count": 10,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...und den Bundesrat, das endlich umzusetzen und unsere Bevölkerung im Berggebiet zu entlasten. Trotzdem: Politikwissenschafter Thomas Bernauer, der sich an...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...und den Bundesrat, das endlich umzusetzen und unsere Bevölkerung im Berggebiet zu entlasten. Trotzdem: Politikwissenschafter Thomas Bernauer, der sich an...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...kann man schauen, ob man die Böden anders bewirtschaften kann. Das ist im Berggebiet anspruchsvoll, das ist für Wiesen und Weiden geeignet. Eine Kuh trinkt bis zu...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...kann man schauen, ob man die Böden anders bewirtschaften kann. Das ist im Berggebiet anspruchsvoll, das ist für Wiesen und Weiden geeignet. Eine Kuh trinkt bis zu...",
+        "urn": "urn:srf:video:bba3561e-7db3-49dc-adfe-cf4069a1c4fa",
+        "startTime": "2026-03-26T19:00:00+01:00"
+      }
+    ],
+    "score": 10.0,
+    "rank": 38,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Pflegefachfrau",
+    "lemma": "Pflegefachfrau",
+    "spike": 10.0,
     "target_count": 10,
     "unit_count": 2,
     "editorial_units": [
       "Tagesschau",
-      "Tagesschau kompakt"
+      "Telesguard"
     ],
     "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Jahren muss Franca Dietrich das Spital in Samedan verlassen. Ihre Stelle als Pflegefachfrau ist eine von über 120, die gestrichen werden. Viel wurde über den...",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-04-01T05:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...trotzdem grosser Favorit ist auch das Drama \"Heldin\", das den Alltag einer Pflegefachfrau thematisiert. Ich muss jemanden im OP abholen, komme dann aber bei Ihrer...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...trotzdem grosser Favorit ist auch das Drama \"Heldin\", das den Alltag einer Pflegefachfrau thematisiert. Ich muss jemanden im OP abholen, komme dann aber bei Ihrer...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 10.0,
+    "rank": 39,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Unterschriften",
+    "lemma": "Unterschrift",
+    "spike": 5.3,
+    "target_count": 32,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...KI-generierte Bilder? Im Parlament sind Vorstösse hängig und aktuell werden Unterschriften für eine Initiative gesammelt, die Plattformen, Techunternehmen und...",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Kanton Graubünden und die PostAuto AG haben auf eine Petition mit über 8'000 Unterschriften reagiert, die Ende Jahr verlangte, dass Fahrtickets weiterhin mit Bargeld...",
+        "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+        "startTime": "2026-03-31T05:55:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ist ein Signal nach innen, an alle, die für die Initiative gekämpft und Unterschriften gesammelt haben. Es ist aber auch ein Signal nach aussen: Man will sich als...",
+        "urn": "urn:srf:video:cac95840-866d-4901-80f7-9d2fc17757e4",
+        "startTime": "2026-03-28T19:30:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist ein Signal nach innen, an alle, die für die Initiative gekämpft und Unterschriften gesammelt haben. Es ist aber auch ein Signal nach aussen: Man will sich als...",
+        "urn": "urn:srf:video:bd015316-fc08-4ace-9318-4725a5103cef",
+        "startTime": "2026-03-28T19:30:00+01:00"
+      }
+    ],
+    "score": 8.5,
+    "rank": 40,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "blockierte Strasse",
+    "lemma": "blockiert Strasse",
+    "spike": 8.0,
+    "target_count": 8,
+    "unit_count": 2,
+    "editorial_units": [
+      "Tagesschau",
+      "Telesguard"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...das zentrale geopolitische Druckmittel. Der Iran hält die Meeresstrasse blockiert, Tanker warten, teure Zeit verstreicht. Die Folge: Treibstoffmangel und ein hoher...",
+        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...das zentrale geopolitische Druckmittel. Der Iran hält die Meeresstrasse blockiert, Tanker warten, teure Zeit verstreicht. Die Folge: Treibstoffmangel und ein hoher...",
+        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb",
+        "startTime": "2026-04-01T19:30:00+02:00"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...Die Angriffe auf die Energie- infrastruktur im Nahen Osten und die weitgehend blockierte Strasse von Hormus In der Schweiz kostet Heizöl derzeit 145 Fr. pro 100 l. Ende...",
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5",
+        "startTime": "2026-03-28T05:50:00+01:00"
+      }
+    ],
+    "score": 8.0,
+    "rank": 41,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Persischen Golf",
+    "lemma": "Persischen Golf",
+    "spike": 7.0,
+    "target_count": 21,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
@@ -1414,24 +1965,361 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...Mission. Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990"
+        "quote": "...erneut Spekulationen an um einen Angriff auf die iranische Insel Charg im Persischen Golf, über die ein Grossteil der irani- schen Ölexporte abgewickelt wird. Der...",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
+        "startTime": "2026-03-30T18:00:00+02:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46"
+        "quote": "...Einnahme der Insel Charg, des wichtigsten iranischen Ölexportzentrums im Persischen Golf, sowie Angriffe auf Küstengebiete in der Nähe der Strasse von Hormuz, um die...",
+        "urn": "urn:srf:video:808c8639-95cf-41bd-8410-275b3f497b3b",
+        "startTime": "2026-03-29T19:30:00+02:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Mission: Wir testen die Navigations- und Lebenserhaltungssysteme der Orion-Raumfähre unter den extrem rauen Bedingungen des Weltalls. Das wird den Weg für...",
-        "urn": "urn:srf:video:34efe994-c0ff-4122-831b-257a16b9d2fb"
+        "quote": "...Einnahme der Insel Charg, des wichtigsten iranischen Ölexportzentrums im Persischen Golf, sowie Angriffe auf Küstengebiete in der Nähe der Strasse von Hormuz, um die...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Die deutsche Militärbasis ist das Nervenzentrum der US-Einsätze im Persischen Golf. Kampfbomber, Tankflugzeuge, Transporter - sie alle sind in Ramstein...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
       }
     ],
-    "score": 140.0,
-    "rank": 36,
+    "score": 7.0,
+    "rank": 42,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Rubio",
+    "lemma": "Rubio",
+    "spike": 6.0,
+    "target_count": 18,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Eine schwierige Gemengelage. Benedikt Hofer: Es ist Aussenminister Rubios Job, der Welt die US-Aussenpolitik zu erklären. Sind Sie besorgt über den...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-28T04:45:00+01:00"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...durch die Strasse von Hormus wieder zu erlauben. US-Aussenminister Marco Rubio hat versucht, die europäischen G7-Staaten zu einem militärischen Eingreifen...",
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 6.0,
+    "rank": 43,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wettbewerbskommission",
+    "lemma": "Wettbewerbskommission",
+    "spike": 6.0,
+    "target_count": 6,
+    "unit_count": 2,
+    "editorial_units": [
+      "SRF Börse",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "...0,9 % Ist die künstliche Intelligenz wettbewerbsfördernd oder -hemmend? Die Wettbewerbskommission äussert sich gleich in der \"Tagesschau\" Einen schönen Abend wünsche ich...",
+        "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
+        "startTime": "2026-03-31T19:25:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...sehr deutlich in die Richtung, dass sich die Bedingungen verschlechtern. Die Wettbewerbskommission, kurz WEKO, überprüft Absprachen zwischen Unter- nehmen wie z.B. in der...",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      },
+      {
+        "title": "SRF Börse in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...0,9 % Ist die künstliche Intelligenz wettbewerbsfördernd oder -hemmend? Die Wettbewerbskommission äussert sich gleich in der \"Tagesschau\" Einen schönen Abend wünsche ich...",
+        "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4",
+        "startTime": "2026-03-31T19:25:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...sehr deutlich in die Richtung, dass sich die Bedingungen verschlechtern. Die Wettbewerbskommission, kurz WEKO, überprüft Absprachen zwischen Unter- nehmen wie z.B. in der...",
+        "urn": "urn:srf:video:7a4f8cb1-2c74-4252-aa76-96386aab09de",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "score": 6.0,
+    "rank": 44,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "iranischen Kraftwerke",
+    "lemma": "iranisch Kraftwerk",
+    "spike": 5.0,
+    "target_count": 15,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...das Wochenende von Donald Trump die indirekte Drohung gab, möglicherweise die iranischen Kraftwerke zu bombardieren. Der Ölpreis in New York ist um rund 4 % gestiegen, steht...",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-31T04:40:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...vielen Petrodollars: Mit sündhaft teuren Luftabwehrraketen gegen spottbillige iranische Drohnen anzutreten, ist nicht im Sinne der Golfmonarchien. Jaschar Dugalic. Er ist ein...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...vielen Petrodollars: Mit sündhaft teuren Luftabwehrraketen gegen spottbillige iranische Drohnen anzutreten, ist nicht im Sinne der Golfmonarchien. Jaschar Dugalic. Er ist ein...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 5.0,
+    "rank": 45,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Andreas Lüthi",
+    "lemma": "Andreas Lüthi",
+    "spike": 1.8,
+    "target_count": 9,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...viele Leute zum Wählen zu bewegen. Auch das wirkt sich aus. Matthias Tomi und Andreas Lüthi zeigen, welche Folgen das für die Berner Politik hat. Riesige Erleichterung...",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-31T06:05:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...viele Leute zum Wählen zu bewegen. Auch das wirkt sich aus. Matthias Tomi und Andreas Lüthi zeigen, welche Folgen das für die Berner Politik hat. Riesige Erleichterung...",
+        "urn": "urn:srf:video:9629071f-6f0f-4b95-a675-383e0e7a6cec",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...auch der Grünen Aline Trede. Und der siebte Sitz geht an Reto Müller, SP. Andreas Lüthi mit den Bildern vom Wahlabend. Grosser Jubel bei Links-grün. Reto Müller...",
+        "urn": "urn:srf:video:808c8639-95cf-41bd-8410-275b3f497b3b",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...auch der Grünen Aline Trede. Und der siebte Sitz geht an Reto Müller, SP. Andreas Lüthi mit den Bildern vom Wahlabend. Grosser Jubel bei Links-grün. Reto Müller...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      }
+    ],
+    "score": 1.8,
+    "rank": 46,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Wellen",
+    "lemma": "Welle",
+    "spike": 1.8,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...keine Bestätigung, aber neue iranische Angriffe auf Israel. In sieben Wellen wurden mehrere Städte beschossen. Und morgen sollen laut US-Medien Tausende...",
+        "urn": "urn:srf:video:afb2cef0-f4fc-4ea9-8461-bbebc90ca318",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Baumstämme. Diese sind wichtig, um die Insel vor Erosion, aber auch vor dem Wellengang des Greyerzersees zu schützen. Hier laufen manchmal mehr als 600...",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823",
+        "startTime": "2026-03-26T06:10:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...keine Bestätigung, aber neue iranische Angriffe auf Israel. In sieben Wellen wurden mehrere Städte beschossen. Und morgen sollen laut US-Medien Tausende...",
+        "urn": "urn:srf:video:bd08a074-3cc2-4618-9a72-3a52f54a2418",
+        "startTime": "2026-03-26T19:30:00+01:00"
+      }
+    ],
+    "score": 1.8,
+    "rank": 47,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Linke",
+    "lemma": "linke",
+    "spike": 1.6,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...zu Matthias Thomi, der für uns die Wahlen in Bern verfolgt. Der Angriff der Linken, die Regierungsmehrheit zu holen, ist laut Hochrechnung chancenlos. Offen...",
+        "urn": "urn:srf:video:b7cd0196-fd22-410d-836b-c15ee530e84c",
+        "startTime": "2026-03-29T18:00:00+02:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...auch die Prämienverbilligungen unter Druck - ein wichtiges Anliegen der Linken. Dazu kommt: Seit der Affäre Dittli gilt die Waadtländer Regierung als...",
+        "urn": "urn:srf:video:a9e03c6e-c686-48a4-b9ea-c25ed433a74a",
+        "startTime": "2026-03-29T19:30:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...von Riehen so auffällig viele junge Leute? Die Gründe dafür sind vielfältig: Linke und Mitte-Parteien fördern den Nachwuchs. Hinzu kommt: Viele junge Menschen...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-28T06:05:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...von Riehen so auffällig viele junge Leute? Die Gründe dafür sind vielfältig: Linke und Mitte-Parteien fördern den Nachwuchs. Hinzu kommt: Viele junge Menschen...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      }
+    ],
+    "score": 1.6,
+    "rank": 48,
+    "imageUrl": ""
+  },
+  {
+    "phrase": "Chiara Winkelmann",
+    "lemma": "Chiara Winkelmann",
+    "spike": 0.7,
+    "target_count": 9,
+    "unit_count": 3,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...Abend und auf Wiedersehen. SWISS TXT / Accessibility Services Lisa Pfeiffer, Chiara Winkelmann",
+        "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+        "startTime": "2026-03-31T18:00:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF info",
+        "quote": "...Nacht. Auf Wiedersehen. SWISS TXT / Accessibility Services Annika Biedermann, Chiara Winkelmann",
+        "urn": "urn:srf:video:9da8b1ee-09cc-4ae3-acb4-e4cd40e10adc",
+        "startTime": "2026-03-26T05:15:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...Abend, auf Wiedersehen. SWISS TXT / Accessibility Services Annika Biedermann, Chiara Winkelmann",
+        "urn": "urn:srf:video:09493839-ff84-41a9-aad8-2325c99ac823",
+        "startTime": "2026-03-26T06:10:00+01:00"
+      }
+    ],
+    "score": 1.1,
+    "rank": 49,
     "imageUrl": ""
   }
 ]

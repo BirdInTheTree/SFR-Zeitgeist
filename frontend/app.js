@@ -36,7 +36,7 @@ function formatDay(dayStr) {
 function buildGrid() {
     const g = document.getElementById('grid');
     g.innerHTML = '';
-    const GRID_SIZE = 36;
+    const GRID_SIZE = 49;
     const items = keywords.slice(0, GRID_SIZE);
     items.forEach((kw, i) => {
         const c = document.createElement('div');
@@ -59,6 +59,14 @@ function buildGrid() {
         lb.className = 'label';
         lb.textContent = kw.phrase;
 
+        // Air time badge
+        if (kw.airTime) {
+            const badge = document.createElement('div');
+            badge.className = 'time-badge';
+            badge.textContent = kw.airTime;
+            c.appendChild(badge);
+        }
+
         c.appendChild(img);
         c.appendChild(lb);
         c.addEventListener('mouseenter', () => light(i));
@@ -78,7 +86,7 @@ function buildGrid() {
 function buildWords() {
     const col = document.getElementById('word-col');
     col.innerHTML = '';
-    const WORD_COUNT = 36;
+    const WORD_COUNT = 49;
     keywords.slice(0, WORD_COUNT).forEach((kw, i) => {
         const w = document.createElement('div');
         w.className = 'w';
@@ -205,14 +213,13 @@ function wire() {
 function updateFooter() {
     const day = DAYS[currentDayIdx];
     const y = day.slice(0,4), m = day.slice(4,6), dd = day.slice(6,8);
-    const d = new Date(+y, +m - 1, +dd);
-    const weekday = d.toLocaleDateString('en-US', { weekday: 'long' });
-    const month = d.toLocaleDateString('en-US', { month: 'short' });
-    const dateNum = d.getDate();
-    const year = d.getFullYear();
+    const end = new Date(+y, +m - 1, +dd);
+    const start = new Date(end);
+    start.setDate(start.getDate() - 6);
 
+    const fmt = d => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     const ft = document.getElementById('footer-title');
-    if (ft) ft.textContent = `${weekday}, ${month} ${dateNum} ${year}`;
+    if (ft) ft.textContent = `Week of ${fmt(start)} – ${fmt(end)}, ${end.getFullYear()}`;
 }
 
 boot();

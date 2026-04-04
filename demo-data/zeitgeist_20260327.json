@@ -1,82 +1,7 @@
 [
   {
-    "phrase": "schön Wochenende",
-    "spike": 87.5,
-    "target_count": 25,
-    "unit_count": 5,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Börse",
-      "Schweiz aktuell",
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt",
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "...Oktober zu sehen. Und uns gibt es am Montag wieder - wenn Sie wollen. Ein schönes Wochenende und bis zum nächsten Mal. SWISS TXT / Accessibility Services Ursina Giger",
-        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
-      },
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...am Ägerisee. Von uns war's das, danke fürs Interesse und ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann, Sabine Näpflin",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "Mit Live-Untertiteln von SWISS TXT Ganz herzlich willkommen, schön, dass Sie eingeschaltet haben. Einen guten Abend. Das ist heute in der Schweiz aktuell:...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      },
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "...erste positive Wochenbilanz in diesem Monat. Vielen Dank fürs Zuschauen - ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann",
-        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...auch wieder bei uns begrüssen zu können. Besten Dank fürs Interesse und ein schönes Wochenende, auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter,...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      }
-    ],
-    "score": 203.2,
-    "rank": 1,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "verbündeter",
-    "spike": 196.0,
-    "target_count": 14,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [],
-    "score": 196.0,
-    "rank": 2,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Philipp Schlatter",
+    "phrase": "Verbündeten",
+    "lemma": "verbündeter",
     "spike": 196.0,
     "target_count": 14,
     "unit_count": 2,
@@ -93,28 +18,32 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "quote": "...uns regelmässig vor und nach den Sitzungen austauschen. Wir suchen dort auch Verbündete, auch ausserhalb von Parteien und Fraktionen. Wir haben z.B. bei der...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...ein schönes Wochenende, auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "quote": "...Aussenminister Rubio ein US-Spitzenvertreter persönlich mit den wichtigsten Verbündeten in der Gruppe der G7. Dazu begrüssen ich im Studio unseren internationalen...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "quote": "...uns regelmässig vor und nach den Sitzungen austauschen. Wir suchen dort auch Verbündete, auch ausserhalb von Parteien und Fraktionen. Wir haben z.B. bei der...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
     "score": 196.0,
-    "rank": 3,
-    "imageUrl": ""
+    "rank": 1,
+    "imageUrl": "../demo-data/cropped/20260327_01_Verbündeten.jpg"
   },
   {
     "phrase": "Regina Kolb",
+    "lemma": "Regina Kolb",
     "spike": 196.0,
     "target_count": 14,
     "unit_count": 2,
@@ -132,33 +61,83 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
     "score": 196.0,
-    "rank": 4,
-    "imageUrl": ""
+    "rank": 2,
+    "imageUrl": "../demo-data/cropped/20260327_02_Regina_Kolb.jpg",
+    "timecode": "00:19:11.248",
+    "airTime": "19:19"
   },
   {
-    "phrase": "zivil Infrastruktur",
+    "phrase": "Philipp Schlatter",
+    "lemma": "Philipp Schlatter",
+    "spike": 196.0,
+    "target_count": 14,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...ein schönes Wochenende, auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ein schönes Wochenende. Auf Wiedersehen. SWISS TXT / Accessibility Services Philipp Schlatter, Regina Kolb",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      }
+    ],
+    "score": 196.0,
+    "rank": 3,
+    "imageUrl": "../demo-data/cropped/20260327_03_Philipp_Schlatter.jpg",
+    "timecode": "00:19:11.248",
+    "airTime": "19:19"
+  },
+  {
+    "phrase": "zivile Infrastruktur",
+    "lemma": "zivil Infrastruktur",
     "spike": 182.0,
     "target_count": 13,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "10 vor 10",
@@ -169,97 +148,26 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...über den Krieg in Nahost diskutiert. Sie fordern den Iran auf, Angriffe auf Zivilisten und zivile Infrastruktur zu stoppen und die Schifffahrt durch die Strasse von Hormus...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...einigen sich die G7-Aussenminister tatsächlich auch auf eine Erklärung: keine zivile Infrastruktur soll im Irankrieg angegriffen werden. Zumindest hat das der US-Aussen-...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       }
     ],
     "score": 182.0,
-    "rank": 5,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "gemeinsam Linie",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Am G7-Gipfel in Paris geht es um den Iran und die Ukraine und um einen gemeinsamen Nenner. Kaum ein Land hat so viel Erfahrung mit Drohnen-Kriegsführung und -Abwehr...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Beim Aussenministertreffen in Frankreich wurde heute denn auch um eine gemeinsame Linie gerungen. Und das bei ständig wechselnden Signalen aus Washington. Die USA...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Am G7-Gipfel in Paris geht es um den Iran und die Ukraine und um einen gemeinsamen Nenner. Kaum ein Land hat so viel Erfahrung mit Drohnen-Kriegsführung und -Abwehr...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 182.0,
-    "rank": 6,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Crew",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Nebenrolle geht dieses Jahr an Sven Schelker. Für den besten Ton wurde die Crew von \"Heldin\" ausgezeichnet. Einen anderen Preis hat dieser Film auf sicher,...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...grosse Risiken eingehen. Das wird man nicht machen. Die Situation für die Crews auf den Schiffen wird derweil immer ungemütlicher. Schon über 20-mal wurden...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Nebenrolle geht dieses Jahr an Sven Schelker. Für den besten Ton wurde die Crew von \"Heldin\" ausgezeichnet. Einen anderen Preis hat dieser Film auf sicher,...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 182.0,
-    "rank": 7,
-    "imageUrl": ""
+    "rank": 4,
+    "imageUrl": "../demo-data/cropped/20260327_04_zivile_Infrastruktur.jpg",
+    "timecode": "00:00:19.929",
+    "airTime": "18:00"
   },
   {
     "phrase": "G7-Aussenminister",
+    "lemma": "G7-Aussenminister",
     "spike": 182.0,
     "target_count": 13,
     "unit_count": 2,
@@ -277,245 +185,40 @@
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...am Nachmittag gibt's Regen und Schnee. Heute Nachmittag ist das Treffen der G7-Aussenminister zu Ende gegangen. Ein Treffen ganz im Zeichen des Krieges in der Ukraine und...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Abend und herzlich willkommen zu \"10 vor 10\" Wir blicken auf das heutige G7-Aussenministertreffen und die transatlantische Beziehung. Das Verhältnis zwischen Europa und...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...am Nachmittag gibt's Regen und Schnee. Heute Nachmittag ist das Treffen der G7-Aussenminister zu Ende gegangen. Ein Treffen ganz im Zeichen des Krieges in der Ukraine und...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 182.0,
-    "rank": 8,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Junkfood",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Unstimmigkeiten sein könnten. Und eine neue App verspricht, dass die Lust auf Junkfood verringert werden könnte. Wie das funktioniert und ob sie funktioniert, bei...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...haben eine digitale Therapie entwickelt, die das Verlangen nach Junkfood verringern soll. Man sitzt am gleichen Tisch, die Probleme in der G7 aber...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Unstimmigkeiten sein könnten. Und eine neue App verspricht, dass die Lust auf Junkfood verringert werden könnte. Wie das funktioniert und ob sie funktioniert, bei...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 182.0,
-    "rank": 9,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Reiz",
-    "spike": 182.0,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...bekomme der Iran die Gelegenheit, um die Strasse von Hormus freizugeben, andernfalls würden die iranischen Kraftwerke wieder ins Visier rücken....",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Ihr Gehirn um: Da Sie Ungesundes ignorieren und Gesundes wählen, sinkt der Reiz von Junkfood. Das überaktive Belohnungszentrum im Gehirn beruhigt sich, und...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...bekomme der Iran die Gelegenheit, um die Strasse von Hormus freizugeben, andernfalls würden die iranischen Kraftwerke wieder ins Visier rücken....",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 182.0,
-    "rank": 10,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Taylor Swift",
-    "spike": 154.0,
-    "target_count": 11,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...von Vinyl- Schallplatten wieder - um fast 20 % Internationale Stars wie Taylor Swift werden am häufigsten gehört. Ihnen fliesst somit auch am meisten Geld zu. Mit...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...einen überragenden Marktanteil haben. Bei Künstlern lohnt es sich, wenn man Taylor Swift heisst. Und weniger, wenn man Lo und LeDuc heisst. Letztere sind froh, wenn...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...einen überragenden Marktanteil haben. Bei Künstlern lohnt es sich, wenn man Taylor Swift heisst. Und weniger, wenn man Lo und LeDuc heisst. Letztere sind froh, wenn...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 154.0,
-    "rank": 11,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Umsatz",
-    "spike": 154.0,
-    "target_count": 11,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [],
-    "score": 154.0,
-    "rank": 12,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Streamingdienste",
-    "spike": 154.0,
-    "target_count": 11,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...der Schweizer Musiklabels heute mit. Über 90 % der Umsätze fallen auf Streamingdienste. Auf tiefem Niveau stieg erstmals seit Jahren auch der Verkauf von Vinyl-...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...um 4 % auf 259 Mio. Fr. gestiegen sind, dann profitieren die Musik-Labels und Streamingdienste, die mittlerweile einen überragenden Marktanteil haben. Bei Künstlern lohnt...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...um 4 % auf 259 Mio. Fr. gestiegen sind, dann profitieren die Musik-Labels und Streamingdienste, die mittlerweile einen überragenden Marktanteil haben. Bei Künstlern lohnt...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 154.0,
-    "rank": 13,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Kontinent",
-    "spike": 88.7,
-    "target_count": 19,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...- mehr als jedes andere Land -, beim Krieg in der Ukraine, auf einem anderen Kontinent. Und jetzt, wo die USA die Hilfe der Europäer brauchen könnten im Iran, will...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...und 80'000 amerikanische Streitkräfte sind in Europa stationiert. Der Kontinent ist das Drehkreuz für US-Einsätze in Afrika, dem Mittleren Osten und...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF info",
-        "quote": "...vier Jahren ist es mit der Weltreise losgegangen, es hat 47 Länder auf fünf Kontinenten besucht und ist heute Mittag wieder zu Hause in Horw/LU angekommen. Als...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
-      }
-    ],
-    "score": 140.5,
-    "rank": 14,
-    "imageUrl": ""
+    "rank": 5,
+    "imageUrl": "../demo-data/cropped/20260327_05_G7-Aussenminister.jpg",
+    "timecode": "00:01:02.880",
+    "airTime": "19:31"
   },
   {
     "phrase": "Bundesgericht",
+    "lemma": "Bundesgericht",
     "spike": 65.3,
     "target_count": 14,
-    "unit_count": 4,
+    "unit_count": 3,
     "editorial_units": [
       "SRF Börse",
       "Schweiz aktuell",
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "SRF Börse",
@@ -530,161 +233,47 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...muss aus einem Euter kommen, sonst ist es keine Milch. Das hat heute das Bundesgericht in Lausanne entschieden. Auf dem Alpro-Haferdrink des Lebensmittelkonzerns...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
       },
       {
         "title": "SRF Börse",
         "channel": "SRF 1",
         "quote": "...In Kraft tritt die Verfügung in einer Woche - die Regierung kann sie vor Bundesgericht anfechten. An der Schweizer Börse gibt es für den SMI trotz eines Minus heute...",
-        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609"
+        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+        "startTime": "2026-03-27T19:25:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...ein - auch, aber nicht nur, wegen der unsicheren Weltlage. Jetzt schafft das Bundesgericht Klarheit. Wo Milch drauf steht, muss auch Milch drin sein - Milch vom Tier....",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
         "quote": "...Liver hat einen ganzen Ordner voller Akten. Der Fall ging vom Obergericht ans Bundesgericht und dann zurück ans Obergericht. Das Pikanteste dabei: der Vorwurf, die...",
-        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff"
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
       },
       {
         "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...In Kraft tritt die Verfügung in einer Woche - die Regierung kann sie vor Bundesgericht anfechten. An der Schweizer Börse gibt es für den SMI trotz eines Minus heute...",
-        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903"
+        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903",
+        "startTime": "2026-03-27T19:25:00+01:00"
       }
     ],
-    "score": 130.7,
-    "rank": 15,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "richtig Richtung",
-    "spike": 126.0,
-    "target_count": 9,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...betonen: Das ist nicht die Rettung. Das ist nur ein kleiner Schritt in die richtige Richtung. Die Rettung ist, wenn er zu Hause ist, im Atlantik. Das ist noch ein sehr...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
-      },
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Steinmann, sie müssen jetzt arbeiten gehen im Stadion. Wir gehen mal in die richtige Richtung. Hier erhalten wir einen Eindruck davon, was hier abläuft. Janick Steinmann,...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Steinmann, sie müssen jetzt arbeiten gehen im Stadion. Wir gehen mal in die richtige Richtung. Hier erhalten wir einen Eindruck davon, was hier abläuft. Janick Steinmann,...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
-      }
-    ],
-    "score": 126.0,
-    "rank": 16,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Rubio",
-    "spike": 74.7,
-    "target_count": 16,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...durch die Strasse von Hormus wieder zu erlauben. US-Aussenminister Marco Rubio hat versucht, die europäischen G7-Staaten zu einem militärischen Eingreifen...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...Eine schwierige Gemengelage. Benedikt Hofer: Es ist Aussenminister Rubios Job, der Welt die US-Aussenpolitik zu erklären. Sind Sie besorgt über den...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 118.3,
-    "rank": 17,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Schallplatte",
-    "spike": 112.0,
-    "target_count": 8,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Auf tiefem Niveau stieg erstmals seit Jahren auch der Verkauf von Vinyl- Schallplatten wieder - um fast 20 % Internationale Stars wie Taylor Swift werden am...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Leute an ein Konzert kommen und so als Giveaway vielleicht uns noch mit einer Schallplatte unterstützen. Ob sie jetzt einen Schallplatten- spieler haben oder nicht....",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Leute an ein Konzert kommen und so als Giveaway vielleicht uns noch mit einer Schallplatte unterstützen. Ob sie jetzt einen Schallplatten- spieler haben oder nicht....",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 112.0,
-    "rank": 18,
-    "imageUrl": ""
+    "score": 103.6,
+    "rank": 6,
+    "imageUrl": "../demo-data/cropped/20260327_06_Bundesgericht.jpg",
+    "timecode": "00:02:32.192",
+    "airTime": "18:02"
   },
   {
     "phrase": "Verbrechen",
+    "lemma": "Verbrechen",
     "spike": 98.0,
     "target_count": 7,
     "unit_count": 2,
@@ -702,33 +291,39 @@
         "title": "Telesguard",
         "channel": "SRF 1",
         "quote": "...Seniorin angegriffen und schwer verletzt. Mehrere Personen, die das Verbrechen beobachteten, hielten die Angreiferin fest, bis die Polizei eintraf. Die...",
-        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5"
+        "urn": "urn:rtr:video:f52e38da-c233-484d-88ca-e1b517456de5",
+        "startTime": "2026-03-27T17:40:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...Weise, dass die Eskalation im Nahen Osten unsere Aufmerksamkeit von seinen Verbrechen in der Ukraine ablenkt. Dieses Kalkül darf nicht aufgehen. Es darf keine...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Weise, dass die Eskalation im Nahen Osten unsere Aufmerksamkeit von seinen Verbrechen in der Ukraine ablenkt. Dieses Kalkül darf nicht aufgehen. Es darf keine...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 98.0,
-    "rank": 19,
-    "imageUrl": ""
+    "rank": 7,
+    "imageUrl": "../demo-data/cropped/20260327_07_Verbrechen.jpg",
+    "timecode": "00:06:35.475",
+    "airTime": "17:46"
   },
   {
     "phrase": "Ägerisee",
+    "lemma": "Ägerisee",
     "spike": 98.0,
     "target_count": 7,
     "unit_count": 2,
     "editorial_units": [
       "Schweiz aktuell",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "Schweiz aktuell",
@@ -740,27 +335,33 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...u.a. über die nächste Runde im jahrelangen Streit um ein Villen-Grundstück am Ägerisee. Von uns war's das, danke fürs Interesse und ein schönes Wochenende. SWISS...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...werde man ab Juli auf Sendung gehen. Der Verkauf eines Villengrundstücks am Ägerisee sorgt im Kanton Zug seit Jahren für Streit - juristisch und politisch: Es...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...werde man ab Juli auf Sendung gehen. Der Verkauf eines Villengrundstücks am Ägerisee sorgt im Kanton Zug seit Jahren für Streit - juristisch und politisch: Es...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       }
     ],
     "score": 98.0,
-    "rank": 20,
-    "imageUrl": ""
+    "rank": 8,
+    "imageUrl": "../demo-data/cropped/20260327_08_Ägerisee.jpg",
+    "timecode": "00:03:48.622",
+    "airTime": "18:03"
   },
   {
-    "phrase": "Titlis-Bergbahn",
+    "phrase": "Titlis-Bergbahnen",
+    "lemma": "Titlis-Bergbahn",
     "spike": 98.0,
     "target_count": 7,
     "unit_count": 2,
@@ -779,123 +380,40 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...herrschte im Gebiet starker Wind. Jetzt wird gegen zwei Mitarbeitende der Titlis-Bergbahnen ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...herrschte im Gebiet starker Wind. Jetzt wird gegen zwei Mitarbeitende der Titlis-Bergbahnen ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 98.0,
-    "rank": 21,
-    "imageUrl": ""
+    "rank": 9,
+    "imageUrl": "../demo-data/cropped/20260327_09_Titlis-Bergbahnen.jpg",
+    "timecode": "00:07:36.584",
+    "airTime": "19:07"
   },
   {
-    "phrase": "Strafuntersuchung",
-    "spike": 98.0,
-    "target_count": 7,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...wollen sie das verhindern. Die Nidwaldner Staatsanwaltschaft hat eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...tödlichen Gondelunfall am Titlis hat die Staatsanwaltschaft Nidwalden eine Strafuntersuchung eröffnet. Beim Absturz einer Gondel des Titlis Xpress am 18. März kam eine...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...wollen sie das verhindern. Die Nidwaldner Staatsanwaltschaft hat eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...tödlichen Gondelunfall am Titlis hat die Staatsanwaltschaft Nidwalden eine Strafuntersuchung eröffnet. Beim Absturz einer Gondel des Titlis Xpress am 18. März kam eine...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 98.0,
-    "rank": 22,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Sorgfaltspflicht",
-    "spike": 98.0,
-    "target_count": 7,
-    "unit_count": 2,
-    "editorial_units": [
-      "Schweiz aktuell",
-      "Tagesschau"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "...Mast prallte und sich danach vom Seil löste. Es besteht der Verdacht, dass Sorgfaltspflichten verletzt wurden - angesichts der Wetters, das an jenem Tag herrschte. Es...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...der Staatsanwaltschaft besteht der Verdacht, dass beim Betrieb der Anlage Sorgfaltspflichten verletzt worden sind. Zur Zeit des Unglücks herrschte im Gebiet starker...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Schweiz aktuell in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Mast prallte und sich danach vom Seil löste. Es besteht der Verdacht, dass Sorgfaltspflichten verletzt wurden - angesichts der Wetters, das an jenem Tag herrschte. Es...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...der Staatsanwaltschaft besteht der Verdacht, dass beim Betrieb der Anlage Sorgfaltspflichten verletzt worden sind. Zur Zeit des Unglücks herrschte im Gebiet starker...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 98.0,
-    "rank": 23,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "fahrlässig Tötung",
+    "phrase": "fahrlässige Tötung",
+    "lemma": "fahrlässig Tötung",
     "spike": 98.0,
     "target_count": 7,
     "unit_count": 2,
@@ -914,33 +432,40 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...zwei Mitarbeitende der Titlis-Bergbahnen ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des öffentlichen Verkehrs. Das neue Vertragspaket mit der...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...zwei Mitarbeitende der Titlis-Bergbahnen ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des öffentlichen Verkehrs. Das neue Vertragspaket mit der...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 98.0,
-    "rank": 24,
-    "imageUrl": ""
+    "rank": 10,
+    "imageUrl": "../demo-data/cropped/20260327_10_fahrlässige_Tötung.jpg",
+    "timecode": "00:07:41.182",
+    "airTime": "19:07"
   },
   {
-    "phrase": "öffentlich Verkehr",
+    "phrase": "öffentlichen Verkehrs",
+    "lemma": "öffentlich Verkehr",
     "spike": 98.0,
     "target_count": 7,
     "unit_count": 2,
@@ -959,41 +484,101 @@
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
         "quote": "...der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute mitgeteilt. Letzte Woche war eine...",
-        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94"
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des öffentlichen Verkehrs. Das neue Vertragspaket mit der EU ist unterwegs ins Parlament. Selbiges...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "Schweiz aktuell in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...der Bahn ermittelt wegen des Verdachts auf fahrlässige Tötung und Störung des öffentlichen Verkehrs, das hat die Staatsanwaltschaft heute mitgeteilt. Letzte Woche war eine...",
-        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562"
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...ermittelt, wegen des Verdachts der fahrlässigen Tötung und der Störung des öffentlichen Verkehrs. Das neue Vertragspaket mit der EU ist unterwegs ins Parlament. Selbiges...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 98.0,
-    "rank": 25,
-    "imageUrl": ""
+    "rank": 11,
+    "imageUrl": "../demo-data/cropped/20260327_11_öffentlichen_Verkehrs.jpg",
+    "timecode": "00:07:43.383",
+    "airTime": "19:07"
   },
   {
-    "phrase": "Euter",
-    "spike": 84.0,
-    "target_count": 6,
+    "phrase": "Sorgfaltspflichten",
+    "lemma": "Sorgfaltspflicht",
+    "spike": 98.0,
+    "target_count": 7,
     "unit_count": 2,
     "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
+      "Schweiz aktuell",
+      "Tagesschau"
     ],
     "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Mast prallte und sich danach vom Seil löste. Es besteht der Verdacht, dass Sorgfaltspflichten verletzt wurden - angesichts der Wetters, das an jenem Tag herrschte. Es...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...der Staatsanwaltschaft besteht der Verdacht, dass beim Betrieb der Anlage Sorgfaltspflichten verletzt worden sind. Zur Zeit des Unglücks herrschte im Gebiet starker...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Mast prallte und sich danach vom Seil löste. Es besteht der Verdacht, dass Sorgfaltspflichten verletzt wurden - angesichts der Wetters, das an jenem Tag herrschte. Es...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...der Staatsanwaltschaft besteht der Verdacht, dass beim Betrieb der Anlage Sorgfaltspflichten verletzt worden sind. Zur Zeit des Unglücks herrschte im Gebiet starker...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 98.0,
+    "rank": 12,
+    "imageUrl": "../demo-data/cropped/20260327_12_Sorgfaltspflichten.jpg",
+    "timecode": "00:08:03.755",
+    "airTime": "19:08"
+  },
+  {
+    "phrase": "Rubio",
+    "lemma": "Rubio",
+    "spike": 74.7,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
       "Tagesschau",
       "Tagesschau in Gebärdensprache",
       "Tagesschau kompakt"
@@ -1002,205 +587,47 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "...stauten sich die Autos bis in den Nachmittag. Milch muss aus einem Euter kommen, sonst ist es keine Milch. Das hat heute das Bundesgericht in Lausanne...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
+        "quote": "...durch die Strasse von Hormus wieder zu erlauben. US-Aussenminister Marco Rubio hat versucht, die europäischen G7-Staaten zu einem militärischen Eingreifen...",
+        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+        "startTime": "2026-03-27T18:00:00+01:00"
       },
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "...Angriffe auf Russlands Ölindustrie. Laut Berechnungen der Nachrichtenagentur Reuters, legten die ukrainischen Drohnenangriffe 40 % der russischen Exportkapazität...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...Eine schwierige Gemengelage. Benedikt Hofer: Es ist Aussenminister Rubios Job, der Welt die US-Aussenpolitik zu erklären. Sind Sie besorgt über den...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "...Angriffe auf Russlands Ölindustrie. Laut Berechnungen der Nachrichtenagentur Reuters, legten die ukrainischen Drohnenangriffe 40 % der russischen Exportkapazität...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "quote": "...Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
-    "score": 84.0,
-    "rank": 26,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Danone",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...in Lausanne entschieden. Auf dem Alpro-Haferdrink des Lebensmittelkonzerns Danone steht: \"Das ist keine Milch\" Ein kantonales Labor hatte den Verkauf 2022...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...Und zu dieser Einsicht gekommen ist es, weil der Nahrungsmittelkonzern Danone seine Hafermilchpackung englisch mit \"Das ist keine Milch\" beschriftet hat....",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Und zu dieser Einsicht gekommen ist es, weil der Nahrungsmittelkonzern Danone seine Hafermilchpackung englisch mit \"Das ist keine Milch\" beschriftet hat....",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 84.0,
-    "rank": 27,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Waffenkauf",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [],
-    "score": 84.0,
-    "rank": 28,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "unsicher Weltlage",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...werden die Waffen hauptsächlich für sportliche Zwecke eingesetzt. Auch die unsichere Weltlage sei ein Grund für die Zunahme, sagt die Präsidentin der kantonalen Justiz-...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...deckt man sich vermehrt mit Waffen ein - auch, aber nicht nur, wegen der unsicheren Weltlage. Jetzt schafft das Bundesgericht Klarheit. Wo Milch drauf steht, muss auch...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...deckt man sich vermehrt mit Waffen ein - auch, aber nicht nur, wegen der unsicheren Weltlage. Jetzt schafft das Bundesgericht Klarheit. Wo Milch drauf steht, muss auch...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 84.0,
-    "rank": 29,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Deutschlands",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...können, die ihm auch klar war. Dass es durchaus eine Bereitschaft Deutschlands gibt, nach Ende der Kampfhandlungen eine Rolle zu spielen. Wenn es darum...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...den Kriegsverhandlungen für einen sicheren Schiffsverkehr mitzusorgen, sagt Deutschlands Aussenminister. Wichtig sei aber der Blick auf beide Kriege: Putin hofft auf...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...den Kriegsverhandlungen für einen sicheren Schiffsverkehr mitzusorgen, sagt Deutschlands Aussenminister. Wichtig sei aber der Blick auf beide Kriege: Putin hofft auf...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 84.0,
-    "rank": 30,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "sportlich Zweck",
-    "spike": 84.0,
-    "target_count": 6,
-    "unit_count": 2,
-    "editorial_units": [
-      "Tagesschau",
-      "Tagesschau kompakt"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "...Umfrage der \"Tagesschau\" Studien zufolge werden die Waffen hauptsächlich für sportliche Zwecke eingesetzt. Auch die unsichere Weltlage sei ein Grund für die Zunahme, sagt...",
-        "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...ZHAW zum Schluss: Der grösste Teil der Waffenbesitzenden benützt diese für sportliche Zwecke. Ein weiterer Grund ist auch das Sammelinteresse. Karin Kayser ist...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...ZHAW zum Schluss: Der grösste Teil der Waffenbesitzenden benützt diese für sportliche Zwecke. Ein weiterer Grund ist auch das Sammelinteresse. Karin Kayser ist...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 84.0,
-    "rank": 31,
-    "imageUrl": ""
+    "score": 74.7,
+    "rank": 13,
+    "imageUrl": "../demo-data/cropped/20260327_13_Rubio.jpg",
+    "timecode": "00:00:28.163",
+    "airTime": "18:00"
   },
   {
     "phrase": "US-Regierung",
+    "lemma": "US-Regierung",
     "spike": 63.0,
     "target_count": 9,
     "unit_count": 2,
     "editorial_units": [
       "SRF Börse",
-      "Tagesschau kompakt"
+      "Tagesschau"
     ],
     "programs": [
       "SRF Börse",
@@ -1212,118 +639,33 @@
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
         "quote": "...Aussenminister der G7-Staaten. Hauptthema wird der Krieg in Nahost sein. Die US-Regierung wirft den NATO-Verbündeten vor, sie würden die USA dort zu wenig...",
-        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e"
+        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e",
+        "startTime": "2026-03-27T12:45:00+01:00"
       },
       {
         "title": "SRF Börse",
         "channel": "SRF 1",
         "quote": "...Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die...",
-        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609"
+        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+        "startTime": "2026-03-27T19:25:00+01:00"
       },
       {
         "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die...",
-        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903"
+        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903",
+        "startTime": "2026-03-27T19:25:00+01:00"
       }
     ],
     "score": 63.0,
-    "rank": 32,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Drohne",
-    "spike": 39.7,
-    "target_count": 17,
-    "unit_count": 3,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Börse",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "...Massenüberwachung von Amerikanern oder in autonomen Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie...",
-        "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...und um einen gemeinsamen Nenner. Kaum ein Land hat so viel Erfahrung mit Drohnen-Kriegsführung und -Abwehr wie die Ukraine. In der Schweiz deckt man sich...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...sollen eine wichtige Rolle für die Angriffe auf Iran spielen. US-Flugzeuge, -Drohnen und -Schiffe werden hier betankt, bewaffnet und gestartet. Beispiel Ramstein...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "SRF Börse in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...Massenüberwachung von Amerikanern oder in autonomen Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie...",
-        "urn": "urn:srf:video:f7464044-2c2a-414f-a374-13233aff8903"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...und um einen gemeinsamen Nenner. Kaum ein Land hat so viel Erfahrung mit Drohnen-Kriegsführung und -Abwehr wie die Ukraine. In der Schweiz deckt man sich...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 62.9,
-    "rank": 33,
-    "imageUrl": ""
-  },
-  {
-    "phrase": "Aussenminister Rubio",
-    "spike": 60.7,
-    "target_count": 13,
-    "unit_count": 2,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "...der G7-Länder. Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "...fehlende Unterstützung. Eine schwierige Gemengelage. Benedikt Hofer: Es ist Aussenminister Rubios Job, der Welt die US-Aussenpolitik zu erklären. Sind Sie besorgt über den...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
-      },
-      {
-        "title": "Tagesschau in Gebärdensprache",
-        "channel": "SRF info",
-        "quote": "...der G7-Länder. Den Europäern macht die Russland-Iran-Achse Sorge. Gegenüber Aussenminister Rubio betonen sie, dass die Ukraine auch im Interesse der USA schlagkräftig bleiben...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
-      }
-    ],
-    "score": 60.7,
-    "rank": 34,
-    "imageUrl": ""
+    "rank": 14,
+    "imageUrl": "../demo-data/cropped/20260327_14_US-Regierung.jpg",
+    "timecode": "00:00:58.333",
+    "airTime": "12:45"
   },
   {
     "phrase": "Persischen Golf",
+    "lemma": "Persischen Golf",
     "spike": 60.7,
     "target_count": 13,
     "unit_count": 2,
@@ -1341,29 +683,35 @@
         "title": "Tagesschau",
         "channel": "SRF 1",
         "quote": "...im Sinne der Golfmonarchien. Jaschar Dugalic. Er ist ein willkommener Gast am persischen Golf. Wolodimir Selenski reist gestern Abend überraschend nach Saudi-Arabien und...",
-        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389"
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
         "quote": "...Die deutsche Militärbasis ist das Nervenzentrum der US-Einsätze im Persischen Golf. Kampfbomber, Tankflugzeuge, Transporter - sie alle sind in Ramstein...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
       },
       {
         "title": "Tagesschau in Gebärdensprache",
         "channel": "SRF info",
         "quote": "...im Sinne der Golfmonarchien. Jaschar Dugalic. Er ist ein willkommener Gast am persischen Golf. Wolodimir Selenski reist gestern Abend überraschend nach Saudi-Arabien und...",
-        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d"
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
       }
     ],
     "score": 60.7,
-    "rank": 35,
-    "imageUrl": ""
+    "rank": 15,
+    "imageUrl": "../demo-data/cropped/20260327_15_Persischen_Golf.jpg",
+    "timecode": "00:03:56.982",
+    "airTime": "19:33"
   },
   {
-    "phrase": "Hafen",
-    "spike": 60.7,
-    "target_count": 13,
+    "phrase": "Europäer",
+    "lemma": "Europäer",
+    "spike": 24.5,
+    "target_count": 21,
     "unit_count": 2,
     "editorial_units": [
       "10 vor 10",
@@ -1372,18 +720,271 @@
     "programs": [
       "10 vor 10",
       "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "...der Ukraine, auf einem anderen Kontinent. Und jetzt, wo die USA die Hilfe der Europäer brauchen könnten im Iran, will niemand helfen. Die Europäer sagen, das sei...",
+        "urn": "urn:srf:video:e7ad0f35-772d-418a-ba90-7e4b81efc64e",
+        "startTime": "2026-03-27T12:45:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...ein Treffen im Zeichen von wenig Einigkeit zwischen den USA und Europa. Die Europäer wollen sich grossmehrheitlich aus dem Iran-Krieg raushalten. Die USA sehen...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "...einen Frieden oder marschieren sie bald ein? Und bestraft Trump bald die Europäer in der Ukraine, wenn sie nicht helfen im Iran? Echte Antworten lieferte Rubio...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ein Treffen im Zeichen von wenig Einigkeit zwischen den USA und Europa. Die Europäer wollen sich grossmehrheitlich aus dem Iran-Krieg raushalten. Die USA sehen...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 24.5,
+    "rank": 16,
+    "imageUrl": "../demo-data/cropped/20260327_16_Europäer.jpg",
+    "timecode": "00:01:24.635",
+    "airTime": "12:46"
+  },
+  {
+    "phrase": "Kommission",
+    "lemma": "Kommission",
+    "spike": 19.6,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
       "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...ist, den zweiten Sitz zurückzugewinnen. Die Parteien haben nun Findungs- kommissionen zusammengestellt. Diese sollen die besten Kandidatinnen und Kandidaten...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...auch ein Ständemehr? Die Frage ist so brisant, dass die zuständige Ständeratskommission heute zu einem seltenen Mittel griff: einer öffentlichen Anhörung von...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...ist, den zweiten Sitz zurückzugewinnen. Die Parteien haben nun Findungs- kommissionen zusammengestellt. Diese sollen die besten Kandidatinnen und Kandidaten...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...auch ein Ständemehr? Die Frage ist so brisant, dass die zuständige Ständeratskommission heute zu einem seltenen Mittel griff: einer öffentlichen Anhörung von...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 19.6,
+    "rank": 17,
+    "imageUrl": "../demo-data/cropped/20260327_17_Kommission.jpg",
+    "timecode": "00:03:10.725",
+    "airTime": "19:03"
+  },
+  {
+    "phrase": "Titlis Xpress",
+    "lemma": "Titli Xpress",
+    "spike": 14.0,
+    "target_count": 7,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "...Drohkulisse weiter hoch. Im Zusammenhang mit dem tödlichen Gondelunfall am Titlis hat die Staatsanwaltschaft Nidwalden eine Strafuntersuchung eröffnet. Beim Absturz...",
+        "urn": "urn:srf:video:fe4e2ced-5ca3-42be-a33d-03f3a0379389",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...eine Strafuntersuchung eröffnet im Zusammenhang mit dem Gondelunglück bei den Titlis-Bergbahnen. Es wird gegen zwei Mitarbeiter der Bahn ermittelt wegen des Verdachts...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Tagesschau in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Drohkulisse weiter hoch. Im Zusammenhang mit dem tödlichen Gondelunfall am Titlis hat die Staatsanwaltschaft Nidwalden eine Strafuntersuchung eröffnet. Beim Absturz...",
+        "urn": "urn:srf:video:c788e50e-5c90-4014-850a-2d5fbbc6d06d",
+        "startTime": "2026-03-27T19:30:00+01:00"
+      }
+    ],
+    "score": 14.0,
+    "rank": 18,
+    "imageUrl": "../demo-data/cropped/20260327_18_Titlis_Xpress.jpg",
+    "timecode": "00:07:48.346",
+    "airTime": "19:07"
+  },
+  {
+    "phrase": "Ewigkeitschemikalie",
+    "lemma": "Ewigkeitschemikalie",
+    "spike": 13.2,
+    "target_count": 16,
+    "unit_count": 2,
+    "editorial_units": [
+      "10 vor 10",
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Schweiz aktuell"
     ],
     "quotes": [
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "...Der amerikanische Flugzeugträger USS Gerald Ford liegt derzeit im Hafen von Kreta vor Anker. Nach einem Brand an Bord des Schiffes wurden Reparaturen...",
-        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3"
+        "quote": "...setzt zusammen mit der Empa auf ein wasserabweisendes Garn, das ohne Ewigkeitschemikalien auskommt. Freiburger Neurowissenschaftler haben eine digitale Therapie...",
+        "urn": "urn:srf:video:bf72c587-e3b4-4e1b-81ba-3772812a45c3",
+        "startTime": "2026-03-27T21:50:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF info",
+        "quote": "...dort auf das moderne trifft. Die möchte niemand in der Milch: Sog. PFAS, Ewigkeitschemikalien, die sich im Körper des Menschen ansammeln und dort Schaden anrichten...",
+        "urn": "urn:srf:video:4f34d286-50c9-4a30-99e1-ad779e6d2dff",
+        "startTime": "2026-03-27T05:55:00+01:00"
       }
     ],
-    "score": 60.7,
-    "rank": 36,
-    "imageUrl": ""
+    "score": 13.2,
+    "rank": 19,
+    "imageUrl": "../demo-data/cropped/20260327_19_Ewigkeitschemikalie.jpg",
+    "timecode": "00:00:51.855",
+    "airTime": "21:50"
+  },
+  {
+    "phrase": "Klimawandel",
+    "lemma": "Klimawandel",
+    "spike": 11.7,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...und Umwelt- ingenieur setze ich mich dafür ein, dass die Städte trotz Klimawandel lebenswert bleiben. Und das möchte ich auch hier im Einwohnerrat auf...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...war das im April und jetzt machen wir diesen Aufwand schon im März. Durch den Klimawandel verursacht - mit der Folge, dass die Sorgen der Obstbauern auch schon früher...",
+        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e",
+        "startTime": "2026-03-27T05:45:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...und Umwelt- ingenieur setze ich mich dafür ein, dass die Städte trotz Klimawandel lebenswert bleiben. Und das möchte ich auch hier im Einwohnerrat auf...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      }
+    ],
+    "score": 11.7,
+    "rank": 20,
+    "imageUrl": "../demo-data/cropped/20260327_20_Klimawandel.jpg",
+    "timecode": "00:04:20.646",
+    "airTime": "19:04"
+  },
+  {
+    "phrase": "Marco Frey",
+    "lemma": "Marco Frey",
+    "spike": 11.7,
+    "target_count": 5,
+    "unit_count": 2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "...Beitrag. Das Wetter löst im Moment nicht gerade Frühlingsgefühle aus bei Marco Frey, dem Leiter der Abteilung Obstbau am Plantahof in Landquart. Die Kälte in den...",
+        "urn": "urn:srf:video:7af83817-d2e9-4d98-a0e4-e42cfe5eeb94",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "...gar keine Frühlingsgefühle erweckt, bereiten der Schnee und das nasse Wetter Marco Frey, dem Leiter der Abteilung Obstbau am Plantahof, im Moment keine grossen...",
+        "urn": "urn:rtr:video:3cb13834-2f0d-4554-8841-c99569b7e54e",
+        "startTime": "2026-03-27T05:45:00+01:00"
+      },
+      {
+        "title": "Schweiz aktuell in Gebärdensprache",
+        "channel": "SRF info",
+        "quote": "...Beitrag. Das Wetter löst im Moment nicht gerade Frühlingsgefühle aus bei Marco Frey, dem Leiter der Abteilung Obstbau am Plantahof in Landquart. Die Kälte in den...",
+        "urn": "urn:srf:video:6978da5e-7670-4e4a-96ab-a48cd6f5e562",
+        "startTime": "2026-03-27T19:00:00+01:00"
+      }
+    ],
+    "score": 11.7,
+    "rank": 21,
+    "imageUrl": "../demo-data/cropped/20260327_21_Marco_Frey.jpg",
+    "timecode": "00:16:17.884",
+    "airTime": "19:16"
   }
 ]
