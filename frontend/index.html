@@ -12,11 +12,7 @@
     <div class="layout">
         <header>
             <h1>SRF <span class="x">Zeitgeist</span></h1>
-            <p class="subtitle" id="subtitle">Topic-centric navigation for the SRF news archive.</p>
-            <div class="status-row">
-                <div class="snapshot-meta" id="snapshot-meta"></div>
-                <div class="load-state" id="load-state" aria-live="polite"></div>
-            </div>
+            <p class="subtitle" id="subtitle"></p>
         </header>
 
         <div class="main-area">
@@ -43,6 +39,16 @@
             <div class="fs-word" id="fs-word"></div>
         </div>
 
+        <!-- About panel -->
+        <div id="about" class="about-panel hidden">
+            <div class="about-inner">
+                <p><strong>SRF Zeitgeist</strong> shows what Switzerland discussed today — derived from SRF news subtitles, not clicks.</p>
+                <p>An LLM segments each broadcast into editorial stories, merges them across programs, and ranks by five signals: novelty (spike vs baseline), spread (how many desks covered it), persistence (how often it returned), prominence (total airtime), and primetime presence.</p>
+                <p>Each image is a video frame from the story's most important moment. Click any cell to see source quotes and links to Play SRF.</p>
+                <p class="about-close">Click anywhere to close</p>
+            </div>
+        </div>
+
         <footer>
             <div class="footer-title" id="footer-title"></div>
             <nav>
@@ -50,23 +56,9 @@
                 <span class="sep">·</span>
                 <a href="#" id="next">next day ›</a>
                 <span class="sep">·</span>
-                <a href="#" id="about-link">about</a>
+                <a href="#about">about</a>
             </nav>
         </footer>
-
-        <div id="about" class="about hidden" aria-hidden="true">
-            <div class="about-card">
-                <button id="about-close" class="about-close" type="button" aria-label="Close about panel">×</button>
-                <h2>About this demo</h2>
-                <p>
-                    SRF Zeitgeist ranks topics from SRF news subtitles by measuring which phrases spike versus the previous week,
-                    then cleans the result with deduplication and an LLM quality gate.
-                </p>
-                <p>
-                    The goal is to show a topic-first entry point into the archive: what Switzerland discussed today, with quotes and links back to Play SRF.
-                </p>
-            </div>
-        </div>
     </div>
     <script src="app.js"></script>
 </body>
