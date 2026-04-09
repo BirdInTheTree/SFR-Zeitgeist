@@ -19,6 +19,7 @@ import logging
 import re
 import urllib.request
 from collections import Counter
+from json import JSONDecoder
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -241,10 +242,12 @@ def compute_fingerprint(text: str) -> dict:
 def fingerprint_match(fp1: dict, fp2: dict) -> bool:
     """Check if two fingerprints likely represent the same story.
 
-    Returns True if entity overlap >= 2 OR top_words overlap >= 3.
+    Returns True if entity overlap >= 3 OR top_words overlap >= 3.
+    Threshold is high because German capitalizes ALL nouns, so generic
+    words like "Kanton", "Lösung", "Bevölkerung" appear as false entities.
     """
     entity_overlap = len(set(fp1["entities"]) & set(fp2["entities"]))
-    if entity_overlap >= 2:
+    if entity_overlap >= 3:
         return True
 
     word_overlap = len(set(fp1["top_words"]) & set(fp2["top_words"]))
@@ -276,6 +279,130 @@ def save_vtt_cache(urn: str, vtt_text: str, cache_dir: Path) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Emotional/importance peak detection in subtitle text
+# ---------------------------------------------------------------------------
+
+# German words that signal the core of a news story — facts, actions, stakes.
+# Not "sad/happy" sentiment, but information density and narrative weight.
+_IMPORTANCE_MARKERS = frozenset(
+    # Numbers and firsts
+    "millionen milliarden prozent rekord erstmals historisch höchste niedrigste "
+    "grösste schlimmste stärkste "
+    # Actions and decisions
+    "beschlossen verurteilt gestorben getötet verhaftet gestartet gewählt "
+    "abgestimmt genehmigt abgelehnt gekündigt entlassen geschlossen verboten "
+    "angeklagt freigesprochen gerettet evakuiert gestoppt "
+    # Stakes and consequences
+    "tod opfer tote verletzte schaden katastrophe krise gefahr notfall "
+    "angriff krieg explosion brand unfall absturz "
+    # Assessment and scale
+    "dramatisch beispiellos massiv heftig schwer dringend kritisch "
+    "überraschend unerwartet schockierend entscheidend "
+    # Specific nouns that anchor facts
+    "urteil gesetz abstimmung wahl ergebnis bericht studie "
+    "million milliarde franken euro dollar".split()
+)
+
+# Named entities (capitalized, not sentence-start) also signal importance
+# — who is acting, where it happened. Handled separately via capitalization.
+
+
+def find_importance_peak(
+    vtt_blocks: list[dict],
+    start_sec: float,
+    end_sec: float,
+    window_size: int = 3,
+) -> float | None:
+    """Find the timestamp of the most important moment within a segment.
+
+    Scores each VTT block by density of importance markers + named entities.
+    Uses a sliding window of `window_size` blocks to smooth noise.
+    Returns timestamp (seconds) of the peak, or None if no blocks found.
+
+    Skips the first 5 seconds of the segment (usually anchor intro).
+    """
+    # Filter blocks within segment time range, skip first 5 seconds
+    skip_until = start_sec + 5.0
+    seg_blocks = [
+        b for b in vtt_blocks
+        if b["end"] > skip_until and b["start"] < end_sec
+    ]
+    if not seg_blocks:
+        return None
+
+    # Score each block
+    scores = []
+    for block in seg_blocks:
+        words = block["text"].lower().split()
+        if not words:
+            scores.append(0)
+            continue
+
+        # Importance markers
+        marker_count = sum(1 for w in words if w.rstrip(".,!?;:") in _IMPORTANCE_MARKERS)
+
+        # Named entities: capitalized words not at sentence start
+        raw_words = block["text"].split()
+        entity_count = 0
+        for i, w in enumerate(raw_words):
+            clean = re.sub(r"[^\wäöüÄÖÜß]", "", w)
+            if len(clean) > 2 and clean[0].isupper() and clean.lower() not in _STOPWORDS:
+                is_start = (i == 0) or (i > 0 and raw_words[i-1][-1] in ".!?")
+                if not is_start:
+                    entity_count += 1
+
+        # Density = (markers + entities) / words
+        score = (marker_count + entity_count * 0.5) / max(len(words), 1)
+        scores.append(score)
+
+    if not scores:
+        return None
+
+    # Sliding window smoothing
+    smoothed = []
+    for i in range(len(scores)):
+        window = scores[max(0, i - window_size // 2): i + window_size // 2 + 1]
+        smoothed.append(sum(window) / len(window))
+
+    # Find peak
+    peak_idx = max(range(len(smoothed)), key=lambda i: smoothed[i])
+
+    # Return timestamp of peak block
+    return seg_blocks[peak_idx]["start"]
+
+
+# ---------------------------------------------------------------------------
+# Robust JSON extraction from LLM output (adapted from v3)
+# ---------------------------------------------------------------------------
+
+def _extract_json(text: str):
+    """Extract JSON from LLM response, handling markdown fences and trailing commas."""
+    cleaned = text.strip()
+    cleaned = re.sub(r"^```json\s*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"^```\s*", "", cleaned)
+    cleaned = re.sub(r"\s*```$", "", cleaned)
+
+    # Try incremental parsing — finds the first valid JSON object or array
+    decoder = JSONDecoder()
+    for i, char in enumerate(cleaned):
+        if char not in "{[":
+            continue
+        try:
+            obj, _ = decoder.raw_decode(cleaned[i:])
+            return obj
+        except json.JSONDecodeError:
+            continue
+
+    # Fallback: regex + trailing comma cleanup
+    match = re.search(r"[\[{].*[}\]]", cleaned, re.DOTALL)
+    if match:
+        candidate = re.sub(r",\s*([}\]])", r"\1", match.group(0))
+        return json.loads(candidate)
+
+    raise ValueError(f"LLM did not return parseable JSON: {cleaned[:300]}")
+
+
+# ---------------------------------------------------------------------------
 # LLM segmentation — minimal output + keyword chaining
 # ---------------------------------------------------------------------------
 
@@ -284,14 +411,22 @@ Segment this SRF news broadcast into editorial stories.
 
 For each segment return ONLY:
 - start_time, end_time (from the timestamps in the transcript)
-- keyword (1-3 words, German, specific to the event — not generic like "Politik")
+- peak_time: the timestamp of the most important/intense moment in this segment
+  (the key fact, the decisive quote, the dramatic turn — NOT the intro by the anchor)
+- keyword: the ONE German word that captures the zeitgeist of this segment.
+  Think: if this word appeared on a newspaper front page, would you know the story?
+  Usually a proper noun: person, place, organization, or a specific German term.
+  Two words ONLY when one word is ambiguous (e.g. "Trump" → "Trump NATO" if there are multiple Trump stories).
+  Good: "Artemis", "Roveredo", "Keller-Sutter", "PFAS", "Eigenmietwert", "WM-Quali"
+  Bad: "Italien" (vague — Italy what?), "Politik", "weather" (must be German!), "StMoritz" (→ "St. Moritz")
+- short_label: readable headline (3-6 words, German)
 - segment_type: "story", "weather", "sport", "intro", "outro", "teaser"
 
 {keyword_instruction}
 
 Return ONLY valid JSON array:
 [
-  {{"start_time": "HH:MM:SS.mmm", "end_time": "HH:MM:SS.mmm", "keyword": "...", "segment_type": "story"}}
+  {{"start_time": "HH:MM:SS.mmm", "end_time": "HH:MM:SS.mmm", "peak_time": "HH:MM:SS.mmm", "keyword": "...", "short_label": "...", "segment_type": "story"}}
 ]
 
 Transcript:
@@ -341,16 +476,7 @@ def segment_broadcast(
     )
 
     text = response.content[0].text.strip()
-
-    # Try to parse as JSON array or object with "segments" key
-    try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        # Try to extract JSON from response
-        match = re.search(r"[\[\{].*[\]\}]", text, re.DOTALL)
-        if not match:
-            raise ValueError(f"LLM did not return JSON: {text[:300]}")
-        data = json.loads(match.group(0))
+    data = _extract_json(text)
 
     # Handle both [{...}] and {"segments": [{...}]} formats
     if isinstance(data, dict):
@@ -371,61 +497,75 @@ def segment_broadcast(
 # Story merging — code-based, not LLM
 # ---------------------------------------------------------------------------
 
+def _segments_are_related(seg_a: dict, seg_b: dict) -> bool:
+    """Check if two segments with the same keyword are actually about the same topic.
+
+    Even with matching keywords, validates via fingerprint that the segments
+    share enough content. German capitalizes all nouns, so single-word overlap
+    is too noisy — require at least 2 shared words or 2 shared entities.
+    """
+    fp_a = seg_a.get("fingerprint", {})
+    fp_b = seg_b.get("fingerprint", {})
+    if not fp_a or not fp_b:
+        return True  # No fingerprint — trust keyword
+
+    words_a = set(fp_a.get("top_words", []))
+    words_b = set(fp_b.get("top_words", []))
+    entities_a = set(fp_a.get("entities", []))
+    entities_b = set(fp_b.get("entities", []))
+
+    if len(words_a & words_b) >= 2:
+        return True
+    if len(entities_a & entities_b) >= 2:
+        return True
+
+    return False
+
+
 def merge_segments_into_stories(all_segments: list[dict]) -> list[dict]:
-    """Group segments into stories by keyword match + fingerprint fallback.
+    """Group segments into stories by keyword match + text validation.
 
     Returns list of story dicts:
         story_id, keyword, segment_indices, repeat_indices
 
-    Algorithm:
-    1. Exact keyword match → same story
-    2. Different keyword but fingerprint_match() → same story (merge into first-seen keyword)
-    3. No match → new story
+    Keyword match is primary. Before merging, validates that segments
+    with the same keyword actually share content (via fingerprint).
+    If they don't, creates a separate story with a numbered suffix.
     """
-    # story_keyword → {story_id, keyword, segment_indices, fingerprints}
+    # story_keyword → {story_id, keyword, segment_indices, representative_seg}
     stories: dict[str, dict] = {}
-    # Map from segment index to story keyword
-    seg_to_story: dict[int, str] = {}
 
     for i, seg in enumerate(all_segments):
         keyword = seg.get("keyword", "").strip()
-        fp = seg.get("fingerprint", {})
+        if not keyword:
+            keyword = f"unknown_{i}"
 
-        # 1. Exact keyword match
-        if keyword and keyword in stories:
-            stories[keyword]["segment_indices"].append(i)
-            stories[keyword]["fingerprints"].append(fp)
-            seg_to_story[i] = keyword
-            continue
-
-        # 2. Fingerprint fallback — check against all existing stories
-        matched_key = None
-        if fp and fp.get("entities"):
-            for story_key, story_data in stories.items():
-                for existing_fp in story_data["fingerprints"]:
-                    if fingerprint_match(fp, existing_fp):
-                        matched_key = story_key
-                        break
-                if matched_key:
-                    break
-
-        if matched_key:
-            stories[matched_key]["segment_indices"].append(i)
-            stories[matched_key]["fingerprints"].append(fp)
-            seg_to_story[i] = matched_key
-            # If this segment had a different keyword, the LLM might have
-            # a better name. Keep the first one for consistency.
-            continue
-
-        # 3. New story
-        story_id = re.sub(r"[^a-z0-9]+", "_", keyword.lower()).strip("_") or f"story_{i}"
-        stories[keyword] = {
-            "story_id": story_id,
-            "keyword": keyword,
-            "segment_indices": [i],
-            "fingerprints": [fp],
-        }
-        seg_to_story[i] = keyword
+        if keyword in stories:
+            # Validate: is this segment actually about the same topic?
+            representative = all_segments[stories[keyword]["segment_indices"][0]]
+            if _segments_are_related(seg, representative):
+                stories[keyword]["segment_indices"].append(i)
+            else:
+                # Same keyword but different content — split into new story
+                suffix = 2
+                new_key = f"{keyword}_{suffix}"
+                while new_key in stories:
+                    suffix += 1
+                    new_key = f"{keyword}_{suffix}"
+                story_id = re.sub(r"[^a-z0-9]+", "_", new_key.lower()).strip("_")
+                stories[new_key] = {
+                    "story_id": story_id,
+                    "keyword": keyword,  # Display keyword stays clean
+                    "segment_indices": [i],
+                }
+                logger.info("Split keyword '%s': segment %d has different content", keyword, i)
+        else:
+            story_id = re.sub(r"[^a-z0-9]+", "_", keyword.lower()).strip("_") or f"story_{i}"
+            stories[keyword] = {
+                "story_id": story_id,
+                "keyword": keyword,
+                "segment_indices": [i],
+            }
 
     # Detect repeats within each story: segments from the same editorial unit
     # with high fingerprint similarity are repeats

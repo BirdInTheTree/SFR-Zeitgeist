@@ -23,6 +23,11 @@ demo-data/frames/
 demo-data/grids/
 demo-data/cache/
 demo-data/cropped/
+demo-data/v2/vtt_cache/
+demo-data/v2/segment_cache/
+demo-data/v2/merge_cache/
+demo-data/v2/frames/
+demo-data/v2/cropped/
 demo-data/v3/cache/
 demo-data/v3/images/
 demo-data/*.vtt

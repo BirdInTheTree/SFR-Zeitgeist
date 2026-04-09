@@ -103,7 +103,7 @@ demo-data/week/*.json
   → fetch VTT subtitles (Integration Layer, cached)
   → LLM segments each broadcast into stories
   → LLM merges segments across broadcasts (keyword clustering, repeat detection)
-  → score each story (novelty × spread × persistence × prominence)
+  → score each story (novelty × spread × persistence × prominence × primetime)
   → rank top 49
   → extract frame at first mention timecode (ffmpeg)
   → smart crop (4:3, face detection)

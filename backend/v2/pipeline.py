@@ -19,6 +19,9 @@ from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
+
 from .scorer import score_story, novelty, spread, persistence, prominence, primetime, PRIMETIME_HOUR
 from .segmenter import (
     fetch_vtt_url,
@@ -32,6 +35,7 @@ from .segmenter import (
     generate_summaries,
     compute_fingerprint,
     extract_segment_text,
+    find_importance_peak,
     seconds_to_tc,
     tc_to_seconds,
 )
@@ -53,8 +57,12 @@ OUTPUT_DIR = PROJECT_ROOT / "demo-data"
 VTT_CACHE_DIR = OUTPUT_DIR / "v2" / "vtt_cache"
 SEGMENT_CACHE_DIR = OUTPUT_DIR / "v2" / "segment_cache"
 MERGE_CACHE_DIR = OUTPUT_DIR / "v2" / "merge_cache"
+# Permanent artifacts — full intermediate results, not just caches.
+# Caches can be deleted and rebuilt; artifacts are the source of truth.
+ARTIFACTS_DIR = OUTPUT_DIR / "v2" / "artifacts"
+REGISTRY_PATH = OUTPUT_DIR / "v2" / "story_registry.json"
 
-GRID_SIZE = 49
+GRID_SIZE = 25
 MIN_WORD_COUNT = 5
 BASELINE_DAYS = 7
 
@@ -81,7 +89,7 @@ def editorial_unit(title: str) -> str:
 
     'Tagesschau in Gebärdensprache' → 'Tagesschau'
     """
-    for suffix in (" in Gebärdensprache", " kompakt", " extra"):
+    for suffix in (" in Gebaerdensprache", " in Gebärdensprache", " kompakt", " extra"):
         if title.endswith(suffix):
             return title[: -len(suffix)]
     return title
@@ -147,8 +155,11 @@ def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
     for the same stories. After LLM segmentation, code computes a fingerprint
     for each segment from the VTT text.
 
-    Returns flat list of segments, each with program metadata and fingerprint.
-    Results are cached per-program to avoid re-processing.
+    Re-broadcasts with the same URN are not re-segmented — they reuse the
+    first airing's segments but with their own startTime (for primetime calc).
+
+    Returns flat list of segments (intro/outro/teaser filtered out),
+    each with program metadata and fingerprint.
     """
     SEGMENT_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -157,19 +168,31 @@ def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
 
     all_segments = []
     known_keywords = []  # Accumulated from all processed broadcasts
+    seen_urns: dict[str, list[dict]] = {}  # URN → segments from first airing
 
     for i, prog in enumerate(sorted_programs):
         title = prog["title"]
+        urn = prog.get("urn", "")
         cache_path = _segment_cache_path(prog)
 
-        # Check cache — still collect keywords from cached segments
+        # Re-broadcast with same URN: reuse segments but with this airing's startTime
+        if urn and urn in seen_urns:
+            reused = _clone_segments_for_rebroadcast(seen_urns[urn], prog)
+            all_segments.extend(reused)
+            print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} rebroadcast ({len(reused)} segments)")
+            continue
+
+        # Check cache
         if cache_path.exists():
             segments = json.loads(cache_path.read_text())
+            segments = _filter_story_segments(segments)
             print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} cached ({len(segments)} segments)")
             for seg in segments:
                 kw = seg.get("keyword", "")
                 if kw and kw not in known_keywords:
                     known_keywords.append(kw)
+            if urn:
+                seen_urns[urn] = segments
             all_segments.extend(segments)
             continue
 
@@ -192,7 +215,7 @@ def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
 
         # Attach metadata and compute fingerprints
         for seg in segments:
-            seg["urn"] = prog.get("urn", "")
+            seg["urn"] = urn
             seg["channel"] = prog.get("channel", "")
             seg["editorial_unit"] = editorial_unit(title)
             seg["startTime"] = prog.get("startTime", "")
@@ -204,22 +227,95 @@ def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
             seg["segment_text"] = seg_text
             seg["fingerprint"] = compute_fingerprint(seg_text)
 
+            # If LLM didn't return peak_time, compute from text importance
+            if not seg.get("peak_time") and blocks:
+                try:
+                    start_sec = tc_to_seconds(seg.get("start_time", "0:0:0"))
+                    end_sec = tc_to_seconds(seg.get("end_time", "0:0:0"))
+                    peak_sec = find_importance_peak(blocks, start_sec, end_sec)
+                    if peak_sec is not None:
+                        seg["peak_time"] = seconds_to_tc(peak_sec)
+                except (ValueError, IndexError):
+                    pass
+
             # Accumulate keyword for next broadcasts
             kw = seg.get("keyword", "")
             if kw and kw not in known_keywords:
                 known_keywords.append(kw)
 
-        # Cache result (incremental saving)
+        # Cache ALL segments (including intro/outro) — filter is applied on read
         cache_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2))
+
+        # Filter for pipeline: keep only story/weather/sport segments
+        segments = _filter_story_segments(segments)
+
+        if urn:
+            seen_urns[urn] = segments
         print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} {len(segments)} segments")
         all_segments.extend(segments)
 
     return all_segments
 
 
+# Segment types that represent actual news content (not structural)
+_CONTENT_TYPES = {"story", "weather", "sport"}
+
+
+def _filter_story_segments(segments: list[dict]) -> list[dict]:
+    """Remove intro/outro/teaser segments — they're not stories."""
+    return [s for s in segments if s.get("segment_type", "story") in _CONTENT_TYPES]
+
+
+def _clone_segments_for_rebroadcast(
+    original_segments: list[dict], prog: dict,
+) -> list[dict]:
+    """Create copies of segments with a re-broadcast's metadata.
+
+    Same content, but different startTime (for primetime calculation)
+    and marked as rebroadcast.
+    """
+    import copy
+    cloned = []
+    for seg in original_segments:
+        new_seg = copy.deepcopy(seg)
+        new_seg["startTime"] = prog.get("startTime", "")
+        new_seg["program"] = prog["title"]
+        new_seg["editorial_unit"] = editorial_unit(prog["title"])
+        new_seg["is_rebroadcast"] = True
+        cloned.append(new_seg)
+    return cloned
+
+
 # ---------------------------------------------------------------------------
 # Step 3: Merge into stories and score
 # ---------------------------------------------------------------------------
+
+def _real_air_sort_key(seg: dict) -> float:
+    """Sort key for finding first mention: program start + segment offset.
+
+    Returns total seconds from midnight so segments sort by real air time.
+    """
+    hour = _extract_hour(seg.get("startTime", ""))
+    if hour is None:
+        return 99 * 3600  # No data — sort last
+
+    # Program start in seconds from midnight
+    iso = seg.get("startTime", "")
+    try:
+        time_part = iso.split("T")[1][:8]
+        h, m, s = int(time_part[:2]), int(time_part[3:5]), int(time_part[6:8])
+        prog_seconds = h * 3600 + m * 60 + s
+    except (IndexError, ValueError):
+        return 99 * 3600
+
+    # Segment offset within program
+    try:
+        offset = tc_to_seconds(seg.get("start_time", "00:00:00"))
+    except (ValueError, IndexError):
+        offset = 0
+
+    return prog_seconds + offset
+
 
 def _extract_hour(start_time_iso: str) -> int | None:
     """Extract hour from ISO start time like '2026-04-01T19:30:00+02:00'."""
@@ -317,7 +413,10 @@ def build_stories(
         if not original_segments:
             original_segments = story_segments
 
-        first_seg = min(original_segments, key=lambda s: s.get("start_time", "99:99:99"))
+        # First mention = earliest by program air time + segment offset.
+        # startTime is ISO like "2026-04-01T12:45:00+02:00", start_time is VTT offset.
+        # Combining gives the real clock time when this story first aired.
+        first_seg = min(original_segments, key=_real_air_sort_key)
 
         # Collect quotes (summaries from different editorial units)
         seen_units = set()
@@ -338,6 +437,7 @@ def build_stories(
         results.append({
             "story_id": story_id,
             "keyword": keyword,
+            "phrase": keyword,  # frontend compatibility (v1 uses "phrase")
             "score": round(final_score, 2),
             "novelty": round(novelty(n_today, baseline_avg), 2),
             "spread": round(spread(distinct_programs), 2),
@@ -352,7 +452,8 @@ def build_stories(
             "programs": sorted(programs),
             "quotes": quotes[:5],
             "first_mention_urn": first_seg.get("urn", ""),
-            "first_mention_time": first_seg.get("start_time", ""),
+            # peak_time = most important moment (from LLM), fallback to start_time
+            "first_mention_time": first_seg.get("peak_time", "") or first_seg.get("start_time", ""),
             "first_mention_program": first_seg.get("program", ""),
             "imageUrl": "",
         })
@@ -410,7 +511,8 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
         frame_path = frames_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
         got_frame = False
 
-        # Try frame at first mention timecode
+        # Try frame at peak/first mention timecode
+        # If the frame is blank, retry 5 seconds later (avoids black transitions)
         tc = entry.get("first_mention_time", "")
         if hls_url and tc:
             try:
@@ -420,10 +522,24 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
                     capture_output=True, timeout=30,
                 )
                 got_frame = frame_path.exists()
+
+                # Check if frame is blank — if so, try 5 seconds later
                 if got_frame:
-                    print(f"frame@{tc} ", end="", flush=True)
-            except Exception:
-                pass
+                    from smart_crop import is_blank
+                    test_img = _Image.open(str(frame_path))
+                    if is_blank(test_img):
+                        offset = tc_to_seconds(tc) + 5.0
+                        retry_tc = seconds_to_tc(offset)
+                        subprocess.run(
+                            ["ffmpeg", "-y", "-ss", retry_tc, "-i", hls_url,
+                             "-frames:v", "1", "-q:v", "2", str(frame_path)],
+                            capture_output=True, timeout=30,
+                        )
+                        print(f"retry@{retry_tc} ", end="", flush=True)
+                    else:
+                        print(f"frame@{tc} ", end="", flush=True)
+            except Exception as e:
+                logger.warning("Frame extraction failed for %s: %s", keyword, e)
 
         # Fallback: find keyword in VTT to get a better timecode
         if not got_frame and hls_url and vtt_url:
@@ -464,8 +580,8 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
                     frame_path.write_bytes(resp.read())
                 got_frame = True
                 print("thumbnail ", end="", flush=True)
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning("Frame extraction failed for %s: %s", keyword, e)
 
         if not got_frame:
             print("no image")
@@ -524,10 +640,14 @@ def _add_summaries(all_segments: list[dict], top_stories: list[dict]) -> None:
         for qi, quote in enumerate(story.get("quotes", [])):
             if quote.get("quote") and len(quote["quote"]) > 10:
                 continue  # Already has a good summary
-            # Find the segment for this quote
+            # Find the segment for this quote — match by urn + keyword + program
+            # to avoid picking a rebroadcast's copy of the same segment
             urn = quote.get("urn", "")
+            quote_program = quote.get("title", "")
             for seg in all_segments:
-                if seg.get("urn") == urn and seg.get("keyword") == story.get("keyword"):
+                if (seg.get("urn") == urn
+                        and seg.get("keyword") == story.get("keyword")
+                        and seg.get("program", "") == quote_program):
                     segments_to_summarize.append(seg)
                     story_quote_map.append((si, qi))
                     break
@@ -542,6 +662,125 @@ def _add_summaries(all_segments: list[dict], top_stories: list[dict]) -> None:
                 top_stories[si]["quotes"][qi]["quote"] = summary
     except Exception as e:
         logger.warning("Summary generation failed: %s", e)
+
+
+# ---------------------------------------------------------------------------
+# Canonical story registry — cross-day keyword consistency
+# ---------------------------------------------------------------------------
+
+def _load_registry() -> dict:
+    """Load the canonical story registry.
+
+    Format: {story_id: {keyword, first_seen, last_seen, entities, top_words}}
+    """
+    if REGISTRY_PATH.exists():
+        return json.loads(REGISTRY_PATH.read_text())
+    return {}
+
+
+def _save_registry(registry: dict) -> None:
+    """Save the canonical story registry."""
+    REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    REGISTRY_PATH.write_text(json.dumps(registry, ensure_ascii=False, indent=2))
+
+
+def _build_story_fingerprint(
+    story_meta: dict, all_segments: list[dict],
+) -> tuple[set, set]:
+    """Aggregate fingerprint across all segments of a story."""
+    all_entities = set()
+    all_words = set()
+    for idx in story_meta.get("segment_indices", []):
+        if idx < len(all_segments):
+            fp = all_segments[idx].get("fingerprint", {})
+            all_entities.update(fp.get("entities", []))
+            all_words.update(fp.get("top_words", []))
+    return all_entities, all_words
+
+
+# Story-level fingerprint match thresholds.
+# High because aggregated fingerprints are long (10-20 entities per story)
+# and German capitalizes all nouns → many false entity matches.
+# Prefer top_words match (content words are more discriminating).
+_REGISTRY_ENTITY_THRESHOLD = 8
+_REGISTRY_WORD_THRESHOLD = 5
+
+
+def _normalize_with_registry(
+    stories_meta: list[dict],
+    all_segments: list[dict],
+    registry: dict,
+    target_date: str,
+) -> tuple[list[dict], int]:
+    """Match today's stories against the registry. Adopt canonical keywords.
+
+    Returns (updated stories_meta, number of matches found).
+    """
+    n_matched = 0
+
+    for story in stories_meta:
+        story_entities, story_words = _build_story_fingerprint(story, all_segments)
+
+        # Try to find a match in the registry
+        best_match = None
+        best_overlap = 0
+
+        for reg_id, reg_data in registry.items():
+            reg_entities = set(reg_data.get("entities", []))
+            reg_words = set(reg_data.get("top_words", []))
+
+            entity_overlap = len(story_entities & reg_entities)
+            word_overlap = len(story_words & reg_words)
+
+            # Must meet at least one threshold
+            if (entity_overlap >= _REGISTRY_ENTITY_THRESHOLD
+                    or word_overlap >= _REGISTRY_WORD_THRESHOLD):
+                total = entity_overlap + word_overlap
+                if total > best_overlap:
+                    best_overlap = total
+                    best_match = reg_id
+
+        if best_match:
+            old_kw = story["keyword"]
+            story["story_id"] = best_match
+            story["keyword"] = registry[best_match]["keyword"]
+            registry[best_match]["last_seen"] = target_date
+            # Update fingerprint with new entities/words
+            registry[best_match]["entities"] = sorted(
+                set(registry[best_match].get("entities", [])) | story_entities
+            )[:20]
+            registry[best_match]["top_words"] = sorted(
+                set(registry[best_match].get("top_words", [])) | story_words
+            )[:15]
+            if old_kw != story["keyword"]:
+                n_matched += 1
+                logger.info(
+                    "Registry match: '%s' → '%s' (from %s)",
+                    old_kw, story["keyword"], registry[best_match]["first_seen"],
+                )
+        else:
+            # New story — register it
+            sid = story["story_id"]
+            registry[sid] = {
+                "keyword": story["keyword"],
+                "first_seen": target_date,
+                "last_seen": target_date,
+                "entities": sorted(story_entities)[:20],
+                "top_words": sorted(story_words)[:15],
+            }
+
+    return stories_meta, n_matched
+
+
+def _save_artifact(target_date: str, stage: str, data) -> None:
+    """Save intermediate pipeline result as a permanent artifact.
+
+    Artifacts are the source of truth. Caches can be rebuilt; artifacts persist.
+    Stages: segments, stories, scored.
+    """
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    path = ARTIFACTS_DIR / f"{target_date}_{stage}.json"
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _load_merge_cache(target_date: str) -> list[dict] | None:
@@ -631,6 +870,9 @@ def build_zeitgeist(target_date: str) -> list[dict]:
         return []
     print(f"\nTotal segments: {len(all_segments)}")
 
+    # Save all segments as artifact (permanent, not just cache)
+    _save_artifact(target_date, "segments", all_segments)
+
     # Step 3: Merge segments into stories (code-based, not LLM)
     stories_meta = _load_merge_cache(target_date)
     if stories_meta is not None:
@@ -644,12 +886,31 @@ def build_zeitgeist(target_date: str) -> list[dict]:
         _save_merge_cache(target_date, stories_meta)
         print(f"Found {len(stories_meta)} stories (cached)")
 
+    # Step 3b: Normalize keywords via canonical registry
+    # If a story matches a previously seen story (from earlier days),
+    # adopt the original keyword and story_id for continuity.
+    registry = _load_registry()
+    stories_meta, n_matched = _normalize_with_registry(
+        stories_meta, all_segments, registry, target_date,
+    )
+    _save_registry(registry)
+    if n_matched:
+        # Re-save merge with normalized keywords
+        _save_merge_cache(target_date, stories_meta)
+        print(f"  Registry: {n_matched} stories matched to previous days")
+
+    # Save merge result as artifact
+    _save_artifact(target_date, "stories", stories_meta)
+
     # Step 4: Load baseline from previous days
     baseline = load_baseline(target_date)
 
     # Step 5: Score
     print("\nScoring stories...")
     results = build_stories(all_segments, stories_meta, baseline)
+
+    # Save scored results as artifact (before filtering to top-N)
+    _save_artifact(target_date, "scored", results)
 
     top = results[:GRID_SIZE]
 
@@ -674,16 +935,34 @@ def build_zeitgeist(target_date: str) -> list[dict]:
 
 
 def save_zeitgeist(results: list[dict], target_date: str) -> Path:
-    """Write zeitgeist JSON."""
+    """Write zeitgeist JSON to both v2/ and main demo-data/ (for frontend)."""
     day_compact = target_date.replace("-", "")
-    out_dir = OUTPUT_DIR / "v2"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / f"zeitgeist_{day_compact}.json"
-    out_path.write_text(
+
+    # Save to v2/ (pipeline's own output)
+    v2_dir = OUTPUT_DIR / "v2"
+    v2_dir.mkdir(parents=True, exist_ok=True)
+    v2_path = v2_dir / f"zeitgeist_{day_compact}.json"
+    v2_path.write_text(
         json.dumps(results, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    return out_path
+
+    # Save to main demo-data/ with frontend-relative image paths
+    frontend_results = []
+    for entry in results:
+        fe = dict(entry)
+        img = fe.get("imageUrl", "")
+        if img and not img.startswith("../"):
+            fe["imageUrl"] = f"../{img}"
+        frontend_results.append(fe)
+
+    fe_path = OUTPUT_DIR / f"zeitgeist_{day_compact}.json"
+    fe_path.write_text(
+        json.dumps(frontend_results, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    return v2_path
 
 
 def find_processable_days(min_news: int = 5) -> list[str]:
@@ -721,10 +1000,11 @@ def main():
                 generated.append(d.replace("-", ""))
                 print(f"Saved → {out}")
 
-        # Write manifest
-        manifest_path = OUTPUT_DIR / "v2" / "days.json"
-        manifest_path.write_text(json.dumps(sorted(generated)))
-        print(f"\nManifest with {len(generated)} days → {manifest_path}")
+        # Write manifest (both v2/ and main demo-data/ for frontend)
+        sorted_days = sorted(generated)
+        (OUTPUT_DIR / "v2" / "days.json").write_text(json.dumps(sorted_days))
+        (OUTPUT_DIR / "days.json").write_text(json.dumps(sorted_days))
+        print(f"\nManifest with {len(sorted_days)} days")
     else:
         if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
             target_date = sys.argv[1]

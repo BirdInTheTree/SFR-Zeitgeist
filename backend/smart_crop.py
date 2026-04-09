@@ -101,8 +101,23 @@ def find_focal_point(img):
     return w // 2, int(h * 0.45), 0
 
 
+def is_blank(img, threshold=500) -> bool:
+    """Check if image is mostly uniform (blank, black, or solid color)."""
+    arr = np.array(img)
+    # Sample 1000 pixels for speed
+    flat = arr.reshape(-1, 3)
+    sample = flat[::max(1, len(flat) // 1000)]
+    avg = sample.mean(axis=0)
+    var = ((sample - avg) ** 2).sum(axis=1).mean()
+    return var < threshold
+
+
 def smart_crop(img, target_ratio=4/3, target_w=280, target_h=210):
-    """Crop image to target ratio, centered on focal point."""
+    """Crop image to target ratio, centered on focal point.
+
+    When no face is found, zooms in to ~70% of the frame to make
+    details more prominent (inspired by Jonathan Harris's 10x10 aesthetic).
+    """
     # Step 1: remove black bars
     img = remove_black_bars(img)
     w, h = img.size
@@ -112,7 +127,12 @@ def smart_crop(img, target_ratio=4/3, target_w=280, target_h=210):
 
     # Step 3: if face found, ensure head + context visible
     # Crop should include at least 2x face height for context (shoulders, gestures)
-    min_crop_h = max(face_h * 2.5, h * 0.4) if face_h > 0 else h * 0.6
+    # If no face, zoom in to 70% of frame for visual interest
+    if face_h > 0:
+        min_crop_h = max(face_h * 2.5, h * 0.4)
+    else:
+        # No face → zoom into center 70% for tighter, more interesting crop
+        min_crop_h = h * 0.7
 
     # Step 4: compute crop box for target ratio
     current_ratio = w / h
