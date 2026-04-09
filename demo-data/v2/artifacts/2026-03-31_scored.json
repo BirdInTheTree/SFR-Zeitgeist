@@ -25,14 +25,14 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Ab Dezember 2026 erhöhen die öffentlichen Verkehrsbetriebe ihre Preise durchschnittlich um 3,9 Prozent.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Die Preise für öffentliche Verkehrsmittel in der Schweiz steigen ab Dezember um 3,9 Prozent.",
+        "quote": "",
         "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
         "startTime": "2026-03-31T21:50:00+02:00"
       }
@@ -40,7 +40,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:02:32.040",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_01_ÖV-Tarife.jpg",
+    "imageUrl": "",
     "rank": 1
   },
   {
@@ -67,7 +67,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Ärzte und Ärztinnen müssen Patienten mehrfach befragt, was zu unnötiger Bürokratie führt.",
+        "quote": "",
         "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
         "startTime": "2026-03-31T21:50:00+02:00"
       }
@@ -75,7 +75,7 @@
     "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
     "first_mention_time": "00:06:24.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_02_Ärztebürokratie.jpg",
+    "imageUrl": "",
     "rank": 2
   },
   {
@@ -104,7 +104,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Celine Dion gibt nach mehrjähriger krankheitsbedingter Pause mit zehn Konzerten in Paris ihr Comeback.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       }
@@ -112,7 +112,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:03:05.945",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_03_Celine_Dion.jpg",
+    "imageUrl": "",
     "rank": 3
   },
   {
@@ -140,7 +140,7 @@
       {
         "title": "Meteo",
         "channel": "SRF 1",
-        "quote": "In der Schweiz fiel am letzten Märztag erheblich Schnee, in Braunwald über einen halben Meter.",
+        "quote": "",
         "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
         "startTime": "2026-03-31T12:50:00+02:00"
       }
@@ -148,7 +148,7 @@
     "first_mention_urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
     "first_mention_time": "00:00:23.945",
     "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/v2/cropped/20260331_04_Märzschnee.jpg",
+    "imageUrl": "",
     "rank": 4
   },
   {
@@ -175,7 +175,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Im Kanton Graubünden werden über 120 Stellen gestrichen, darunter Pflegefachfrauen im Spital Samedan.",
+        "quote": "",
         "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
         "startTime": "2026-03-31T17:40:00+02:00"
       }
@@ -183,7 +183,7 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:02:35.737",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_05_Solarexpress.jpg",
+    "imageUrl": "",
     "rank": 5
   },
   {
@@ -212,7 +212,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Die Jugendanwaltschaft des Kantons Zürich klagt einen 17-Jährigen an, der einen orthodoxen Juden angegriffen hat.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       }
@@ -220,7 +220,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:01:52.193",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_06_Zürich_Messerangriff.jpg",
+    "imageUrl": "",
     "rank": 6
   },
   {
@@ -251,14 +251,14 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Mehrere Länder fürchten wegen des Iran-Kriegs Nachschubprobleme und Auswirkungen auf ihre Wirtschaft.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       },
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Der US-Verteidigungsminister fordert europäische Verbündete auf, sich stärker bei der Sicherung der Straße von Hormus zu beteiligen.",
+        "quote": "",
         "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
         "startTime": "2026-03-31T18:00:00+02:00"
       }
@@ -266,7 +266,7 @@
     "first_mention_urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
     "first_mention_time": "00:02:22.322",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_07_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 7
   },
   {
@@ -295,7 +295,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Ab Mittwoch können Briefe neu auch digital verschickt werden.",
+        "quote": "",
         "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
         "startTime": "2026-03-31T18:00:00+02:00"
       }
@@ -303,7 +303,7 @@
     "first_mention_urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
     "first_mention_time": "00:00:33.609",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_08_Digitaler_Brief.jpg",
+    "imageUrl": "",
     "rank": 8
   },
   {
@@ -330,7 +330,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Die Schweizer Nati spielt heute gegen Norwegen, um neue Spieler vor der WM-Kaderbekanntgabe zu testen.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       }
@@ -338,7 +338,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:04:10.099",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_09_WM-Quali.jpg",
+    "imageUrl": "",
     "rank": 9
   },
   {
@@ -366,7 +366,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Die Preise für Schokolade sind zu Ostern deutlich gestiegen, da die Kakaopreise stark angewachsen sind.",
+        "quote": "",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-03-31T19:00:00+02:00"
       }
@@ -374,7 +374,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:15:46.298",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_10_Kakaopreise_Ostern.jpg",
+    "imageUrl": "",
     "rank": 10
   },
   {
@@ -402,7 +402,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "In einem Logistikzentrum von Zalando im Tessin werden unerwünschte Rückgaben bearbeitet.",
+        "quote": "",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-03-31T19:00:00+02:00"
       }
@@ -410,7 +410,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:08:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_11_Zalando_Arbeitsbedingungen.jpg",
+    "imageUrl": "",
     "rank": 11
   },
   {
@@ -438,7 +438,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Der Kanton Zürich wird ab sofort keine Quereinsteiger ohne Lehrdiplom mehr als Lehrkräfte anstellen.",
+        "quote": "",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-03-31T19:00:00+02:00"
       }
@@ -446,7 +446,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:01:47.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_12_Poldi.jpg",
+    "imageUrl": "",
     "rank": 12
   },
   {
@@ -474,7 +474,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Johann August Sutter, ein Schweizer Auswanderer des 19. Jahrhunderts, zwang indigene Menschen zur Arbeit.",
+        "quote": "",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-03-31T19:00:00+02:00"
       }
@@ -482,7 +482,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:11:41.106",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_13_Sutter_Kolonialismus.jpg",
+    "imageUrl": "",
     "rank": 13
   },
   {
@@ -509,7 +509,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Israel richtet eine Sicherheitszone im Süden des Libanons ein und verhindert die Rückkehr von 600'000 Evakuierten.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       }
@@ -517,7 +517,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:01:11.260",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_14_Libanon_Sicherheitszone.jpg",
+    "imageUrl": "",
     "rank": 14
   },
   {
@@ -545,7 +545,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "In einer Recyclingfabrik in Biberist brannte es in einem Lithium-Ionen-Batterie-Recyclingbetrieb.",
+        "quote": "",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-03-31T19:00:00+02:00"
       }
@@ -553,7 +553,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:05:40.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_15_Batteriebrand.jpg",
+    "imageUrl": "",
     "rank": 15
   },
   {
@@ -581,7 +581,7 @@
       {
         "title": "SRF Börse",
         "channel": "SRF 1",
-        "quote": "In der Schweiz werden täglich durchschnittlich 163 neue Unternehmen gegründet, ein Rekord.",
+        "quote": "",
         "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
         "startTime": "2026-03-31T19:25:00+02:00"
       }
@@ -589,7 +589,7 @@
     "first_mention_urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
     "first_mention_time": "00:00:33.720",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/v2/cropped/20260331_16_Unternehmensgründungen.jpg",
+    "imageUrl": "",
     "rank": 16
   },
   {
@@ -617,7 +617,7 @@
       {
         "title": "SRF Börse",
         "channel": "SRF 1",
-        "quote": "Sehr wenige Start-ups wagen in der Schweiz den Börsengang, im letzten Jahr waren es nur zwei.",
+        "quote": "",
         "urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
         "startTime": "2026-03-31T19:25:00+02:00"
       }
@@ -625,7 +625,7 @@
     "first_mention_urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
     "first_mention_time": "00:01:19.200",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/v2/cropped/20260331_17_Start-up_Börsengang.jpg",
+    "imageUrl": "",
     "rank": 17
   },
   {
@@ -656,14 +656,14 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Das israelische Parlament hat trotz internationaler Kritik die Wiedereinführung der Todesstrafe für Terroristen genehmigt.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       },
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Israel führt die Todesstrafe für Terroristen ein, was international kritisiert wird.",
+        "quote": "",
         "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
         "startTime": "2026-03-31T12:45:00+02:00"
       }
@@ -671,7 +671,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:00:32.873",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_18_Israel_Todesstrafe.jpg",
+    "imageUrl": "",
     "rank": 18
   },
   {
@@ -698,7 +698,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Die Gemeinde Zuoz lehnt die neue Sanadura als Trägerin der Gesundheitsversorgung im Oberengadin ab.",
+        "quote": "",
         "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
         "startTime": "2026-03-30T17:40:00+02:00"
       }
@@ -706,7 +706,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:01:20.261",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_19_Sanadura.jpg",
+    "imageUrl": "",
     "rank": 19
   },
   {
@@ -734,7 +734,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Der UNRWA-Chef kritisiert populistische Gesetze und deren Blockade durch die Justiz.",
+        "quote": "",
         "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
         "startTime": "2026-03-31T19:30:00+02:00"
       }
@@ -742,7 +742,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:19:01.754",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_20_UNRWA_Lazzarini.jpg",
+    "imageUrl": "",
     "rank": 20
   },
   {
@@ -770,7 +770,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Eine Umfrage des Mieterverbandes zeigt, dass steigende Mietpreise Haushalte massiv belasten.",
+        "quote": "",
         "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
         "startTime": "2026-03-31T19:30:00+02:00"
       }
@@ -778,7 +778,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:05:07.047",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_21_Mietpreise.jpg",
+    "imageUrl": "",
     "rank": 21
   },
   {
@@ -806,7 +806,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Die Wettbewerbskommission untersucht, wie künstliche Intelligenz den Wettbewerb gefährden könnte.",
+        "quote": "",
         "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
         "startTime": "2026-03-31T19:30:00+02:00"
       }
@@ -814,7 +814,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:23:29.255",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_22_KI_Wettbewerb.jpg",
+    "imageUrl": "",
     "rank": 22
   },
   {
@@ -841,7 +841,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Banden aus Frankreich brechen gezielt in Garagen in der Ostschweiz ein und stehlen teure Autos.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -849,7 +849,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:12:58.762",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_23_Garagendiebstähle.jpg",
+    "imageUrl": "",
     "rank": 23
   },
   {
@@ -876,7 +876,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Einige Kindergärten im Aargau arbeiten zeitweise ohne Spielzeug und bieten spezielle Kurse dafür an.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -884,7 +884,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:18:09.580",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_24_Spielzeugfreier_Kindergarten.jpg",
+    "imageUrl": "",
     "rank": 24
   },
   {
@@ -911,7 +911,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Der Kanton Basel-Stadt will gegen Personen mit Steuerschulden vorgehen, da fast 9 Prozent zahlungsrückständig sind.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -919,7 +919,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:06:37.832",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_25_Steuerabzug_Basel.jpg",
+    "imageUrl": "",
     "rank": 25
   },
   {
@@ -946,7 +946,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Bei den Bernischen Wahlen gewinnt die SVP sieben und die SP vier Sitze.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -954,7 +954,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:01:45.876",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_26_Bern_Wahlen.jpg",
+    "imageUrl": "",
     "rank": 26
   },
   {
@@ -981,7 +981,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Die Berner Kantonspolizei fahndet öffentlich nach 31 Randalierern einer Pro-Palästina-Demonstration.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -989,7 +989,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:04:45.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_27_Fahndung_Demo.jpg",
+    "imageUrl": "",
     "rank": 27
   },
   {
@@ -1018,14 +1018,14 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Die Energiepreise steigen weiter, was sich auf den Ölmarkt und die Börse auswirkt.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       },
       {
         "title": "SRF Börse in Gebärdensprache",
         "channel": "SRF info",
-        "quote": "Der Swiss Market Index gewinnt 0,9 Prozent an Wert.",
+        "quote": "",
         "urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4",
         "startTime": "2026-03-31T19:25:00+02:00"
       }
@@ -1033,7 +1033,7 @@
     "first_mention_urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4",
     "first_mention_time": "00:01:47.354",
     "first_mention_program": "SRF Börse in Gebärdensprache",
-    "imageUrl": "../demo-data/v2/cropped/20260331_28_Ölpreis_Wall_Street.jpg",
+    "imageUrl": "",
     "rank": 28
   },
   {
@@ -1060,7 +1060,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Morgen wechselhaft und lokal nass, im Süden mit Nordföhn sonnig.",
+        "quote": "",
         "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
         "startTime": "2026-03-31T19:30:00+02:00"
       }
@@ -1068,7 +1068,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:01:03.737",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_29_Wetter.jpg",
+    "imageUrl": "",
     "rank": 29
   },
   {
@@ -1095,7 +1095,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Seit diesem Jahr können Schweizer Haushalte lokal generierten Strom aus Solaranlagen untereinander teilen.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       }
@@ -1103,7 +1103,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:18:03.302",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_30_Lokale_Elektrizitätsgemeinschaften.jpg",
+    "imageUrl": "",
     "rank": 30
   },
   {
@@ -1130,7 +1130,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Die Benzinpreise sind seit Kriegsausbruch im Nahen Osten steil gestiegen, mit großen Unterschieden zwischen Anbietern.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       }
@@ -1138,7 +1138,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:02:06.952",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_31_Spritpreise.jpg",
+    "imageUrl": "",
     "rank": 31
   },
   {
@@ -1165,7 +1165,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Paintball erfreut sich in der Schweiz immer größerer Beliebtheit, wirft aber Sicherheitsfragen auf.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       }
@@ -1173,7 +1173,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:22:10.958",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_32_Paintball.jpg",
+    "imageUrl": "",
     "rank": 32
   },
   {
@@ -1200,7 +1200,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Die Zürcher Staatsanwaltschaft schließt die Untersuchung zum tödlichen Unfall der Velorennfahrerin Muriel Furrer ab.",
+        "quote": "",
         "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
         "startTime": "2026-03-30T19:00:00+02:00"
       }
@@ -1208,7 +1208,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:05:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_33_Furrer.jpg",
+    "imageUrl": "",
     "rank": 33
   },
   {
@@ -1235,7 +1235,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Das Bundesamt für Cybersicherheit warnt vor zunehmenden Cyberangriffen im Alltag.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       }
@@ -1243,7 +1243,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:13:47.122",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_34_Cyberangriffe.jpg",
+    "imageUrl": "",
     "rank": 34
   },
   {
@@ -1270,7 +1270,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Die Samednerin Ernestina Abbühl gewinnt einen Kunstpreis und arbeitet mit Papier und Wachs.",
+        "quote": "",
         "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
         "startTime": "2026-03-30T17:40:00+02:00"
       }
@@ -1278,7 +1278,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:06:59.988",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_35_Abbühl.jpg",
+    "imageUrl": "",
     "rank": 35
   },
   {
@@ -1305,7 +1305,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Die Kirschblüten erinnern an den bevorstehenden Frühling.",
+        "quote": "",
         "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
         "startTime": "2026-03-30T21:50:00+02:00"
       }
@@ -1313,7 +1313,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:25:34.377",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_36_Kirschblüten.jpg",
+    "imageUrl": "",
     "rank": 36
   },
   {
@@ -1340,7 +1340,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Bei einer Online-Abstimmung wählten Leser ein Foto eines Akrobaten beim Essen zum schönsten Moment des März.",
+        "quote": "",
         "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
         "startTime": "2026-03-30T17:40:00+02:00"
       }
@@ -1348,7 +1348,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:10:35.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_37_Leserfotos.jpg",
+    "imageUrl": "",
     "rank": 37
   },
   {
@@ -1375,7 +1375,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Der Kanton Graubünden und PostAuto führen Wertkarten ein, damit Fahrkarten weiterhin mit Bargeld bezahlt werden können.",
+        "quote": "",
         "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
         "startTime": "2026-03-30T17:40:00+02:00"
       }
@@ -1383,7 +1383,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:05:15.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_38_PostAuto.jpg",
+    "imageUrl": "",
     "rank": 38
   }
 ]

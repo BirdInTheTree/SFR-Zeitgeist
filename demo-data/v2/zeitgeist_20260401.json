@@ -42,7 +42,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:03:45.442",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_01_Artemis.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_01_Artemis.jpg",
     "rank": 1
   },
   {
@@ -88,7 +88,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:00:32.075",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_02_WM-Quali_Italien.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_02_WM-Quali_Italien.jpg",
     "rank": 2
   },
   {
@@ -133,7 +133,7 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:01:20.875",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_03_Roveredo.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_03_Roveredo.jpg",
     "rank": 3
   },
   {
@@ -168,7 +168,7 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:16:03.729",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260401_04_Apple.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_04_Apple.jpg",
     "rank": 4
   },
   {
@@ -203,7 +203,7 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:05:50.847",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260401_05_PFAS.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_05_PFAS.jpg",
     "rank": 5
   },
   {
@@ -238,7 +238,7 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:01:24.218",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260401_06_Keller-Sutter.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_06_Keller-Sutter.jpg",
     "rank": 6
   },
   {
@@ -274,7 +274,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:15:46.298",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_07_Kakaopreis_Ostern.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_07_Kakaopreis_Ostern.jpg",
     "rank": 7
   },
   {
@@ -319,7 +319,7 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:05:39.259",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_08_St__Moritz.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_08_St__Moritz.jpg",
     "rank": 8
   },
   {
@@ -355,7 +355,7 @@
     "first_mention_urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
     "first_mention_time": "00:01:15.000",
     "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/v2/cropped/20260401_09_Wetter.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_09_Wetter.jpg",
     "rank": 9
   },
   {
@@ -390,7 +390,7 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:09:47.433",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_10_Spital_Oberengadin.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_10_Spital_Oberengadin.jpg",
     "rank": 10
   },
   {
@@ -425,7 +425,7 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:09:42.685",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_11_Young-Pledari.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_11_Young-Pledari.jpg",
     "rank": 11
   },
   {
@@ -462,7 +462,7 @@
     "first_mention_urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
     "first_mention_time": "00:01:27.687",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_12_Trump_NATO.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_12_Trump_NATO.jpg",
     "rank": 12
   },
   {
@@ -499,7 +499,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:01:39.580",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_13_Eigenmietwert.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_13_Eigenmietwert.jpg",
     "rank": 13
   },
   {
@@ -534,7 +534,7 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:05:10.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_14_Scuol_Solar.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_14_Scuol_Solar.jpg",
     "rank": 14
   },
   {
@@ -569,7 +569,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:07:05.817",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_15_Zalando_Logistik.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_15_Zalando_Logistik.jpg",
     "rank": 15
   },
   {
@@ -604,7 +604,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:02:13.104",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_16_Poldi.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_16_Poldi.jpg",
     "rank": 16
   },
   {
@@ -640,7 +640,7 @@
     "first_mention_urn": "urn:srf:video:3b640c47-925d-4d60-9075-2d496d55fd1c",
     "first_mention_time": "00:02:01.960",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/v2/cropped/20260401_17_SMI_Gleichgewichtung.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_17_SMI_Gleichgewichtung.jpg",
     "rank": 17
   },
   {
@@ -675,7 +675,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:11:41.106",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_18_Sutter_Kolonialismus.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_18_Sutter_Kolonialismus.jpg",
     "rank": 18
   },
   {
@@ -712,7 +712,7 @@
     "first_mention_urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
     "first_mention_time": "00:02:10.543",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_19_Patriot_Beschaffung.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_19_Patriot_Beschaffung.jpg",
     "rank": 19
   },
   {
@@ -748,7 +748,7 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:08:09.755",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_20_Appenzell_Datenschutz.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_20_Appenzell_Datenschutz.jpg",
     "rank": 20
   },
   {
@@ -784,7 +784,7 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:11:18.217",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_21_Brugg_Drogenszene.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_21_Brugg_Drogenszene.jpg",
     "rank": 21
   },
   {
@@ -819,7 +819,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:05:22.687",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_22_Biberist_Batterie.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_22_Biberist_Batterie.jpg",
     "rank": 22
   },
   {
@@ -855,7 +855,7 @@
     "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
     "first_mention_time": "00:22:49.385",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260401_23_Marius_Jagdkapelle.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_23_Marius_Jagdkapelle.jpg",
     "rank": 23
   },
   {
@@ -891,7 +891,7 @@
     "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
     "first_mention_time": "00:12:54.558",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260401_24_Bilaterale_III.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_24_Bilaterale_III.jpg",
     "rank": 24
   },
   {
@@ -927,7 +927,7 @@
     "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
     "first_mention_time": "00:15:29.300",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260401_25_Transitgebühr.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_25_Transitgebühr.jpg",
     "rank": 25
   },
   {
@@ -963,7 +963,7 @@
     "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
     "first_mention_time": "00:10:15.572",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260401_26_Bevölkerungsschutz.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_26_Bevölkerungsschutz.jpg",
     "rank": 26
   },
   {
@@ -999,7 +999,7 @@
     "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
     "first_mention_time": "00:17:54.960",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260401_27_Bio-Preise.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_27_Bio-Preise.jpg",
     "rank": 27
   },
   {
@@ -1035,7 +1035,7 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:05:40.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260401_28_Kerzers_Brandanschlag.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_28_Kerzers_Brandanschlag.jpg",
     "rank": 28
   },
   {
@@ -1070,7 +1070,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:02:22.789",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_29_Trump_Briefwahl.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_29_Trump_Briefwahl.jpg",
     "rank": 29
   },
   {
@@ -1105,7 +1105,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:03:04.134",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260401_30_Trump_Ballsaal.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_30_Trump_Ballsaal.jpg",
     "rank": 30
   },
   {
@@ -1140,7 +1140,7 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:02:35.737",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260401_31_Sedrun_Solar.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_31_Sedrun_Solar.jpg",
     "rank": 31
   },
   {
@@ -1175,7 +1175,7 @@
     "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
     "first_mention_time": "00:01:57.488",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260401_32_SwissPass.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_32_SwissPass.jpg",
     "rank": 32
   },
   {
@@ -1210,7 +1210,7 @@
     "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
     "first_mention_time": "00:06:13.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260401_33_Arzt-Bürokratie.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_33_Arzt-Bürokratie.jpg",
     "rank": 33
   }
 ]

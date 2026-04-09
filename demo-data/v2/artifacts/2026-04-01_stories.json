@@ -1,0 +1,635 @@
+[
+  {
+    "story_id": "swisspass",
+    "keyword": "SwissPass",
+    "segment_indices": [
+      0
+    ],
+    "repeat_indices": []
+  },
+  {
+    "story_id": "arzt_b_rokratie",
+    "keyword": "Arzt-Bürokratie",
+    "segment_indices": [
+      1
+    ],
+    "repeat_indices": []
+  },
+  {
+    "story_id": "sedrun_solar",
+    "keyword": "Sedrun Solar",
+    "segment_indices": [
+      2
+    ],
+    "repeat_indices": []
+  },
+  {
+    "story_id": "spital_oberengadin",
+    "keyword": "Spital Oberengadin",
+    "segment_indices": [
+      3,
+      56,
+      61,
+      74,
+      83,
+      140,
+      159
+    ],
+    "repeat_indices": [
+      61,
+      74,
+      83,
+      140,
+      159
+    ]
+  },
+  {
+    "story_id": "poldi",
+    "keyword": "Poldi",
+    "segment_indices": [
+      4,
+      9,
+      14,
+      19,
+      24
+    ],
+    "repeat_indices": [
+      9,
+      14,
+      19,
+      24
+    ]
+  },
+  {
+    "story_id": "biberist_batterie",
+    "keyword": "Biberist Batterie",
+    "segment_indices": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "repeat_indices": [
+      10,
+      15,
+      20,
+      25
+    ]
+  },
+  {
+    "story_id": "zalando_logistik",
+    "keyword": "Zalando Logistik",
+    "segment_indices": [
+      6,
+      11,
+      16,
+      21,
+      26
+    ],
+    "repeat_indices": [
+      11,
+      16,
+      21,
+      26
+    ]
+  },
+  {
+    "story_id": "sutter_kolonialismus",
+    "keyword": "Sutter Kolonialismus",
+    "segment_indices": [
+      7,
+      12,
+      17,
+      22,
+      27
+    ],
+    "repeat_indices": [
+      12,
+      17,
+      22,
+      27
+    ]
+  },
+  {
+    "story_id": "kakaopreis_ostern",
+    "keyword": "Kakaopreis Ostern",
+    "segment_indices": [
+      8,
+      13,
+      18,
+      23,
+      28,
+      90,
+      96,
+      148,
+      166
+    ],
+    "repeat_indices": [
+      13,
+      18,
+      23,
+      28,
+      96,
+      148,
+      166
+    ]
+  },
+  {
+    "story_id": "wm_quali_italien",
+    "keyword": "WM-Quali Italien",
+    "segment_indices": [
+      29,
+      35,
+      41,
+      47,
+      66,
+      70,
+      79,
+      107,
+      117,
+      127,
+      136,
+      155,
+      172,
+      177,
+      182,
+      187,
+      192,
+      197,
+      202,
+      207
+    ],
+    "repeat_indices": [
+      35,
+      41,
+      47,
+      66,
+      70,
+      79,
+      117,
+      127,
+      155,
+      172,
+      177,
+      182,
+      187,
+      192,
+      197,
+      202,
+      207
+    ]
+  },
+  {
+    "story_id": "eigenmietwert",
+    "keyword": "Eigenmietwert",
+    "segment_indices": [
+      30,
+      36,
+      42,
+      48,
+      103,
+      113,
+      123
+    ],
+    "repeat_indices": [
+      36,
+      42,
+      48,
+      113,
+      123
+    ]
+  },
+  {
+    "story_id": "trump_briefwahl",
+    "keyword": "Trump Briefwahl",
+    "segment_indices": [
+      31,
+      37,
+      43,
+      49
+    ],
+    "repeat_indices": [
+      37,
+      43,
+      49
+    ]
+  },
+  {
+    "story_id": "trump_ballsaal",
+    "keyword": "Trump Ballsaal",
+    "segment_indices": [
+      32,
+      38,
+      44,
+      50
+    ],
+    "repeat_indices": [
+      38,
+      44,
+      50
+    ]
+  },
+  {
+    "story_id": "artemis",
+    "keyword": "Artemis",
+    "segment_indices": [
+      33,
+      39,
+      45,
+      51,
+      63,
+      67,
+      76,
+      99,
+      109,
+      119,
+      134,
+      153,
+      170,
+      175,
+      180,
+      185,
+      190,
+      195,
+      200,
+      205
+    ],
+    "repeat_indices": [
+      39,
+      45,
+      51,
+      63,
+      67,
+      76,
+      99,
+      109,
+      119,
+      153,
+      170,
+      175,
+      180,
+      185,
+      190,
+      195,
+      200,
+      205
+    ]
+  },
+  {
+    "story_id": "wetter",
+    "keyword": "Wetter",
+    "segment_indices": [
+      34,
+      40,
+      46,
+      52,
+      129,
+      130,
+      131,
+      149
+    ],
+    "repeat_indices": [
+      40,
+      46,
+      52,
+      130,
+      131,
+      149
+    ]
+  },
+  {
+    "story_id": "roveredo",
+    "keyword": "Roveredo",
+    "segment_indices": [
+      53,
+      58,
+      71,
+      80,
+      85,
+      91,
+      137,
+      143,
+      156,
+      161
+    ],
+    "repeat_indices": [
+      58,
+      71,
+      80,
+      91,
+      137,
+      143,
+      156,
+      161
+    ]
+  },
+  {
+    "story_id": "scuol_solar",
+    "keyword": "Scuol Solar",
+    "segment_indices": [
+      54,
+      59,
+      72,
+      81,
+      138,
+      157
+    ],
+    "repeat_indices": [
+      59,
+      72,
+      81,
+      138,
+      157
+    ]
+  },
+  {
+    "story_id": "st_moritz",
+    "keyword": "St. Moritz",
+    "segment_indices": [
+      55,
+      60,
+      73,
+      82,
+      88,
+      94,
+      139,
+      146,
+      158,
+      164
+    ],
+    "repeat_indices": [
+      60,
+      73,
+      82,
+      94,
+      139,
+      146,
+      158,
+      164
+    ]
+  },
+  {
+    "story_id": "young_pledari",
+    "keyword": "Young-Pledari",
+    "segment_indices": [
+      57,
+      62,
+      75,
+      84,
+      141,
+      160
+    ],
+    "repeat_indices": [
+      62,
+      75,
+      84,
+      141,
+      160
+    ]
+  },
+  {
+    "story_id": "trump_nato",
+    "keyword": "Trump NATO",
+    "segment_indices": [
+      64,
+      68,
+      77,
+      100,
+      110,
+      120
+    ],
+    "repeat_indices": [
+      68,
+      77,
+      110,
+      120
+    ]
+  },
+  {
+    "story_id": "patriot_beschaffung",
+    "keyword": "Patriot Beschaffung",
+    "segment_indices": [
+      65,
+      69,
+      78,
+      101,
+      111,
+      121
+    ],
+    "repeat_indices": [
+      69,
+      78,
+      111,
+      121
+    ]
+  },
+  {
+    "story_id": "kerzers_brandanschlag",
+    "keyword": "Kerzers Brandanschlag",
+    "segment_indices": [
+      86,
+      92,
+      144,
+      162
+    ],
+    "repeat_indices": [
+      92,
+      144,
+      162
+    ]
+  },
+  {
+    "story_id": "appenzell_datenschutz",
+    "keyword": "Appenzell Datenschutz",
+    "segment_indices": [
+      87,
+      93,
+      145,
+      163
+    ],
+    "repeat_indices": [
+      93,
+      145,
+      163
+    ]
+  },
+  {
+    "story_id": "brugg_drogenszene",
+    "keyword": "Brugg Drogenszene",
+    "segment_indices": [
+      89,
+      95,
+      147,
+      165
+    ],
+    "repeat_indices": [
+      95,
+      147,
+      165
+    ]
+  },
+  {
+    "story_id": "smi_gleichgewichtung",
+    "keyword": "SMI Gleichgewichtung",
+    "segment_indices": [
+      97,
+      98,
+      142,
+      150,
+      167
+    ],
+    "repeat_indices": [
+      98,
+      142,
+      150,
+      167
+    ]
+  },
+  {
+    "story_id": "bev_lkerungsschutz",
+    "keyword": "Bevölkerungsschutz",
+    "segment_indices": [
+      102,
+      112,
+      122
+    ],
+    "repeat_indices": [
+      112,
+      122
+    ]
+  },
+  {
+    "story_id": "bilaterale_iii",
+    "keyword": "Bilaterale III",
+    "segment_indices": [
+      104,
+      114,
+      124
+    ],
+    "repeat_indices": [
+      114,
+      124
+    ]
+  },
+  {
+    "story_id": "transitgeb_hr",
+    "keyword": "Transitgebühr",
+    "segment_indices": [
+      105,
+      115,
+      125
+    ],
+    "repeat_indices": [
+      115,
+      125
+    ]
+  },
+  {
+    "story_id": "bio_preise",
+    "keyword": "Bio-Preise",
+    "segment_indices": [
+      106,
+      116,
+      126
+    ],
+    "repeat_indices": [
+      116,
+      126
+    ]
+  },
+  {
+    "story_id": "marius_jagdkapelle",
+    "keyword": "Marius Jagdkapelle",
+    "segment_indices": [
+      108,
+      118,
+      128
+    ],
+    "repeat_indices": [
+      118,
+      128
+    ]
+  },
+  {
+    "story_id": "keller_sutter",
+    "keyword": "Keller-Sutter",
+    "segment_indices": [
+      132,
+      151,
+      168,
+      173,
+      178,
+      183,
+      188,
+      193,
+      198,
+      203
+    ],
+    "repeat_indices": [
+      151,
+      168,
+      173,
+      178,
+      183,
+      188,
+      193,
+      198,
+      203
+    ]
+  },
+  {
+    "story_id": "pfas",
+    "keyword": "PFAS",
+    "segment_indices": [
+      133,
+      152,
+      169,
+      174,
+      179,
+      184,
+      189,
+      194,
+      199,
+      204
+    ],
+    "repeat_indices": [
+      152,
+      169,
+      174,
+      179,
+      184,
+      189,
+      194,
+      199,
+      204
+    ]
+  },
+  {
+    "story_id": "apple",
+    "keyword": "Apple",
+    "segment_indices": [
+      135,
+      154,
+      171,
+      176,
+      181,
+      186,
+      191,
+      196,
+      201,
+      206
+    ],
+    "repeat_indices": [
+      154,
+      171,
+      176,
+      181,
+      186,
+      191,
+      196,
+      201,
+      206
+    ]
+  }
+]

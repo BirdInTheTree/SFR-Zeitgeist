@@ -43,7 +43,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:01:25.382",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_01_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 1
   },
   {
@@ -87,7 +87,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:04:38.231",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_02_Kirschblüten.jpg",
+    "imageUrl": "",
     "rank": 2
   },
   {
@@ -131,7 +131,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:00:41.212",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_03_Cyberangriffe.jpg",
+    "imageUrl": "",
     "rank": 3
   },
   {
@@ -166,7 +166,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:18:03.302",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_04_Lokale_Elektrizitätsgemeinschaften.jpg",
+    "imageUrl": "",
     "rank": 4
   },
   {
@@ -201,7 +201,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:02:06.952",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_05_Spritpreise.jpg",
+    "imageUrl": "",
     "rank": 5
   },
   {
@@ -236,7 +236,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:22:10.958",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_06_Paintball.jpg",
+    "imageUrl": "",
     "rank": 6
   },
   {
@@ -271,7 +271,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:10:05.959",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_07_Ölpreis_Wall_Street.jpg",
+    "imageUrl": "",
     "rank": 7
   },
   {
@@ -308,7 +308,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:02:33.942",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_08_Al-Scharaa.jpg",
+    "imageUrl": "",
     "rank": 8
   },
   {
@@ -344,7 +344,7 @@
     "first_mention_urn": "urn:srf:video:5f66c2de-b8de-4d4a-9a85-15729fe82a26",
     "first_mention_time": "00:00:48.400",
     "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/v2/cropped/20260330_09_Winterwetter.jpg",
+    "imageUrl": "",
     "rank": 9
   },
   {
@@ -379,7 +379,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:12:36.617",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_10_Israel_Todesstrafe.jpg",
+    "imageUrl": "",
     "rank": 10
   },
   {
@@ -424,7 +424,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:03:56.951",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_11_Furrer.jpg",
+    "imageUrl": "",
     "rank": 11
   },
   {
@@ -470,7 +470,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:01:45.876",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260330_12_Bern_Wahlen.jpg",
+    "imageUrl": "",
     "rank": 12
   },
   {
@@ -505,7 +505,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:06:59.988",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260330_13_Abbühl.jpg",
+    "imageUrl": "",
     "rank": 13
   },
   {
@@ -540,7 +540,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:01:20.261",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260330_14_Sanadura.jpg",
+    "imageUrl": "",
     "rank": 14
   },
   {
@@ -577,7 +577,7 @@
     "first_mention_urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
     "first_mention_time": "00:02:59.636",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_15_Paketgebühr.jpg",
+    "imageUrl": "",
     "rank": 15
   },
   {
@@ -612,7 +612,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:10:35.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260330_16_Leserfotos.jpg",
+    "imageUrl": "",
     "rank": 16
   },
   {
@@ -647,7 +647,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:05:15.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260330_17_PostAuto.jpg",
+    "imageUrl": "",
     "rank": 17
   },
   {
@@ -683,7 +683,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:12:58.762",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260330_18_Garagendiebstähle.jpg",
+    "imageUrl": "",
     "rank": 18
   },
   {
@@ -719,7 +719,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:18:09.580",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260330_19_Spielzeugfreier_Kindergarten.jpg",
+    "imageUrl": "",
     "rank": 19
   },
   {
@@ -755,7 +755,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:06:37.832",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260330_20_Steuerabzug_Basel.jpg",
+    "imageUrl": "",
     "rank": 20
   },
   {
@@ -790,7 +790,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:03:21.395",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_21_Sinner.jpg",
+    "imageUrl": "",
     "rank": 21
   },
   {
@@ -826,7 +826,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:15:50.114",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_22_Spielzeugmarkt.jpg",
+    "imageUrl": "",
     "rank": 22
   },
   {
@@ -862,7 +862,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:04:45.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260330_23_Fahndung_Demo.jpg",
+    "imageUrl": "",
     "rank": 23
   },
   {
@@ -898,7 +898,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:18:38.886",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_24_Sperlingskauz.jpg",
+    "imageUrl": "",
     "rank": 24
   },
   {
@@ -934,7 +934,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:21:28.048",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_25_Odermatt.jpg",
+    "imageUrl": "",
     "rank": 25
   },
   {
@@ -969,7 +969,7 @@
     "first_mention_urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
     "first_mention_time": "00:01:24.663",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_26_Flüchtlingsrückkehr.jpg",
+    "imageUrl": "",
     "rank": 26
   },
   {
@@ -1004,7 +1004,7 @@
     "first_mention_urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
     "first_mention_time": "00:02:09.858",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_27_Kunstdiebstahl.jpg",
+    "imageUrl": "",
     "rank": 27
   },
   {
@@ -1039,7 +1039,7 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:02:18.481",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260330_28_Konjunktur.jpg",
+    "imageUrl": "",
     "rank": 28
   },
   {
@@ -1075,7 +1075,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:11:47.967",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_29_Ukraine_Drohnen.jpg",
+    "imageUrl": "",
     "rank": 29
   },
   {
@@ -1111,7 +1111,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:20:37.846",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_30_Vogelgrippe.jpg",
+    "imageUrl": "",
     "rank": 30
   },
   {
@@ -1146,7 +1146,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_31_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 31
   },
   {
@@ -1181,7 +1181,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_32_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 32
   },
   {
@@ -1216,7 +1216,7 @@
     "first_mention_urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b",
     "first_mention_time": "00:01:43.479",
     "first_mention_program": "SRF Kids News",
-    "imageUrl": "../demo-data/v2/cropped/20260330_33_Trainsurfing.jpg",
+    "imageUrl": "",
     "rank": 33
   },
   {
@@ -1251,7 +1251,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:09:43.778",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_34_Al-Scharaa.jpg",
+    "imageUrl": "",
     "rank": 34
   },
   {
@@ -1286,7 +1286,7 @@
     "first_mention_urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
     "first_mention_time": "00:09:43.778",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260330_35_Al-Scharaa.jpg",
+    "imageUrl": "",
     "rank": 35
   },
   {
@@ -1321,7 +1321,7 @@
     "first_mention_urn": "urn:srf:video:8993b09e-5c1b-46e5-bd4f-4d1e96611fdf",
     "first_mention_time": "00:09:42.778",
     "first_mention_program": "Tagesschau in Gebärdensprache",
-    "imageUrl": "../demo-data/v2/cropped/20260330_36_Al-Scharaa.jpg",
+    "imageUrl": "",
     "rank": 36
   },
   {
@@ -1356,7 +1356,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_37_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 37
   },
   {
@@ -1391,7 +1391,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_38_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 38
   },
   {
@@ -1426,7 +1426,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_39_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 39
   },
   {
@@ -1461,7 +1461,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_40_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 40
   },
   {
@@ -1496,7 +1496,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_41_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 41
   },
   {
@@ -1531,7 +1531,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_42_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 42
   },
   {
@@ -1566,7 +1566,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_43_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 43
   },
   {
@@ -1601,7 +1601,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:06:38.472",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260330_44_Iran_Israel.jpg",
+    "imageUrl": "",
     "rank": 44
   },
   {
@@ -1636,7 +1636,7 @@
     "first_mention_urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b",
     "first_mention_time": "00:08:30.000",
     "first_mention_program": "SRF Kids News",
-    "imageUrl": "../demo-data/v2/cropped/20260330_45_Pro_Juventute.jpg",
+    "imageUrl": "",
     "rank": 45
   },
   {
@@ -1671,7 +1671,7 @@
     "first_mention_urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b",
     "first_mention_time": "00:05:30.000",
     "first_mention_program": "SRF Kids News",
-    "imageUrl": "../demo-data/v2/cropped/20260330_46_Starkstrom.jpg",
+    "imageUrl": "",
     "rank": 46
   },
   {
@@ -1706,7 +1706,7 @@
     "first_mention_urn": "urn:srf:video:42d8efb1-2b8d-4e4b-bdff-1e20b2f6289b",
     "first_mention_time": "00:10:30.000",
     "first_mention_program": "SRF Kids News",
-    "imageUrl": "../demo-data/v2/cropped/20260330_47_BTS.jpg",
+    "imageUrl": "",
     "rank": 47
   }
 ]

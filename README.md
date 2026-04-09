@@ -4,7 +4,7 @@ Proposal demo for SRF's AI and discovery teams: a topic-centric front page for t
 
 SRF's TV archive organizes content by show — Tagesschau, 10 vor 10, Schweiz aktuell. But viewers don't think in shows. They think in topics: "What happened with Artemis?" "Why is everyone talking about PFAS?" There is no way to navigate the archive by what Switzerland is actually talking about.
 
-**SRF Zeitgeist** fills that gap. It analyzes subtitles from SRF news programs and surfaces the top trending topics as a visual 7×7 grid — one glance at what Switzerland discussed today.
+**SRF Zeitgeist** fills that gap. It analyzes subtitles from SRF news programs and surfaces the top trending topics as a visual 5×5 grid — one glance at what Switzerland discussed today.
 
 The product thesis is simple: Play SRF should not only answer "which show should I watch?" It should also answer "what is Switzerland talking about right now?" This prototype demonstrates that the answer can be generated from SRF's own editorial output, without relying on click popularity.
 
@@ -12,13 +12,13 @@ The product thesis is simple: Play SRF should not only answer "which show should
 
 Every day, SRF broadcasts ~50 news programs (including re-broadcasts). Each has subtitles. Zeitgeist processes all of them:
 
-1. **Extract** — spaCy pulls noun phrases and named entities from German subtitle text
-2. **Compare** — each phrase's frequency today is compared to a 7-day baseline (the "spike")
-3. **Filter** — phrases are ranked by spike and then cleaned up with deduplication plus an LLM quality gate
-4. **Rank** — `score = spike × log₂(program_count)` balances novelty with breadth
-5. **Display** — top 49 phrases become a 7×7 grid with TV frames and source quotes
+1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment
+2. **Merge** — segments from different programs are grouped into unified stories by keyword matching, with fingerprint validation to prevent false merges
+3. **Score** — each story is ranked by five signals: `novelty × spread × persistence × prominence × primetime`
+4. **Screenshot** — a video frame is extracted at the story's emotional peak (not the anchor intro)
+5. **Display** — top 25 stories become a 5×5 grid with TV frames and source quotes
 
-The spike mechanism automatically suppresses evergreen words ("Schweiz", "heute") without a manual stoplist — they appear every day, so their spike is ~1.0. A phrase like "Artemis-2-Mission" that jumps from 0 to 20 mentions scores orders of magnitude higher.
+The formula automatically suppresses evergreen topics (weather, ongoing background stories) — their novelty score is ~1.0 because they appear every day. A story like "Artemis-2 launch" that spikes from 0 to 20 segments scores orders of magnitude higher.
 
 ## The grid
 
@@ -45,43 +45,49 @@ Subtitles are available for ~75% of programs. The pipeline processes only the **
 ## Architecture
 
 ```
-demo-data/week/*.json          ← pre-fetched programs with cleaned subtitles
+demo-data/week/*.json             ← daily program schedules with subtitles
         │
         ▼
-backend/pipeline.py            ← spaCy extraction → keyness → ranking
+backend/v2/pipeline.py            ← LLM segmentation → merge → scoring
+        │
+        ├── demo-data/v2/segment_cache/   cached LLM segmentations
+        ├── demo-data/v2/merge_cache/     cached story merges
+        ├── demo-data/v2/artifacts/       all intermediate results
+        └── demo-data/v2/story_registry.json  cross-day keyword registry
         │
         ▼
-demo-data/zeitgeist_YYYYMMDD.json  ← 36 phrases with scores, quotes, images
+demo-data/zeitgeist_YYYYMMDD.json ← 25 stories with scores, quotes, images
         │
         ▼
-frontend/                      ← vanilla HTML/CSS/JS grid viewer
+frontend/                         ← vanilla HTML/CSS/JS grid viewer
 ```
 
 ### Key files
 
 | File | Purpose |
 |------|---------|
-| `backend/pipeline.py` | Main pipeline: extract phrases, compute spike, rank, output JSON |
-| `backend/fetch_images.py` | Extract video frames at phrase timecodes via ffmpeg + smart crop |
-| `backend/smart_crop.py` | Face-aware image cropping (4:3, 280×210) |
-| `frontend/app.js` | Grid rendering, hover/click interactions, day navigation |
-| `frontend/style.css` | Layout, fish-eye typography, zoom overlays |
+| `backend/v2/pipeline.py` | Main pipeline: segment → merge → score → frames → output |
+| `backend/v2/segmenter.py` | LLM segmentation, keyword chaining, fingerprinting, story merge |
+| `backend/v2/scorer.py` | 5-signal scoring formula |
+| `backend/v2/fetch_epg.py` | Daily EPG data fetcher (accumulates history beyond API's 2-week window) |
+| `backend/smart_crop.py` | Face-aware image cropping with blank detection (4:3, 280×210) |
+| `frontend/app.js` | Grid rendering, fish-eye word list, zoom overlays, day navigation |
 
-### Algorithm detail
+### Scoring formula
 
-**Spike detection** (based on [Google Trends methodology](https://trends.withgoogle.com/year-in-search/data-methodology/)):
+$$score(s) = novelty \times spread \times persistence \times prominence \times primetime$$
 
-```
-spike = frequency_today / average_frequency_7_days
-score = spike × log₂(program_count)
-```
+| Signal | Formula | What it measures |
+|--------|---------|-----------------|
+| novelty | $(N_{today} + 1) / (\overline{N}_{prev7} + 1)$ | Spike vs 7-day baseline |
+| spread | $1 + \log_2(1 + U_{today})$ | How many editorial desks covered it |
+| persistence | $1 + \log_2(1 + N_{today})$ | How often the story returned today |
+| prominence | $1 + \log_2(1 + M_{today}/60)$ | Total segment airtime in minutes |
+| primetime | $1 + 0.25 \times tier$ | Evening prime time presence (0/1/2) |
 
-**Editorial signal and cleanup**:
-- variant broadcasts collapse into one editorial unit: "Tagesschau" and "Tagesschau in Gebärdensprache" count as the same desk
-- near-duplicate phrases are removed with substring, semantic, and story-level deduplication
-- an LLM quality gate removes generic or non-topical leftovers before the final grid is rendered
+Re-broadcasts contribute through log-dampened persistence and prominence — editorial decisions to keep airing a story are a signal, but logarithms prevent linear inflation.
 
-**NLP**: spaCy `de_core_news_md` — noun chunks + named entities (PER, ORG, LOC, GPE). Lemmatized. Junk from subtitle metadata (SWISS TXT headers) is filtered.
+See [backend/v2/README.md](backend/v2/README.md) for full formula rationale.
 
 ## Why it matters for SRF
 
@@ -92,31 +98,28 @@ score = spike × log₂(program_count)
 
 ## Current demo corpus
 
-- **12 daily snapshots** in the current demo build (`2026-03-19` to `2026-04-01`)
-- **1,172 programs** ingested from the saved archive window, including **541 news programs**
-- **3.55M subtitle words** processed across the available dataset
-- **255 surfaced topics**, with **206 topics carrying imagery** (80.8% coverage)
-- **848 linked source quotes**, or **3.33 quotes per topic** on average
-- **LLM quality gate pass rate: 35.7%** (`940 / 2632` candidates kept)
-
-See [EVALUATION.md](EVALUATION.md) for the measurement notes and caveats.
+- **3 daily snapshots** with full v2 pipeline (`2026-03-30` to `2026-04-01`)
+- **~50 news programs per day** from SRF's broadcast schedule
+- **~35 stories per day** after LLM segmentation and merge
+- **100% image coverage** — every story has a video frame
+- **Cross-day story tracking** — 27 stories persist across multiple days
+- **EPG data available** for `2026-03-05` to `2026-04-09` (28 days)
 
 ## Running
 
-**Prerequisites:** Python 3.13, spaCy with `de_core_news_md`, ffmpeg
+**Prerequisites:** Python 3.13, ffmpeg, Anthropic API key in `.env`
 
 ```bash
-# Activate virtual environment
 source ~/venvs/SFR_env/bin/activate
 
-# Generate zeitgeist for a specific date
-python backend/pipeline.py 2026-04-01
+# Fetch latest EPG data (run weekly to accumulate history)
+python -m backend.v2.fetch_epg --range 14
+
+# Generate zeitgeist for a specific date (with images)
+python -m backend.v2.pipeline 2026-04-01
 
 # Generate all available days
-python backend/pipeline.py --all
-
-# Fetch video frame images
-python backend/fetch_images.py --all
+python -m backend.v2.pipeline --all
 
 # Serve frontend
 python -m http.server 8080
@@ -142,52 +145,13 @@ The underlying question: *what if Play SRF had a "trending" page — not based o
 - The ranking pipeline is tuned for German-language SRF news subtitles and has not yet been validated with user testing.
 - This repository focuses on the proposal and the prototype, not on deployment infrastructure.
 
-## V3 Direction
+## Key design decisions
 
-The next pipeline version moves from phrase ranking to story ranking.
-
-Instead of extracting keywords first and deduplicating later, `backend/v3/` will:
-
-1. load raw VTT subtitles for news programs only
-2. ask an LLM to segment each broadcast into editorial story segments
-3. assign one keyword per segment and mark exact carry-over segments from the previous episode
-4. merge matching stories across programs
-5. rank stories, not phrases
-6. find the first mention of the winning keyword in the earliest segment and extract the frame there
-
-The story-level score is:
-
-$$
-score(s) = novelty(s) \times spread(s) \times persistence(s) \times prominence(s)
-$$
-
-with:
-
-$$
-novelty(s)=\frac{N_{today}(s)+\alpha}{\overline{N}_{prev7}(s)+\alpha}
-$$
-
-$$
-spread(s)=1+\log_2(1+U_{today}(s))
-$$
-
-$$
-persistence(s)=1+\log_2(1+N_{today}(s))
-$$
-
-$$
-prominence(s)=1+\log_2\left(1+\frac{M_{today}(s)}{60}\right)
-$$
-
-where:
-
-- $N_{today}(s)$ = number of segments assigned to story $s$ today
-- $\overline{N}_{prev7}(s)$ = average number of segments assigned to story $s$ over the previous 7 days
-- $U_{today}(s)$ = number of distinct programs that carry story $s$ today
-- $M_{today}(s)$ = total duration in seconds of story segments assigned to $s$ today
-- $\alpha$ = smoothing constant, typically 1
-
-This design keeps repeated coverage as an editorial signal, but prevents repeated broadcasts from dominating linearly: repetition increases the score through persistence and screen time, while cross-program presence increases spread.
+- **Story-level, not phrase-level** — LLM segments broadcasts into editorial stories. This solves the fundamental problem of phrase-based approaches: "Kanton Bern" vs "Berner Regierung" vs "Regierungsratswahlen Bern" are all the same story.
+- **Keyword chaining** — broadcasts are processed chronologically. Each LLM call receives keywords from earlier broadcasts, so it reuses the same keyword for the same story across programs.
+- **Repeats count, through logarithm** — re-broadcasts aren't excluded. An editor keeping a story in the 19:30 re-airing is a signal. But 5 re-airings don't count as 5× importance — logarithmic dampening handles this.
+- **Peak-time screenshots** — the LLM identifies the most important moment in each segment. The screenshot is taken there, not at the start (which is typically the anchor in studio).
+- **Canonical story registry** — cross-day keyword consistency via fingerprint matching. "Muriel Furrer Untersuchung" on day 1 keeps the same keyword on day 2.
 
 ## References
 

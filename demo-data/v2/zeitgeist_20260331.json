@@ -40,7 +40,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:02:32.040",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_01_ÖV-Tarife.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_01_ÖV-Tarife.jpg",
     "rank": 1
   },
   {
@@ -75,7 +75,7 @@
     "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
     "first_mention_time": "00:06:24.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_02_Ärztebürokratie.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_02_Ärztebürokratie.jpg",
     "rank": 2
   },
   {
@@ -112,7 +112,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:03:05.945",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_03_Celine_Dion.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_03_Celine_Dion.jpg",
     "rank": 3
   },
   {
@@ -148,7 +148,7 @@
     "first_mention_urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
     "first_mention_time": "00:00:23.945",
     "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/v2/cropped/20260331_04_Märzschnee.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_04_Märzschnee.jpg",
     "rank": 4
   },
   {
@@ -183,7 +183,7 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:02:35.737",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_05_Solarexpress.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_05_Solarexpress.jpg",
     "rank": 5
   },
   {
@@ -220,7 +220,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:01:52.193",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_06_Zürich_Messerangriff.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_06_Zürich_Messerangriff.jpg",
     "rank": 6
   },
   {
@@ -266,7 +266,7 @@
     "first_mention_urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
     "first_mention_time": "00:02:22.322",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_07_Iran_Israel.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_07_Iran_Israel.jpg",
     "rank": 7
   },
   {
@@ -303,7 +303,7 @@
     "first_mention_urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
     "first_mention_time": "00:00:33.609",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_08_Digitaler_Brief.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_08_Digitaler_Brief.jpg",
     "rank": 8
   },
   {
@@ -338,7 +338,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:04:10.099",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_09_WM-Quali.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_09_WM-Quali.jpg",
     "rank": 9
   },
   {
@@ -374,7 +374,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:15:46.298",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_10_Kakaopreise_Ostern.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_10_Kakaopreise_Ostern.jpg",
     "rank": 10
   },
   {
@@ -410,7 +410,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:08:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_11_Zalando_Arbeitsbedingungen.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_11_Zalando_Arbeitsbedingungen.jpg",
     "rank": 11
   },
   {
@@ -446,7 +446,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:01:47.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_12_Poldi.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_12_Poldi.jpg",
     "rank": 12
   },
   {
@@ -482,7 +482,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:11:41.106",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_13_Sutter_Kolonialismus.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_13_Sutter_Kolonialismus.jpg",
     "rank": 13
   },
   {
@@ -517,7 +517,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:01:11.260",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_14_Libanon_Sicherheitszone.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_14_Libanon_Sicherheitszone.jpg",
     "rank": 14
   },
   {
@@ -553,7 +553,7 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:05:40.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_15_Batteriebrand.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_15_Batteriebrand.jpg",
     "rank": 15
   },
   {
@@ -589,7 +589,7 @@
     "first_mention_urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
     "first_mention_time": "00:00:33.720",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/v2/cropped/20260331_16_Unternehmensgründungen.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_16_Unternehmensgründungen.jpg",
     "rank": 16
   },
   {
@@ -625,7 +625,7 @@
     "first_mention_urn": "urn:srf:video:16bc5a10-0aff-4faa-8535-bb6bdeecc406",
     "first_mention_time": "00:01:19.200",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/v2/cropped/20260331_17_Start-up_Börsengang.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_17_Start-up_Börsengang.jpg",
     "rank": 17
   },
   {
@@ -671,7 +671,7 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:00:32.873",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/v2/cropped/20260331_18_Israel_Todesstrafe.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_18_Israel_Todesstrafe.jpg",
     "rank": 18
   },
   {
@@ -706,7 +706,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:01:20.261",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_19_Sanadura.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_19_Sanadura.jpg",
     "rank": 19
   },
   {
@@ -742,7 +742,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:19:01.754",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_20_UNRWA_Lazzarini.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_20_UNRWA_Lazzarini.jpg",
     "rank": 20
   },
   {
@@ -778,7 +778,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:05:07.047",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_21_Mietpreise.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_21_Mietpreise.jpg",
     "rank": 21
   },
   {
@@ -814,7 +814,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:23:29.255",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_22_KI_Wettbewerb.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_22_KI_Wettbewerb.jpg",
     "rank": 22
   },
   {
@@ -849,7 +849,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:12:58.762",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_23_Garagendiebstähle.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_23_Garagendiebstähle.jpg",
     "rank": 23
   },
   {
@@ -884,7 +884,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:18:09.580",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_24_Spielzeugfreier_Kindergarten.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_24_Spielzeugfreier_Kindergarten.jpg",
     "rank": 24
   },
   {
@@ -919,7 +919,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:06:37.832",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_25_Steuerabzug_Basel.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_25_Steuerabzug_Basel.jpg",
     "rank": 25
   },
   {
@@ -954,7 +954,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:01:45.876",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_26_Bern_Wahlen.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_26_Bern_Wahlen.jpg",
     "rank": 26
   },
   {
@@ -989,7 +989,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:04:45.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_27_Fahndung_Demo.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_27_Fahndung_Demo.jpg",
     "rank": 27
   },
   {
@@ -1033,7 +1033,7 @@
     "first_mention_urn": "urn:srf:video:e5634c95-ee53-4507-815b-cc01813da5d4",
     "first_mention_time": "00:01:47.354",
     "first_mention_program": "SRF Börse in Gebärdensprache",
-    "imageUrl": "../demo-data/v2/cropped/20260331_28_Ölpreis_Wall_Street.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_28_Ölpreis_Wall_Street.jpg",
     "rank": 28
   },
   {
@@ -1068,7 +1068,7 @@
     "first_mention_urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
     "first_mention_time": "00:01:03.737",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/v2/cropped/20260331_29_Wetter.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_29_Wetter.jpg",
     "rank": 29
   },
   {
@@ -1103,7 +1103,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:18:03.302",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_30_Lokale_Elektrizitätsgemeinschaften.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_30_Lokale_Elektrizitätsgemeinschaften.jpg",
     "rank": 30
   },
   {
@@ -1138,7 +1138,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:02:06.952",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_31_Spritpreise.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_31_Spritpreise.jpg",
     "rank": 31
   },
   {
@@ -1173,7 +1173,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:22:10.958",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_32_Paintball.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_32_Paintball.jpg",
     "rank": 32
   },
   {
@@ -1208,7 +1208,7 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:05:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/v2/cropped/20260331_33_Furrer.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_33_Furrer.jpg",
     "rank": 33
   },
   {
@@ -1243,7 +1243,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:13:47.122",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_34_Cyberangriffe.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_34_Cyberangriffe.jpg",
     "rank": 34
   },
   {
@@ -1278,7 +1278,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:06:59.988",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_35_Abbühl.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_35_Abbühl.jpg",
     "rank": 35
   },
   {
@@ -1313,7 +1313,7 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:25:34.377",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/v2/cropped/20260331_36_Kirschblüten.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_36_Kirschblüten.jpg",
     "rank": 36
   },
   {
@@ -1348,7 +1348,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:10:35.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_37_Leserfotos.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_37_Leserfotos.jpg",
     "rank": 37
   },
   {
@@ -1383,7 +1383,7 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:05:15.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/v2/cropped/20260331_38_PostAuto.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260331_38_PostAuto.jpg",
     "rank": 38
   }
 ]
