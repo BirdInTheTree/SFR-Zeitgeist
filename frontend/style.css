@@ -48,7 +48,47 @@ header h1 {
 .x { color: var(--red); }
 
 .subtitle {
-    display: none;
+    display: block;
+    margin-top: 4px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+    margin-top: 6px;
+}
+
+.snapshot-meta,
+.load-state {
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+}
+
+.snapshot-meta {
+    color: #666;
+}
+
+.load-state {
+    color: #777;
+    min-height: 16px;
+}
+
+.load-state.loading {
+    color: var(--red);
+}
+
+.load-state.error {
+    color: #9a1c12;
+}
+
+.load-state.ready {
+    color: #666;
 }
 
 /* ===== MAIN AREA ===== */
@@ -73,6 +113,7 @@ header h1 {
     overflow: hidden;
     cursor: pointer;
     background: #1a1a1a;
+    transition: opacity 0.15s ease;
 }
 
 .cell img {
@@ -132,7 +173,7 @@ header h1 {
 .cell.no-img .label {
     background: none;
     color: rgba(255,255,255,0.35);
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 400;
     opacity: 1;
     letter-spacing: 0.3px;
@@ -147,8 +188,23 @@ header h1 {
 
 /* Empty filler cells */
 .cell.empty {
-    background: #222;
+    background: #f2f2f2;
     cursor: default;
+}
+
+.img-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 2;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,0.75);
+    background: rgba(0,0,0,0.45);
+    padding: 2px 4px;
+    border-radius: 2px;
+    pointer-events: none;
 }
 
 /* ===== WORD COLUMN ===== */
@@ -163,7 +219,7 @@ header h1 {
 }
 
 .w {
-    font-size: 7px;
+    font-size: 10px;
     line-height: 1.05;
     cursor: pointer;
     white-space: nowrap;
@@ -176,9 +232,9 @@ header h1 {
 
 .w .num {
     display: inline-block;
-    width: 12px;
+    width: 18px;
     text-align: right;
-    margin-right: 2px;
+    margin-right: 4px;
     font-size: inherit;
     color: #ddd;
     font-variant-numeric: tabular-nums;
@@ -209,7 +265,7 @@ header h1 {
 
 /* Fish-eye: ±1 — readable, black */
 .w.near1 {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--black);
     line-height: 1.1;
     padding: 1px 0;
@@ -220,7 +276,7 @@ header h1 {
 
 /* Fish-eye: ±2 — still readable, grey */
 .w.near2 {
-    font-size: 11px;
+    font-size: 12px;
     color: #666;
     line-height: 1.1;
     padding: 0.5px 0;
@@ -231,7 +287,7 @@ header h1 {
 
 /* Fish-eye: ±3-6 — same as default, dust */
 .w.far {
-    font-size: 7px;
+    font-size: 10px;
     color: #ccc;
 }
 
@@ -314,6 +370,59 @@ header h1 {
 
 .fullscreen.hidden { display: none; }
 
+.about {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: rgba(255,255,255,0.94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.about.hidden {
+    display: none;
+}
+
+.about-card {
+    position: relative;
+    width: min(560px, 100%);
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+    padding: 28px 28px 24px;
+}
+
+.about-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.about-card p {
+    font-size: 14px;
+    line-height: 1.55;
+    color: #444;
+    margin-top: 10px;
+}
+
+.about-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    border: 0;
+    background: transparent;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: #777;
+}
+
+.about-close:hover {
+    color: var(--red);
+}
+
 .fullscreen img {
     max-width: 95vw;
     max-height: 90vh;
@@ -363,3 +472,8 @@ footer a {
 footer a:hover { color: var(--red); }
 
 .sep { margin: 0 4px; color: var(--light); }
+
+body.loading .grid,
+body.loading .word-col {
+    opacity: 0.7;
+}

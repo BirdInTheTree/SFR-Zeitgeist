@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+.claude/
 
 # Environment
 .env
@@ -22,8 +23,11 @@ demo-data/frames/
 demo-data/grids/
 demo-data/cache/
 demo-data/cropped/
+demo-data/v3/cache/
+demo-data/v3/images/
 demo-data/*.vtt
 demo-data/*.csv
+demo-data/llm_gate_log.txt
 
 # Large intermediate files
 demo-data/hour_20_programs.json

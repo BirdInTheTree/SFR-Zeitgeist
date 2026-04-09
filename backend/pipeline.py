@@ -273,6 +273,78 @@ def _story_dedup(entries: list[dict], segment_phrases: list[set[str]],
     return selected
 
 
+def _normalize_quote_text(text: str) -> str:
+    """Normalize quote text so similar evidence blocks compare reliably."""
+    text = text.lower()
+    text = re.sub(r"\.\.\.", " ", text)
+    text = re.sub(r"[^\w\säöüß]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _quote_signature(entry: dict) -> str:
+    """Build a compact signature of the evidence used to justify a phrase."""
+    quotes = []
+    for quote in entry.get("quotes", [])[:3]:
+        cleaned = _normalize_quote_text(quote.get("quote", ""))
+        if cleaned:
+            quotes.append(cleaned)
+    return " ".join(quotes)
+
+
+def _quote_dedup(entries: list[dict], threshold: float = 0.72) -> list[dict]:
+    """Remove phrases that are backed by essentially the same quote evidence.
+
+    This catches duplicates that survive phrase-level dedup because the wording is
+    different but the underlying segment or story is the same.
+    """
+    if not entries:
+        return entries
+
+    signatures = [_quote_signature(entry) for entry in entries]
+    if not any(signatures):
+        return entries
+
+    model = _get_embedder()
+    embeddings = model.encode(signatures, normalize_embeddings=True)
+
+    selected_indices = []
+    for i, entry in enumerate(entries):
+        signature = signatures[i]
+        if not signature:
+            selected_indices.append(i)
+            continue
+
+        entry_programs = set(entry.get("programs", []))
+        entry_units = set(entry.get("editorial_units", []))
+        is_dup = False
+
+        for j in selected_indices:
+            other = entries[j]
+            other_signature = signatures[j]
+            if not other_signature:
+                continue
+
+            shared_programs = entry_programs & set(other.get("programs", []))
+            shared_units = entry_units & set(other.get("editorial_units", []))
+            if not shared_programs and not shared_units:
+                continue
+
+            sim = float(np.dot(embeddings[i], embeddings[j]))
+            if sim >= threshold:
+                is_dup = True
+                break
+
+        if not is_dup:
+            selected_indices.append(i)
+
+    deduped = [entries[i] for i in selected_indices]
+    n_removed = len(entries) - len(deduped)
+    if n_removed > 0:
+        print(f"  Quote dedup removed {n_removed} phrases (threshold={threshold})")
+    return deduped
+
+
 def _cosine_dedup(entries: list[dict], threshold: float = 0.6) -> list[dict]:
     """Greedy dedup: iterate top-down, skip if cosine ≥ threshold to any selected."""
     if not entries:
@@ -475,6 +547,10 @@ def build_zeitgeist(target_date: str, nlp=None) -> list[dict]:
 
     # Story dedup: phrases co-occurring in the same segments are from the same story
     deduped = _story_dedup(deduped, segment_phrases)
+
+    # Quote dedup: if two phrases are justified by nearly identical evidence,
+    # keep only the higher-ranked one.
+    deduped = _quote_dedup(deduped, threshold=0.72)
 
     # --- LLM Quality Gate (optional) ---
     candidates = deduped[:GRID_SIZE * 3]  # send up to 3x grid size

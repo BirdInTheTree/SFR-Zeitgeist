@@ -1,18 +1,22 @@
 # SRF Zeitgeist
 
+Proposal demo for SRF's AI and discovery teams: a topic-centric front page for the broadcast archive.
+
 SRF's TV archive organizes content by show — Tagesschau, 10 vor 10, Schweiz aktuell. But viewers don't think in shows. They think in topics: "What happened with Artemis?" "Why is everyone talking about PFAS?" There is no way to navigate the archive by what Switzerland is actually talking about.
 
-**SRF Zeitgeist** fills that gap. It analyzes subtitles from SRF news programs and surfaces the top trending topics as a visual 6×6 grid — one glance at what Switzerland discussed today.
+**SRF Zeitgeist** fills that gap. It analyzes subtitles from SRF news programs and surfaces the top trending topics as a visual 7×7 grid — one glance at what Switzerland discussed today.
+
+The product thesis is simple: Play SRF should not only answer "which show should I watch?" It should also answer "what is Switzerland talking about right now?" This prototype demonstrates that the answer can be generated from SRF's own editorial output, without relying on click popularity.
 
 ## How it works
 
 Every day, SRF broadcasts ~50 news programs (including re-broadcasts). Each has subtitles. Zeitgeist processes all of them:
 
 1. **Extract** — spaCy pulls noun phrases and named entities from German subtitle text
-2. **Compare** — each phrase's frequency today is compared to a 14-day baseline (the "spike")
-3. **Filter** — only phrases appearing in ≥2 different programs survive (agenda-setting: if multiple shows cover it, it matters)
+2. **Compare** — each phrase's frequency today is compared to a 7-day baseline (the "spike")
+3. **Filter** — phrases are ranked by spike and then cleaned up with deduplication plus an LLM quality gate
 4. **Rank** — `score = spike × log₂(program_count)` balances novelty with breadth
-5. **Display** — top 36 phrases become a 6×6 grid with TV frames and source quotes
+5. **Display** — top 49 phrases become a 7×7 grid with TV frames and source quotes
 
 The spike mechanism automatically suppresses evergreen words ("Schweiz", "heute") without a manual stoplist — they appear every day, so their spike is ~1.0. A phrase like "Artemis-2-Mission" that jumps from 0 to 20 mentions scores orders of magnitude higher.
 
@@ -68,14 +72,34 @@ frontend/                      ← vanilla HTML/CSS/JS grid viewer
 **Spike detection** (based on [Google Trends methodology](https://trends.withgoogle.com/year-in-search/data-methodology/)):
 
 ```
-spike = frequency_today / average_frequency_14_days
+spike = frequency_today / average_frequency_7_days
 score = spike × log₂(program_count)
 ```
 
-**Multi-source filter** (based on [agenda-setting theory](https://en.wikipedia.org/wiki/Agenda-setting_theory)):
-a phrase must appear in ≥2 distinct editorial units. "Tagesschau" and "Tagesschau in Gebärdensprache" count as one unit (same content).
+**Editorial signal and cleanup**:
+- variant broadcasts collapse into one editorial unit: "Tagesschau" and "Tagesschau in Gebärdensprache" count as the same desk
+- near-duplicate phrases are removed with substring, semantic, and story-level deduplication
+- an LLM quality gate removes generic or non-topical leftovers before the final grid is rendered
 
 **NLP**: spaCy `de_core_news_md` — noun chunks + named entities (PER, ORG, LOC, GPE). Lemmatized. Junk from subtitle metadata (SWISS TXT headers) is filtered.
+
+## Why it matters for SRF
+
+- **Better archive discovery** — users can enter through the topic of the day, not only through a show brand they already know.
+- **Editorially grounded ranking** — the homepage reflects what SRF journalists are covering across formats, not what already won the click race.
+- **Low-friction extension** — the prototype uses SRF's existing schedule, subtitle, and media APIs; no new publishing workflow is required.
+- **Strong demo signal** — it combines product thinking, applied NLP, and a distinct visual treatment into one concrete proposal.
+
+## Current demo corpus
+
+- **12 daily snapshots** in the current demo build (`2026-03-19` to `2026-04-01`)
+- **1,172 programs** ingested from the saved archive window, including **541 news programs**
+- **3.55M subtitle words** processed across the available dataset
+- **255 surfaced topics**, with **206 topics carrying imagery** (80.8% coverage)
+- **848 linked source quotes**, or **3.33 quotes per topic** on average
+- **LLM quality gate pass rate: 35.7%** (`940 / 2632` candidates kept)
+
+See [EVALUATION.md](EVALUATION.md) for the measurement notes and caveats.
 
 ## Running
 
@@ -106,9 +130,64 @@ This is a proposal demo for SRF's National AI Service Team. It shows:
 1. **Topic-centric navigation** — an alternative to the current show-centric Play SRF archive
 2. **SRF data literacy** — built on real EPG + Integration Layer APIs, not hypothetical
 3. **Methodological rigor** — spike detection from corpus linguistics, not vibes
-4. **Visual impact** — one image tells the story of the day
+4. **Production-shaped judgment** — ranking, deduplication, quotes, and image retrieval are wired into a usable interface
+5. **Visual impact** — one screen tells the story of the day
 
 The underlying question: *what if Play SRF had a "trending" page — not based on clicks, but on what the journalists themselves are covering?*
+
+## Current limitations
+
+- The demo is based on pre-generated daily snapshots, not a live continuously updated service.
+- Image coverage is incomplete for some topics, especially when no usable frame can be extracted.
+- The ranking pipeline is tuned for German-language SRF news subtitles and has not yet been validated with user testing.
+- This repository focuses on the proposal and the prototype, not on deployment infrastructure.
+
+## V3 Direction
+
+The next pipeline version moves from phrase ranking to story ranking.
+
+Instead of extracting keywords first and deduplicating later, `backend/v3/` will:
+
+1. load raw VTT subtitles for news programs only
+2. ask an LLM to segment each broadcast into editorial story segments
+3. assign one keyword per segment and mark exact carry-over segments from the previous episode
+4. merge matching stories across programs
+5. rank stories, not phrases
+6. find the first mention of the winning keyword in the earliest segment and extract the frame there
+
+The story-level score is:
+
+$$
+score(s) = novelty(s) \times spread(s) \times persistence(s) \times prominence(s)
+$$
+
+with:
+
+$$
+novelty(s)=\frac{N_{today}(s)+\alpha}{\overline{N}_{prev7}(s)+\alpha}
+$$
+
+$$
+spread(s)=1+\log_2(1+U_{today}(s))
+$$
+
+$$
+persistence(s)=1+\log_2(1+N_{today}(s))
+$$
+
+$$
+prominence(s)=1+\log_2\left(1+\frac{M_{today}(s)}{60}\right)
+$$
+
+where:
+
+- $N_{today}(s)$ = number of segments assigned to story $s$ today
+- $\overline{N}_{prev7}(s)$ = average number of segments assigned to story $s$ over the previous 7 days
+- $U_{today}(s)$ = number of distinct programs that carry story $s$ today
+- $M_{today}(s)$ = total duration in seconds of story segments assigned to $s$ today
+- $\alpha$ = smoothing constant, typically 1
+
+This design keeps repeated coverage as an editorial signal, but prevents repeated broadcasts from dominating linearly: repetition increases the score through persistence and screen time, while cross-program presence increases spread.
 
 ## References
 
