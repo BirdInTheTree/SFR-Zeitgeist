@@ -1,18 +1,18 @@
 [
   {
-    "story_id": "artemis",
-    "keyword": "Artemis",
-    "phrase": "Artemis",
-    "score": 3220.18,
+    "story_id": "artemis_mond",
+    "keyword": "Artemis Mond",
+    "phrase": "Artemis Mond",
+    "score": 3233.5,
     "novelty": 21.0,
     "spread": 2.58,
     "persistence": 5.39,
-    "prominence": 7.33,
+    "prominence": 7.36,
     "primetime": 1.5,
     "n_segments": 20,
     "n_repeats": 18,
     "distinct_programs": 2,
-    "total_seconds": 4780.2,
+    "total_seconds": 4883.1,
     "editorial_units": [
       "10 vor 10",
       "Tagesschau"
@@ -27,14 +27,14 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Nach mehr als 50 Jahren fliegt die NASA mit der Artemis-2-Mission wieder zum Mond und knüpft an die erfolgreichen Apollo-Missionen an.",
+        "quote": "Nach über 50 Jahren fliegt die NASA mit der Artemis-2-Mission wieder zum Mond.",
         "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
         "startTime": "2026-04-01T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Die NASA startet heute die Artemis-II-Mission, bei der drei Astronauten und eine Astronautin einen zehntägigen Flug um den Mond unternehmen werden.",
+        "quote": "Die NASA startet die Artemis-II-Mission mit vier Astronauten zu einem zehntägigen Flug um den Mond.",
         "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
         "startTime": "2026-04-01T21:50:00+02:00"
       }
@@ -42,13 +42,13 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:03:45.442",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_01_Artemis.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_01_Artemis_Mond.jpg",
     "rank": 1
   },
   {
-    "story_id": "wm_quali_italien",
-    "keyword": "WM-Quali Italien",
-    "phrase": "WM-Quali Italien",
+    "story_id": "italien_wm",
+    "keyword": "Italien WM",
+    "phrase": "Italien WM",
     "score": 3039.14,
     "novelty": 21.0,
     "spread": 2.58,
@@ -73,14 +73,14 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Italien verpasst zum dritten Mal in Folge die Qualifikation für die Fussball-WM, nachdem Bosnien-Herzegowina das entscheidende Spiel im Elfmeterschiessen gewonnen hat.",
+        "quote": "Italien verpasst zum dritten Mal in Folge die WM-Qualifikation, nachdem Bosnien-Herzegowina im Elfmeterschießen gewinnt.",
         "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
         "startTime": "2026-04-01T12:45:00+02:00"
       },
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Bosnien-Herzegowina qualifiziert sich für die WM, nachdem das Land Italien zum dritten Mal in Folge aus der Qualifikation wirft.",
+        "quote": "Italien scheitert erneut an der WM-Qualifikation, während sich Bosnien-Herzegowina über den Sieg im Elfmeterschießen freut.",
         "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
         "startTime": "2026-04-01T21:50:00+02:00"
       }
@@ -88,23 +88,23 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:00:32.075",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_02_WM-Quali_Italien.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_02_Italien_WM.jpg",
     "rank": 2
   },
   {
-    "story_id": "roveredo",
-    "keyword": "Roveredo",
-    "phrase": "Roveredo",
-    "score": 1241.84,
+    "story_id": "roveredo_mafia",
+    "keyword": "Roveredo Mafia",
+    "phrase": "Roveredo Mafia",
+    "score": 1219.84,
     "novelty": 11.0,
     "spread": 2.58,
     "persistence": 4.46,
-    "prominence": 6.53,
+    "prominence": 6.41,
     "primetime": 1.5,
     "n_segments": 10,
     "n_repeats": 8,
     "distinct_programs": 2,
-    "total_seconds": 2710.5,
+    "total_seconds": 2497.0,
     "editorial_units": [
       "Schweiz aktuell",
       "Telesguard"
@@ -118,14 +118,14 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Bei einer internationalen Anti-Mafia-Operation nahm Europol sieben Personen fest, die in Graubünden wohnhaft waren und mit organisierter Kriminalität in Verbindung stehen.",
+        "quote": "Bei einer internationalen Anti-Mafia-Operation werden sieben Personen in Frankreich und Italien festgenommen.",
         "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
         "startTime": "2026-04-01T17:40:00+02:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Die Bündner Regierung muss sich der Kritik stellen, dass vier verurteilte Verbrecher trotz Vorstrafen im Misox wohnten und bei einer Medienkonferenz werden versehentlich hochsensible Daten verteilt.",
+        "quote": "Vier Personen aus Roveredo im Misox werden bei einer internationalen Anti-Mafia-Aktion im Ausland festgenommen.",
         "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
         "startTime": "2026-04-01T19:00:00+02:00"
       }
@@ -133,13 +133,13 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:01:20.875",
     "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_03_Roveredo.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_03_Roveredo_Mafia.jpg",
     "rank": 3
   },
   {
-    "story_id": "apple",
-    "keyword": "Apple",
-    "phrase": "Apple",
+    "story_id": "apple_jubil_um",
+    "keyword": "Apple Jubiläum",
+    "phrase": "Apple Jubiläum",
     "score": 976.82,
     "novelty": 11.0,
     "spread": 2.0,
@@ -160,7 +160,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Apple entwickelte sich in 50 Jahren von einem Garagenprojekt zu einem der weltweit bestdotierten Unternehmen.",
+        "quote": "Apple feiert sein 50-jähriges Jubiläum und ist heute eines der erfolgreichsten und reichsten Unternehmen der Welt.",
         "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
         "startTime": "2026-04-01T21:50:00+02:00"
       }
@@ -168,13 +168,13 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:16:03.729",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "demo-data/v2/cropped/20260401_04_Apple.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_04_Apple_Jubiläum.jpg",
     "rank": 4
   },
   {
-    "story_id": "pfas",
-    "keyword": "PFAS",
-    "phrase": "PFAS",
+    "story_id": "pfas_milch",
+    "keyword": "PFAS Milch",
+    "phrase": "PFAS Milch",
     "score": 958.36,
     "novelty": 11.0,
     "spread": 2.0,
@@ -195,7 +195,7 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "In mehreren Kantonen wurden erhöhte Werte der sogenannten Ewigkeitschemikalien PFAS in der Milch gemessen, was Besorgnis bei Schweizer Käseliebhabern auslöst.",
+        "quote": "In mehreren Schweizer Kantonen werden erhöhte Werte der Ewigkeitschemikalien PFAS in der Milch gemessen.",
         "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
         "startTime": "2026-04-01T21:50:00+02:00"
       }
@@ -203,13 +203,13 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:05:50.847",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "demo-data/v2/cropped/20260401_05_PFAS.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_05_PFAS_Milch.jpg",
     "rank": 5
   },
   {
-    "story_id": "keller_sutter",
-    "keyword": "Keller-Sutter",
-    "phrase": "Keller-Sutter",
+    "story_id": "keller_sutter_cybermobbing",
+    "keyword": "Keller-Sutter Cybermobbing",
+    "phrase": "Keller-Sutter Cybermobbing",
     "score": 954.82,
     "novelty": 11.0,
     "spread": 2.0,
@@ -230,21 +230,21 @@
       {
         "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Bundesrätin Karin Keller-Sutter erstattet Anzeige gegen Unbekannt wegen eines Postings in sozialen Netzwerken, das Gewalt gegen sie andeutet.",
+        "quote": "Bundesrätin Karin Keller-Sutter erstattet Anzeige gegen Unbekannt wegen extremen Cybermobbing in den sozialen Medien.",
         "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
         "startTime": "2026-04-01T21:50:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
-    "first_mention_time": "00:01:24.218",
+    "first_mention_time": "00:02:33.429",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "demo-data/v2/cropped/20260401_06_Keller-Sutter.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_06_Keller-Sutter_Cybermobbing.jpg",
     "rank": 6
   },
   {
-    "story_id": "kakaopreis_ostern",
-    "keyword": "Kakaopreis Ostern",
-    "phrase": "Kakaopreis Ostern",
+    "story_id": "kakaopreise_ostern",
+    "keyword": "Kakaopreise Ostern",
+    "phrase": "Kakaopreise Ostern",
     "score": 879.49,
     "novelty": 10.0,
     "spread": 2.0,
@@ -266,21 +266,21 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "Die Preise für Schokohasen zu Ostern sind deutlich gestiegen, weil die Kakaoproise 2023 stark angewachsen sind.",
+        "quote": "Die Kakaopreise sind 2023 stark gestiegen, weshalb Schokohasen zu Ostern deutlich teurer sind als im Vorjahr.",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-04-01T06:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
-    "first_mention_time": "00:15:46.298",
+    "first_mention_time": "00:15:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_07_Kakaopreis_Ostern.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_07_Kakaopreise_Ostern.jpg",
     "rank": 7
   },
   {
-    "story_id": "st_moritz",
-    "keyword": "St. Moritz",
-    "phrase": "St. Moritz",
+    "story_id": "st_moritz_gemeindepr_sident",
+    "keyword": "St. Moritz Gemeindepräsident",
+    "phrase": "St. Moritz Gemeindepräsident",
     "score": 692.97,
     "novelty": 11.0,
     "spread": 2.58,
@@ -304,14 +304,14 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Der Gemeindepräsident von St. Moritz, Christian J. Jenny, gibt bekannt, dass er nach acht Jahren nicht mehr für eine dritte Amtsperiode kandidiert.",
+        "quote": "Der Gemeindepräsident von St. Moritz, Christian J. Jenny, tritt nach acht Jahren nicht mehr zur Wahl an.",
         "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
         "startTime": "2026-04-01T17:40:00+02:00"
       },
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Der bekannte Gemeindepräsident von St. Moritz, Christian Jott Jenny, kündet an, nicht mehr bei der nächsten Wahl anzutreten.",
+        "quote": "Christian Jott Jenny gibt bekannt, dass er als Gemeindepräsident von St. Moritz nicht mehr kandidiert.",
         "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
         "startTime": "2026-04-01T19:00:00+02:00"
       }
@@ -319,13 +319,13 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:05:39.259",
     "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_08_St__Moritz.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_08_St__Moritz_Gemeindepräsident.jpg",
     "rank": 8
   },
   {
-    "story_id": "wetter",
-    "keyword": "Wetter",
-    "phrase": "Wetter",
+    "story_id": "fr_hlingswetter",
+    "keyword": "Frühlingswetter",
+    "phrase": "Frühlingswetter",
     "score": 628.42,
     "novelty": 9.0,
     "spread": 2.0,
@@ -347,7 +347,7 @@
       {
         "title": "Meteo",
         "channel": "SRF 1",
-        "quote": "Der April beginnt als erster echter Frühlingsmonat, in dem sich die Natur öffnet, aber auch typische Aprilwetter bringt.",
+        "quote": "Der April als erster richtiger Frühlingsmonat bricht an und die Natur öffnet sich.",
         "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
         "startTime": "2026-04-01T12:55:00+02:00"
       }
@@ -355,13 +355,13 @@
     "first_mention_urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
     "first_mention_time": "00:01:15.000",
     "first_mention_program": "Meteo",
-    "imageUrl": "demo-data/v2/cropped/20260401_09_Wetter.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_09_Frühlingswetter.jpg",
     "rank": 9
   },
   {
-    "story_id": "spital_oberengadin",
-    "keyword": "Spital Oberengadin",
-    "phrase": "Spital Oberengadin",
+    "story_id": "spital_samedan",
+    "keyword": "Spital Samedan",
+    "phrase": "Spital Samedan",
     "score": 527.2,
     "novelty": 8.0,
     "spread": 2.0,
@@ -382,7 +382,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF info",
-        "quote": "Das Spital Oberengadin in Samedan wird unter neuer Trägerschaft Sanadura reorganisiert und wird künftig kleiner sein.",
+        "quote": "Das Spital Oberengadin in Samedan endet heute in seiner bisherigen Form und wird unter neuer Trägerschaft neu organisiert.",
         "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
         "startTime": "2026-04-01T05:40:00+02:00"
       }
@@ -390,13 +390,13 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:09:47.433",
     "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_10_Spital_Oberengadin.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_10_Spital_Samedan.jpg",
     "rank": 10
   },
   {
-    "story_id": "young_pledari",
-    "keyword": "Young-Pledari",
-    "phrase": "Young-Pledari",
+    "story_id": "young_pledari_r_toromanisch",
+    "keyword": "Young-Pledari Rätoromanisch",
+    "phrase": "Young-Pledari Rätoromanisch",
     "score": 456.05,
     "novelty": 7.0,
     "spread": 2.0,
@@ -417,7 +417,7 @@
       {
         "title": "Telesguard",
         "channel": "SRF 1",
-        "quote": "Eine Sprache, die sich nicht weiterentwickelt, ist tot, und jede Generation prägt ihre eigene Sprachweise, wie das Young-Pledari zeigt.",
+        "quote": "Das Rätoromanische entwickelt sich weiter, indem junge Menschen moderne Umgangssprache in die Sprache integrieren.",
         "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
         "startTime": "2026-04-01T17:40:00+02:00"
       }
@@ -425,23 +425,58 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:09:42.685",
     "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_11_Young-Pledari.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_11_Young-Pledari_Rätoromanisch.jpg",
     "rank": 11
+  },
+  {
+    "story_id": "solaranlagen",
+    "keyword": "Solaranlagen",
+    "phrase": "Solaranlagen",
+    "score": 451.67,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 4.7,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 5,
+    "distinct_programs": 1,
+    "total_seconds": 722.4,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF info",
+        "quote": "Drei alpine Solaranlagen wurden im Graubünden im Winter ans Netz angeschlossen und produzieren Strom.",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-04-01T05:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+    "first_mention_time": "00:02:35.737",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "demo-data/v2/cropped/20260401_12_Solaranlagen.jpg",
+    "rank": 12
   },
   {
     "story_id": "trump_nato",
     "keyword": "Trump NATO",
     "phrase": "Trump NATO",
-    "score": 291.14,
+    "score": 298.13,
     "novelty": 7.0,
     "spread": 2.0,
     "persistence": 3.81,
-    "prominence": 4.37,
+    "prominence": 4.47,
     "primetime": 1.25,
     "n_segments": 6,
     "n_repeats": 4,
     "distinct_programs": 1,
-    "total_seconds": 560.2,
+    "total_seconds": 607.0,
     "editorial_units": [
       "Tagesschau"
     ],
@@ -454,7 +489,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "US-Präsident Trump droht erneut damit, die USA könnten ihre NATO-Mitgliedschaft überdenken, wenn der Iran-Krieg endet.",
+        "quote": "US-Präsident Trump droht erneut mit einem Austritt aus der NATO und wirft europäischen Verbündeten unzureichende Ausgaben vor.",
         "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
         "startTime": "2026-04-01T18:00:00+02:00"
       }
@@ -462,8 +497,8 @@
     "first_mention_urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
     "first_mention_time": "00:01:27.687",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_12_Trump_NATO.jpg",
-    "rank": 12
+    "imageUrl": "demo-data/v2/cropped/20260401_13_Trump_NATO.jpg",
+    "rank": 13
   },
   {
     "story_id": "eigenmietwert",
@@ -491,7 +526,7 @@
       {
         "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Der Bundesrat beschliesst den Fahrplan zur Abschaffung des Eigenmietwerts, der ab 2029 auf selbstgenutztem Wohneigentum nicht mehr versteuert werden muss.",
+        "quote": "Der Bundesrat beschließt den Fahrplan zur Abschaffung des Eigenmietwerts ab dem Steuerjahr 2029.",
         "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
         "startTime": "2026-04-01T12:45:00+02:00"
       }
@@ -499,42 +534,7 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:01:39.580",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_13_Eigenmietwert.jpg",
-    "rank": 13
-  },
-  {
-    "story_id": "scuol_solar",
-    "keyword": "Scuol Solar",
-    "phrase": "Scuol Solar",
-    "score": 272.44,
-    "novelty": 7.0,
-    "spread": 2.0,
-    "persistence": 3.81,
-    "prominence": 3.41,
-    "primetime": 1.5,
-    "n_segments": 6,
-    "n_repeats": 5,
-    "distinct_programs": 1,
-    "total_seconds": 258.3,
-    "editorial_units": [
-      "Telesguard"
-    ],
-    "programs": [
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF 1",
-        "quote": "Die geplante Solaranlage Scuol Solar in Motta Naluns wird verkleinert realisiert, obwohl sie ursprünglich Strom für fast 10'000 Haushalte hätte liefern können.",
-        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
-        "startTime": "2026-04-01T17:40:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
-    "first_mention_time": "00:05:10.000",
-    "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_14_Scuol_Solar.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_14_Eigenmietwert.jpg",
     "rank": 14
   },
   {
@@ -561,21 +561,21 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "In einem Logistikzentrum von Zalando im Tessin landen unerwünschte Modeartikel, die zurückgeschickt werden.",
+        "quote": "Zalando-Retouren landen in einem Logistikzentrum in Sant'Antonino im Tessin und werden dort verarbeitet.",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-04-01T06:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
-    "first_mention_time": "00:07:05.817",
+    "first_mention_time": "00:09:15.000",
     "first_mention_program": "Schweiz aktuell",
     "imageUrl": "demo-data/v2/cropped/20260401_15_Zalando_Logistik.jpg",
     "rank": 15
   },
   {
-    "story_id": "poldi",
-    "keyword": "Poldi",
-    "phrase": "Poldi",
+    "story_id": "poldis_z_rich",
+    "keyword": "Poldis Zürich",
+    "phrase": "Poldis Zürich",
     "score": 237.96,
     "novelty": 6.0,
     "spread": 2.0,
@@ -596,15 +596,15 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "Der Kanton Zürich stoppt die Anstellung von Quereinsteigerinnen und Quereinsteigern ohne Lehrdiplom als Lehrpersonen ab sofort.",
+        "quote": "Der Kanton Zürich will ab Sommer keine Quereinsteiger ohne Lehrdiplom mehr vor Schulklassen zulassen.",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-04-01T06:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
-    "first_mention_time": "00:02:13.104",
+    "first_mention_time": "00:01:47.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_16_Poldi.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_16_Poldis_Zürich.jpg",
     "rank": 16
   },
   {
@@ -632,7 +632,7 @@
       {
         "title": "SRF Börse",
         "channel": "SRF 1",
-        "quote": "Der Schweizer Aktienmarkt legt heute nach, da Anleger optimistisch sind, dass Donald Trump den Krieg gegen den Iran für beendet erklärt.",
+        "quote": "Die Schweizer Börse legt zu, nachdem Optimismus über das Ende des Iran-Krieges die globalen Märkte angetrieben hat.",
         "urn": "urn:srf:video:3b640c47-925d-4d60-9075-2d496d55fd1c",
         "startTime": "2026-04-01T19:25:00+02:00"
       }
@@ -644,9 +644,9 @@
     "rank": 17
   },
   {
-    "story_id": "sutter_kolonialismus",
-    "keyword": "Sutter Kolonialismus",
-    "phrase": "Sutter Kolonialismus",
+    "story_id": "johann_august_sutter",
+    "keyword": "Johann August Sutter",
+    "phrase": "Johann August Sutter",
     "score": 227.95,
     "novelty": 6.0,
     "spread": 2.0,
@@ -667,58 +667,21 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "Ein Bericht zeigt, dass der Baselbieter Johann August Sutter im 19. Jahrhundert indigene Menschen als Zwangsarbeiter ausgebeutet hat.",
+        "quote": "Ein Bericht zeigt, dass der Baselbieter Johann August Sutter im 19. Jahrhundert indigene Menschen als Zwangsarbeiter einsetzte.",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-04-01T06:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
-    "first_mention_time": "00:11:41.106",
+    "first_mention_time": "00:12:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_18_Sutter_Kolonialismus.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_18_Johann_August_Sutter.jpg",
     "rank": 18
   },
   {
-    "story_id": "patriot_beschaffung",
-    "keyword": "Patriot Beschaffung",
-    "phrase": "Patriot Beschaffung",
-    "score": 210.83,
-    "novelty": 7.0,
-    "spread": 2.0,
-    "persistence": 3.81,
-    "prominence": 3.16,
-    "primetime": 1.25,
-    "n_segments": 6,
-    "n_repeats": 4,
-    "distinct_programs": 1,
-    "total_seconds": 208.9,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "Die Beschaffung des US-Luftabwehrsystems Patriot verzögert sich weiterhin, und ein Abbruch der Übung wird diskutiert.",
-        "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
-        "startTime": "2026-04-01T18:00:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
-    "first_mention_time": "00:02:10.543",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_19_Patriot_Beschaffung.jpg",
-    "rank": 19
-  },
-  {
-    "story_id": "appenzell_datenschutz",
-    "keyword": "Appenzell Datenschutz",
-    "phrase": "Appenzell Datenschutz",
+    "story_id": "appenzell_innerrhoden_datenpanne",
+    "keyword": "Appenzell Innerrhoden Datenpanne",
+    "phrase": "Appenzell Innerrhoden Datenpanne",
     "score": 209.89,
     "novelty": 5.0,
     "spread": 2.0,
@@ -740,7 +703,7 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Der Kanton Appenzell Innerrhoden verteilt an einer Medienkonferenz USB-Sticks mit hochsensiblen Daten wie Löhnen und Adressen.",
+        "quote": "Der Kanton Appenzell Innerrhoden verteilt an einer Medienkonferenz versehentlich USB-Sticks mit hochsensiblen Daten.",
         "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
         "startTime": "2026-04-01T19:00:00+02:00"
       }
@@ -748,23 +711,60 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:08:09.755",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_20_Appenzell_Datenschutz.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_19_Appenzell_Innerrhoden_Datenpanne.jpg",
+    "rank": 19
+  },
+  {
+    "story_id": "patriot_schweiz",
+    "keyword": "Patriot Schweiz",
+    "phrase": "Patriot Schweiz",
+    "score": 202.09,
+    "novelty": 7.0,
+    "spread": 2.0,
+    "persistence": 3.81,
+    "prominence": 3.03,
+    "primetime": 1.25,
+    "n_segments": 6,
+    "n_repeats": 5,
+    "distinct_programs": 1,
+    "total_seconds": 185.6,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Die Beschaffung des US-Luftabwehrsystems Patriot für die Schweiz verzögert sich weiterhin und ein Übungsabbruch wird diskutiert.",
+        "urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
+        "startTime": "2026-04-01T18:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:9663eb0b-ef1d-400e-933d-94985ba0ea25",
+    "first_mention_time": "00:02:10.543",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "demo-data/v2/cropped/20260401_20_Patriot_Schweiz.jpg",
     "rank": 20
   },
   {
     "story_id": "brugg_drogenszene",
     "keyword": "Brugg Drogenszene",
     "phrase": "Brugg Drogenszene",
-    "score": 195.13,
+    "score": 194.3,
     "novelty": 5.0,
     "spread": 2.0,
     "persistence": 3.32,
-    "prominence": 4.7,
+    "prominence": 4.68,
     "primetime": 1.25,
     "n_segments": 4,
     "n_repeats": 3,
     "distinct_programs": 1,
-    "total_seconds": 719.3,
+    "total_seconds": 708.6,
     "editorial_units": [
       "Schweiz aktuell"
     ],
@@ -776,21 +776,21 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF 1",
-        "quote": "Die offene Drogenszene in Brugg wird durch verstärkte Polizeipräsenz und ein neues Alkoholverbot reduziert.",
+        "quote": "Die offene Drogenszene in Brugg entspannt sich durch verstärkte Polizeipräsenz und ein neues Alkoholverbot im Zentrum.",
         "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
         "startTime": "2026-04-01T19:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
-    "first_mention_time": "00:11:18.217",
+    "first_mention_time": "00:10:51.851",
     "first_mention_program": "Schweiz aktuell",
     "imageUrl": "demo-data/v2/cropped/20260401_21_Brugg_Drogenszene.jpg",
     "rank": 21
   },
   {
-    "story_id": "biberist_batterie",
-    "keyword": "Biberist Batterie",
-    "phrase": "Biberist Batterie",
+    "story_id": "biberist_brand",
+    "keyword": "Biberist Brand",
+    "phrase": "Biberist Brand",
     "score": 165.92,
     "novelty": 6.0,
     "spread": 2.0,
@@ -811,15 +811,15 @@
       {
         "title": "Schweiz aktuell",
         "channel": "SRF info",
-        "quote": "In einer Recyclingfabrik in Biberist bricht ein Feuer aus, das grosse Mengen Rauch in der Region verursacht.",
+        "quote": "In einer Recyclingfabrik in Biberist bricht am Mittag ein Brand aus, der eine große Rauchentwicklung verursacht.",
         "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
         "startTime": "2026-04-01T06:00:00+02:00"
       }
     ],
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
-    "first_mention_time": "00:05:22.687",
+    "first_mention_time": "00:05:46.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_22_Biberist_Batterie.jpg",
+    "imageUrl": "demo-data/v2/cropped/20260401_22_Biberist_Brand.jpg",
     "rank": 22
   },
   {
@@ -847,7 +847,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Die Kindermusikgruppe Marius & die Jagdkapelle ist seit 20 Jahren als Soundtrack der Kindheit erfolgreich unterwegs.",
+        "quote": "Marius & die Jagdkapelle feiert 20 Jahre erfolgreicher Kindermusik mit Liedern, die die ganze Familie begeistern.",
         "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
         "startTime": "2026-04-01T19:30:00+02:00"
       }
@@ -883,7 +883,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Die Schweiz und die EU beginnen innenpolitische Diskussionen über das Vertragspaket der Bilateralen III.",
+        "quote": "Die Schweiz und die EU verhandeln über ein umfassendes Vertragspaket der Bilateralen III für bessere Beziehungen.",
         "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
         "startTime": "2026-04-01T19:30:00+02:00"
       }
@@ -919,7 +919,7 @@
       {
         "title": "Tagesschau",
         "channel": "SRF 1",
-        "quote": "Das Parlament plant, dass Autofahrer, die die Schweiz ohne Zwischenhalt durchqueren, künftig eine Transitgebühr zahlen sollen.",
+        "quote": "Das Parlament will eine Transitgebühr für Fahrzeuge einführen, die die Schweiz ohne Zwischenhalt durchqueren.",
         "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
         "startTime": "2026-04-01T19:30:00+02:00"
       }
@@ -929,288 +929,5 @@
     "first_mention_program": "Tagesschau",
     "imageUrl": "demo-data/v2/cropped/20260401_25_Transitgebühr.jpg",
     "rank": 25
-  },
-  {
-    "story_id": "bev_lkerungsschutz",
-    "keyword": "Bevölkerungsschutz",
-    "phrase": "Bevölkerungsschutz",
-    "score": 118.88,
-    "novelty": 4.0,
-    "spread": 2.0,
-    "persistence": 3.0,
-    "prominence": 3.96,
-    "primetime": 1.25,
-    "n_segments": 3,
-    "n_repeats": 2,
-    "distinct_programs": 1,
-    "total_seconds": 407.7,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Der neue Direktor des Bundesamts für Bevölkerungsschutz übernimmt Verantwortung in unsicheren Zeiten für den Schutz der Bevölkerung.",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
-        "startTime": "2026-04-01T19:30:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
-    "first_mention_time": "00:10:15.572",
-    "first_mention_program": "Tagesschau",
-    "imageUrl": "demo-data/v2/cropped/20260401_26_Bevölkerungsschutz.jpg",
-    "rank": 26
-  },
-  {
-    "story_id": "bio_preise",
-    "keyword": "Bio-Preise",
-    "phrase": "Bio-Preise",
-    "score": 116.85,
-    "novelty": 4.0,
-    "spread": 2.0,
-    "persistence": 3.0,
-    "prominence": 3.9,
-    "primetime": 1.25,
-    "n_segments": 3,
-    "n_repeats": 2,
-    "distinct_programs": 1,
-    "total_seconds": 386.3,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Seit Discounter wie Lidl und Aldi Schweizer Bio-Produkte anbieten, geraten die Bio-Preise durch erhöhten Wettbewerb ins Rutschen.",
-        "urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
-        "startTime": "2026-04-01T19:30:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:a573e9bb-c6d6-4779-875a-04f7e70bad46",
-    "first_mention_time": "00:17:54.960",
-    "first_mention_program": "Tagesschau",
-    "imageUrl": "demo-data/v2/cropped/20260401_27_Bio-Preise.jpg",
-    "rank": 27
-  },
-  {
-    "story_id": "kerzers_brandanschlag",
-    "keyword": "Kerzers Brandanschlag",
-    "phrase": "Kerzers Brandanschlag",
-    "score": 109.83,
-    "novelty": 5.0,
-    "spread": 2.0,
-    "persistence": 3.32,
-    "prominence": 2.64,
-    "primetime": 1.25,
-    "n_segments": 4,
-    "n_repeats": 3,
-    "distinct_programs": 1,
-    "total_seconds": 127.6,
-    "editorial_units": [
-      "Schweiz aktuell"
-    ],
-    "programs": [
-      "Schweiz aktuell",
-      "Schweiz aktuell in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Schweiz aktuell",
-        "channel": "SRF 1",
-        "quote": "Der Freiburger Staatsrat will Opfer und Angehörige des Brandanschlags im Postauto von Kerzers mit bis zu 130'000 Franken unterstützen.",
-        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
-        "startTime": "2026-04-01T19:00:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
-    "first_mention_time": "00:05:40.000",
-    "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "demo-data/v2/cropped/20260401_28_Kerzers_Brandanschlag.jpg",
-    "rank": 28
-  },
-  {
-    "story_id": "trump_briefwahl",
-    "keyword": "Trump Briefwahl",
-    "phrase": "Trump Briefwahl",
-    "score": 101.01,
-    "novelty": 5.0,
-    "spread": 2.0,
-    "persistence": 3.32,
-    "prominence": 3.04,
-    "primetime": 1.0,
-    "n_segments": 4,
-    "n_repeats": 3,
-    "distinct_programs": 1,
-    "total_seconds": 186.9,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "US-Präsident Trump unterzeichnet ein Dekret, um die Regeln für die Briefwahl zu verschärfen, woraufhin mehrere Bundesstaaten Klagen ankündigen.",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-        "startTime": "2026-04-01T12:45:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-    "first_mention_time": "00:02:22.789",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_29_Trump_Briefwahl.jpg",
-    "rank": 29
-  },
-  {
-    "story_id": "trump_ballsaal",
-    "keyword": "Trump Ballsaal",
-    "phrase": "Trump Ballsaal",
-    "score": 91.72,
-    "novelty": 5.0,
-    "spread": 2.0,
-    "persistence": 3.32,
-    "prominence": 2.76,
-    "primetime": 1.0,
-    "n_segments": 4,
-    "n_repeats": 3,
-    "distinct_programs": 1,
-    "total_seconds": 143.4,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "Ein US-Bundesgericht stoppt Trumps Baupläne für einen grossen Ballsaal am Weissen Haus vorerst.",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-        "startTime": "2026-04-01T12:45:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-    "first_mention_time": "00:03:04.134",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "demo-data/v2/cropped/20260401_30_Trump_Ballsaal.jpg",
-    "rank": 30
-  },
-  {
-    "story_id": "sedrun_solar",
-    "keyword": "Sedrun Solar",
-    "phrase": "Sedrun Solar",
-    "score": 33.01,
-    "novelty": 2.0,
-    "spread": 2.0,
-    "persistence": 2.0,
-    "prominence": 4.13,
-    "primetime": 1.0,
-    "n_segments": 1,
-    "n_repeats": 0,
-    "distinct_programs": 1,
-    "total_seconds": 464.1,
-    "editorial_units": [
-      "Telesguard"
-    ],
-    "programs": [
-      "Telesguard"
-    ],
-    "quotes": [
-      {
-        "title": "Telesguard",
-        "channel": "SRF info",
-        "quote": "Nach 22 Jahren muss Franca Dietrich ihre Stelle als Pflegefachfrau im Spital Samedan aufgeben, da über 120 Stellen gestrichen werden.",
-        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
-        "startTime": "2026-04-01T05:40:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
-    "first_mention_time": "00:02:35.737",
-    "first_mention_program": "Telesguard",
-    "imageUrl": "demo-data/v2/cropped/20260401_31_Sedrun_Solar.jpg",
-    "rank": 31
-  },
-  {
-    "story_id": "swisspass",
-    "keyword": "SwissPass",
-    "phrase": "SwissPass",
-    "score": 27.58,
-    "novelty": 2.0,
-    "spread": 2.0,
-    "persistence": 2.0,
-    "prominence": 3.45,
-    "primetime": 1.0,
-    "n_segments": 1,
-    "n_repeats": 0,
-    "distinct_programs": 1,
-    "total_seconds": 267.3,
-    "editorial_units": [
-      "10 vor 10"
-    ],
-    "programs": [
-      "10 vor 10"
-    ],
-    "quotes": [
-      {
-        "title": "10 vor 10",
-        "channel": "SRF info",
-        "quote": "Die Preise im öffentlichen Verkehr der Schweiz erhöhen sich ab Dezember um 3,9 Prozent, was zug fahren teurer macht.",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
-        "startTime": "2026-04-01T04:55:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
-    "first_mention_time": "00:01:57.488",
-    "first_mention_program": "10 vor 10",
-    "imageUrl": "demo-data/v2/cropped/20260401_32_SwissPass.jpg",
-    "rank": 32
-  },
-  {
-    "story_id": "arzt_b_rokratie",
-    "keyword": "Arzt-Bürokratie",
-    "phrase": "Arzt-Bürokratie",
-    "score": 22.95,
-    "novelty": 2.0,
-    "spread": 2.0,
-    "persistence": 2.0,
-    "prominence": 2.87,
-    "primetime": 1.0,
-    "n_segments": 1,
-    "n_repeats": 0,
-    "distinct_programs": 1,
-    "total_seconds": 159.0,
-    "editorial_units": [
-      "10 vor 10"
-    ],
-    "programs": [
-      "10 vor 10"
-    ],
-    "quotes": [
-      {
-        "title": "10 vor 10",
-        "channel": "SRF info",
-        "quote": "",
-        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
-        "startTime": "2026-04-01T04:55:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
-    "first_mention_time": "00:06:13.000",
-    "first_mention_program": "10 vor 10",
-    "imageUrl": "demo-data/v2/cropped/20260401_33_Arzt-Bürokratie.jpg",
-    "rank": 33
   }
 ]

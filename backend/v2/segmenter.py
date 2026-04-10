@@ -409,16 +409,20 @@ def _extract_json(text: str):
 _SEGMENT_PROMPT = """\
 Segment this SRF news broadcast into editorial stories.
 
-For each segment return ONLY:
+For each segment return:
 - start_time, end_time (from the timestamps in the transcript)
-- peak_time: the timestamp of the most important/intense moment in this segment
-  (the key fact, the decisive quote, the dramatic turn — NOT the intro by the anchor)
-- keyword: the ONE German word that captures the zeitgeist of this segment.
-  Think: if this word appeared on a newspaper front page, would you know the story?
-  Usually a proper noun: person, place, organization, or a specific German term.
-  Two words ONLY when one word is ambiguous (e.g. "Trump" → "Trump NATO" if there are multiple Trump stories).
-  Good: "Artemis", "Roveredo", "Keller-Sutter", "PFAS", "Eigenmietwert", "WM-Quali"
-  Bad: "Italien" (vague — Italy what?), "Politik", "weather" (must be German!), "StMoritz" (→ "St. Moritz")
+- peak_time: the timestamp of the most important moment in this segment
+  (the key fact, the decisive quote — NOT the intro by the anchor)
+- keyword: the word a newspaper editor would use as the HEADLINE WORD.
+  Rules:
+  - Use the most recognizable proper noun (person: "Odermatt", place: "Roveredo", org: "NATO")
+  - If no proper noun, use the specific German term ("Eigenmietwert", "Cyberangriffe")
+  - Add a second word ONLY if the first is ambiguous ("Trump NATO" vs "Trump Briefwahl")
+  - Maximum 2 words. Never longer.
+  - Person names: always include first name if not globally famous ("Muriel Furrer", not "Furrer")
+  - No nicknames, no abbreviations the audience wouldn't know
+  - Never use English. Never merge words ("StMoritz" → "St. Moritz")
+  - If two segments cover the same story from different angles, use ONE keyword for both
 - short_label: readable headline (3-6 words, German)
 - segment_type: "story", "weather", "sport", "intro", "outro", "teaser"
 

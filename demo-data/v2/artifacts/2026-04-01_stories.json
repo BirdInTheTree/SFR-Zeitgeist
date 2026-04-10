@@ -1,31 +1,43 @@
 [
   {
-    "story_id": "swisspass",
-    "keyword": "SwissPass",
+    "story_id": "alliance_swisspass",
+    "keyword": "Alliance SwissPass",
     "segment_indices": [
       0
     ],
     "repeat_indices": []
   },
   {
-    "story_id": "arzt_b_rokratie",
-    "keyword": "Arzt-Bürokratie",
+    "story_id": "rzte_b_rokratie",
+    "keyword": "Ärzte Bürokratie",
     "segment_indices": [
       1
     ],
     "repeat_indices": []
   },
   {
-    "story_id": "sedrun_solar",
-    "keyword": "Sedrun Solar",
+    "story_id": "solaranlagen",
+    "keyword": "Solaranlagen",
     "segment_indices": [
-      2
+      2,
+      54,
+      59,
+      72,
+      81,
+      138,
+      157
     ],
-    "repeat_indices": []
+    "repeat_indices": [
+      59,
+      72,
+      81,
+      138,
+      157
+    ]
   },
   {
-    "story_id": "spital_oberengadin",
-    "keyword": "Spital Oberengadin",
+    "story_id": "spital_samedan",
+    "keyword": "Spital Samedan",
     "segment_indices": [
       3,
       56,
@@ -44,8 +56,8 @@
     ]
   },
   {
-    "story_id": "poldi",
-    "keyword": "Poldi",
+    "story_id": "poldis_z_rich",
+    "keyword": "Poldis Zürich",
     "segment_indices": [
       4,
       9,
@@ -61,8 +73,8 @@
     ]
   },
   {
-    "story_id": "biberist_batterie",
-    "keyword": "Biberist Batterie",
+    "story_id": "biberist_brand",
+    "keyword": "Biberist Brand",
     "segment_indices": [
       5,
       10,
@@ -95,8 +107,8 @@
     ]
   },
   {
-    "story_id": "sutter_kolonialismus",
-    "keyword": "Sutter Kolonialismus",
+    "story_id": "johann_august_sutter",
+    "keyword": "Johann August Sutter",
     "segment_indices": [
       7,
       12,
@@ -112,8 +124,8 @@
     ]
   },
   {
-    "story_id": "kakaopreis_ostern",
-    "keyword": "Kakaopreis Ostern",
+    "story_id": "kakaopreise_ostern",
+    "keyword": "Kakaopreise Ostern",
     "segment_indices": [
       8,
       13,
@@ -136,8 +148,8 @@
     ]
   },
   {
-    "story_id": "wm_quali_italien",
-    "keyword": "WM-Quali Italien",
+    "story_id": "italien_wm",
+    "keyword": "Italien WM",
     "segment_indices": [
       29,
       35,
@@ -216,8 +228,8 @@
     ]
   },
   {
-    "story_id": "trump_ballsaal",
-    "keyword": "Trump Ballsaal",
+    "story_id": "trump_weisses_haus",
+    "keyword": "Trump Weisses Haus",
     "segment_indices": [
       32,
       38,
@@ -231,8 +243,8 @@
     ]
   },
   {
-    "story_id": "artemis",
-    "keyword": "Artemis",
+    "story_id": "artemis_mond",
+    "keyword": "Artemis Mond",
     "segment_indices": [
       33,
       39,
@@ -277,8 +289,8 @@
     ]
   },
   {
-    "story_id": "wetter",
-    "keyword": "Wetter",
+    "story_id": "fr_hlingswetter",
+    "keyword": "Frühlingswetter",
     "segment_indices": [
       34,
       40,
@@ -299,8 +311,8 @@
     ]
   },
   {
-    "story_id": "roveredo",
-    "keyword": "Roveredo",
+    "story_id": "roveredo_mafia",
+    "keyword": "Roveredo Mafia",
     "segment_indices": [
       53,
       58,
@@ -325,27 +337,8 @@
     ]
   },
   {
-    "story_id": "scuol_solar",
-    "keyword": "Scuol Solar",
-    "segment_indices": [
-      54,
-      59,
-      72,
-      81,
-      138,
-      157
-    ],
-    "repeat_indices": [
-      59,
-      72,
-      81,
-      138,
-      157
-    ]
-  },
-  {
-    "story_id": "st_moritz",
-    "keyword": "St. Moritz",
+    "story_id": "st_moritz_gemeindepr_sident",
+    "keyword": "St. Moritz Gemeindepräsident",
     "segment_indices": [
       55,
       60,
@@ -370,8 +363,8 @@
     ]
   },
   {
-    "story_id": "young_pledari",
-    "keyword": "Young-Pledari",
+    "story_id": "young_pledari_r_toromanisch",
+    "keyword": "Young-Pledari Rätoromanisch",
     "segment_indices": [
       57,
       62,
@@ -407,8 +400,8 @@
     ]
   },
   {
-    "story_id": "patriot_beschaffung",
-    "keyword": "Patriot Beschaffung",
+    "story_id": "patriot_schweiz",
+    "keyword": "Patriot Schweiz",
     "segment_indices": [
       65,
       69,
@@ -420,6 +413,7 @@
     "repeat_indices": [
       69,
       78,
+      101,
       111,
       121
     ]
@@ -440,8 +434,8 @@
     ]
   },
   {
-    "story_id": "appenzell_datenschutz",
-    "keyword": "Appenzell Datenschutz",
+    "story_id": "appenzell_innerrhoden_datenpanne",
+    "keyword": "Appenzell Innerrhoden Datenpanne",
     "segment_indices": [
       87,
       93,
@@ -526,8 +520,8 @@
     ]
   },
   {
-    "story_id": "bio_preise",
-    "keyword": "Bio-Preise",
+    "story_id": "bio_produkte",
+    "keyword": "Bio-Produkte",
     "segment_indices": [
       106,
       116,
@@ -552,8 +546,8 @@
     ]
   },
   {
-    "story_id": "keller_sutter",
-    "keyword": "Keller-Sutter",
+    "story_id": "keller_sutter_cybermobbing",
+    "keyword": "Keller-Sutter Cybermobbing",
     "segment_indices": [
       132,
       151,
@@ -579,8 +573,8 @@
     ]
   },
   {
-    "story_id": "pfas",
-    "keyword": "PFAS",
+    "story_id": "pfas_milch",
+    "keyword": "PFAS Milch",
     "segment_indices": [
       133,
       152,
@@ -606,8 +600,8 @@
     ]
   },
   {
-    "story_id": "apple",
-    "keyword": "Apple",
+    "story_id": "apple_jubil_um",
+    "keyword": "Apple Jubiläum",
     "segment_indices": [
       135,
       154,
