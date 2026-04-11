@@ -1,163 +1,167 @@
 # SRF Zeitgeist
 
-Proposal demo for SRF's AI and discovery teams: a topic-centric front page for the broadcast archive.
+A topic-centric front page for the broadcast archive.
 
-SRF's TV archive organizes content by show — Tagesschau, 10 vor 10, Schweiz aktuell. But viewers don't think in shows. They think in topics: "What happened with Artemis?" "Why is everyone talking about PFAS?" There is no way to navigate the archive by what Switzerland is actually talking about.
+Viewers think in topics.
+TV archives are organized by show — Tagesschau, 10 vor 10, Schweiz aktuell.
+"What happened with Artemis?"
+"Why is everyone talking about PFAS?"
+"Has Italy qualified?"
 
-**SRF Zeitgeist** fills that gap. It analyzes subtitles from SRF news programs and surfaces the top trending topics as a visual 5×5 grid — one glance at what Switzerland discussed today.
+There is no way to answer these questions on Play SRF today. You have to know which show covered it, then scrub through the episode.
 
-The product thesis is simple: Play SRF should not only answer "which show should I watch?" It should also answer "what is Switzerland talking about right now?" This prototype demonstrates that the answer can be generated from SRF's own editorial output, without relying on click popularity.
+**5×5** gives you the answer in one glance. 25 images. 25 words. One day of Swiss news.
 
 ## How it works
 
-Every day, SRF broadcasts ~50 news programs (including re-broadcasts). Each has subtitles. Zeitgeist processes all of them:
+We take every news broadcast SRF aired today (~50 programs, including repeats). We have their subtitles. We run them through a pipeline:
 
-1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment
-2. **Merge** — segments from different programs are grouped into unified stories by keyword matching, with fingerprint validation to prevent false merges
-3. **Score** — each story is ranked by five signals: `novelty × spread × persistence × prominence × primetime`
-4. **Screenshot** — a video frame is extracted at the story's emotional peak (not the anchor intro)
-5. **Display** — top 25 stories become a 5×5 grid with TV frames and source quotes
+1. **Segment** — an LLM reads each broadcast's subtitles and splits it into story segments. Each segment gets a keyword and a timestamp of its most important moment. ([prompt](backend/v2/segmenter.py), [output format](demo-data/v2/artifacts/))
+2. **Merge** — segments from different programs about the same event get grouped into one story. Matching is by keyword, validated against the text to prevent false merges. ([merge logic](backend/v2/segmenter.py))
+3. **Score** — each story gets a rank based on five signals. ([formula](#scoring))
+4. **Screenshot** — we grab a video frame at the peak moment, not the anchor intro. ([how](#screenshots))
+5. **Display** — top 25 stories become the grid. Click any cell for quotes and Play SRF links.
 
-The formula automatically suppresses evergreen topics (weather, ongoing background stories) — their novelty score is ~1.0 because they appear every day. A story like "Artemis-2 launch" that spikes from 0 to 20 segments scores orders of magnitude higher.
+## Product decisions
 
-## The grid
+### The grid
 
-Inspired by Jonathan Harris's [10×10](https://web.archive.org/web/20050227035405/http://www.tenbyten.org/info.html) (2004), which captured "the world right now" from news photos and headlines.
+Inspired by Jonathan Harris's [10×10](https://web.archive.org/web/20050227035405/http://www.tenbyten.org/info.html) (2004) — "100 words and pictures that capture the world right now."
 
-- **Hover** a cell → the phrase appears, the matching word highlights in the sidebar
-- **Hover** a word → the matching cell highlights in the grid
-- **Click** → zoom view with quotes from each program + links to Play SRF
+The grid works because of *information scent* ([Pirolli, 2007](#references)): each cell gives the user two cues — a video frame (visual trigger) and a keyword (textual trigger). Together they answer "is this story for me?" in a fraction of a second.
+
+- **Hover** a cell → keyword appears, matching word lights up in the sidebar
+- **Hover** a word → matching cell highlights
+- **Click** → quotes from each program + "Watch on Play SRF" links
 - **Arrow keys** → navigate between days
 
-The word list uses a fish-eye effect: the active word is large and red, neighbors shrink progressively into dust-grey.
+The word list uses a fish-eye effect: the active word is large and red, neighbors shrink into dust-grey.
 
-## Data source
+### Scoring
 
-All data comes from SRF's public APIs:
+$$score(s) = novelty \times spread \times persistence \times prominence \times primetime$$
 
-| API | What it provides | Auth |
+| Signal | What it asks | Formula |
+|--------|-------------|---------|
+| novelty | Is this new today? | $(N_{today} + 1) / (\overline{N}_{prev7} + 1)$ |
+| spread | Did multiple desks cover it? | $1 + \log_2(1 + U_{today})$ |
+| persistence | Did it keep coming back? | $1 + \log_2(1 + N_{today})$ |
+| prominence | How much airtime did it get? | $1 + \log_2(1 + M_{today}/60)$ |
+| primetime | Did it make the evening news? | $1 + 0.25 \times tier$ |
+
+The signals multiply. A story needs all five to rank high. High novelty but low spread = a niche spike in one show. High spread but low novelty = yesterday's ongoing story.
+
+Repeats (same newscast re-aired later) are not thrown out. An editor choosing to keep a story in the 19:30 re-airing is a signal. But 5 re-airings don't count as 5× importance — the logarithm handles that.
+
+Evergreen topics like weather suppress themselves. They appear every day, so their novelty stays at ~1.0. A spike like "Artemis launch" going from 0 to 20 segments scores orders of magnitude higher.
+
+Full rationale: [backend/v2/README.md](backend/v2/README.md)
+
+### Screenshots
+
+The LLM marks the *peak moment* of each segment — the key fact, the decisive quote, not the anchor reading the intro. The video frame is grabbed there.
+
+If the frame is blank (black transition), we retry 5 seconds later. If no face is detected, we zoom to 70% of the frame for a tighter crop. The goal: every cell should show the *story*, not the studio.
+
+### Keyword selection
+
+The keyword is what appears on the grid. It must work as a trigger word ([Pirolli, 2007](#references)) — one glance and you know the story.
+
+Rules for the LLM:
+- Use the most recognizable proper noun: "Roveredo", "Keller-Sutter", "Artemis"
+- Add a second word only if the first is ambiguous: "Trump NATO" vs "Trump Briefwahl"
+- No nicknames. No English. No merged words.
+- If two segments cover the same story, use the same keyword
+
+Broadcasts are processed in chronological order. Each one receives the keywords already assigned earlier that day, so the LLM reuses them for the same story across programs.
+
+### Cross-day consistency
+
+A story that runs for multiple days should keep its keyword. "Israel Todesstrafe" on Monday must still be "Israel Todesstrafe" on Tuesday — even if Tuesday's LLM might prefer "Knesset Todesstrafe."
+
+A canonical registry stores every story's keyword and fingerprint (entities + frequent words). When a new day is processed, each story is matched against the registry. If it matches, the original keyword is kept. ([Shahaf & Guestrin, 2010](#references) on coherent story chains across time.)
+
+## Data and architecture
+
+### Data sources
+
+| API | What it gives us | Auth |
 |-----|-----------------|------|
 | EPG (`/tv-program-guide`) | Daily program schedule (~158 programs) | None |
 | Integration Layer 2.1 (`/mediaComposition/byUrn`) | Subtitles (VTT), video streams, images | API key |
 
-Subtitles are available for ~75% of programs. The pipeline processes only the **Nachrichten** (news) genre — including re-broadcasts, which amplify the signal of important topics.
+Subtitles exist for ~75% of programs. We process only the **Nachrichten** (news) genre.
 
-## Architecture
+The EPG API keeps only ~2 weeks of data. We fetch and save it to build history beyond that window.
+
+### Pipeline
 
 ```
-demo-data/week/*.json             ← daily program schedules with subtitles
+demo-data/week/*.json             ← daily schedules with subtitles
         │
-        ▼
-backend/v2/pipeline.py            ← LLM segmentation → merge → scoring
+backend/v2/pipeline.py            ← segment → merge → score → frames
         │
-        ├── demo-data/v2/segment_cache/   cached LLM segmentations
-        ├── demo-data/v2/merge_cache/     cached story merges
+        ├── demo-data/v2/segment_cache/   LLM segmentation results
+        ├── demo-data/v2/merge_cache/     story merge results
         ├── demo-data/v2/artifacts/       all intermediate results
-        └── demo-data/v2/story_registry.json  cross-day keyword registry
+        └── demo-data/v2/story_registry.json
         │
-        ▼
-demo-data/zeitgeist_YYYYMMDD.json ← 25 stories with scores, quotes, images
+demo-data/zeitgeist_YYYYMMDD.json ← output for frontend
         │
-        ▼
-frontend/                         ← vanilla HTML/CSS/JS grid viewer
+frontend/                         ← vanilla HTML/CSS/JS
 ```
 
 ### Key files
 
-| File | Purpose |
-|------|---------|
-| `backend/v2/pipeline.py` | Main pipeline: segment → merge → score → frames → output |
-| `backend/v2/segmenter.py` | LLM segmentation, keyword chaining, fingerprinting, story merge |
-| `backend/v2/scorer.py` | 5-signal scoring formula |
-| `backend/v2/fetch_epg.py` | Daily EPG data fetcher (accumulates history beyond API's 2-week window) |
-| `backend/smart_crop.py` | Face-aware image cropping with blank detection (4:3, 280×210) |
-| `frontend/app.js` | Grid rendering, fish-eye word list, zoom overlays, day navigation |
+| File | What it does |
+|------|-------------|
+| `backend/v2/pipeline.py` | Orchestrates everything: segment → merge → score → frames → output |
+| `backend/v2/segmenter.py` | LLM prompts, keyword chaining, fingerprinting, story merge |
+| `backend/v2/scorer.py` | The five-signal scoring formula |
+| `backend/v2/fetch_epg.py` | Fetches daily program data from EPG API |
+| `backend/smart_crop.py` | Face-aware image cropping, blank detection, zoom |
+| `frontend/app.js` | Grid, fish-eye word list, zoom overlay, day navigation |
 
-### Scoring formula
-
-$$score(s) = novelty \times spread \times persistence \times prominence \times primetime$$
-
-| Signal | Formula | What it measures |
-|--------|---------|-----------------|
-| novelty | $(N_{today} + 1) / (\overline{N}_{prev7} + 1)$ | Spike vs 7-day baseline |
-| spread | $1 + \log_2(1 + U_{today})$ | How many editorial desks covered it |
-| persistence | $1 + \log_2(1 + N_{today})$ | How often the story returned today |
-| prominence | $1 + \log_2(1 + M_{today}/60)$ | Total segment airtime in minutes |
-| primetime | $1 + 0.25 \times tier$ | Evening prime time presence (0/1/2) |
-
-Re-broadcasts contribute through log-dampened persistence and prominence — editorial decisions to keep airing a story are a signal, but logarithms prevent linear inflation.
-
-See [backend/v2/README.md](backend/v2/README.md) for full formula rationale.
-
-## Why it matters for SRF
-
-- **Better archive discovery** — users can enter through the topic of the day, not only through a show brand they already know.
-- **Editorially grounded ranking** — the homepage reflects what SRF journalists are covering across formats, not what already won the click race.
-- **Low-friction extension** — the prototype uses SRF's existing schedule, subtitle, and media APIs; no new publishing workflow is required.
-- **Strong demo signal** — it combines product thinking, applied NLP, and a distinct visual treatment into one concrete proposal.
-
-## Current demo corpus
-
-- **3 daily snapshots** with full v2 pipeline (`2026-03-30` to `2026-04-01`)
-- **~50 news programs per day** from SRF's broadcast schedule
-- **~35 stories per day** after LLM segmentation and merge
-- **100% image coverage** — every story has a video frame
-- **Cross-day story tracking** — 27 stories persist across multiple days
-- **EPG data available** for `2026-03-05` to `2026-04-09` (28 days)
-
-## Running
-
-**Prerequisites:** Python 3.13, ffmpeg, Anthropic API key in `.env`
+### Running
 
 ```bash
 source ~/venvs/SFR_env/bin/activate
 
-# Fetch latest EPG data (run weekly to accumulate history)
+# Fetch EPG data (run weekly to accumulate history)
 python -m backend.v2.fetch_epg --range 14
 
-# Generate zeitgeist for a specific date (with images)
+# Generate one day (with images)
 python -m backend.v2.pipeline 2026-04-01
 
 # Generate all available days
 python -m backend.v2.pipeline --all
 
-# Serve frontend
+# Serve
 python -m http.server 8080
 # Open http://localhost:8080/frontend/
 ```
 
-## What this demonstrates
+### Current demo
 
-This is a proposal demo for SRF's National AI Service Team. It shows:
+- 3 daily snapshots (`2026-03-30` to `2026-04-01`)
+- ~50 news programs per day, ~35 stories after merge
+- 100% image coverage
+- 27 stories persist across multiple days
+- EPG data for 28 days (`2026-03-05` to `2026-04-09`)
 
-1. **Topic-centric navigation** — an alternative to the current show-centric Play SRF archive
-2. **SRF data literacy** — built on real EPG + Integration Layer APIs, not hypothetical
-3. **Methodological rigor** — spike detection from corpus linguistics, not vibes
-4. **Production-shaped judgment** — ranking, deduplication, quotes, and image retrieval are wired into a usable interface
-5. **Visual impact** — one screen tells the story of the day
+## What's next
 
-The underlying question: *what if Play SRF had a "trending" page — not based on clicks, but on what the journalists themselves are covering?*
-
-## Current limitations
-
-- The demo is based on pre-generated daily snapshots, not a live continuously updated service.
-- Image coverage is incomplete for some topics, especially when no usable frame can be extracted.
-- The ranking pipeline is tuned for German-language SRF news subtitles and has not yet been validated with user testing.
-- This repository focuses on the proposal and the prototype, not on deployment infrastructure.
-
-## Key design decisions
-
-- **Story-level, not phrase-level** — LLM segments broadcasts into editorial stories. This solves the fundamental problem of phrase-based approaches: "Kanton Bern" vs "Berner Regierung" vs "Regierungsratswahlen Bern" are all the same story.
-- **Keyword chaining** — broadcasts are processed chronologically. Each LLM call receives keywords from earlier broadcasts, so it reuses the same keyword for the same story across programs.
-- **Repeats count, through logarithm** — re-broadcasts aren't excluded. An editor keeping a story in the 19:30 re-airing is a signal. But 5 re-airings don't count as 5× importance — logarithmic dampening handles this.
-- **Peak-time screenshots** — the LLM identifies the most important moment in each segment. The screenshot is taken there, not at the start (which is typically the anchor in studio).
-- **Canonical story registry** — cross-day keyword consistency via fingerprint matching. "Muriel Furrer Untersuchung" on day 1 keeps the same keyword on day 2.
+- **Story lifecycle view** — how stories live and die across days. Timeline bars or metro map ([Shahaf et al., 2012](#references)). Data already exists in story registry.
+- **Baseline** — run more days so novelty can distinguish breaking news from ongoing background.
+- **Editorial override** — let a human pin, boost, or hide stories. The grid is algorithmic; the judgment should be editorial.
+- **Better screenshots** — avoid duplicate anchor shots across different stories. Try alternate programs when the first frame is a studio shot.
 
 ## References
 
-- Jonathan Harris, [10×10](https://jjh.org/10x10) (2004) — original inspiration
-- Google, [Year in Search Data Methodology](https://trends.withgoogle.com/year-in-search/data-methodology/)
-- GDELT, [Television News Ngram 2.0](https://blog.gdeltproject.org/announcing-the-television-news-ngram-2-0-dataset/)
-- Scott (1997) — keyness in corpus linguistics
-- Boutaleb et al. (2024), [BERTrend](https://arxiv.org/abs/2411.05930) — temporal trend detection
-- Ben Mansour et al. (2025) — LLM vs traditional keyword extraction
+- Thomas, J. J. & Cook, K. A. (Eds.), [*Illuminating the Path*](https://ils.unc.edu/courses/2017_fall/inls641_001/books/RD_Agenda_VisualAnalytics.pdf), IEEE, 2005
+- Pirolli, P., [*Information Foraging Theory*](https://global.oup.com/academic/product/9780195173321), Oxford, 2007
+- Keith, B., ["Interactive Narrative Analytics"](https://doi.org/10.1109/ACCESS.2025.3630352), *IEEE Access*, 2026
+- Shahaf, D. & Guestrin, C., ["Connecting the Dots Between News Articles"](https://doi.org/10.1145/1835804.1835884), *KDD*, 2010
+- Shahaf, D., Guestrin, C. & Horvitz, E., ["Metro Maps of Science"](https://doi.org/10.1145/2339530.2339705), *KDD*, 2012
+- Harris, J., [10×10](https://jjh.org/10x10), 2004
+- Boutaleb et al., [BERTrend](https://arxiv.org/abs/2411.05930), 2024
