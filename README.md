@@ -54,7 +54,6 @@ Repeats (same newscast re-aired later) are not thrown out. An editor choosing to
 
 Evergreen topics like weather suppress themselves. They appear every day, so their novelty stays at ~1.0. A spike like "Artemis launch" going from 0 to 20 segments scores orders of magnitude higher.
 
-Full rationale: [backend/FORMULA.md](backend/FORMULA.md)
 
 ### Screenshots
 
