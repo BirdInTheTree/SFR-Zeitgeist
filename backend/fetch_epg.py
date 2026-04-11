@@ -15,11 +15,15 @@ Usage:
 """
 
 import json
+import logging
 import re
 import sys
+import time
 import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 WEEK_DIR = PROJECT_ROOT / "demo-data" / "week"
@@ -49,7 +53,7 @@ def fetch_epg_schedule(date_str: str) -> list[dict]:
                 "title": prog.get("title", ""),
                 "startTime": prog.get("startTime", ""),
                 "genre": prog.get("genre", ""),
-                "urn": prog.get("urn", ""),
+                "urn": prog.get("mediaUrn", "") or prog.get("urn", ""),
             })
     return programs
 
@@ -73,7 +77,8 @@ def fetch_subtitle_text(urn: str) -> tuple[str, int]:
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
-    except Exception:
+    except Exception as e:
+        logger.warning("Failed to fetch media info for %s: %s", urn, e)
         return "", 0
 
     chapter = data.get("chapterList", [{}])[0]
@@ -90,7 +95,8 @@ def fetch_subtitle_text(urn: str) -> tuple[str, int]:
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             vtt_text = resp.read().decode("utf-8", errors="replace")
-    except Exception:
+    except Exception as e:
+        logger.warning("Failed to download VTT for %s: %s", urn, e)
         return "", 0
 
     # Cache raw VTT
@@ -130,7 +136,8 @@ def fetch_and_save_day(date_str: str) -> Path:
     programs = fetch_epg_schedule(date_str)
     print(f"{len(programs)} programs")
 
-    # Enrich with subtitle text
+    # Enrich with subtitle text — save after every 10 programs
+    # so partial results survive if the process is killed
     for i, prog in enumerate(programs):
         urn = prog.get("urn", "")
         if not urn:
@@ -141,11 +148,17 @@ def fetch_and_save_day(date_str: str) -> Path:
         text, wc = fetch_subtitle_text(urn)
         prog["subtitle_text_clean"] = text
         prog["word_count"] = wc
+        # Polite delay between API requests to avoid rate limiting
+        time.sleep(0.1)
 
-        if (i + 1) % 20 == 0:
-            print(f"    subtitles: {i+1}/{len(programs)}", flush=True)
+        if (i + 1) % 10 == 0:
+            out_path.write_text(
+                json.dumps(programs, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print(f"    subtitles: {i+1}/{len(programs)} (saved)", flush=True)
 
-    # Save incrementally — write after all subtitles fetched for this day
+    # Final save with all programs
     out_path.write_text(
         json.dumps(programs, ensure_ascii=False, indent=2),
         encoding="utf-8",

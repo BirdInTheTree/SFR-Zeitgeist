@@ -12,9 +12,14 @@ Usage:
     python -m backend.pipeline --all
 """
 
+import copy
 import json
 import logging
+import re
+import shutil
+import subprocess
 import sys
+import urllib.request
 from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
@@ -32,7 +37,6 @@ from .segmenter import (
     save_vtt_cache,
     segment_broadcast,
     merge_segments_into_stories,
-    generate_summaries,
     compute_fingerprint,
     extract_segment_text,
     find_importance_peak,
@@ -44,8 +48,7 @@ logger = logging.getLogger(__name__)
 
 # smart_crop import — optional, loaded once
 try:
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from smart_crop import smart_crop as _smart_crop
+    from .smart_crop import smart_crop as _smart_crop, is_blank as _is_blank
     from PIL import Image as _Image
     _HAS_SMART_CROP = True
 except ImportError:
@@ -57,12 +60,12 @@ OUTPUT_DIR = PROJECT_ROOT / "demo-data"
 VTT_CACHE_DIR = OUTPUT_DIR / "cache" / "vtt"
 SEGMENT_CACHE_DIR = OUTPUT_DIR / "cache" / "segments"
 MERGE_CACHE_DIR = OUTPUT_DIR / "cache" / "merge"
-ARTIFACTS_DIR = OUTPUT_DIR / "artifacts"
+ARTIFACTS_DIR = OUTPUT_DIR / "interim_results"
 REGISTRY_PATH = OUTPUT_DIR / "story_registry.json"
 
-GRID_SIZE = 25
+GRID_SIZE = 49
 MIN_WORD_COUNT = 5
-BASELINE_DAYS = 7
+BASELINE_WEEKS = 4  # 4 weeks of history for novelty baseline
 
 
 def load_day(date_str: str) -> list[dict]:
@@ -145,13 +148,27 @@ def _segment_cache_path(program: dict) -> Path:
     return SEGMENT_CACHE_DIR / f"{urn}.json"
 
 
-def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
+def _load_prev_week_keywords(week_start: str) -> list[str]:
+    """Load top keywords from the previous week's zeitgeist output."""
+    prev_monday = (date.fromisoformat(week_start) - timedelta(days=7)).isoformat()
+    prev_compact = prev_monday.replace("-", "")
+    prev_path = OUTPUT_DIR / f"zeitgeist_week_{prev_compact}.json"
+    if not prev_path.exists():
+        return []
+    try:
+        data = json.loads(prev_path.read_text())
+        return [entry["keyword"] for entry in data if entry.get("keyword")]
+    except Exception:
+        return []
+
+
+def segment_all_broadcasts(programs: list[dict], target_date: str = "") -> list[dict]:
     """Segment all news programs into stories via LLM.
 
     Processes broadcasts chronologically. Each broadcast receives the keyword
-    list from previously processed broadcasts so the LLM reuses keywords
-    for the same stories. After LLM segmentation, code computes a fingerprint
-    for each segment from the VTT text.
+    list from yesterday's zeitgeist + previously processed broadcasts today,
+    so the LLM reuses keywords for the same stories. After LLM segmentation,
+    code computes a fingerprint for each segment from the VTT text.
 
     Re-broadcasts with the same URN are not re-segmented — they reuse the
     first airing's segments but with their own startTime (for primetime calc).
@@ -164,8 +181,11 @@ def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
     # Sort by start time so keyword chaining works chronologically
     sorted_programs = sorted(programs, key=lambda p: p.get("startTime", ""))
 
+    # Seed keywords from previous week's zeitgeist for cross-week consistency
+    prev_kw = _load_prev_week_keywords(target_date) if target_date else []
+
     all_segments = []
-    known_keywords = []  # Accumulated from all processed broadcasts
+    known_keywords = list(prev_kw)  # Start with prev week, accumulate this week
     seen_urns: dict[str, list[dict]] = {}  # URN → segments from first airing
 
     for i, prog in enumerate(sorted_programs):
@@ -260,8 +280,12 @@ _CONTENT_TYPES = {"story", "weather", "sport"}
 
 
 def _filter_story_segments(segments: list[dict]) -> list[dict]:
-    """Remove intro/outro/teaser segments — they're not stories."""
-    return [s for s in segments if s.get("segment_type", "story") in _CONTENT_TYPES]
+    """Remove intro/outro/teaser segments and empty micro-segments."""
+    return [
+        s for s in segments
+        if s.get("segment_type", "story") in _CONTENT_TYPES
+        and s.get("segment_text", "")  # skip segments with no extracted text
+    ]
 
 
 def _clone_segments_for_rebroadcast(
@@ -272,7 +296,6 @@ def _clone_segments_for_rebroadcast(
     Same content, but different startTime (for primetime calculation)
     and marked as rebroadcast.
     """
-    import copy
     cloned = []
     for seg in original_segments:
         new_seg = copy.deepcopy(seg)
@@ -427,7 +450,7 @@ def build_stories(
             quotes.append({
                 "title": seg.get("program", ""),
                 "channel": seg.get("channel", ""),
-                "quote": seg.get("summary", ""),
+                "quote": seg.get("quote", ""),
                 "urn": seg.get("urn", ""),
                 "startTime": seg.get("startTime", ""),
             })
@@ -468,18 +491,106 @@ def build_stories(
 # Step 4: Frame extraction
 # ---------------------------------------------------------------------------
 
+def _extract_frame(hls_url: str, timecode: str, out_path: Path) -> bool:
+    """Extract a single video frame via ffmpeg. Returns True if file was created."""
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-ss", timecode, "-i", hls_url,
+             "-frames:v", "1", "-q:v", "2", str(out_path)],
+            capture_output=True, timeout=30,
+        )
+        return out_path.exists()
+    except Exception as e:
+        logger.warning("ffmpeg failed at %s: %s", timecode, e)
+        return False
+
+
+def _try_peak_frame(hls_url: str, tc: str, frame_path: Path) -> bool:
+    """Try frame at peak timecode. Retries 5s later if frame is blank."""
+    if not hls_url or not tc:
+        return False
+
+    if not _extract_frame(hls_url, tc, frame_path):
+        return False
+
+    # Check if frame is blank — if so, try 5 seconds later
+    if _HAS_SMART_CROP:
+        test_img = _Image.open(str(frame_path))
+        if _is_blank(test_img):
+            offset = tc_to_seconds(tc) + 5.0
+            retry_tc = seconds_to_tc(offset)
+            _extract_frame(hls_url, retry_tc, frame_path)
+            print(f"retry@{retry_tc} ", end="", flush=True)
+            return frame_path.exists()
+
+    print(f"frame@{tc} ", end="", flush=True)
+    return True
+
+
+def _try_keyword_frame(hls_url: str, vtt_url: str, urn: str,
+                       keyword: str, frame_path: Path) -> bool:
+    """Fallback: find keyword mention in VTT subtitles, extract frame there."""
+    if not hls_url or not vtt_url:
+        return False
+
+    cached_vtt = get_vtt_cached(urn, VTT_CACHE_DIR)
+    if not cached_vtt:
+        try:
+            cached_vtt = download_vtt(vtt_url)
+            save_vtt_cache(urn, cached_vtt, VTT_CACHE_DIR)
+        except Exception:
+            return False
+
+    blocks = parse_vtt(cached_vtt)
+    keyword_tc = _find_keyword_in_blocks(blocks, keyword)
+    if not keyword_tc:
+        return False
+
+    tc_str = seconds_to_tc(keyword_tc)
+    if _extract_frame(hls_url, tc_str, frame_path):
+        print("frame@keyword ", end="", flush=True)
+        return True
+    return False
+
+
+def _try_thumbnail(fallback_img: str, frame_path: Path) -> bool:
+    """Fallback: download the program's thumbnail image."""
+    if not fallback_img:
+        return False
+    try:
+        req = urllib.request.Request(
+            fallback_img + "/scale/width/640",
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            frame_path.write_bytes(resp.read())
+        print("thumbnail ", end="", flush=True)
+        return True
+    except Exception as e:
+        logger.warning("Thumbnail download failed: %s", e)
+        return False
+
+
+def _crop_and_save(frame_path: Path, crop_path: Path) -> None:
+    """Smart-crop the frame (if available) and save final image."""
+    if _HAS_SMART_CROP:
+        img = _Image.open(str(frame_path))
+        cropped = _smart_crop(img)
+        cropped.save(str(crop_path), quality=85)
+        print("OK")
+    else:
+        shutil.copy2(frame_path, crop_path)
+        print("OK (no crop)")
+    frame_path.unlink(missing_ok=True)
+
+
 def fetch_frames(entries: list[dict], date_str: str) -> None:
     """Extract video frames for top stories. Updates imageUrl in-place.
 
-    Reuses the Integration Layer + ffmpeg approach from v1.
+    Tries three strategies in order: peak timecode → keyword in VTT → thumbnail.
     """
-    import re  # noqa: used for safe filename
-    import subprocess
-
-    frames_dir = OUTPUT_DIR / "frames"
-    cropped_dir = OUTPUT_DIR / "cropped"
-    frames_dir.mkdir(parents=True, exist_ok=True)
-    cropped_dir.mkdir(parents=True, exist_ok=True)
+    images_dir = OUTPUT_DIR / "images"
+    images_dir.mkdir(parents=True, exist_ok=True)
 
     for i, entry in enumerate(entries):
         urn = entry.get("first_mention_urn", "")
@@ -488,7 +599,7 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
 
         keyword = entry["keyword"]
         safe = re.sub(r"[^\w-]", "_", keyword)[:40]
-        crop_path = cropped_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
+        crop_path = images_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
 
         if crop_path.exists():
             entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
@@ -496,7 +607,6 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
 
         print(f"  [{i+1:2d}/{len(entries)}] {keyword[:35]:<35s} ", end="", flush=True)
 
-        # Get media URLs
         media_info = fetch_vtt_url(urn)
         if not media_info:
             print("no media")
@@ -505,98 +615,21 @@ def fetch_frames(entries: list[dict], date_str: str) -> None:
         hls_url = media_info.get("hlsUrl", "")
         vtt_url = media_info.get("vttUrl", "")
         fallback_img = media_info.get("imageUrl", "")
-
-        frame_path = frames_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
-        got_frame = False
-
-        # Try frame at peak/first mention timecode
-        # If the frame is blank, retry 5 seconds later (avoids black transitions)
+        frame_path = images_dir / f".tmp_{date_str}_{i+1:02d}_{safe}.jpg"
         tc = entry.get("first_mention_time", "")
-        if hls_url and tc:
-            try:
-                subprocess.run(
-                    ["ffmpeg", "-y", "-ss", tc, "-i", hls_url,
-                     "-frames:v", "1", "-q:v", "2", str(frame_path)],
-                    capture_output=True, timeout=30,
-                )
-                got_frame = frame_path.exists()
 
-                # Check if frame is blank — if so, try 5 seconds later
-                if got_frame:
-                    from smart_crop import is_blank
-                    test_img = _Image.open(str(frame_path))
-                    if is_blank(test_img):
-                        offset = tc_to_seconds(tc) + 5.0
-                        retry_tc = seconds_to_tc(offset)
-                        subprocess.run(
-                            ["ffmpeg", "-y", "-ss", retry_tc, "-i", hls_url,
-                             "-frames:v", "1", "-q:v", "2", str(frame_path)],
-                            capture_output=True, timeout=30,
-                        )
-                        print(f"retry@{retry_tc} ", end="", flush=True)
-                    else:
-                        print(f"frame@{tc} ", end="", flush=True)
-            except Exception as e:
-                logger.warning("Frame extraction failed for %s: %s", keyword, e)
-
-        # Fallback: find keyword in VTT to get a better timecode
-        if not got_frame and hls_url and vtt_url:
-            cached_vtt = get_vtt_cached(urn, VTT_CACHE_DIR)
-            if not cached_vtt:
-                try:
-                    cached_vtt = download_vtt(vtt_url)
-                    save_vtt_cache(urn, cached_vtt, VTT_CACHE_DIR)
-                except Exception:
-                    cached_vtt = ""
-
-            if cached_vtt:
-                blocks = parse_vtt(cached_vtt)
-                keyword_tc = _find_keyword_in_blocks(blocks, keyword)
-                if keyword_tc and hls_url:
-                    tc_str = seconds_to_tc(keyword_tc)
-                    try:
-                        subprocess.run(
-                            ["ffmpeg", "-y", "-ss", tc_str, "-i", hls_url,
-                             "-frames:v", "1", "-q:v", "2", str(frame_path)],
-                            capture_output=True, timeout=30,
-                        )
-                        got_frame = frame_path.exists()
-                        if got_frame:
-                            print(f"frame@keyword ", end="", flush=True)
-                    except Exception:
-                        pass
-
-        # Fallback: thumbnail
-        if not got_frame and fallback_img:
-            try:
-                import urllib.request
-                req = urllib.request.Request(
-                    fallback_img + "/scale/width/640",
-                    headers={"User-Agent": "Mozilla/5.0"},
-                )
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    frame_path.write_bytes(resp.read())
-                got_frame = True
-                print("thumbnail ", end="", flush=True)
-            except Exception as e:
-                logger.warning("Frame extraction failed for %s: %s", keyword, e)
+        got_frame = (
+            _try_peak_frame(hls_url, tc, frame_path)
+            or _try_keyword_frame(hls_url, vtt_url, urn, keyword, frame_path)
+            or _try_thumbnail(fallback_img, frame_path)
+        )
 
         if not got_frame:
             print("no image")
             continue
 
-        # Smart crop
-        if _HAS_SMART_CROP:
-            img = _Image.open(str(frame_path))
-            cropped = _smart_crop(img)
-            cropped.save(str(crop_path), quality=85)
-            entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
-            print("OK")
-        else:
-            import shutil
-            shutil.copy2(frame_path, crop_path)
-            entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
-            print("OK (no crop)")
+        _crop_and_save(frame_path, crop_path)
+        entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
 
 
 def _find_keyword_in_blocks(blocks: list[dict], keyword: str) -> float | None:
@@ -624,42 +657,6 @@ def _find_keyword_in_blocks(blocks: list[dict], keyword: str) -> float | None:
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def _add_summaries(all_segments: list[dict], top_stories: list[dict]) -> None:
-    """Generate summaries for top stories' quotes.
-
-    For each story, picks one representative segment per editorial unit
-    and generates a one-sentence summary via LLM. Updates quotes in-place.
-    """
-    # Collect segments that need summaries
-    segments_to_summarize = []
-    story_quote_map = []  # (story_idx, quote_idx) for each segment
-
-    for si, story in enumerate(top_stories):
-        for qi, quote in enumerate(story.get("quotes", [])):
-            if quote.get("quote") and len(quote["quote"]) > 10:
-                continue  # Already has a good summary
-            # Find the segment for this quote — match by urn + keyword + program
-            # to avoid picking a rebroadcast's copy of the same segment
-            urn = quote.get("urn", "")
-            quote_program = quote.get("title", "")
-            for seg in all_segments:
-                if (seg.get("urn") == urn
-                        and seg.get("keyword") == story.get("keyword")
-                        and seg.get("program", "") == quote_program):
-                    segments_to_summarize.append(seg)
-                    story_quote_map.append((si, qi))
-                    break
-
-    if not segments_to_summarize:
-        return
-
-    try:
-        summaries = generate_summaries(segments_to_summarize)
-        for (si, qi), summary in zip(story_quote_map, summaries):
-            if summary:
-                top_stories[si]["quotes"][qi]["quote"] = summary
-    except Exception as e:
-        logger.warning("Summary generation failed: %s", e)
 
 
 # ---------------------------------------------------------------------------
@@ -743,13 +740,13 @@ def _normalize_with_registry(
             story["story_id"] = best_match
             story["keyword"] = registry[best_match]["keyword"]
             registry[best_match]["last_seen"] = target_date
-            # Update fingerprint with new entities/words
+            # Update fingerprint with new entities/words (no cap — bias-free matching)
             registry[best_match]["entities"] = sorted(
                 set(registry[best_match].get("entities", [])) | story_entities
-            )[:20]
+            )
             registry[best_match]["top_words"] = sorted(
                 set(registry[best_match].get("top_words", [])) | story_words
-            )[:15]
+            )
             if old_kw != story["keyword"]:
                 n_matched += 1
                 logger.info(
@@ -763,8 +760,8 @@ def _normalize_with_registry(
                 "keyword": story["keyword"],
                 "first_seen": target_date,
                 "last_seen": target_date,
-                "entities": sorted(story_entities)[:20],
-                "top_words": sorted(story_words)[:15],
+                "entities": sorted(story_entities),
+                "top_words": sorted(story_words),
             }
 
     return stories_meta, n_matched
@@ -796,127 +793,124 @@ def _save_merge_cache(target_date: str, stories_meta: list[dict]) -> None:
     path.write_text(json.dumps(stories_meta, ensure_ascii=False, indent=2))
 
 
-def load_baseline(target_date: str) -> dict[str, float]:
-    """Load baseline segment counts from previous BASELINE_DAYS days.
+def load_baseline(week_start: str) -> dict[str, float]:
+    """Load baseline segment counts from previous weeks.
 
-    Reads cached merge results for each prior day, counts segments
-    per story_id, returns average daily count per story_id.
+    Looks at BASELINE_WEEKS prior weekly zeitgeist outputs.
+    Returns average weekly segment count per story_id.
     """
-    target_dt = date.fromisoformat(target_date)
+    start_dt = date.fromisoformat(week_start)
     story_counts: dict[str, list[int]] = defaultdict(list)
-    days_found = 0
+    weeks_found = 0
 
-    for i in range(1, BASELINE_DAYS + 1):
-        prev_date = (target_dt - timedelta(days=i)).isoformat()
-        cached = _load_merge_cache(prev_date)
-        if cached is None:
+    for w in range(1, BASELINE_WEEKS + 1):
+        prev_monday = (start_dt - timedelta(weeks=w)).isoformat()
+        prev_compact = prev_monday.replace("-", "")
+        prev_path = OUTPUT_DIR / f"zeitgeist_week_{prev_compact}.json"
+        if not prev_path.exists():
             continue
-        days_found += 1
-        # Count segments per story for this day
-        day_stories = set()
-        for story in cached:
-            sid = story.get("story_id", "")
-            n_segs = len(story.get("segment_indices", []))
-            story_counts[sid].append(n_segs)
-            day_stories.add(sid)
+        weeks_found += 1
+        try:
+            data = json.loads(prev_path.read_text())
+        except Exception:
+            continue
 
-        # Stories not present on this day get 0
+        week_stories = set()
+        for entry in data:
+            sid = entry.get("story_id", "")
+            n_segs = entry.get("n_segments", 1)
+            story_counts[sid].append(n_segs)
+            week_stories.add(sid)
+
         for sid in story_counts:
-            if sid not in day_stories:
+            if sid not in week_stories:
                 story_counts[sid].append(0)
 
-    if days_found == 0:
-        logger.info("No baseline data found for %d days before %s", BASELINE_DAYS, target_date)
+    if weeks_found == 0:
         return {}
 
-    # Average across days found
     baseline = {}
     for sid, counts in story_counts.items():
-        # Pad with zeros for days with no merge cache
-        while len(counts) < days_found:
+        while len(counts) < weeks_found:
             counts.append(0)
-        baseline[sid] = sum(counts) / days_found
+        baseline[sid] = sum(counts) / weeks_found
 
-    logger.info("Baseline loaded: %d stories from %d days", len(baseline), days_found)
+    logger.info("Baseline loaded: %d stories from %d weeks", len(baseline), weeks_found)
     return baseline
 
 
-def build_zeitgeist(target_date: str) -> list[dict]:
-    """Main pipeline: build zeitgeist for target_date.
+def _week_dates(week_start: str) -> list[str]:
+    """Return list of 7 date strings Mon-Sun for a week starting at week_start."""
+    start = date.fromisoformat(week_start)
+    return [(start + timedelta(days=i)).isoformat() for i in range(7)]
 
-    1. Load today's news programs
-    2. Fetch VTT, segment each broadcast via LLM
-    3. Merge segments into stories via LLM (cached)
-    4. Load baseline from previous days
+
+def build_zeitgeist(week_start: str) -> list[dict]:
+    """Main pipeline: build weekly zeitgeist for Mon-Sun.
+
+    1. Load all 7 days' news programs
+    2. Segment each day's broadcasts via LLM (cached per URN)
+    3. Merge all segments into stories across the whole week
+    4. Load baseline from previous 4 weeks
     5. Score stories
-    6. Return top GRID_SIZE
+    6. Return top GRID_SIZE unique keywords
     """
-    target_dt = date.fromisoformat(target_date)
+    dates = _week_dates(week_start)
+    week_end = dates[-1]
 
-    # Load today's news
-    day_programs = filter_news(load_day(target_date))
-    if not day_programs:
-        print(f"No news programs for {target_date}")
+    # Load all days' programs
+    all_programs = []
+    for d in dates:
+        day_programs = filter_news(load_day(d))
+        if day_programs:
+            print(f"  {d}: {len(day_programs)} news programs")
+            all_programs.extend(day_programs)
+
+    if not all_programs:
+        print(f"No news programs for week {week_start}")
         return []
-    print(f"Target date {target_date}: {len(day_programs)} news programs")
+    print(f"Week {week_start} → {week_end}: {len(all_programs)} total news programs")
 
-    # Step 1-2: Segment all broadcasts
+    # Step 1-2: Segment all broadcasts (uses per-day keyword chaining)
     print("\nSegmenting broadcasts...")
-    all_segments = segment_all_broadcasts(day_programs)
+    all_segments = segment_all_broadcasts(all_programs, week_start)
     if not all_segments:
         print("No segments extracted")
         return []
     print(f"\nTotal segments: {len(all_segments)}")
 
-    # Save all segments as artifact (permanent, not just cache)
-    _save_artifact(target_date, "segments", all_segments)
+    # Step 3: Merge segments into stories across the whole week
+    print("\nMerging segments into stories (keyword + fingerprint)...")
+    stories_meta = merge_segments_into_stories(all_segments)
+    if not stories_meta:
+        print("No stories found after merge")
+        return []
+    print(f"Found {len(stories_meta)} stories")
 
-    # Step 3: Merge segments into stories (code-based, not LLM)
-    stories_meta = _load_merge_cache(target_date)
-    if stories_meta is not None:
-        print(f"\nMerge cache hit: {len(stories_meta)} stories")
-    else:
-        print("\nMerging segments into stories (keyword + fingerprint)...")
-        stories_meta = merge_segments_into_stories(all_segments)
-        if not stories_meta:
-            print("No stories found after merge")
-            return []
-        _save_merge_cache(target_date, stories_meta)
-        print(f"Found {len(stories_meta)} stories (cached)")
+    # Registry normalization skipped for weekly mode —
+    # keyword chaining across the week's broadcasts already ensures consistency.
+    # Cross-week consistency is less important: each week is its own zeitgeist.
 
-    # Step 3b: Normalize keywords via canonical registry
-    # If a story matches a previously seen story (from earlier days),
-    # adopt the original keyword and story_id for continuity.
-    registry = _load_registry()
-    stories_meta, n_matched = _normalize_with_registry(
-        stories_meta, all_segments, registry, target_date,
-    )
-    _save_registry(registry)
-    if n_matched:
-        # Re-save merge with normalized keywords
-        _save_merge_cache(target_date, stories_meta)
-        print(f"  Registry: {n_matched} stories matched to previous days")
-
-    # Save merge result as artifact
-    _save_artifact(target_date, "stories", stories_meta)
-
-    # Step 4: Load baseline from previous days
-    baseline = load_baseline(target_date)
+    # Step 4: Load baseline from previous weeks
+    baseline = load_baseline(week_start)
 
     # Step 5: Score
     print("\nScoring stories...")
     results = build_stories(all_segments, stories_meta, baseline)
 
-    # Save scored results as artifact (before filtering to top-N)
-    _save_artifact(target_date, "scored", results)
+    # Select top stories — one cell per keyword, no duplicates
+    top = []
+    seen_keywords: set[str] = set()
+    for entry in results:
+        kw = entry["keyword"]
+        if kw in seen_keywords:
+            continue
+        seen_keywords.add(kw)
+        top.append(entry)
+        if len(top) >= GRID_SIZE:
+            break
 
-    top = results[:GRID_SIZE]
-
-    # Step 6: Generate summaries only for top stories (cheap, targeted)
-    print(f"\nGenerating summaries for top {len(top)} stories...")
-    _add_summaries(all_segments, top)
-
-    print(f"\nTop stories for {target_date}:")
+    print(f"\nTop stories for week {week_start}:")
     for entry in top[:10]:
         print(
             f"  {entry['rank']:2d}. {entry['keyword']:<30s} "
@@ -932,9 +926,9 @@ def build_zeitgeist(target_date: str) -> list[dict]:
     return top
 
 
-def save_zeitgeist(results: list[dict], target_date: str) -> Path:
-    """Write zeitgeist JSON for frontend."""
-    day_compact = target_date.replace("-", "")
+def save_zeitgeist(results: list[dict], week_start: str) -> Path:
+    """Write weekly zeitgeist JSON for frontend."""
+    compact = week_start.replace("-", "")
 
     # Fix image paths for frontend (relative to frontend/ directory)
     for entry in results:
@@ -942,7 +936,7 @@ def save_zeitgeist(results: list[dict], target_date: str) -> Path:
         if img and not img.startswith("../"):
             entry["imageUrl"] = f"../{img}"
 
-    out_path = OUTPUT_DIR / f"zeitgeist_{day_compact}.json"
+    out_path = OUTPUT_DIR / f"zeitgeist_week_{compact}.json"
     out_path.write_text(
         json.dumps(results, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -950,9 +944,13 @@ def save_zeitgeist(results: list[dict], target_date: str) -> Path:
     return out_path
 
 
-def find_processable_days(min_news: int = 5) -> list[str]:
-    """Find all days in week/ with enough news programs."""
-    days = []
+def find_processable_weeks() -> list[str]:
+    """Find all complete weeks (Mon-Sun) with enough news data.
+
+    Returns list of Monday dates for weeks where at least 3 days have news.
+    """
+    # Collect all available days with news
+    available = set()
     for f in sorted(WEEK_DIR.glob("*.json")):
         data = json.loads(f.read_text())
         news = [
@@ -960,9 +958,30 @@ def find_processable_days(min_news: int = 5) -> list[str]:
             if p.get("genre") == "Nachrichten"
             and p.get("word_count", 0) >= MIN_WORD_COUNT
         ]
-        if len(news) >= min_news:
-            days.append(f.stem)
-    return days
+        if news:
+            available.add(f.stem)
+
+    if not available:
+        return []
+
+    # Find all Mondays that have at least 3 days with data
+    all_dates = sorted(available)
+    first = date.fromisoformat(all_dates[0])
+    last = date.fromisoformat(all_dates[-1])
+
+    # Align to Monday
+    first_monday = first - timedelta(days=first.weekday())
+
+    weeks = []
+    current = first_monday
+    while current <= last:
+        week_dates = [(current + timedelta(days=i)).isoformat() for i in range(7)]
+        days_with_data = sum(1 for d in week_dates if d in available)
+        if days_with_data >= 3:
+            weeks.append(current.isoformat())
+        current += timedelta(weeks=1)
+
+    return weeks
 
 
 def main():
@@ -970,41 +989,47 @@ def main():
     batch = "--all" in sys.argv
 
     if batch:
-        dates = find_processable_days()
-        print(f"=== SRF Zeitgeist Pipeline — Batch ===")
-        print(f"Processing {len(dates)} days: {dates[0]} → {dates[-1]}\n")
+        weeks = find_processable_weeks()
+        if not weeks:
+            print("No processable weeks found.")
+            return
+        print(f"=== SRF Zeitgeist Pipeline — Weekly Batch ===")
+        print(f"Processing {len(weeks)} weeks: {weeks[0]} → {weeks[-1]}\n")
         generated = []
-        for d in dates:
+        for w in weeks:
+            week_end = (date.fromisoformat(w) + timedelta(days=6)).isoformat()
             print(f"\n{'='*60}")
-            results = build_zeitgeist(d)
+            print(f"Week: {w} → {week_end}")
+            results = build_zeitgeist(w)
             if results:
                 if not skip_images:
                     print("\nFetching frames...")
-                    fetch_frames(results, d.replace("-", ""))
-                out = save_zeitgeist(results, d)
-                generated.append(d.replace("-", ""))
+                    fetch_frames(results, w.replace("-", ""))
+                out = save_zeitgeist(results, w)
+                generated.append(w.replace("-", ""))
                 print(f"Saved → {out}")
 
         # Write manifest for frontend
-        sorted_days = sorted(generated)
-        (OUTPUT_DIR / "days.json").write_text(json.dumps(sorted_days))
-        print(f"\nManifest with {len(sorted_days)} days")
+        sorted_weeks = sorted(generated)
+        (OUTPUT_DIR / "weeks.json").write_text(json.dumps(sorted_weeks))
+        print(f"\nManifest with {len(sorted_weeks)} weeks")
     else:
         if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
-            target_date = sys.argv[1]
+            week_start = sys.argv[1]
         else:
-            files = sorted(WEEK_DIR.glob("*.json"))
-            target_date = files[-1].stem if files else "2026-04-01"
+            weeks = find_processable_weeks()
+            week_start = weeks[-1] if weeks else "2026-04-07"
 
+        week_end = (date.fromisoformat(week_start) + timedelta(days=6)).isoformat()
         print(f"=== SRF Zeitgeist Pipeline ===")
-        print(f"Target date: {target_date}\n")
+        print(f"Week: {week_start} → {week_end}\n")
 
-        results = build_zeitgeist(target_date)
+        results = build_zeitgeist(week_start)
         if results:
             if not skip_images:
                 print("\nFetching frames...")
-                fetch_frames(results, target_date.replace("-", ""))
-            out = save_zeitgeist(results, target_date)
+                fetch_frames(results, week_start.replace("-", ""))
+            out = save_zeitgeist(results, week_start)
             print(f"\nSaved {len(results)} stories to {out}")
 
 

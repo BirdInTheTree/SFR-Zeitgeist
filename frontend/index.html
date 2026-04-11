@@ -21,7 +21,7 @@
         </div>
 
         <!-- Zoom overlay: click on cell -->
-        <div id="zoom" class="zoom hidden">
+        <div id="zoom" class="zoom hidden" tabindex="-1" role="dialog" aria-label="Story details">
             <div class="zoom-inner">
                 <img id="zoom-img" src="" alt="">
                 <div class="zoom-caption">
@@ -34,29 +34,29 @@
         </div>
 
         <!-- Fullscreen overlay: click on zoomed image -->
-        <div id="fullscreen" class="fullscreen hidden">
+        <div id="fullscreen" class="fullscreen hidden" tabindex="-1" role="dialog" aria-label="Fullscreen image">
             <img id="fs-img" src="" alt="">
             <div class="fs-word" id="fs-word"></div>
         </div>
 
         <!-- About panel -->
-        <div id="about" class="about-panel hidden">
+        <div id="about" class="about-panel hidden" tabindex="-1" role="dialog" aria-label="About SRF Zeitgeist">
             <div class="about-inner">
-                <p><strong>SRF Zeitgeist</strong> shows what Switzerland discussed today — derived from SRF news subtitles, not clicks.</p>
-                <p>An LLM segments each broadcast into editorial stories, merges them across programs, and ranks by five signals: novelty (spike vs baseline), spread (how many desks covered it), persistence (how often it returned), prominence (total airtime), and primetime presence.</p>
-                <p>Each image is a video frame from the story's most important moment. Click any cell to see source quotes and links to Play SRF.</p>
-                <p class="about-close">Click anywhere to close</p>
+                <p><strong>SRF Zeitgeist</strong> zeigt, worüber die Schweiz diese Woche gesprochen hat — abgeleitet aus SRF-Nachrichtenuntertiteln, nicht aus Klicks.</p>
+                <p>Ein LLM segmentiert jede Sendung in redaktionelle Beiträge, gruppiert sie programmübergreifend und bewertet nach fünf Signalen: Neuheit, Verbreitung, Häufigkeit, Sendezeit und Primetime-Präsenz.</p>
+                <p>Jedes Bild ist ein Videoframe aus dem wichtigsten Moment der Geschichte. Klicken Sie auf eine Zelle, um Zitate und Links zu Play SRF zu sehen.</p>
+                <p class="about-close">Klicken Sie irgendwo, um zu schliessen</p>
             </div>
         </div>
 
         <footer>
             <div class="footer-title" id="footer-title"></div>
             <nav>
-                <a href="#" id="prev">‹ previous day</a>
+                <a href="#" id="prev">‹ vorherige Woche</a>
                 <span class="sep">·</span>
-                <a href="#" id="next">next day ›</a>
+                <a href="#" id="next">nächste Woche ›</a>
                 <span class="sep">·</span>
-                <a href="#about">about</a>
+                <a href="#about">über</a>
             </nav>
         </footer>
     </div>

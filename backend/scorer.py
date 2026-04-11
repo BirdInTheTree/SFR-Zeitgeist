@@ -22,12 +22,14 @@ PRIMETIME_HOUR = 18
 
 
 def novelty(today_segments: int, baseline_avg_segments: float) -> float:
-    """How much this story spiked today vs the 7-day average.
+    """How much this story spiked vs the baseline average.
 
     Returns ratio with Laplace smoothing (α=1) to avoid division by zero
     and to gently penalize stories with no baseline.
+    Floor at 0.5 so declining stories still appear (just ranked lower).
     """
-    return (today_segments + SMOOTHING_ALPHA) / (baseline_avg_segments + SMOOTHING_ALPHA)
+    raw = (today_segments + SMOOTHING_ALPHA) / (baseline_avg_segments + SMOOTHING_ALPHA)
+    return max(raw, 0.5)
 
 
 def spread(distinct_programs: int) -> float:

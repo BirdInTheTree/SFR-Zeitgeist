@@ -115,6 +115,12 @@ def is_blank(img, threshold=500) -> bool:
 def smart_crop(img, target_ratio=4/3, target_w=280, target_h=210):
     """Crop image to target ratio, centered on focal point.
 
+    Args:
+        img: PIL Image to crop.
+        target_ratio: width/height ratio for the crop (default 4:3).
+        target_w: output width in pixels (default 280, matches frontend grid cell).
+        target_h: output height in pixels (default 210, matches frontend grid cell).
+
     When no face is found, zooms in to ~70% of the frame to make
     details more prominent (inspired by Jonathan Harris's 10x10 aesthetic).
     """

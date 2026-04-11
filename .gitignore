@@ -15,32 +15,15 @@ venv/
 # Playwright
 .playwright-mcp/
 
-# Screenshots
+# Screenshots (temp)
 *.png
 
-# Demo data: caches and intermediate artifacts
+# Pipeline caches and intermediate results (regenerable)
 demo-data/cache/
-demo-data/frames/
-demo-data/cropped/
-demo-data/grids/
-demo-data/*.vtt
-demo-data/*.csv
-demo-data/llm_gate_log.txt
+demo-data/interim_results/
 
-# Large intermediate files
-demo-data/hour_20_programs.json
-demo-data/hour_20_clean.json
-demo-data/hour_20_keywords.json
-demo-data/apr1_hourly_keyness.json
-demo-data/llm_candidates_60.json
-demo-data/grid_*.json
-demo-data/subtitles_for_bertrend.csv
-
-# Raw data with full subtitle text (too large for git)
+# Raw EPG data (too large for git)
 demo-data/week/
-
-# Old experimental zeitgeist files
-demo-data/zeitgeist_apr1*.json
 
 # Old pipeline versions
 backend/archive/

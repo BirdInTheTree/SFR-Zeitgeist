@@ -3,29 +3,64 @@ let DAYS = [];
 let currentDayIdx = 0;
 let keywords = [];
 let zoomedIdx = -1;
+let _previousFocus = null;  // for restoring focus when overlay closes
+
+/* ---- Focus trap for overlays ---- */
+function trapFocus(overlay) {
+    const focusable = overlay.querySelectorAll('a[href], button, [tabindex]:not([tabindex="-1"])');
+    if (focusable.length === 0) return;
+    overlay.addEventListener('keydown', (e) => {
+        if (e.key !== 'Tab') return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+        }
+    });
+}
+
+function openOverlay(el) {
+    _previousFocus = document.activeElement;
+    el.classList.remove('hidden');
+    el.focus();
+}
+
+function closeOverlay(el) {
+    el.classList.add('hidden');
+    if (_previousFocus) { _previousFocus.focus(); _previousFocus = null; }
+}
 
 async function boot() {
-    // Load available days from manifest, fallback to hardcoded
+    // Load available weeks from manifest
     try {
-        const r = await fetch(`${DATA_DIR}/days.json`);
+        const r = await fetch(`${DATA_DIR}/weeks.json`);
         DAYS = await r.json();
     } catch {
-        DAYS = ['20260331', '20260401'];
+        DAYS = ['20260330'];
     }
     currentDayIdx = DAYS.length - 1;
-    await loadDay(currentDayIdx);
+    await loadWeek(currentDayIdx);
     wire();
 }
 
-async function loadDay(idx) {
-    const day = DAYS[idx];
+async function loadWeek(idx) {
+    const week = DAYS[idx];
+    const grid = document.getElementById('grid');
+
+    grid.innerHTML = '<div class="load-error">Loading...</div>';
+
     try {
-        const r = await fetch(`${DATA_DIR}/zeitgeist_${day}.json`);
+        const r = await fetch(`${DATA_DIR}/zeitgeist_week_${week}.json`);
         if (!r.ok) throw new Error(r.status);
         keywords = await r.json();
     } catch (e) {
         keywords = [];
-        console.error('Failed to load', day, e);
+        console.error('Failed to load week', week, e);
+        grid.innerHTML = `<div class="load-error">Could not load data for week ${week}</div>`;
     }
     buildGrid();
     buildWords();
@@ -34,15 +69,11 @@ async function loadDay(idx) {
     document.getElementById('next').style.opacity = idx < DAYS.length - 1 ? 1 : 0.3;
 }
 
-function formatDay(dayStr) {
-    return `${dayStr.slice(0,4)}-${dayStr.slice(4,6)}-${dayStr.slice(6,8)}`;
-}
-
 /* ---- Grid ---- */
 function buildGrid() {
     const g = document.getElementById('grid');
     g.innerHTML = '';
-    const GRID_SIZE = 25;
+    const GRID_SIZE = 49;
     const items = keywords.slice(0, GRID_SIZE);
     items.forEach((kw, i) => {
         const c = document.createElement('div');
@@ -92,7 +123,7 @@ function buildGrid() {
 function buildWords() {
     const col = document.getElementById('word-col');
     col.innerHTML = '';
-    const WORD_COUNT = 25;
+    const WORD_COUNT = 49;
     keywords.slice(0, WORD_COUNT).forEach((kw, i) => {
         const w = document.createElement('div');
         w.className = 'w';
@@ -173,7 +204,7 @@ function openZoom(i) {
         });
     }
 
-    z.classList.remove('hidden');
+    openOverlay(z);
     light(i);
 }
 
@@ -182,65 +213,73 @@ function openFullscreen() {
     const kw = keywords[zoomedIdx];
     document.getElementById('fs-img').src = kw.frameImage || kw.imageUrl || '';
     document.getElementById('fs-word').textContent = kw.phrase;
-    document.getElementById('fullscreen').classList.remove('hidden');
     document.getElementById('zoom').classList.add('hidden');
+    openOverlay(document.getElementById('fullscreen'));
 }
 
 /* ---- Wiring ---- */
 function wire() {
+    // Set up focus traps on all overlays
+    trapFocus(document.getElementById('zoom'));
+    trapFocus(document.getElementById('fullscreen'));
+    trapFocus(document.getElementById('about'));
     document.getElementById('zoom-img').addEventListener('click', (e) => {
         e.stopPropagation();
         openFullscreen();
     });
-    document.getElementById('zoom').addEventListener('click', () => {
-        document.getElementById('zoom').classList.add('hidden');
+    document.getElementById('zoom').addEventListener('click', (e) => {
+        // Close only when clicking the overlay background, not the content
+        if (e.target !== e.currentTarget) return;
+        closeOverlay(document.getElementById('zoom'));
         zoomedIdx = -1;
         dim();
     });
     document.getElementById('fullscreen').addEventListener('click', () => {
-        document.getElementById('fullscreen').classList.add('hidden');
+        closeOverlay(document.getElementById('fullscreen'));
         zoomedIdx = -1;
     });
 
     // About panel
     document.querySelector('a[href="#about"]').addEventListener('click', (e) => {
         e.preventDefault();
-        document.getElementById('about').classList.remove('hidden');
+        openOverlay(document.getElementById('about'));
     });
     document.getElementById('about').addEventListener('click', () => {
-        document.getElementById('about').classList.add('hidden');
+        closeOverlay(document.getElementById('about'));
     });
 
     document.getElementById('prev').addEventListener('click', (e) => {
         e.preventDefault();
-        if (currentDayIdx > 0) { currentDayIdx--; loadDay(currentDayIdx); }
+        if (currentDayIdx > 0) { currentDayIdx--; loadWeek(currentDayIdx); }
     });
     document.getElementById('next').addEventListener('click', (e) => {
         e.preventDefault();
-        if (currentDayIdx < DAYS.length - 1) { currentDayIdx++; loadDay(currentDayIdx); }
+        if (currentDayIdx < DAYS.length - 1) { currentDayIdx++; loadWeek(currentDayIdx); }
     });
 
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
-            document.getElementById('fullscreen').classList.add('hidden');
-            document.getElementById('zoom').classList.add('hidden');
+            closeOverlay(document.getElementById('fullscreen'));
+            closeOverlay(document.getElementById('zoom'));
             zoomedIdx = -1;
             dim();
         }
-        if (e.key === 'ArrowLeft') { e.preventDefault(); if (currentDayIdx > 0) { currentDayIdx--; loadDay(currentDayIdx); } }
-        if (e.key === 'ArrowRight') { e.preventDefault(); if (currentDayIdx < DAYS.length - 1) { currentDayIdx++; loadDay(currentDayIdx); } }
+        // Block navigation while any overlay is open
+        if (zoomedIdx >= 0) return;
+        if (e.key === 'ArrowLeft') { e.preventDefault(); if (currentDayIdx > 0) { currentDayIdx--; loadWeek(currentDayIdx); } }
+        if (e.key === 'ArrowRight') { e.preventDefault(); if (currentDayIdx < DAYS.length - 1) { currentDayIdx++; loadWeek(currentDayIdx); } }
     });
 }
 
 function updateFooter() {
-    const day = DAYS[currentDayIdx];
-    const y = day.slice(0,4), m = day.slice(4,6), dd = day.slice(6,8);
-    const d = new Date(+y, +m - 1, +dd);
+    const week = DAYS[currentDayIdx];
+    const y = week.slice(0,4), m = week.slice(4,6), dd = week.slice(6,8);
+    const mon = new Date(+y, +m - 1, +dd);
+    const sun = new Date(mon); sun.setDate(sun.getDate() + 6);
 
-    const weekday = d.toLocaleDateString('en-US', { weekday: 'long' });
-    const month = d.toLocaleDateString('en-US', { month: 'short' });
+    const fmt = (d) => d.toLocaleDateString('de-CH', { day: 'numeric', month: 'long' });
     const ft = document.getElementById('footer-title');
-    if (ft) ft.textContent = `${weekday}, ${month} ${+dd}, ${y}`;
+    if (ft) ft.textContent = `${fmt(mon)} – ${fmt(sun)} ${sun.getFullYear()}`;
 }
 
 boot();

@@ -1,0 +1,1919 @@
+[
+  {
+    "story_id": "wetter",
+    "keyword": "Wetter",
+    "phrase": "Wetter",
+    "score": 9704.65,
+    "novelty": 47.0,
+    "spread": 2.58,
+    "persistence": 6.55,
+    "prominence": 8.12,
+    "primetime": 1.5,
+    "n_segments": 46,
+    "n_repeats": 33,
+    "distinct_programs": 2,
+    "total_seconds": 8311.6,
+    "editorial_units": [
+      "Meteo",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Meteo",
+      "Meteo in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Meteo",
+        "channel": "SRF 1",
+        "quote": "Das nasse Winterwetter mit Tiefdruckeinfluss hält an, aber ab Donnerstag wird es endlich wieder trocken mit steigenden Temperaturen bis 20 °C am Wochenende.",
+        "urn": "urn:srf:video:5f66c2de-b8de-4d4a-9a85-15729fe82a26",
+        "startTime": "2026-03-30T12:50:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Mit Bise morgen wechselhaft und nur lokal nass, im Süden mit Nordföhn recht sonnig.",
+        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
+        "startTime": "2026-03-31T19:30:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+    "first_mention_time": "00:00:34.658",
+    "first_mention_program": "Meteo",
+    "imageUrl": "../demo-data/images/20260330_01_Wetter.jpg",
+    "rank": 1
+  },
+  {
+    "story_id": "irankrieg",
+    "keyword": "Irankrieg",
+    "phrase": "Irankrieg",
+    "score": 7912.04,
+    "novelty": 43.0,
+    "spread": 2.58,
+    "persistence": 6.43,
+    "prominence": 7.38,
+    "primetime": 1.5,
+    "n_segments": 42,
+    "n_repeats": 30,
+    "distinct_programs": 2,
+    "total_seconds": 4952.5,
+    "editorial_units": [
+      "SRF Börse",
+      "Tagesschau"
+    ],
+    "programs": [
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Der Iran hat den Tod eines hochrangigen Marinekommandanten der Revolutionsgarde bestätigt, der in einer gezielten israelischen Operation getötet wurde, während beide Länder ihre gegenseitigen Angriffe fortsetzen.",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
+      },
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "Die Anleger warten sehnsüchtig darauf, dass Donald Trump den Krieg gegen Iran für beendet erklärt, und seit gestern macht sich wieder Optimismus breit.",
+        "urn": "urn:srf:video:3b640c47-925d-4d60-9075-2d496d55fd1c",
+        "startTime": "2026-04-01T19:25:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+    "first_mention_time": "00:01:25.382",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_02_Irankrieg.jpg",
+    "rank": 2
+  },
+  {
+    "story_id": "v_preise",
+    "keyword": "ÖV-Preise",
+    "phrase": "ÖV-Preise",
+    "score": 3676.86,
+    "novelty": 24.0,
+    "spread": 2.58,
+    "persistence": 5.58,
+    "prominence": 7.07,
+    "primetime": 1.5,
+    "n_segments": 23,
+    "n_repeats": 21,
+    "distinct_programs": 2,
+    "total_seconds": 3983.7,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Ab Dezember 2026 steigen die Preise für öffentliche Verkehrsmittel um durchschnittlich 3,9 Prozent, während Angebote für Kinder und Jugendliche weniger oder gar nicht teurer werden.",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Ab Dezember kostet der öffentliche Verkehr in der Schweiz um 3,9 Prozent mehr, besonders das Generalabonnement wird teurer.",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+    "first_mention_time": "00:02:32.040",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_03_ÖV-Preise.jpg",
+    "rank": 3
+  },
+  {
+    "story_id": "italien_wm_qualifikation",
+    "keyword": "Italien WM-Qualifikation",
+    "phrase": "Italien WM-Qualifikation",
+    "score": 3435.88,
+    "novelty": 23.0,
+    "spread": 2.58,
+    "persistence": 5.52,
+    "prominence": 6.98,
+    "primetime": 1.5,
+    "n_segments": 22,
+    "n_repeats": 19,
+    "distinct_programs": 2,
+    "total_seconds": 3714.1,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Zum dritten Mal in Folge verpasst Italien die Qualifikation für die Fussball-WM, nachdem Bosnien-Herzegowina das entscheidende Spiel nach Penaltyschiessen gewann.",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+        "startTime": "2026-04-01T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Italien verpasst zum dritten Mal in Folge die Weltmeisterschaft, nachdem Bosnien-Herzegowina im Penaltyschiessen gewinnt und sich damit sein erstes WM-Ticket seit zwölf Jahren sichert.",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+    "first_mention_time": "00:00:32.075",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_04_Italien_WM-Qualifikation.jpg",
+    "rank": 4
+  },
+  {
+    "story_id": "solarenergie",
+    "keyword": "Solarenergie",
+    "phrase": "Solarenergie",
+    "score": 3220.76,
+    "novelty": 20.0,
+    "spread": 2.58,
+    "persistence": 5.32,
+    "prominence": 7.8,
+    "primetime": 1.5,
+    "n_segments": 19,
+    "n_repeats": 17,
+    "distinct_programs": 2,
+    "total_seconds": 6644.1,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Lokale Elektrizitätsgemeinschaften ermöglichen es, selbst erzeugten Solarstrom mit Nachbarn zu teilen und fördern damit den Ausbau erneuerbarer Energien.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      },
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Nach dem ersten Winter erfüllen drei alpine Solaranlagen in Graubünden die Erwartungen mehr als erwartet, mit Sedrun Solar bereits Strom für 1.300 Haushalte produzierend.",
+        "urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+        "startTime": "2026-03-31T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
+    "first_mention_time": "00:02:35.737",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_05_Solarenergie.jpg",
+    "rank": 5
+  },
+  {
+    "story_id": "cyberangriffe",
+    "keyword": "Cyberangriffe",
+    "phrase": "Cyberangriffe",
+    "score": 2868.8,
+    "novelty": 21.0,
+    "spread": 2.58,
+    "persistence": 5.39,
+    "prominence": 6.53,
+    "primetime": 1.5,
+    "n_segments": 20,
+    "n_repeats": 17,
+    "distinct_programs": 2,
+    "total_seconds": 2719.5,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "325 Cyberangriffe auf kritische Infrastrukturen sind dem Bund im vergangenen Jahr gemeldet worden, seit Behörden diese von Gesetzes wegen innerhalb von 24 Stunden melden müssen.",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Laut dem Bundesamt für Cybersicherheit gab es im letzten Jahr in der Schweiz fast 65'000 Cyberangriffe, die jede und jeden treffen können.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+    "first_mention_time": "00:00:27.598",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_06_Cyberangriffe.jpg",
+    "rank": 6
+  },
+  {
+    "story_id": "spacex_b_rsengang",
+    "keyword": "SpaceX Börsengang",
+    "phrase": "SpaceX Börsengang",
+    "score": 2793.78,
+    "novelty": 18.0,
+    "spread": 2.58,
+    "persistence": 5.17,
+    "prominence": 7.74,
+    "primetime": 1.5,
+    "n_segments": 17,
+    "n_repeats": 15,
+    "distinct_programs": 2,
+    "total_seconds": 6365.3,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Börse"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "Elon Musks Weltraumfirma SpaceX will im Juni an die Börse gehen, was der grösste Börsengang der Geschichte wäre und Schweizer Rüstungszulieferer wie Huber+Suhner und Cicor profitieren würden.",
+        "urn": "urn:srf:video:6779fa8e-d7a5-4309-b9c6-b6c41fdd8a0a",
+        "startTime": "2026-04-02T19:25:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Elon Musk hat für sein Raumfahrtunternehmen SpaceX einen Börsengang beantragt, der 40 bis 80 Milliarden US-Dollar einfliessen könnte und das grösste Börsen-Debüt aller Zeiten wäre.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:6779fa8e-d7a5-4309-b9c6-b6c41fdd8a0a",
+    "first_mention_time": "00:01:06.280",
+    "first_mention_program": "SRF Börse",
+    "imageUrl": "../demo-data/images/20260330_07_SpaceX_Börsengang.jpg",
+    "rank": 7
+  },
+  {
+    "story_id": "blue_line",
+    "keyword": "Blue Line",
+    "phrase": "Blue Line",
+    "score": 2717.38,
+    "novelty": 19.0,
+    "spread": 2.58,
+    "persistence": 5.25,
+    "prominence": 7.03,
+    "primetime": 1.5,
+    "n_segments": 18,
+    "n_repeats": 16,
+    "distinct_programs": 2,
+    "total_seconds": 3856.7,
+    "editorial_units": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Die Gemeinde Domat/Ems hat mit der Blue Line eine Ausweichroute nur für Gemeindebevölkerung geschaffen, um den Osterstau zu bewältigen.",
+        "urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
+        "startTime": "2026-04-02T17:40:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "In Domat/Ems wird erstmals bei Bedarf eine sogenannte Blue Line eingerichtet, eine separate Spur nur für registrierte Einheimische, um sie während des Osterstaus von Durchfahrtsverkehr zu entlasten.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
+    "first_mention_time": "00:02:30.000",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_08_Blue_Line.jpg",
+    "rank": 8
+  },
+  {
+    "story_id": "sanadura",
+    "keyword": "Sanadura",
+    "phrase": "Sanadura",
+    "score": 2653.6,
+    "novelty": 22.0,
+    "spread": 2.0,
+    "persistence": 5.46,
+    "prominence": 7.36,
+    "primetime": 1.5,
+    "n_segments": 21,
+    "n_repeats": 18,
+    "distinct_programs": 1,
+    "total_seconds": 4883.8,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Die Gemeinde Zuoz empfiehlt der Bevölkerung, die Entscheidung zur neuen Gesundheitsversorgung Sanadura zu verschieben, während zehn andere Gemeinden bereits zugestimmt haben.",
+        "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+        "startTime": "2026-03-30T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+    "first_mention_time": "00:01:20.261",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_09_Sanadura.jpg",
+    "rank": 9
+  },
+  {
+    "story_id": "artemis",
+    "keyword": "Artemis",
+    "phrase": "Artemis",
+    "score": 2490.43,
+    "novelty": 18.0,
+    "spread": 2.58,
+    "persistence": 5.17,
+    "prominence": 6.9,
+    "primetime": 1.5,
+    "n_segments": 17,
+    "n_repeats": 14,
+    "distinct_programs": 2,
+    "total_seconds": 3527.7,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Vier Astronauten sind zum ersten Mal seit über 50 Jahren und mit erstmals echter Toilette an Bord zum Mond aufgebrochen.",
+        "urn": "urn:srf:video:6e9e34b6-88c7-45bd-a7d7-a6abd8c17e3a",
+        "startTime": "2026-04-02T19:30:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Zum ersten Mal seit über 50 Jahren sind vier Besatzungsmitglieder an Bord der Artemis-2-Mission der NASA unterwegs zum Mond, die in der Nacht erfolgreich gestartet ist.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:6e9e34b6-88c7-45bd-a7d7-a6abd8c17e3a",
+    "first_mention_time": "00:18:13.485",
+    "first_mention_program": "Tagesschau",
+    "imageUrl": "../demo-data/images/20260330_10_Artemis.jpg",
+    "rank": 10
+  },
+  {
+    "story_id": "todesstrafe",
+    "keyword": "Todesstrafe",
+    "phrase": "Todesstrafe",
+    "score": 2441.64,
+    "novelty": 22.0,
+    "spread": 2.58,
+    "persistence": 5.46,
+    "prominence": 5.24,
+    "primetime": 1.5,
+    "n_segments": 21,
+    "n_repeats": 18,
+    "distinct_programs": 2,
+    "total_seconds": 1076.0,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Das israelische Parlament hat sich mit 62 zu 48 Stimmen für die Wiedereinführung der Todesstrafe ausgesprochen, die de facto nur Palästinenser betrifft.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      },
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Das israelische Parlament hat einen Gesetzesentwurf gutgeheissen, der die Todesstrafe für Terroristen vorsieht, was als rassistisch kritisiert wird, da es de facto nur Palästinenser betrifft.",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+    "first_mention_time": "00:00:32.873",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_11_Todesstrafe.jpg",
+    "rank": 11
+  },
+  {
+    "story_id": "lpreis",
+    "keyword": "Ölpreis",
+    "phrase": "Ölpreis",
+    "score": 2363.16,
+    "novelty": 18.0,
+    "spread": 2.58,
+    "persistence": 5.17,
+    "prominence": 6.55,
+    "primetime": 1.5,
+    "n_segments": 17,
+    "n_repeats": 15,
+    "distinct_programs": 2,
+    "total_seconds": 2749.6,
+    "editorial_units": [
+      "10 vor 10",
+      "SRF Börse"
+    ],
+    "programs": [
+      "10 vor 10",
+      "SRF Börse",
+      "SRF Börse in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Börse",
+        "channel": "SRF 1",
+        "quote": "Der Ölpreis reagiert stark auf Entwicklungen im Iran-Krieg, wobei Brent-Öl wegen der Blockade der Strasse von Hormus deutlich stärker gestiegen ist als WTI.",
+        "urn": "urn:srf:video:a03b6742-0806-4686-bd5d-f30f77aba7d3",
+        "startTime": "2026-03-30T19:25:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Der Ölpreis steht zum ersten Mal seit vier Jahren über der 100-Dollar-Marke pro Barrel, die europäische Sorte ist seit Anfang Monat um rund 55 Prozent gestiegen.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:a03b6742-0806-4686-bd5d-f30f77aba7d3",
+    "first_mention_time": "00:01:27.560",
+    "first_mention_program": "SRF Börse",
+    "imageUrl": "../demo-data/images/20260330_12_Ölpreis.jpg",
+    "rank": 12
+  },
+  {
+    "story_id": "roveredo_mafia",
+    "keyword": "Roveredo Mafia",
+    "phrase": "Roveredo Mafia",
+    "score": 2166.94,
+    "novelty": 16.0,
+    "spread": 2.58,
+    "persistence": 5.0,
+    "prominence": 6.99,
+    "primetime": 1.5,
+    "n_segments": 15,
+    "n_repeats": 13,
+    "distinct_programs": 2,
+    "total_seconds": 3742.2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Eine internationale Anti-Mafia-Operation führte zur Verhaftung von vier vermutlichen Mafiosi, die in Roveredo lebten und über 1,2 Millionen Franken für den Drogenhandel wuschen.",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Vier in Italien bekannte Mafiosi haben in Roveredo im Misox gewohnt und trotz Vorstrafen eine Aufenthaltsbewilligung vom Kanton Graubünden erhalten, während der Kanton Tessin ihr Gesuch abgelehnt hatte.",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+    "first_mention_time": "00:01:20.875",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_13_Roveredo_Mafia.jpg",
+    "rank": 13
+  },
+  {
+    "story_id": "kirschbl_ten",
+    "keyword": "Kirschblüten",
+    "phrase": "Kirschblüten",
+    "score": 1441.71,
+    "novelty": 17.0,
+    "spread": 2.58,
+    "persistence": 5.09,
+    "prominence": 4.3,
+    "primetime": 1.5,
+    "n_segments": 16,
+    "n_repeats": 14,
+    "distinct_programs": 2,
+    "total_seconds": 530.6,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "In Kyoto sind die berühmten Sakura-Kirschblüten derzeit in voller Blüte und locken viele Touristen bis Ende Mai ins Land.",
+        "urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
+        "startTime": "2026-03-30T18:00:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "In Japan erstrahlt das Land derzeit wieder in Rosa- und Weisstönen, während der 2'000 Jahre alte Kirschblütenbaum Yamataka Jindai Sakura als einer der drei herausragendsten des Landes geehrt wird.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
+    "first_mention_time": "00:03:39.302",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_14_Kirschblüten.jpg",
+    "rank": 14
+  },
+  {
+    "story_id": "st_moritz_wahl",
+    "keyword": "St. Moritz Wahl",
+    "phrase": "St. Moritz Wahl",
+    "score": 1307.35,
+    "novelty": 16.0,
+    "spread": 2.58,
+    "persistence": 5.0,
+    "prominence": 4.21,
+    "primetime": 1.5,
+    "n_segments": 15,
+    "n_repeats": 13,
+    "distinct_programs": 2,
+    "total_seconds": 497.0,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Telesguard"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Der Gemeindepräsident von St. Moritz, Christian J. Jenny, kandidiert nicht mehr für eine dritte Amtsperiode; die Wahlen finden am 14. Juni statt.",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Der bekannte Gemeindepräsident von St. Moritz, Christian Jott Jenny, gibt bekannt, dass er bei den Wahlen am 14. Juni nicht mehr antritt.",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+    "first_mention_time": "00:05:50.000",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_15_St__Moritz_Wahl.jpg",
+    "rank": 15
+  },
+  {
+    "story_id": "griechenland_unwetter",
+    "keyword": "Griechenland Unwetter",
+    "phrase": "Griechenland Unwetter",
+    "score": 1297.86,
+    "novelty": 17.0,
+    "spread": 2.58,
+    "persistence": 5.09,
+    "prominence": 3.87,
+    "primetime": 1.5,
+    "n_segments": 16,
+    "n_repeats": 14,
+    "distinct_programs": 2,
+    "total_seconds": 378.7,
+    "editorial_units": [
+      "10 vor 10",
+      "Tagesschau"
+    ],
+    "programs": [
+      "10 vor 10",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Heftige Stürme und Starkregen führten in Griechenland zu Überschwemmungen, während Saharastaub Kreta in eine Mars-Landschaft verwandelte.",
+        "urn": "urn:srf:video:5e995a17-164a-47d4-8e43-8b53a950883f",
+        "startTime": "2026-04-02T18:00:00+02:00"
+      },
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Ein Mittelmeerzyklon bescherte der griechischen Insel Kreta heftige Winde und einen grossflächigen Staubsturm, der die Landschaft spektakulär tiefrot färbte.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:5e995a17-164a-47d4-8e43-8b53a950883f",
+    "first_mention_time": "00:03:26.007",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_16_Griechenland_Unwetter.jpg",
+    "rank": 16
+  },
+  {
+    "story_id": "benzinpreise",
+    "keyword": "Benzinpreise",
+    "phrase": "Benzinpreise",
+    "score": 1267.01,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.91,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 3551.7,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Seit Kriegsausbruch in Nahost sind die Spritpreise steil nach oben geklettert, doch es gibt je nach Tankstellenbetreiber grosse Unterschiede von bis zu 30 Rappen pro Liter.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+    "first_mention_time": "00:02:06.952",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_17_Benzinpreise.jpg",
+    "rank": 17
+  },
+  {
+    "story_id": "mondwettlauf_china",
+    "keyword": "Mondwettlauf China",
+    "phrase": "Mondwettlauf China",
+    "score": 1250.73,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.82,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 3336.0,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Die USA beschleunigen ihr Artemis-Mondprogramm, während China systematisch seine Weltraumfähigkeiten ausbaut und eine Mondlandung bis 2030 anstrebt.",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+    "first_mention_time": "00:12:44.478",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_18_Mondwettlauf_China.jpg",
+    "rank": 18
+  },
+  {
+    "story_id": "ukraine_trauma",
+    "keyword": "Ukraine Trauma",
+    "phrase": "Ukraine Trauma",
+    "score": 1240.23,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.77,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 3203.9,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Traumatisierte ukrainische Soldaten erhalten in psychiatrischen Kliniken Behandlung für Depression und posttraumatische Belastungsstörungen, doch viele kehren zur Front zurück, bevor ihre Heilung abgeschlossen ist.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+    "first_mention_time": "00:10:00.000",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_19_Ukraine_Trauma.jpg",
+    "rank": 19
+  },
+  {
+    "story_id": "digitale_gewalt",
+    "keyword": "Digitale Gewalt",
+    "phrase": "Digitale Gewalt",
+    "score": 1236.65,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.75,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 3160.0,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Bundesrätin Karin Keller-Sutter reicht Strafanzeige gegen Unbekannt ein, nachdem sie in einem KI-generierten Post auf der Plattform X massiv beleidigt und beschimpft wurde.",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+    "first_mention_time": "00:01:24.218",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_20_Digitale_Gewalt.jpg",
+    "rank": 20
+  },
+  {
+    "story_id": "paintball",
+    "keyword": "Paintball",
+    "phrase": "Paintball",
+    "score": 1226.87,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.69,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 3043.1,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Der Paintball-Verband Swiss kämpft gegen seinen schlechten Ruf und möchte die Sportart als taktischen Mannschaftssport statt als Kriegsspiel etablieren.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+    "first_mention_time": "00:22:10.958",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_21_Paintball.jpg",
+    "rank": 21
+  },
+  {
+    "story_id": "apple_50_jahre",
+    "keyword": "Apple 50 Jahre",
+    "phrase": "Apple 50 Jahre",
+    "score": 1216.82,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.64,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 2927.4,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Apple feiert sein 50-jähriges Jubiläum als eines der wertvollsten Technologieunternehmen, blickt auf bahnbrechende Innovationen zurück und steht vor der Herausforderung, mit künstlicher Intelligenz Schritt zu halten.",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+    "first_mention_time": "00:18:00.000",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_22_Apple_50_Jahre.jpg",
+    "rank": 22
+  },
+  {
+    "story_id": "energiekrise",
+    "keyword": "Energiekrise",
+    "phrase": "Energiekrise",
+    "score": 1214.15,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.62,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 2897.4,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Die G7-Minister treffen sich virtuell zur Bekämpfung der globalen Energiekrise, die grösser ist als die Ölpreisschocks der 1970er Jahre.",
+        "urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+        "startTime": "2026-03-30T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
+    "first_mention_time": "00:08:00.000",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_23_Energiekrise.jpg",
+    "rank": 23
+  },
+  {
+    "story_id": "siri_hustvedt",
+    "keyword": "Siri Hustvedt",
+    "phrase": "Siri Hustvedt",
+    "score": 1212.83,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.62,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 2882.7,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Ein Dokumentarfilm begleitet die Autorin Siri Hustvedt vier Jahre lang und zeigt ihre Trauer nach dem Tod ihres Mannes Paul Auster, den sie in ihrem neuen Buch «Ghost Stories» literarisch am Leben erhält.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+    "first_mention_time": "00:20:45.340",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_24_Siri_Hustvedt.jpg",
+    "rank": 24
+  },
+  {
+    "story_id": "pfas_milch",
+    "keyword": "PFAS Milch",
+    "phrase": "PFAS Milch",
+    "score": 1198.81,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.54,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 2730.7,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Schweizer Milch- und Käseproduzenten fordern staatliche Hilfe, nachdem erhöhte Werte der Ewigkeitschemikalien PFAS in der Milch gemessen wurden, doch klare Grenzwerte fehlen.",
+        "urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+        "startTime": "2026-04-01T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
+    "first_mention_time": "00:06:30.000",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_25_PFAS_Milch.jpg",
+    "rank": 25
+  },
+  {
+    "story_id": "bern_wahlen",
+    "keyword": "Bern Wahlen",
+    "phrase": "Bern Wahlen",
+    "score": 1194.24,
+    "novelty": 11.0,
+    "spread": 2.58,
+    "persistence": 4.46,
+    "prominence": 6.28,
+    "primetime": 1.5,
+    "n_segments": 10,
+    "n_repeats": 8,
+    "distinct_programs": 2,
+    "total_seconds": 2269.2,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Im Kanton Bern gewinnt die SVP sieben Sitze im Parlament hinzu, die Parteien in der Mitte verlieren deutlich.",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Die SVP ist die grosse Gewinnerin der kantonalen Parlamentswahlen in Bern und gewinnt sieben Sitze dazu, was einen Rechtsruck fortsetzt, der sich seit 2023 in mehreren Kantonen abzeichnet.",
+        "urn": "urn:srf:video:556088e3-ed86-4b56-8212-744a74f19fdc",
+        "startTime": "2026-03-30T19:30:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+    "first_mention_time": "00:01:26.658",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_26_Bern_Wahlen.jpg",
+    "rank": 26
+  },
+  {
+    "story_id": "osterstau",
+    "keyword": "Osterstau",
+    "phrase": "Osterstau",
+    "score": 1136.88,
+    "novelty": 11.0,
+    "spread": 2.58,
+    "persistence": 4.46,
+    "prominence": 5.98,
+    "primetime": 1.5,
+    "n_segments": 10,
+    "n_repeats": 8,
+    "distinct_programs": 2,
+    "total_seconds": 1829.9,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Die Raststätte vor dem Gotthard bereitet sich mit 700 Sandwiches und 56 km WC-Papier pro Tag auf den Osterstau vor, der heute Nachmittag bis zu 15 km Stau mit 2,5 Stunden Zeitverlust verursachte.",
+        "urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+        "startTime": "2026-04-02T19:00:00+02:00"
+      },
+      {
+        "title": "Tagesschau",
+        "channel": "SRF 1",
+        "quote": "Der Gotthard-Nordportal ist am Gründonnerstag völlig verstopft, mit Wartezeiten von über 3 Stunden und einer Fahrzeugschlange von rund 20 Kilometern.",
+        "urn": "urn:srf:video:37b89ee5-cf85-4fa2-8e92-b1ceb20da56d",
+        "startTime": "2026-04-03T19:30:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+    "first_mention_time": "00:01:33.898",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_27_Osterstau.jpg",
+    "rank": 27
+  },
+  {
+    "story_id": "scuol_solar",
+    "keyword": "Scuol Solar",
+    "phrase": "Scuol Solar",
+    "score": 1129.69,
+    "novelty": 14.0,
+    "spread": 2.0,
+    "persistence": 4.81,
+    "prominence": 5.6,
+    "primetime": 1.5,
+    "n_segments": 13,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 1390.1,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Die Solaranlage Scuol Solar in Motta Naluns wird wegen Naturschutzmassnahmen um zwei Drittel verkleinert und soll 2028 ans Netz angeschlossen werden.",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
+    "first_mention_time": "00:06:15.000",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_28_Scuol_Solar.jpg",
+    "rank": 28
+  },
+  {
+    "story_id": "rzte_b_rokratie",
+    "keyword": "Ärzte Bürokratie",
+    "phrase": "Ärzte Bürokratie",
+    "score": 1106.49,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 6.04,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 1908.5,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "Schweizer Ärzte wehren sich mit einer Kampagne gegen zunehmende Bürokratie durch unnötige Formulare und Rückfragen von Krankenkassen.",
+        "urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+        "startTime": "2026-03-31T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
+    "first_mention_time": "00:05:51.099",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_29_Ärzte_Bürokratie.jpg",
+    "rank": 29
+  },
+  {
+    "story_id": "pam_bondi",
+    "keyword": "Pam Bondi",
+    "phrase": "Pam Bondi",
+    "score": 977.33,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 5.33,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 1147.9,
+    "editorial_units": [
+      "10 vor 10"
+    ],
+    "programs": [
+      "10 vor 10"
+    ],
+    "quotes": [
+      {
+        "title": "10 vor 10",
+        "channel": "SRF 1",
+        "quote": "US-Präsident Trump setzt seine Justizministerin Pam Bondi ab, da sie laut Medienberichten seinen Erwartungen nicht gerecht wurde, insbesondere beim Umgang mit den Epstein-Akten.",
+        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+        "startTime": "2026-04-02T21:50:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
+    "first_mention_time": "00:13:27.068",
+    "first_mention_program": "10 vor 10",
+    "imageUrl": "../demo-data/images/20260330_30_Pam_Bondi.jpg",
+    "rank": 30
+  },
+  {
+    "story_id": "celine_dion",
+    "keyword": "Celine Dion",
+    "phrase": "Celine Dion",
+    "score": 956.62,
+    "novelty": 14.0,
+    "spread": 2.0,
+    "persistence": 4.81,
+    "prominence": 4.74,
+    "primetime": 1.5,
+    "n_segments": 13,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 740.5,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Die kanadische Sängerin Celine Dion gab ihr Comeback nach sechsjähriger krankheitsbedingter Pause bekannt und wird im Herbst zehn Konzerte in Paris geben.",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+    "first_mention_time": "00:03:05.945",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_31_Celine_Dion.jpg",
+    "rank": 31
+  },
+  {
+    "story_id": "muriel_furrer",
+    "keyword": "Muriel Furrer",
+    "phrase": "Muriel Furrer",
+    "score": 938.4,
+    "novelty": 13.0,
+    "spread": 2.58,
+    "persistence": 4.7,
+    "prominence": 3.96,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 10,
+    "distinct_programs": 2,
+    "total_seconds": 407.1,
+    "editorial_units": [
+      "Schweiz aktuell",
+      "Tagesschau"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Die Zürcher Staatsanwaltschaft hat die Untersuchung zum tödlichen Unfall der Radrennfahrerin Muriel Furrer an der WM 2023 abgeschlossen und kein strafrechtlich relevantes Vergehen festgestellt.",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
+      },
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Die Zürcher Staatsanwaltschaft stellt nach Untersuchung fest, dass beim tödlichen Unfall der Velorennfahrerin Muriel Furrer weder Dritteinwirkung noch Pflichtverletzung vorlag.",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+    "first_mention_time": "00:04:12.802",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_32_Muriel_Furrer.jpg",
+    "rank": 32
+  },
+  {
+    "story_id": "kakaopreise",
+    "keyword": "Kakaopreise",
+    "phrase": "Kakaopreise",
+    "score": 875.26,
+    "novelty": 10.0,
+    "spread": 2.0,
+    "persistence": 4.32,
+    "prominence": 6.75,
+    "primetime": 1.5,
+    "n_segments": 9,
+    "n_repeats": 8,
+    "distinct_programs": 1,
+    "total_seconds": 3170.3,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Die Preise für Kakao sind von 2000 Franken pro Tonne im Jahr 2022 auf fast 12000 Franken gestiegen, was Schokohasen an Ostern deutlich teurer macht.",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+    "first_mention_time": "00:17:00.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_33_Kakaopreise.jpg",
+    "rank": 33
+  },
+  {
+    "story_id": "ahmad_al_scharaa",
+    "keyword": "Ahmad al-Scharaa",
+    "phrase": "Ahmad al-Scharaa",
+    "score": 870.35,
+    "novelty": 13.0,
+    "spread": 2.0,
+    "persistence": 4.7,
+    "prominence": 4.75,
+    "primetime": 1.5,
+    "n_segments": 12,
+    "n_repeats": 11,
+    "distinct_programs": 1,
+    "total_seconds": 746.0,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Der syrische Übergangspräsident Ahmad al-Scharaa besucht Berlin und trifft sich mit Bundespräsident Steinmeier und Kanzler Merz zur Diskussion über Flüchtlingsrückführung und Wiederaufbau.",
+        "urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+        "startTime": "2026-03-30T12:45:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
+    "first_mention_time": "00:02:48.922",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_34_Ahmad_al-Scharaa.jpg",
+    "rank": 34
+  },
+  {
+    "story_id": "zalando_arbeitsbedingungen",
+    "keyword": "Zalando Arbeitsbedingungen",
+    "phrase": "Zalando Arbeitsbedingungen",
+    "score": 866.93,
+    "novelty": 10.0,
+    "spread": 2.0,
+    "persistence": 4.32,
+    "prominence": 6.69,
+    "primetime": 1.5,
+    "n_segments": 9,
+    "n_repeats": 8,
+    "distinct_programs": 1,
+    "total_seconds": 3029.5,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Gewerkschaften kritisieren beim neuen Logistiker GXO von Zalando im Tessin Temporärverträge mit teilweise nur acht garantierten Stunden pro Monat und extremen Arbeitsrhythmen.",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+    "first_mention_time": "00:08:00.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_35_Zalando_Arbeitsbedingungen.jpg",
+    "rank": 35
+  },
+  {
+    "story_id": "artemis_mondmission",
+    "keyword": "Artemis Mondmission",
+    "phrase": "Artemis Mondmission",
+    "score": 850.3,
+    "novelty": 11.0,
+    "spread": 2.0,
+    "persistence": 4.46,
+    "prominence": 5.78,
+    "primetime": 1.5,
+    "n_segments": 10,
+    "n_repeats": 9,
+    "distinct_programs": 1,
+    "total_seconds": 1586.1,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Die NASA startet in der Nacht auf morgen die Artemis-2-Mission, um Menschen nach mehr als einem halben Jahrhundert erstmals wieder zum Mond zu bringen.",
+        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+        "startTime": "2026-04-01T12:45:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
+    "first_mention_time": "00:03:45.442",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "../demo-data/images/20260330_36_Artemis_Mondmission.jpg",
+    "rank": 36
+  },
+  {
+    "story_id": "quereinsteiger",
+    "keyword": "Quereinsteiger",
+    "phrase": "Quereinsteiger",
+    "score": 823.52,
+    "novelty": 10.0,
+    "spread": 2.0,
+    "persistence": 4.32,
+    "prominence": 6.35,
+    "primetime": 1.5,
+    "n_segments": 9,
+    "n_repeats": 8,
+    "distinct_programs": 1,
+    "total_seconds": 2389.7,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Ab dem Schuljahr 2027 dürfen keine Personen ohne Lehrdiplom mehr an Zürcher Schulen unterrichten, da der Lehrermangel zurückgeht.",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+    "first_mention_time": "00:02:30.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_37_Quereinsteiger.jpg",
+    "rank": 37
+  },
+  {
+    "story_id": "sutter_kolonialismus",
+    "keyword": "Sutter Kolonialismus",
+    "phrase": "Sutter Kolonialismus",
+    "score": 792.69,
+    "novelty": 10.0,
+    "spread": 2.0,
+    "persistence": 4.32,
+    "prominence": 6.11,
+    "primetime": 1.5,
+    "n_segments": 9,
+    "n_repeats": 8,
+    "distinct_programs": 1,
+    "total_seconds": 2017.4,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Ein Baselbieter Bericht zeigt, dass Johann August Sutter indigene Menschen als Zwangsarbeiter missbrauchte und mitverantwortlich für einen Genozid an kalifornischen Ureinwohnern war.",
+        "urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+        "startTime": "2026-03-31T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
+    "first_mention_time": "00:12:30.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_38_Sutter_Kolonialismus.jpg",
+    "rank": 38
+  },
+  {
+    "story_id": "eierproduktion",
+    "keyword": "Eierproduktion",
+    "phrase": "Eierproduktion",
+    "score": 749.4,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 6.66,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 2965.7,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Die Schweiz produziert 2025 mit über 1,2 Milliarden Eiern einen Rekord, doch die Nachfrage ist noch höher – der Bundesrat erlaubt daher zusätzliche Importe von 240 Millionen Eiern.",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+    "first_mention_time": "00:14:09.965",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_39_Eierproduktion.jpg",
+    "rank": 39
+  },
+  {
+    "story_id": "zugv_gel",
+    "keyword": "Zugvögel",
+    "phrase": "Zugvögel",
+    "score": 734.03,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 6.52,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 2692.4,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Eine neue Ausstellung im BirdLife-Naturzentrum Neeracherried ermöglicht es Besuchern mit VR-Brille und Vogelflug-Simulator zu erleben, wie Zugvögel Tausende Kilometer zu ihren Rastplätzen fliegen.",
+        "urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+        "startTime": "2026-04-02T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+    "first_mention_time": "00:16:52.606",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_40_Zugvögel.jpg",
+    "rank": 40
+  },
+  {
+    "story_id": "leichtathletikhalle",
+    "keyword": "Leichtathletikhalle",
+    "phrase": "Leichtathletikhalle",
+    "score": 672.1,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 5.97,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 1819.9,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Der Stadtrat Zürich zieht seine Vorlage für eine neue Leichtathletikhalle neben dem Letzigrund nach Kritik der rot-grünen Mehrheit zurück, weil deren private Finanzierungsbeteiligung umstritten ist.",
+        "urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+        "startTime": "2026-04-02T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+    "first_mention_time": "00:05:30.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_41_Leichtathletikhalle.jpg",
+    "rank": 41
+  },
+  {
+    "story_id": "datenpanne_appenzell",
+    "keyword": "Datenpanne Appenzell",
+    "phrase": "Datenpanne Appenzell",
+    "score": 662.57,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 5.88,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 1712.8,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Der Kanton Appenzell Innerrhoden verteilte an einer Medienkonferenz versehentlich USB-Sticks mit hochsensiblen unverschlüsselten Daten wie Löhnen, Adressen und Fahndungslisten an eine Zeitungsredaktion.",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+    "first_mention_time": "00:08:09.755",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_42_Datenpanne_Appenzell.jpg",
+    "rank": 42
+  },
+  {
+    "story_id": "doppelmandate",
+    "keyword": "Doppelmandate",
+    "phrase": "Doppelmandate",
+    "score": 654.02,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 5.81,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 1621.9,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Nach den Berner Kantonswahlen haben vier Mitglieder der Thuner Stadtregierung ein Doppelmandat, während andere Städte wie Biel dies verbieten, da die Doppelbelastung für Vollzeitpolitiker zu gross ist.",
+        "urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+        "startTime": "2026-04-02T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+    "first_mention_time": "00:09:00.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_43_Doppelmandate.jpg",
+    "rank": 43
+  },
+  {
+    "story_id": "camarasaurus",
+    "keyword": "Camarasaurus",
+    "phrase": "Camarasaurus",
+    "score": 652.88,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 5.8,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 1610.1,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Ein Grabungsteam des Sauriermuseums Aathal hat in Wyoming einen fast vollständig erhaltenen Schädel eines jungen Camarasaurus ausgegraben – einen Fund, der nur alle 100 Jahre vorkommt.",
+        "urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+        "startTime": "2026-04-02T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
+    "first_mention_time": "00:12:50.000",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_44_Camarasaurus.jpg",
+    "rank": 44
+  },
+  {
+    "story_id": "brugg_drogenszene",
+    "keyword": "Brugg Drogenszene",
+    "phrase": "Brugg Drogenszene",
+    "score": 635.28,
+    "novelty": 9.0,
+    "spread": 2.0,
+    "persistence": 4.17,
+    "prominence": 5.64,
+    "primetime": 1.5,
+    "n_segments": 8,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 1438.6,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Das Alkoholverbot in der Innenstadt von Brugg, das seit dem letzten Sommer galt, wird aufgehoben, nachdem es die offene Drogenszene rund um den Bahnhof merklich beruhigt hat.",
+        "urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+        "startTime": "2026-04-01T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
+    "first_mention_time": "00:11:18.217",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_45_Brugg_Drogenszene.jpg",
+    "rank": 45
+  },
+  {
+    "story_id": "autodiebst_hle",
+    "keyword": "Autodiebstähle",
+    "phrase": "Autodiebstähle",
+    "score": 590.26,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 6.15,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 2068.3,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Banden aus Frankreich brechen fast jedes Wochenende in Garagen der Ostschweiz ein und stehlen gezielt teure Autos.",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+    "first_mention_time": "00:12:32.399",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_46_Autodiebstähle.jpg",
+    "rank": 46
+  },
+  {
+    "story_id": "ernestina_abb_hl",
+    "keyword": "Ernestina Abbühl",
+    "phrase": "Ernestina Abbühl",
+    "score": 582.48,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 6.07,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 1952.0,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Die Engadiner Künstlerin Ernestina Abbühl hat eine 280 Jahre alte rätoromanische Bibel künstlerisch neu interpretiert und wird ihr Werk im Museum Ladin in Südtirol ausstellen.",
+        "urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+        "startTime": "2026-03-30T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
+    "first_mention_time": "00:08:02.142",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_47_Ernestina_Abbühl.jpg",
+    "rank": 47
+  },
+  {
+    "story_id": "steuerabzug",
+    "keyword": "Steuerabzug",
+    "phrase": "Steuerabzug",
+    "score": 575.46,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 5.99,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 1852.5,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Basel-Stadt führt ein neues System ein, bei dem Steuern direkt vom Lohn abgezogen werden, um Steuerschulden zu vermeiden.",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+    "first_mention_time": "00:06:22.391",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "../demo-data/images/20260330_48_Steuerabzug.jpg",
+    "rank": 48
+  },
+  {
+    "story_id": "young_pledari",
+    "keyword": "Young-Pledari",
+    "phrase": "Young-Pledari",
+    "score": 568.16,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 5.92,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 1754.4,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "Die Lia Rumantscha lancierte das Young-Pledari-Wörterbuch mit modernen Wörtern und Ausdrücken für rätoromanische Jugendliche, um die Sprache lebendig zu halten.",
+        "urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+        "startTime": "2026-04-01T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
+    "first_mention_time": "00:09:42.685",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "../demo-data/images/20260330_49_Young-Pledari.jpg",
+    "rank": 49
+  }
+]

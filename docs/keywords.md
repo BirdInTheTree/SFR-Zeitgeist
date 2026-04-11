@@ -2,27 +2,17 @@
 
 The keyword is what appears on the grid. It must work as a *trigger word* ([Pirolli, 2007](https://global.oup.com/academic/product/9780195173321)) — one glance and you know the story.
 
-## Rules for the LLM
+The LLM prompt with all keyword rules is in [docs/prompts/segment.md](prompts/segment.md).
 
-- Use the most recognizable proper noun: a person ("Odermatt"), a place ("Roveredo"), an organization ("NATO")
-- If no proper noun fits, use the specific German term: "Eigenmietwert", "Cyberangriffe"
-- Add a second word only if the first is ambiguous: "Trump NATO" vs "Trump Briefwahl"
-- Maximum 2 words
-- Person names: include first name if not globally famous ("Muriel Furrer", not "Furrer")
-- No nicknames, no abbreviations the audience wouldn't know
-- Never use English
-- Never merge words: "St. Moritz", not "StMoritz"
-- If two segments cover the same story from different angles, use one keyword for both
+## How keywords stay consistent
 
-## Keyword chaining
+### Within one day
 
-Broadcasts are processed in chronological order. Each broadcast receives the list of keywords already assigned earlier that day. The LLM is instructed to reuse exact keywords for the same story.
+Broadcasts are processed chronologically. Each LLM call receives the keywords from yesterday's zeitgeist and all previously processed broadcasts today. The LLM reuses exact keywords for the same story — so if Tagesschau 12:45 calls a story "Artemis", Schweiz aktuell 19:00 sees "Artemis" in the list and reuses it.
 
-This gives cross-program consistency: if Tagesschau 12:45 calls the story "Artemis", Schweiz aktuell 19:00 will also call it "Artemis" — because it sees "Artemis" in the existing keyword list.
+### Across days
 
-## Cross-day consistency
-
-A story that runs for multiple days keeps its original keyword. The canonical story registry stores each story's keyword and fingerprint (entities + frequent words from the segment text).
+A story that runs for multiple days keeps its original keyword. The code maintains a story registry (`story_registry.json`) with each story's keyword and fingerprint (entities + frequent words from segment text).
 
 When a new day is processed, each story's fingerprint is compared against the registry. If entity overlap >= 8 or top-word overlap >= 5, the story gets the original keyword.
 
@@ -30,7 +20,7 @@ When a new day is processed, each story's fingerprint is compared against the re
 
 ## Text validation
 
-Same keyword does not always mean same story. Before merging two segments under one keyword, the code checks that their texts actually overlap (at least 2 shared top-words or 2 shared entities). If they don't, the segments are split into separate stories.
+Same keyword does not always mean same story. Before merging two segments under one keyword, the code checks that their texts actually overlap (at least 3 shared top-words or 3 shared entities). Threshold is high because German capitalizes all nouns, creating false entity matches. If texts don't overlap, the segments are split into separate stories.
 
 ## How the prompt was chosen
 

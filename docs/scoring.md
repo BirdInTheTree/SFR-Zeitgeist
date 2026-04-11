@@ -16,7 +16,7 @@ How many segments about this story appeared today vs the daily average over the 
 
 A story that had 0 segments last week and 10 today: novelty = 11. A story that had 10 segments every day last week and 10 today: novelty = 1. The formula automatically suppresses evergreen topics — weather, ongoing background stories — without a manual stoplist.
 
-Based on [Google Trends spike detection](https://trends.withgoogle.com/year-in-search/data-methodology/).
+Based on [Google Trends spike detection][google-trends] — the same ratio-to-baseline approach that identifies "breakout" search terms.
 
 ### Spread — did multiple desks cover it?
 
@@ -26,6 +26,8 @@ Number of distinct editorial units (Tagesschau, 10 vor 10, Schweiz aktuell) that
 
 A story covered by one desk scores 2.0. Three desks: 3.0. This separates genuine cross-desk stories from one show's pet topic.
 
+Grounded in [agenda-setting theory][mccombs-shaw]: the more independently a topic is selected by different editorial desks, the more salient it is in the public agenda.
+
 ### Persistence — did it keep coming back?
 
 $$persistence = 1 + \log_2(1 + N_{today})$$
@@ -34,11 +36,15 @@ Total number of segments about this story today, including repeats. If an editor
 
 The logarithm prevents linear inflation: 10 segments score 4.5, not 10.
 
+Inspired by [BERTrend][bertrend]'s signal strength metric (document count × update frequency) and the agenda-setting principle that repetition signals importance.
+
 ### Prominence — how much airtime did it get?
 
 $$prominence = 1 + \log_2(1 + M_{today} / 60)$$
 
 Total duration of this story's segments in seconds, divided by 60 to work in minutes. Counts segment duration, not program duration — a 30-second mention is not an 8-minute investigation.
+
+Agenda-setting research shows that [prominence of coverage][mccombs-shaw] (length, position, size) directly predicts audience perception of issue importance.
 
 ### Primetime — did it make the evening news?
 
@@ -60,8 +66,20 @@ Each signal is necessary but not sufficient:
 - High persistence + low prominence = brief repeated mentions
 - All five high = the story Switzerland is actually talking about
 
+The multiplicative approach follows [BERTrend][bertrend], which combines document count and update frequency as multiplicative factors to identify emerging trends.
+
+## Why log-dampened
+
+All signals except novelty use $1 + \log_2(1 + x)$. This ensures diminishing returns: 2 editorial units matter a lot more than 1, but 5 vs 4 barely differ. Without dampening, a story with 20 rebroadcasts would dominate purely through volume. The $1 +$ offset guarantees a minimum score of 1.0 (neutral multiplier).
+
 ## Repeat handling
 
 Repeats (same newscast re-aired later) are not excluded. They contribute through log-dampened persistence and prominence.
 
 An editor choosing to keep a story in the 19:30 re-airing is an editorial signal. But 5 re-airings don't count as 5x importance — the logarithm handles that. Repeats do NOT inflate spread (same editorial unit).
+
+## References
+
+- [google-trends]: Google, [Year in Search: Data Methodology](https://trends.withgoogle.com/year-in-search/data-methodology/) — spike detection via ratio-to-baseline
+- [mccombs-shaw]: McCombs, M. E. & Shaw, D. L., ["The Agenda-Setting Function of Mass Media"](https://doi.org/10.1086/267990), *Public Opinion Quarterly*, 36(2), 1972 — repetition, prominence, and cross-outlet coverage as salience signals
+- [bertrend]: Boutaleb, A. et al., [BERTrend: Neural Topic Modeling for Emerging Trends Detection](https://arxiv.org/abs/2411.05930), 2024 — multiplicative signal strength (documents × update frequency) for trend ranking

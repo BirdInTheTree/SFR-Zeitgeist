@@ -22,6 +22,8 @@ from collections import Counter
 from json import JSONDecoder
 from pathlib import Path
 
+import anthropic
+
 logger = logging.getLogger(__name__)
 
 IL_BASE = "https://il.srgssr.ch/integrationlayer/2.1/mediaComposition/byUrn"
@@ -32,12 +34,12 @@ _STOPWORDS = frozenset(
     "ist sind war waren wird werden hat haben hatte hatten kann können konnte "
     "soll sollen sollte mit von für auf aus bei nach über vor durch zwischen "
     "sich ich wir sie er es ihr sein seine seiner seinem seinen ihre ihrem "
-    "nicht auch noch schon sehr mehr als wie wenn dann da so nur auch noch "
-    "doch aber weil dass ob zum zur bis um an in im am vom was wer wo wie "
+    "nicht auch noch schon sehr mehr als wie wenn dann da so nur "
+    "doch weil dass ob zum zur bis um an in im am vom was wer wo "
     "alle allem allen aller alles andere anderem anderen anderer anderes "
     "hier dort nun jetzt heute diese diesem diesen dieser dieses jede jedem "
     "jeden jeder jedes man muss müssen würde würden gegen unter bereits also "
-    "etwa rund dort neue neuen neuer neues neuem keine keinem keinen keiner".split()
+    "etwa rund neue neuen neuer neues neuem keine keinem keinen keiner".split()
 )
 
 
@@ -406,41 +408,13 @@ def _extract_json(text: str):
 # LLM segmentation — minimal output + keyword chaining
 # ---------------------------------------------------------------------------
 
-_SEGMENT_PROMPT = """\
-Segment this SRF news broadcast into editorial stories.
+# Prompts loaded from docs/prompts/ — single source of truth
+_PROMPTS_DIR = Path(__file__).resolve().parent.parent / "docs" / "prompts"
 
-For each segment return:
-- start_time, end_time (from the timestamps in the transcript)
-- peak_time: the timestamp of the most important moment in this segment
-  (the key fact, the decisive quote — NOT the intro by the anchor)
-- keyword: the word a newspaper editor would use as the HEADLINE WORD.
-  Rules:
-  - Use the most recognizable proper noun (person: "Odermatt", place: "Roveredo", org: "NATO")
-  - If no proper noun, use the specific German term ("Eigenmietwert", "Cyberangriffe")
-  - Add a second word ONLY if the first is ambiguous ("Trump NATO" vs "Trump Briefwahl")
-  - Maximum 2 words. Never longer.
-  - Person names: always include first name if not globally famous ("Muriel Furrer", not "Furrer")
-  - No nicknames, no abbreviations the audience wouldn't know
-  - Never use English. Never merge words ("StMoritz" → "St. Moritz")
-  - If two segments cover the same story from different angles, use ONE keyword for both
-- short_label: readable headline (3-6 words, German)
-- segment_type: "story", "weather", "sport", "intro", "outro", "teaser"
+_SEGMENT_PROMPT = (_PROMPTS_DIR / "segment.md").read_text().strip()
+_KEYWORD_CONTEXT = (_PROMPTS_DIR / "keyword_context.md").read_text().strip()
 
-{keyword_instruction}
-
-Return ONLY valid JSON array:
-[
-  {{"start_time": "HH:MM:SS.mmm", "end_time": "HH:MM:SS.mmm", "peak_time": "HH:MM:SS.mmm", "keyword": "...", "short_label": "...", "segment_type": "story"}}
-]
-
-Transcript:
-{transcript}"""
-
-_KEYWORD_REUSE = """IMPORTANT: These keywords already exist from earlier broadcasts today:
-{keywords}
-If a segment covers the same story, reuse the EXACT keyword. Only create a new keyword if it's a genuinely new topic."""
-
-_NO_KEYWORDS_YET = "This is the first broadcast of the day. Choose specific keywords."
+# Summary prompt removed — quotes are now generated during segmentation
 
 
 def segment_broadcast(
@@ -454,24 +428,23 @@ def segment_broadcast(
     Args:
         transcript: timestamped VTT transcript text
         program_title: for metadata attachment
-        existing_keywords: keywords from previously processed broadcasts today.
-            LLM will reuse these for the same stories.
+        existing_keywords: keywords from yesterday's zeitgeist and/or
+            previously processed broadcasts today. LLM will reuse these
+            for the same stories.
 
     Returns list of segment dicts with start_time, end_time, keyword, segment_type.
     No summary — added later only for top-N stories.
     """
-    import anthropic
 
     if existing_keywords:
-        kw_instruction = _KEYWORD_REUSE.format(keywords=", ".join(existing_keywords))
+        kw_instruction = _KEYWORD_CONTEXT.replace("{keywords}", ", ".join(existing_keywords))
     else:
-        kw_instruction = _NO_KEYWORDS_YET
+        kw_instruction = ""
 
-    client = anthropic.Anthropic()
-    prompt = _SEGMENT_PROMPT.format(
-        keyword_instruction=kw_instruction,
-        transcript=transcript,
-    )
+    client = anthropic.Anthropic(max_retries=3)
+    prompt = (_SEGMENT_PROMPT
+              .replace("{keyword_instruction}", kw_instruction)
+              .replace("{transcript}", transcript))
 
     response = client.messages.create(
         model=model,
@@ -504,9 +477,9 @@ def segment_broadcast(
 def _segments_are_related(seg_a: dict, seg_b: dict) -> bool:
     """Check if two segments with the same keyword are actually about the same topic.
 
-    Even with matching keywords, validates via fingerprint that the segments
-    share enough content. German capitalizes all nouns, so single-word overlap
-    is too noisy — require at least 2 shared words or 2 shared entities.
+    Trusts the keyword match — only splits when texts share zero content.
+    This prevents merging genuinely different stories that happen to get
+    the same generic keyword from different programs.
     """
     fp_a = seg_a.get("fingerprint", {})
     fp_b = seg_b.get("fingerprint", {})
@@ -518,6 +491,9 @@ def _segments_are_related(seg_a: dict, seg_b: dict) -> bool:
     entities_a = set(fp_a.get("entities", []))
     entities_b = set(fp_b.get("entities", []))
 
+    # Require at least 2 shared words or entities to confirm same topic.
+    # Threshold of 1 is too loose — German noun capitalization creates
+    # false entity matches between unrelated stories.
     if len(words_a & words_b) >= 2:
         return True
     if len(entities_a & entities_b) >= 2:
@@ -545,24 +521,8 @@ def merge_segments_into_stories(all_segments: list[dict]) -> list[dict]:
             keyword = f"unknown_{i}"
 
         if keyword in stories:
-            # Validate: is this segment actually about the same topic?
-            representative = all_segments[stories[keyword]["segment_indices"][0]]
-            if _segments_are_related(seg, representative):
-                stories[keyword]["segment_indices"].append(i)
-            else:
-                # Same keyword but different content — split into new story
-                suffix = 2
-                new_key = f"{keyword}_{suffix}"
-                while new_key in stories:
-                    suffix += 1
-                    new_key = f"{keyword}_{suffix}"
-                story_id = re.sub(r"[^a-z0-9]+", "_", new_key.lower()).strip("_")
-                stories[new_key] = {
-                    "story_id": story_id,
-                    "keyword": keyword,  # Display keyword stays clean
-                    "segment_indices": [i],
-                }
-                logger.info("Split keyword '%s': segment %d has different content", keyword, i)
+            # Same keyword = same story. Trust the LLM's keyword choice.
+            stories[keyword]["segment_indices"].append(i)
         else:
             story_id = re.sub(r"[^a-z0-9]+", "_", keyword.lower()).strip("_") or f"story_{i}"
             stories[keyword] = {
@@ -646,55 +606,3 @@ def _is_near_duplicate(fp1: dict, fp2: dict) -> bool:
 # Summary generation — only for top-N stories, after ranking
 # ---------------------------------------------------------------------------
 
-_SUMMARY_PROMPT = """\
-Write a one-sentence German summary for each of these news story segments.
-Return ONLY a JSON array of strings, one summary per segment, in the same order.
-
-Segments:
-{segments_json}"""
-
-
-def generate_summaries(
-    segments: list[dict],
-    model: str = "claude-haiku-4-5-20251001",
-) -> list[str]:
-    """Generate one-sentence summaries for a batch of segments.
-
-    Called only for top-N stories after ranking, not for all segments.
-    """
-    if not segments:
-        return []
-
-    import anthropic
-    client = anthropic.Anthropic()
-
-    compact = []
-    for seg in segments:
-        compact.append({
-            "keyword": seg.get("keyword", ""),
-            "program": seg.get("program", ""),
-            "text_preview": seg.get("segment_text", "")[:300],
-        })
-
-    prompt = _SUMMARY_PROMPT.format(
-        segments_json=json.dumps(compact, ensure_ascii=False, indent=1)
-    )
-
-    response = client.messages.create(
-        model=model,
-        max_tokens=2048,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    text = response.content[0].text.strip()
-    try:
-        summaries = json.loads(text)
-        if isinstance(summaries, list):
-            return summaries
-    except json.JSONDecodeError:
-        match = re.search(r"\[.*\]", text, re.DOTALL)
-        if match:
-            return json.loads(match.group(0))
-
-    logger.warning("Could not parse summaries response")
-    return [""] * len(segments)
