@@ -41,3 +41,6 @@ demo-data/week/
 
 # Old experimental zeitgeist files
 demo-data/zeitgeist_apr1*.json
+
+# Old pipeline versions
+backend/archive/
