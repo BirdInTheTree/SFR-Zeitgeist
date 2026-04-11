@@ -463,11 +463,16 @@ def segment_broadcast(
     else:
         raise ValueError(f"Unexpected LLM response format: {type(data)}")
 
-    # Attach source program
+    # Validate and attach source program
+    valid = []
     for seg in segments:
+        if not seg.get("start_time") or not seg.get("keyword"):
+            logger.warning("Skipping segment with missing fields: %s", seg)
+            continue
         seg["program"] = program_title
+        valid.append(seg)
 
-    return segments
+    return valid
 
 
 # ---------------------------------------------------------------------------

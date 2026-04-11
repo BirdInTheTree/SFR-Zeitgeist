@@ -1,4 +1,4 @@
-"""Tests for the scoring formula and fingerprint matching."""
+"""Tests for scoring, fingerprinting, VTT parsing, and JSON extraction."""
 
 import math
 import pytest
@@ -215,3 +215,116 @@ class TestFingerprintMatch:
         fp1 = {"entities": ["A", "B", "C", "D"], "top_words": []}
         fp2 = {"entities": ["A", "B", "C", "E"], "top_words": []}
         assert fingerprint_match(fp1, fp2) is True
+
+
+# ---------------------------------------------------------------------------
+# segmenter.py — VTT parsing
+# ---------------------------------------------------------------------------
+
+from backend.segmenter import parse_vtt, tc_to_seconds, seconds_to_tc, _extract_json
+
+
+class TestParseVtt:
+    def test_basic(self):
+        vtt = """WEBVTT
+
+00:00:01.000 --> 00:00:05.000
+Hello world
+
+00:00:06.000 --> 00:00:10.000
+Second block
+"""
+        blocks = parse_vtt(vtt)
+        assert len(blocks) == 2
+        assert blocks[0]["text"] == "Hello world"
+        assert blocks[0]["start"] == 1.0
+        assert blocks[0]["end"] == 5.0
+        assert blocks[1]["text"] == "Second block"
+
+    def test_html_tags_stripped(self):
+        vtt = """WEBVTT
+
+00:00:01.000 --> 00:00:05.000
+<c.color1>This is <b>bold</b> text</c>
+"""
+        blocks = parse_vtt(vtt)
+        assert blocks[0]["text"] == "This is bold text"
+
+    def test_empty_blocks_skipped(self):
+        vtt = """WEBVTT
+
+00:00:01.000 --> 00:00:05.000
+
+
+00:00:06.000 --> 00:00:10.000
+Real text
+"""
+        blocks = parse_vtt(vtt)
+        assert len(blocks) == 1
+        assert blocks[0]["text"] == "Real text"
+
+    def test_no_timestamps(self):
+        blocks = parse_vtt("Just some text without timestamps")
+        assert blocks == []
+
+    def test_empty_string(self):
+        assert parse_vtt("") == []
+
+    def test_numbered_cues(self):
+        """VTT with numeric cue identifiers."""
+        vtt = """WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.000
+First
+
+2
+00:00:06.000 --> 00:00:10.000
+Second
+"""
+        blocks = parse_vtt(vtt)
+        assert len(blocks) == 2
+        assert blocks[0]["text"] == "First"
+
+
+class TestTimecodes:
+    def test_tc_to_seconds(self):
+        assert tc_to_seconds("00:01:30.000") == 90.0
+        assert tc_to_seconds("01:00:00.000") == 3600.0
+        assert tc_to_seconds("00:00:05.500") == 5.5
+
+    def test_seconds_to_tc(self):
+        assert seconds_to_tc(90.0) == "00:01:30.000"
+        assert seconds_to_tc(3661.5) == "01:01:01.500"
+
+    def test_roundtrip(self):
+        tc = "00:12:34.567"
+        assert seconds_to_tc(tc_to_seconds(tc)) == tc
+
+    def test_comma_separator(self):
+        """Some VTT files use comma instead of dot."""
+        assert tc_to_seconds("00:01:30,500") == 90.5
+
+
+class TestExtractJson:
+    def test_plain_array(self):
+        result = _extract_json('[{"keyword": "test"}]')
+        assert result == [{"keyword": "test"}]
+
+    def test_markdown_fence(self):
+        result = _extract_json('```json\n[{"keyword": "test"}]\n```')
+        assert result == [{"keyword": "test"}]
+
+    def test_text_before_json(self):
+        result = _extract_json('Here is the result:\n[{"keyword": "test"}]')
+        assert result == [{"keyword": "test"}]
+
+    def test_nested_object(self):
+        result = _extract_json('{"segments": [{"keyword": "test"}]}')
+        assert result["segments"] == [{"keyword": "test"}]
+
+    def test_trailing_comma(self):
+        """LLMs sometimes add trailing commas."""
+        result = _extract_json('[{"keyword": "test",}]')
+        # Should either parse or fall through to regex cleanup
+        assert result is not None

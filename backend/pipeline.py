@@ -275,8 +275,9 @@ def segment_all_broadcasts(programs: list[dict], target_date: str = "") -> list[
     return all_segments
 
 
-# Segment types that represent actual news content (not structural)
-_CONTENT_TYPES = {"story", "weather", "sport"}
+# Segment types that represent actual news content (not structural).
+# Weather excluded from grid — it's evergreen and dominates scoring.
+_CONTENT_TYPES = {"story", "sport"}
 
 
 def _filter_story_segments(segments: list[dict]) -> list[dict]:
@@ -898,14 +899,26 @@ def build_zeitgeist(week_start: str) -> list[dict]:
     print("\nScoring stories...")
     results = build_stories(all_segments, stories_meta, baseline)
 
-    # Select top stories — one cell per keyword, no duplicates
+    # Cluster related keywords: "Iran Waffenruhe" and "Iran Krieg" both
+    # contain "Iran" → keep only the highest-scoring variant per cluster.
+    # Two keywords cluster if they share a word with 4+ characters.
     top = []
     seen_keywords: set[str] = set()
+    seen_words: set[str] = set()  # significant words already claimed
+
     for entry in results:
         kw = entry["keyword"]
         if kw in seen_keywords:
             continue
+
+        # Check if any significant word in this keyword was already used
+        kw_words = {w.lower() for w in kw.split() if len(w) >= 4}
+        overlap = kw_words & seen_words
+        if overlap:
+            continue  # skip — a related story already took a cell
+
         seen_keywords.add(kw)
+        seen_words.update(kw_words)
         top.append(entry)
         if len(top) >= GRID_SIZE:
             break

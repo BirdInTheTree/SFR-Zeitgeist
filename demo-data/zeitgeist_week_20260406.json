@@ -62,7 +62,7 @@
     "first_mention_urn": "urn:rtr:video:b618ae7b-44ea-4d39-a276-7007b5a064d4",
     "first_mention_time": "00:01:17.023",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_01_Puschlav_Waldbrand.jpg",
+    "imageUrl": "",
     "rank": 1
   },
   {
@@ -117,54 +117,8 @@
     "first_mention_urn": "urn:srf:video:29dedfa0-0b9c-45a2-80dc-b424f247f1b1",
     "first_mention_time": "00:00:33.894",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_02_Iran.jpg",
+    "imageUrl": "",
     "rank": 2
-  },
-  {
-    "story_id": "iran_waffenruhe",
-    "keyword": "Iran Waffenruhe",
-    "phrase": "Iran Waffenruhe",
-    "score": 3892.37,
-    "novelty": 21.0,
-    "spread": 2.58,
-    "persistence": 5.39,
-    "prominence": 8.86,
-    "primetime": 1.5,
-    "n_segments": 20,
-    "n_repeats": 17,
-    "distinct_programs": 2,
-    "total_seconds": 13927.0,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "Der Iran und die USA einigen sich auf eine zweiwöchige Waffenruhe, nachdem Pakistan zwischen den Kriegsparteien vermittelt hat.",
-        "urn": "urn:srf:video:a869ccf3-30a4-4dde-a1c4-4499b90630f2",
-        "startTime": "2026-04-08T18:00:00+02:00"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "Eine zweiwöchige Waffenruhe zwischen dem Iran und den USA wurde in letzter Minute vereinbart, doch Experten warnen vor der Fragilität dieser Einigung und den vielen offenen Fragen zur künftigen Umsetzung.",
-        "urn": "urn:srf:video:d89d5296-515a-40f4-9491-f8a9c227f292",
-        "startTime": "2026-04-08T21:50:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:a869ccf3-30a4-4dde-a1c4-4499b90630f2",
-    "first_mention_time": "00:02:30.771",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_03_Iran_Waffenruhe.jpg",
-    "rank": 3
   },
   {
     "story_id": "crans_montana",
@@ -209,53 +163,53 @@
     "first_mention_urn": "urn:srf:video:de112333-0285-4abe-8221-9843b7531299",
     "first_mention_time": "00:02:20.232",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_04_Crans-Montana.jpg",
+    "imageUrl": "",
     "rank": 4
   },
   {
-    "story_id": "fr_hlingswetter",
-    "keyword": "Frühlingswetter",
-    "phrase": "Frühlingswetter",
-    "score": 2677.81,
-    "novelty": 21.0,
+    "story_id": "artemis_mondmission",
+    "keyword": "Artemis Mondmission",
+    "phrase": "Artemis Mondmission",
+    "score": 3495.24,
+    "novelty": 23.0,
     "spread": 2.58,
-    "persistence": 5.39,
-    "prominence": 6.1,
+    "persistence": 5.52,
+    "prominence": 7.1,
     "primetime": 1.5,
-    "n_segments": 20,
-    "n_repeats": 16,
+    "n_segments": 22,
+    "n_repeats": 17,
     "distinct_programs": 2,
-    "total_seconds": 1996.0,
+    "total_seconds": 4042.9,
     "editorial_units": [
-      "Meteo",
+      "10 vor 10",
       "Tagesschau"
     ],
     "programs": [
-      "Meteo",
-      "Meteo in Gebärdensprache",
+      "10 vor 10",
       "Tagesschau",
-      "Tagesschau in Gebärdensprache"
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
     ],
     "quotes": [
       {
-        "title": "Meteo",
+        "title": "Tagesschau kompakt",
         "channel": "SRF 1",
-        "quote": "Ein richtig schöner Frühlingstag mit sonnigem und warmem Hochdruckwetter breitet sich über die ganze Schweiz und grosse Teile Europas aus.",
-        "urn": "urn:srf:video:6f7ff752-2eee-4755-8c05-37fef45ada3d",
-        "startTime": "2026-04-08T12:55:00+02:00"
+        "quote": "Die Crew der Artemis-2-Mondmission soll in der Nacht auf morgen zur Erde zurückkehren, nachdem sie sich zum ersten Mal seit 50 Jahren dem Mond genähert hat.",
+        "urn": "urn:srf:video:5d66a90c-3495-43e0-9bdc-37c0e0e39c57",
+        "startTime": "2026-04-10T12:45:00+02:00"
       },
       {
-        "title": "Tagesschau",
+        "title": "10 vor 10",
         "channel": "SRF 1",
-        "quote": "Morgen scheint meistens die Sonne bei Temperaturen zwischen 20 und lokal 25 Grad Celsius.",
-        "urn": "urn:srf:video:24f39b11-7aa7-4b98-bb30-8ca18b590adc",
-        "startTime": "2026-04-08T19:30:00+02:00"
+        "quote": "Die Artemis-II-Crew kehrt heute Nacht zur Erde zurück, wobei der gefährlichste Teil der Mission der Wiedereintritt in die Atmosphäre mit einer Geschwindigkeit von rund 40'000 km/h ist.",
+        "urn": "urn:srf:video:52bdffa1-199a-40ae-9fb5-5b0e9a4f74e0",
+        "startTime": "2026-04-10T21:50:00+02:00"
       }
     ],
-    "first_mention_urn": "urn:srf:video:723dfdb4-aa99-4a5d-828d-4985802e6083",
-    "first_mention_time": "00:00:32.342",
-    "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/images/20260406_05_Frühlingswetter.jpg",
+    "first_mention_urn": "urn:srf:video:5d66a90c-3495-43e0-9bdc-37c0e0e39c57",
+    "first_mention_time": "00:03:50.267",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "",
     "rank": 5
   },
   {
@@ -300,7 +254,7 @@
     "first_mention_urn": "urn:rtr:video:bc684d0c-0c2f-4e89-b12b-9c67c546459b",
     "first_mention_time": "00:05:45.972",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_06_Skisaison.jpg",
+    "imageUrl": "",
     "rank": 6
   },
   {
@@ -345,7 +299,7 @@
     "first_mention_urn": "urn:srf:video:0345e55d-9ac0-443e-902f-50c42bcb3c38",
     "first_mention_time": "00:00:37.188",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_07_Libanon.jpg",
+    "imageUrl": "",
     "rank": 7
   },
   {
@@ -389,99 +343,8 @@
     "first_mention_urn": "urn:srf:video:47a47a0d-8949-486d-af3e-94a96221500e",
     "first_mention_time": "00:08:22.289",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/images/20260406_08_Hormus-Pipeline.jpg",
+    "imageUrl": "",
     "rank": 8
-  },
-  {
-    "story_id": "wetterwechsel",
-    "keyword": "Wetterwechsel",
-    "phrase": "Wetterwechsel",
-    "score": 1709.45,
-    "novelty": 14.0,
-    "spread": 2.58,
-    "persistence": 4.81,
-    "prominence": 6.55,
-    "primetime": 1.5,
-    "n_segments": 13,
-    "n_repeats": 9,
-    "distinct_programs": 2,
-    "total_seconds": 2752.1,
-    "editorial_units": [
-      "Meteo",
-      "Tagesschau"
-    ],
-    "programs": [
-      "Meteo",
-      "Meteo in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Meteo",
-        "channel": "SRF 1",
-        "quote": "Eine schwache Kaltfront bringt in der Nacht mehr Wolken in die Schweiz, gefolgt von wechselnder Bewölkung im Norden und sonnigeren Bedingungen im Südwesten.",
-        "urn": "urn:srf:video:34aaa08c-2206-4808-8bba-0d079cd6e9ee",
-        "startTime": "2026-04-09T19:55:00+02:00"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Morgen wird es anfangs sonnig, im Lauf des Tages ziehen Wolken auf und gegen Abend gibt es lokal Regen.",
-        "urn": "urn:srf:video:828e6264-8bd7-4695-b5e2-46a3e9230846",
-        "startTime": "2026-04-10T19:30:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:290c64bb-89e5-4663-aca0-b61834fc19ce",
-    "first_mention_time": "00:02:30.000",
-    "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/images/20260406_09_Wetterwechsel.jpg",
-    "rank": 9
-  },
-  {
-    "story_id": "iran_krieg",
-    "keyword": "Iran Krieg",
-    "phrase": "Iran Krieg",
-    "score": 1440.63,
-    "novelty": 12.0,
-    "spread": 2.58,
-    "persistence": 4.58,
-    "prominence": 6.75,
-    "primetime": 1.5,
-    "n_segments": 11,
-    "n_repeats": 9,
-    "distinct_programs": 2,
-    "total_seconds": 3175.6,
-    "editorial_units": [
-      "10 vor 10",
-      "SRF Börse"
-    ],
-    "programs": [
-      "10 vor 10",
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "Die Unsicherheit durch den Iran-Krieg belastet Unternehmen wie Delta Air Lines, deren Gewinn um über 10 % schrumpft, hauptsächlich wegen verdoppelter Kerosinpreise.",
-        "urn": "urn:srf:video:4ce6fe24-04d3-4abe-8a61-07171c7e7492",
-        "startTime": "2026-04-09T19:25:00+02:00"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "Das iranische Raketenprogramm bleibt trotz massiver US- und israelischer Angriffe einsatzfähig und ist für den Iran eine klare rote Linie in künftigen Verhandlungen.",
-        "urn": "urn:srf:video:2bdc2a2c-8f3e-4fed-bd92-9d5f30bfc4fd",
-        "startTime": "2026-04-09T21:50:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:4ce6fe24-04d3-4abe-8a61-07171c7e7492",
-    "first_mention_time": "00:00:31.320",
-    "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/images/20260406_10_Iran_Krieg.jpg",
-    "rank": 10
   },
   {
     "story_id": "cyberwaffe",
@@ -515,8 +378,8 @@
     "first_mention_urn": "urn:srf:video:52bdffa1-199a-40ae-9fb5-5b0e9a4f74e0",
     "first_mention_time": "00:01:35.610",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_11_Cyberwaffe.jpg",
-    "rank": 11
+    "imageUrl": "",
+    "rank": 10
   },
   {
     "story_id": "gordie_howe_br_cke",
@@ -550,8 +413,8 @@
     "first_mention_urn": "urn:srf:video:52bdffa1-199a-40ae-9fb5-5b0e9a4f74e0",
     "first_mention_time": "00:12:08.105",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_12_Gordie-Howe-Brücke.jpg",
-    "rank": 12
+    "imageUrl": "",
+    "rank": 11
   },
   {
     "story_id": "tuberkulose_ki",
@@ -585,8 +448,8 @@
     "first_mention_urn": "urn:srf:video:52bdffa1-199a-40ae-9fb5-5b0e9a4f74e0",
     "first_mention_time": "00:22:42.774",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_13_Tuberkulose_KI.jpg",
-    "rank": 13
+    "imageUrl": "",
+    "rank": 12
   },
   {
     "story_id": "ultraleichtflugzeuge",
@@ -620,8 +483,8 @@
     "first_mention_urn": "urn:srf:video:52bdffa1-199a-40ae-9fb5-5b0e9a4f74e0",
     "first_mention_time": "00:17:46.543",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_14_Ultraleichtflugzeuge.jpg",
-    "rank": 14
+    "imageUrl": "",
+    "rank": 13
   },
   {
     "story_id": "schlafmarkt",
@@ -655,8 +518,8 @@
     "first_mention_urn": "urn:srf:video:6e8e4f40-d0f1-438a-8dc5-c48e3712a955",
     "first_mention_time": "00:14:28.115",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_15_Schlafmarkt.jpg",
-    "rank": 15
+    "imageUrl": "",
+    "rank": 14
   },
   {
     "story_id": "orban",
@@ -692,8 +555,8 @@
     "first_mention_urn": "urn:srf:video:de112333-0285-4abe-8221-9843b7531299",
     "first_mention_time": "00:01:24.934",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_16_Orban.jpg",
-    "rank": 16
+    "imageUrl": "",
+    "rank": 15
   },
   {
     "story_id": "tierhaltung",
@@ -728,8 +591,8 @@
     "first_mention_urn": "urn:srf:video:ad1aa979-c2b6-4cd2-866d-65e05db76dcd",
     "first_mention_time": "00:15:40.605",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_17_Tierhaltung.jpg",
-    "rank": 17
+    "imageUrl": "",
+    "rank": 16
   },
   {
     "story_id": "polizeigewalt",
@@ -764,8 +627,8 @@
     "first_mention_urn": "urn:srf:video:ad1aa979-c2b6-4cd2-866d-65e05db76dcd",
     "first_mention_time": "00:01:45.878",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_18_Polizeigewalt.jpg",
-    "rank": 18
+    "imageUrl": "",
+    "rank": 17
   },
   {
     "story_id": "therapiehund",
@@ -800,8 +663,8 @@
     "first_mention_urn": "urn:srf:video:ad1aa979-c2b6-4cd2-866d-65e05db76dcd",
     "first_mention_time": "00:11:43.065",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_19_Therapiehund.jpg",
-    "rank": 19
+    "imageUrl": "",
+    "rank": 18
   },
   {
     "story_id": "gesichtserkennung",
@@ -835,8 +698,8 @@
     "first_mention_urn": "urn:srf:video:6e8e4f40-d0f1-438a-8dc5-c48e3712a955",
     "first_mention_time": "00:08:58.165",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_20_Gesichtserkennung.jpg",
-    "rank": 20
+    "imageUrl": "",
+    "rank": 19
   },
   {
     "story_id": "hasenbestand",
@@ -870,8 +733,8 @@
     "first_mention_urn": "urn:rtr:video:bc684d0c-0c2f-4e89-b12b-9c67c546459b",
     "first_mention_time": "00:11:10.504",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_21_Hasenbestand.jpg",
-    "rank": 21
+    "imageUrl": "",
+    "rank": 20
   },
   {
     "story_id": "mario_adorf",
@@ -906,8 +769,8 @@
     "first_mention_urn": "urn:srf:video:0345e55d-9ac0-443e-902f-50c42bcb3c38",
     "first_mention_time": "00:03:31.916",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_22_Mario_Adorf.jpg",
-    "rank": 22
+    "imageUrl": "",
+    "rank": 21
   },
   {
     "story_id": "mariastein",
@@ -942,8 +805,8 @@
     "first_mention_urn": "urn:srf:video:86f51543-7d83-47e7-a9ee-edda179e76d5",
     "first_mention_time": "00:15:00.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_23_Mariastein.jpg",
-    "rank": 23
+    "imageUrl": "",
+    "rank": 22
   },
   {
     "story_id": "melania_epstein",
@@ -979,54 +842,8 @@
     "first_mention_urn": "urn:srf:video:5d66a90c-3495-43e0-9bdc-37c0e0e39c57",
     "first_mention_time": "00:02:25.394",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_24_Melania_Epstein.jpg",
-    "rank": 24
-  },
-  {
-    "story_id": "lpreis_iran",
-    "keyword": "Ölpreis Iran",
-    "phrase": "Ölpreis Iran",
-    "score": 635.93,
-    "novelty": 9.0,
-    "spread": 2.58,
-    "persistence": 4.17,
-    "prominence": 5.24,
-    "primetime": 1.25,
-    "n_segments": 8,
-    "n_repeats": 5,
-    "distinct_programs": 2,
-    "total_seconds": 1077.0,
-    "editorial_units": [
-      "SRF Börse",
-      "Tagesschau"
-    ],
-    "programs": [
-      "SRF Börse",
-      "SRF Börse in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "SRF Börse",
-        "channel": "SRF 1",
-        "quote": "Die brüchige Waffenruhe im Iran-Krieg lässt den Ölpreis unter 100 Dollar fallen, belastet aber weiterhin Airlines und Schweizer Chemieunternehmen.",
-        "urn": "urn:srf:video:3b539bed-2502-4db4-a6e6-b5c87d47a2f6",
-        "startTime": "2026-04-10T19:25:00+02:00"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Der Iran-Krieg und die blockierte Strasse von Hormus führen zu stark gestiegenen Energiepreisen in den USA, wo Benzin und Heizöl um bis zu 40 Prozent teurer geworden sind.",
-        "urn": "urn:srf:video:828e6264-8bd7-4695-b5e2-46a3e9230846",
-        "startTime": "2026-04-10T19:30:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:3b539bed-2502-4db4-a6e6-b5c87d47a2f6",
-    "first_mention_time": "00:00:35.200",
-    "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/images/20260406_25_Ölpreis_Iran.jpg",
-    "rank": 25
+    "imageUrl": "",
+    "rank": 23
   },
   {
     "story_id": "walter_lietha",
@@ -1061,8 +878,8 @@
     "first_mention_urn": "urn:srf:video:6fe40dba-ae22-4282-8433-bd928a7827d7",
     "first_mention_time": "00:14:02.770",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_26_Walter_Lietha.jpg",
-    "rank": 26
+    "imageUrl": "",
+    "rank": 25
   },
   {
     "story_id": "berggebiete_uri",
@@ -1097,8 +914,8 @@
     "first_mention_urn": "urn:srf:video:86f51543-7d83-47e7-a9ee-edda179e76d5",
     "first_mention_time": "00:10:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_27_Berggebiete_Uri.jpg",
-    "rank": 27
+    "imageUrl": "",
+    "rank": 26
   },
   {
     "story_id": "b_rse",
@@ -1143,8 +960,8 @@
     "first_mention_urn": "urn:srf:video:187afef6-ddb3-4b05-93be-528c00a662ef",
     "first_mention_time": "00:00:26.080",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/images/20260406_28_Börse.jpg",
-    "rank": 28
+    "imageUrl": "",
+    "rank": 27
   },
   {
     "story_id": "st_gallen_moschee",
@@ -1179,8 +996,8 @@
     "first_mention_urn": "urn:srf:video:86f51543-7d83-47e7-a9ee-edda179e76d5",
     "first_mention_time": "00:02:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_29_St__Gallen_Moschee.jpg",
-    "rank": 29
+    "imageUrl": "",
+    "rank": 28
   },
   {
     "story_id": "bauernhilfe",
@@ -1215,8 +1032,8 @@
     "first_mention_urn": "urn:srf:video:6fe40dba-ae22-4282-8433-bd928a7827d7",
     "first_mention_time": "00:09:24.677",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_30_Bauernhilfe.jpg",
-    "rank": 30
+    "imageUrl": "",
+    "rank": 29
   },
   {
     "story_id": "higa",
@@ -1250,8 +1067,8 @@
     "first_mention_urn": "urn:rtr:video:b66846f9-e870-4667-ae1d-4c06d837921b",
     "first_mention_time": "00:08:32.730",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_31_HIGA.jpg",
-    "rank": 31
+    "imageUrl": "",
+    "rank": 30
   },
   {
     "story_id": "donat_caduff",
@@ -1285,8 +1102,8 @@
     "first_mention_urn": "urn:rtr:video:b618ae7b-44ea-4d39-a276-7007b5a064d4",
     "first_mention_time": "00:08:09.826",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_32_Donat_Caduff.jpg",
-    "rank": 32
+    "imageUrl": "",
+    "rank": 31
   },
   {
     "story_id": "tessin_tourismus",
@@ -1321,8 +1138,8 @@
     "first_mention_urn": "urn:srf:video:6fe40dba-ae22-4282-8433-bd928a7827d7",
     "first_mention_time": "00:04:26.268",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_33_Tessin_Tourismus.jpg",
-    "rank": 33
+    "imageUrl": "",
+    "rank": 32
   },
   {
     "story_id": "religionslehrer",
@@ -1356,8 +1173,8 @@
     "first_mention_urn": "urn:rtr:video:b66846f9-e870-4667-ae1d-4c06d837921b",
     "first_mention_time": "00:01:15.914",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_34_Religionslehrer.jpg",
-    "rank": 34
+    "imageUrl": "",
+    "rank": 33
   },
   {
     "story_id": "repower",
@@ -1391,8 +1208,8 @@
     "first_mention_urn": "urn:rtr:video:b618ae7b-44ea-4d39-a276-7007b5a064d4",
     "first_mention_time": "00:04:19.480",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_35_Repower.jpg",
-    "rank": 35
+    "imageUrl": "",
+    "rank": 34
   },
   {
     "story_id": "muttermilch",
@@ -1427,8 +1244,8 @@
     "first_mention_urn": "urn:srf:video:c1421546-fc14-47c6-ac59-9f3c2db457e2",
     "first_mention_time": "00:05:38.445",
     "first_mention_program": "Schweiz aktuell in Gebärdensprache",
-    "imageUrl": "../demo-data/images/20260406_36_Muttermilch.jpg",
-    "rank": 36
+    "imageUrl": "",
+    "rank": 35
   },
   {
     "story_id": "ungarn_wahlen",
@@ -1462,8 +1279,8 @@
     "first_mention_urn": "urn:srf:video:2bdc2a2c-8f3e-4fed-bd92-9d5f30bfc4fd",
     "first_mention_time": "00:10:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_37_Ungarn_Wahlen.jpg",
-    "rank": 37
+    "imageUrl": "",
+    "rank": 36
   },
   {
     "story_id": "10_millionen_schweiz",
@@ -1497,8 +1314,8 @@
     "first_mention_urn": "urn:rtr:video:bc684d0c-0c2f-4e89-b12b-9c67c546459b",
     "first_mention_time": "00:06:59.764",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_38_10-Millionen-Schweiz.jpg",
-    "rank": 38
+    "imageUrl": "",
+    "rank": 37
   },
   {
     "story_id": "martina_linn",
@@ -1532,8 +1349,8 @@
     "first_mention_urn": "urn:rtr:video:0098ba29-1998-45c3-8a86-938ed0c2daec",
     "first_mention_time": "00:08:09.440",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_39_Martina_Linn.jpg",
-    "rank": 39
+    "imageUrl": "",
+    "rank": 38
   },
   {
     "story_id": "active_clubs",
@@ -1567,8 +1384,8 @@
     "first_mention_urn": "urn:srf:video:2bdc2a2c-8f3e-4fed-bd92-9d5f30bfc4fd",
     "first_mention_time": "00:18:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_40_Active_Clubs.jpg",
-    "rank": 40
+    "imageUrl": "",
+    "rank": 39
   },
   {
     "story_id": "berufsausbildung",
@@ -1602,8 +1419,8 @@
     "first_mention_urn": "urn:rtr:video:0098ba29-1998-45c3-8a86-938ed0c2daec",
     "first_mention_time": "00:01:26.380",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_41_Berufsausbildung.jpg",
-    "rank": 41
+    "imageUrl": "",
+    "rank": 40
   },
   {
     "story_id": "80er_jahre",
@@ -1637,8 +1454,8 @@
     "first_mention_urn": "urn:srf:video:2bdc2a2c-8f3e-4fed-bd92-9d5f30bfc4fd",
     "first_mention_time": "00:22:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_42_80er-Jahre.jpg",
-    "rank": 42
+    "imageUrl": "",
+    "rank": 41
   },
   {
     "story_id": "velospur",
@@ -1673,8 +1490,8 @@
     "first_mention_urn": "urn:srf:video:e8e54973-c437-4f2e-a36b-4ee42de88ffc",
     "first_mention_time": "00:06:59.620",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_43_Velospur.jpg",
-    "rank": 43
+    "imageUrl": "",
+    "rank": 42
   },
   {
     "story_id": "moutier",
@@ -1709,8 +1526,8 @@
     "first_mention_urn": "urn:srf:video:e8e54973-c437-4f2e-a36b-4ee42de88ffc",
     "first_mention_time": "00:01:23.822",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_44_Moutier.jpg",
-    "rank": 44
+    "imageUrl": "",
+    "rank": 43
   },
   {
     "story_id": "b_renbabys",
@@ -1745,8 +1562,8 @@
     "first_mention_urn": "urn:srf:video:e8e54973-c437-4f2e-a36b-4ee42de88ffc",
     "first_mention_time": "00:17:11.555",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_45_Bärenbabys.jpg",
-    "rank": 45
+    "imageUrl": "",
+    "rank": 44
   },
   {
     "story_id": "knorr_aromat",
@@ -1780,8 +1597,8 @@
     "first_mention_urn": "urn:srf:video:6e8e4f40-d0f1-438a-8dc5-c48e3712a955",
     "first_mention_time": "00:24:37.630",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260406_46_Knorr_Aromat.jpg",
-    "rank": 46
+    "imageUrl": "",
+    "rank": 45
   },
   {
     "story_id": "hotel_flaz",
@@ -1815,8 +1632,8 @@
     "first_mention_urn": "urn:rtr:video:b618ae7b-44ea-4d39-a276-7007b5a064d4",
     "first_mention_time": "00:03:20.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260406_47_Hotel_Flaz.jpg",
-    "rank": 47
+    "imageUrl": "",
+    "rank": 46
   },
   {
     "story_id": "jean_francois_steiert",
@@ -1851,8 +1668,8 @@
     "first_mention_urn": "urn:srf:video:86f51543-7d83-47e7-a9ee-edda179e76d5",
     "first_mention_time": "00:05:20.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260406_48_Jean-Francois_Steiert.jpg",
-    "rank": 48
+    "imageUrl": "",
+    "rank": 47
   },
   {
     "story_id": "trump_nato",
@@ -1887,7 +1704,151 @@
     "first_mention_urn": "urn:srf:video:0345e55d-9ac0-443e-902f-50c42bcb3c38",
     "first_mention_time": "00:02:20.664",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260406_49_Trump_NATO.jpg",
+    "imageUrl": "",
+    "rank": 48
+  },
+  {
+    "story_id": "salmonellen",
+    "keyword": "Salmonellen",
+    "phrase": "Salmonellen",
+    "score": 306.75,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 3.2,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 214.8,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Eine Käserei in Schüpfheim bleibt vorläufig geschlossen, nachdem Salmonellen in Produkten der Käserei Landbrügg gefunden wurden, die bei Coop und Migros verkauft werden.",
+        "urn": "urn:srf:video:6fe40dba-ae22-4282-8433-bd928a7827d7",
+        "startTime": "2026-04-07T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:6fe40dba-ae22-4282-8433-bd928a7827d7",
+    "first_mention_time": "00:08:04.201",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "",
     "rank": 49
+  },
+  {
+    "story_id": "drogenkriminalit_t",
+    "keyword": "Drogenkriminalität",
+    "phrase": "Drogenkriminalität",
+    "score": 293.36,
+    "novelty": 7.0,
+    "spread": 2.0,
+    "persistence": 3.81,
+    "prominence": 4.4,
+    "primetime": 1.25,
+    "n_segments": 6,
+    "n_repeats": 4,
+    "distinct_programs": 1,
+    "total_seconds": 574.6,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Justizminister Beat Jans besucht den Hafen Antwerpen, um von Belgiens Bekämpfung des Drogenhandels zu lernen und die Hafenallianz für die Schweiz zu nutzen.",
+        "urn": "urn:srf:video:b3d67ef0-6022-4288-ad9a-3692f4fb5f87",
+        "startTime": "2026-04-09T18:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:b3d67ef0-6022-4288-ad9a-3692f4fb5f87",
+    "first_mention_time": "00:01:54.826",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "",
+    "rank": 50
+  },
+  {
+    "story_id": "erfindungen",
+    "keyword": "Erfindungen",
+    "phrase": "Erfindungen",
+    "score": 274.03,
+    "novelty": 5.0,
+    "spread": 2.0,
+    "persistence": 3.32,
+    "prominence": 5.5,
+    "primetime": 1.5,
+    "n_segments": 4,
+    "n_repeats": 3,
+    "distinct_programs": 1,
+    "total_seconds": 1297.1,
+    "editorial_units": [
+      "SRF Kids News"
+    ],
+    "programs": [
+      "SRF Kids News",
+      "SRF Kids News in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "SRF Kids News",
+        "channel": "SRF 1",
+        "quote": "Die Schweiz ist seit über zehn Jahren auf Platz 1 in Sachen Erfindungen und Technologie, wie der Global Innovation Index zeigt.",
+        "urn": "urn:srf:video:c37351ed-1e7e-4bca-901d-12a3de96663c",
+        "startTime": "2026-04-09T17:05:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:c37351ed-1e7e-4bca-901d-12a3de96663c",
+    "first_mention_time": "00:03:55.440",
+    "first_mention_program": "SRF Kids News",
+    "imageUrl": "",
+    "rank": 52
+  },
+  {
+    "story_id": "klimawandel",
+    "keyword": "Klimawandel",
+    "phrase": "Klimawandel",
+    "score": 272.86,
+    "novelty": 7.0,
+    "spread": 2.0,
+    "persistence": 3.81,
+    "prominence": 4.1,
+    "primetime": 1.25,
+    "n_segments": 6,
+    "n_repeats": 4,
+    "distinct_programs": 1,
+    "total_seconds": 452.7,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Eine Expertengruppe warnt, dass die Schweiz überdurchschnittlich vom Klimawandel betroffen ist und die Klimaschutzziele bis 2030 mit aktuellen Massnahmen nicht erreicht werden können.",
+        "urn": "urn:srf:video:b3d67ef0-6022-4288-ad9a-3692f4fb5f87",
+        "startTime": "2026-04-09T18:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:b3d67ef0-6022-4288-ad9a-3692f4fb5f87",
+    "first_mention_time": "00:02:44.832",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "",
+    "rank": 53
   }
 ]

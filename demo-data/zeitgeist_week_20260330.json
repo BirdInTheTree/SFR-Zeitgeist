@@ -1,51 +1,5 @@
 [
   {
-    "story_id": "wetter",
-    "keyword": "Wetter",
-    "phrase": "Wetter",
-    "score": 9704.65,
-    "novelty": 47.0,
-    "spread": 2.58,
-    "persistence": 6.55,
-    "prominence": 8.12,
-    "primetime": 1.5,
-    "n_segments": 46,
-    "n_repeats": 33,
-    "distinct_programs": 2,
-    "total_seconds": 8311.6,
-    "editorial_units": [
-      "Meteo",
-      "Tagesschau"
-    ],
-    "programs": [
-      "Meteo",
-      "Meteo in Gebärdensprache",
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache"
-    ],
-    "quotes": [
-      {
-        "title": "Meteo",
-        "channel": "SRF 1",
-        "quote": "Das nasse Winterwetter mit Tiefdruckeinfluss hält an, aber ab Donnerstag wird es endlich wieder trocken mit steigenden Temperaturen bis 20 °C am Wochenende.",
-        "urn": "urn:srf:video:5f66c2de-b8de-4d4a-9a85-15729fe82a26",
-        "startTime": "2026-03-30T12:50:00+02:00"
-      },
-      {
-        "title": "Tagesschau",
-        "channel": "SRF 1",
-        "quote": "Mit Bise morgen wechselhaft und nur lokal nass, im Süden mit Nordföhn recht sonnig.",
-        "urn": "urn:srf:video:95ceb457-c713-4c32-892a-caaacd6114f0",
-        "startTime": "2026-03-31T19:30:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
-    "first_mention_time": "00:00:34.658",
-    "first_mention_program": "Meteo",
-    "imageUrl": "../demo-data/images/20260330_01_Wetter.jpg",
-    "rank": 1
-  },
-  {
     "story_id": "irankrieg",
     "keyword": "Irankrieg",
     "phrase": "Irankrieg",
@@ -89,8 +43,8 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:01:25.382",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_02_Irankrieg.jpg",
-    "rank": 2
+    "imageUrl": "",
+    "rank": 1
   },
   {
     "story_id": "v_preise",
@@ -133,8 +87,8 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:02:32.040",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_03_ÖV-Preise.jpg",
-    "rank": 3
+    "imageUrl": "",
+    "rank": 2
   },
   {
     "story_id": "italien_wm_qualifikation",
@@ -179,8 +133,8 @@
     "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
     "first_mention_time": "00:00:32.075",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_04_Italien_WM-Qualifikation.jpg",
-    "rank": 4
+    "imageUrl": "",
+    "rank": 3
   },
   {
     "story_id": "solarenergie",
@@ -223,8 +177,8 @@
     "first_mention_urn": "urn:rtr:video:a8d4bb3a-6ec1-4bbf-84f4-72a63bf089bb",
     "first_mention_time": "00:02:35.737",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_05_Solarenergie.jpg",
-    "rank": 5
+    "imageUrl": "",
+    "rank": 4
   },
   {
     "story_id": "cyberangriffe",
@@ -269,8 +223,8 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:00:27.598",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_06_Cyberangriffe.jpg",
-    "rank": 6
+    "imageUrl": "",
+    "rank": 5
   },
   {
     "story_id": "spacex_b_rsengang",
@@ -314,8 +268,8 @@
     "first_mention_urn": "urn:srf:video:6779fa8e-d7a5-4309-b9c6-b6c41fdd8a0a",
     "first_mention_time": "00:01:06.280",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/images/20260330_07_SpaceX_Börsengang.jpg",
-    "rank": 7
+    "imageUrl": "",
+    "rank": 6
   },
   {
     "story_id": "blue_line",
@@ -358,8 +312,8 @@
     "first_mention_urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
     "first_mention_time": "00:02:30.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_08_Blue_Line.jpg",
-    "rank": 8
+    "imageUrl": "",
+    "rank": 7
   },
   {
     "story_id": "sanadura",
@@ -393,8 +347,8 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:01:20.261",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_09_Sanadura.jpg",
-    "rank": 9
+    "imageUrl": "",
+    "rank": 8
   },
   {
     "story_id": "artemis",
@@ -438,8 +392,8 @@
     "first_mention_urn": "urn:srf:video:6e9e34b6-88c7-45bd-a7d7-a6abd8c17e3a",
     "first_mention_time": "00:18:13.485",
     "first_mention_program": "Tagesschau",
-    "imageUrl": "../demo-data/images/20260330_10_Artemis.jpg",
-    "rank": 10
+    "imageUrl": "",
+    "rank": 9
   },
   {
     "story_id": "todesstrafe",
@@ -484,8 +438,8 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:00:32.873",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_11_Todesstrafe.jpg",
-    "rank": 11
+    "imageUrl": "",
+    "rank": 10
   },
   {
     "story_id": "lpreis",
@@ -529,8 +483,8 @@
     "first_mention_urn": "urn:srf:video:a03b6742-0806-4686-bd5d-f30f77aba7d3",
     "first_mention_time": "00:01:27.560",
     "first_mention_program": "SRF Börse",
-    "imageUrl": "../demo-data/images/20260330_12_Ölpreis.jpg",
-    "rank": 12
+    "imageUrl": "",
+    "rank": 11
   },
   {
     "story_id": "roveredo_mafia",
@@ -574,8 +528,8 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:01:20.875",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_13_Roveredo_Mafia.jpg",
-    "rank": 13
+    "imageUrl": "",
+    "rank": 12
   },
   {
     "story_id": "kirschbl_ten",
@@ -618,8 +572,8 @@
     "first_mention_urn": "urn:srf:video:1d4b2457-7884-4dc5-adaa-5d6785a86b46",
     "first_mention_time": "00:03:39.302",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_14_Kirschblüten.jpg",
-    "rank": 14
+    "imageUrl": "",
+    "rank": 13
   },
   {
     "story_id": "st_moritz_wahl",
@@ -663,52 +617,8 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:05:50.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_15_St__Moritz_Wahl.jpg",
-    "rank": 15
-  },
-  {
-    "story_id": "griechenland_unwetter",
-    "keyword": "Griechenland Unwetter",
-    "phrase": "Griechenland Unwetter",
-    "score": 1297.86,
-    "novelty": 17.0,
-    "spread": 2.58,
-    "persistence": 5.09,
-    "prominence": 3.87,
-    "primetime": 1.5,
-    "n_segments": 16,
-    "n_repeats": 14,
-    "distinct_programs": 2,
-    "total_seconds": 378.7,
-    "editorial_units": [
-      "10 vor 10",
-      "Tagesschau"
-    ],
-    "programs": [
-      "10 vor 10",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "Heftige Stürme und Starkregen führten in Griechenland zu Überschwemmungen, während Saharastaub Kreta in eine Mars-Landschaft verwandelte.",
-        "urn": "urn:srf:video:5e995a17-164a-47d4-8e43-8b53a950883f",
-        "startTime": "2026-04-02T18:00:00+02:00"
-      },
-      {
-        "title": "10 vor 10",
-        "channel": "SRF 1",
-        "quote": "Ein Mittelmeerzyklon bescherte der griechischen Insel Kreta heftige Winde und einen grossflächigen Staubsturm, der die Landschaft spektakulär tiefrot färbte.",
-        "urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
-        "startTime": "2026-04-02T21:50:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:5e995a17-164a-47d4-8e43-8b53a950883f",
-    "first_mention_time": "00:03:26.007",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_16_Griechenland_Unwetter.jpg",
-    "rank": 16
+    "imageUrl": "",
+    "rank": 14
   },
   {
     "story_id": "benzinpreise",
@@ -742,8 +652,8 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:02:06.952",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_17_Benzinpreise.jpg",
-    "rank": 17
+    "imageUrl": "",
+    "rank": 15
   },
   {
     "story_id": "mondwettlauf_china",
@@ -777,8 +687,8 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:12:44.478",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_18_Mondwettlauf_China.jpg",
-    "rank": 18
+    "imageUrl": "",
+    "rank": 16
   },
   {
     "story_id": "ukraine_trauma",
@@ -812,8 +722,8 @@
     "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
     "first_mention_time": "00:10:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_19_Ukraine_Trauma.jpg",
-    "rank": 19
+    "imageUrl": "",
+    "rank": 17
   },
   {
     "story_id": "digitale_gewalt",
@@ -847,8 +757,8 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:01:24.218",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_20_Digitale_Gewalt.jpg",
-    "rank": 20
+    "imageUrl": "",
+    "rank": 18
   },
   {
     "story_id": "paintball",
@@ -882,8 +792,8 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:22:10.958",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_21_Paintball.jpg",
-    "rank": 21
+    "imageUrl": "",
+    "rank": 19
   },
   {
     "story_id": "apple_50_jahre",
@@ -917,8 +827,8 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:18:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_22_Apple_50_Jahre.jpg",
-    "rank": 22
+    "imageUrl": "",
+    "rank": 20
   },
   {
     "story_id": "energiekrise",
@@ -952,8 +862,8 @@
     "first_mention_urn": "urn:srf:video:4a0a7649-4d86-4081-b505-8b0553d98f5a",
     "first_mention_time": "00:08:00.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_23_Energiekrise.jpg",
-    "rank": 23
+    "imageUrl": "",
+    "rank": 21
   },
   {
     "story_id": "siri_hustvedt",
@@ -987,8 +897,8 @@
     "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
     "first_mention_time": "00:20:45.340",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_24_Siri_Hustvedt.jpg",
-    "rank": 24
+    "imageUrl": "",
+    "rank": 22
   },
   {
     "story_id": "pfas_milch",
@@ -1022,8 +932,8 @@
     "first_mention_urn": "urn:srf:video:311b89e8-c601-43ac-b395-33ae57c10fe4",
     "first_mention_time": "00:06:30.000",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_25_PFAS_Milch.jpg",
-    "rank": 25
+    "imageUrl": "",
+    "rank": 23
   },
   {
     "story_id": "bern_wahlen",
@@ -1068,8 +978,8 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:01:26.658",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_26_Bern_Wahlen.jpg",
-    "rank": 26
+    "imageUrl": "",
+    "rank": 24
   },
   {
     "story_id": "osterstau",
@@ -1114,8 +1024,8 @@
     "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
     "first_mention_time": "00:01:33.898",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_27_Osterstau.jpg",
-    "rank": 27
+    "imageUrl": "",
+    "rank": 25
   },
   {
     "story_id": "scuol_solar",
@@ -1149,8 +1059,8 @@
     "first_mention_urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
     "first_mention_time": "00:06:15.000",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_28_Scuol_Solar.jpg",
-    "rank": 28
+    "imageUrl": "",
+    "rank": 26
   },
   {
     "story_id": "rzte_b_rokratie",
@@ -1184,8 +1094,8 @@
     "first_mention_urn": "urn:srf:video:622e1b06-d8f6-4f4a-b12e-6d7ed6766845",
     "first_mention_time": "00:05:51.099",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_29_Ärzte_Bürokratie.jpg",
-    "rank": 29
+    "imageUrl": "",
+    "rank": 27
   },
   {
     "story_id": "pam_bondi",
@@ -1219,8 +1129,8 @@
     "first_mention_urn": "urn:srf:video:31671e96-d406-4b41-8eb1-9af0de3a35ad",
     "first_mention_time": "00:13:27.068",
     "first_mention_program": "10 vor 10",
-    "imageUrl": "../demo-data/images/20260330_30_Pam_Bondi.jpg",
-    "rank": 30
+    "imageUrl": "",
+    "rank": 28
   },
   {
     "story_id": "celine_dion",
@@ -1256,8 +1166,8 @@
     "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
     "first_mention_time": "00:03:05.945",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_31_Celine_Dion.jpg",
-    "rank": 31
+    "imageUrl": "",
+    "rank": 29
   },
   {
     "story_id": "muriel_furrer",
@@ -1301,8 +1211,8 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:04:12.802",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_32_Muriel_Furrer.jpg",
-    "rank": 32
+    "imageUrl": "",
+    "rank": 30
   },
   {
     "story_id": "kakaopreise",
@@ -1337,8 +1247,8 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:17:00.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_33_Kakaopreise.jpg",
-    "rank": 33
+    "imageUrl": "",
+    "rank": 31
   },
   {
     "story_id": "ahmad_al_scharaa",
@@ -1374,8 +1284,8 @@
     "first_mention_urn": "urn:srf:video:2b8f82e9-b420-4650-bf02-b3faa99c79ca",
     "first_mention_time": "00:02:48.922",
     "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_34_Ahmad_al-Scharaa.jpg",
-    "rank": 34
+    "imageUrl": "",
+    "rank": 32
   },
   {
     "story_id": "zalando_arbeitsbedingungen",
@@ -1410,45 +1320,8 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:08:00.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_35_Zalando_Arbeitsbedingungen.jpg",
-    "rank": 35
-  },
-  {
-    "story_id": "artemis_mondmission",
-    "keyword": "Artemis Mondmission",
-    "phrase": "Artemis Mondmission",
-    "score": 850.3,
-    "novelty": 11.0,
-    "spread": 2.0,
-    "persistence": 4.46,
-    "prominence": 5.78,
-    "primetime": 1.5,
-    "n_segments": 10,
-    "n_repeats": 9,
-    "distinct_programs": 1,
-    "total_seconds": 1586.1,
-    "editorial_units": [
-      "Tagesschau"
-    ],
-    "programs": [
-      "Tagesschau",
-      "Tagesschau in Gebärdensprache",
-      "Tagesschau kompakt"
-    ],
-    "quotes": [
-      {
-        "title": "Tagesschau kompakt",
-        "channel": "SRF 1",
-        "quote": "Die NASA startet in der Nacht auf morgen die Artemis-2-Mission, um Menschen nach mehr als einem halben Jahrhundert erstmals wieder zum Mond zu bringen.",
-        "urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-        "startTime": "2026-04-01T12:45:00+02:00"
-      }
-    ],
-    "first_mention_urn": "urn:srf:video:f512c4d1-6f5f-47de-abc6-91c75ce7c990",
-    "first_mention_time": "00:03:45.442",
-    "first_mention_program": "Tagesschau kompakt",
-    "imageUrl": "../demo-data/images/20260330_36_Artemis_Mondmission.jpg",
-    "rank": 36
+    "imageUrl": "",
+    "rank": 33
   },
   {
     "story_id": "quereinsteiger",
@@ -1483,8 +1356,8 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:02:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_37_Quereinsteiger.jpg",
-    "rank": 37
+    "imageUrl": "",
+    "rank": 35
   },
   {
     "story_id": "sutter_kolonialismus",
@@ -1519,8 +1392,8 @@
     "first_mention_urn": "urn:srf:video:e1c53b8c-d095-4222-adb9-183e38aff7fb",
     "first_mention_time": "00:12:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_38_Sutter_Kolonialismus.jpg",
-    "rank": 38
+    "imageUrl": "",
+    "rank": 36
   },
   {
     "story_id": "eierproduktion",
@@ -1555,8 +1428,8 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:14:09.965",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_39_Eierproduktion.jpg",
-    "rank": 39
+    "imageUrl": "",
+    "rank": 37
   },
   {
     "story_id": "zugv_gel",
@@ -1591,8 +1464,8 @@
     "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
     "first_mention_time": "00:16:52.606",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_40_Zugvögel.jpg",
-    "rank": 40
+    "imageUrl": "",
+    "rank": 38
   },
   {
     "story_id": "leichtathletikhalle",
@@ -1627,8 +1500,8 @@
     "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
     "first_mention_time": "00:05:30.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_41_Leichtathletikhalle.jpg",
-    "rank": 41
+    "imageUrl": "",
+    "rank": 39
   },
   {
     "story_id": "datenpanne_appenzell",
@@ -1663,8 +1536,8 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:08:09.755",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_42_Datenpanne_Appenzell.jpg",
-    "rank": 42
+    "imageUrl": "",
+    "rank": 40
   },
   {
     "story_id": "doppelmandate",
@@ -1699,8 +1572,8 @@
     "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
     "first_mention_time": "00:09:00.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_43_Doppelmandate.jpg",
-    "rank": 43
+    "imageUrl": "",
+    "rank": 41
   },
   {
     "story_id": "camarasaurus",
@@ -1735,8 +1608,8 @@
     "first_mention_urn": "urn:srf:video:3b99d36f-dce1-4155-8142-2bff7c415b3a",
     "first_mention_time": "00:12:50.000",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_44_Camarasaurus.jpg",
-    "rank": 44
+    "imageUrl": "",
+    "rank": 42
   },
   {
     "story_id": "brugg_drogenszene",
@@ -1771,8 +1644,8 @@
     "first_mention_urn": "urn:srf:video:e33776c1-6e1b-4579-a043-08b1382c16cf",
     "first_mention_time": "00:11:18.217",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_45_Brugg_Drogenszene.jpg",
-    "rank": 45
+    "imageUrl": "",
+    "rank": 43
   },
   {
     "story_id": "autodiebst_hle",
@@ -1807,8 +1680,8 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:12:32.399",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_46_Autodiebstähle.jpg",
-    "rank": 46
+    "imageUrl": "",
+    "rank": 44
   },
   {
     "story_id": "ernestina_abb_hl",
@@ -1842,8 +1715,8 @@
     "first_mention_urn": "urn:rtr:video:098106fa-ea93-4e05-a766-ef9e78cad215",
     "first_mention_time": "00:08:02.142",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_47_Ernestina_Abbühl.jpg",
-    "rank": 47
+    "imageUrl": "",
+    "rank": 45
   },
   {
     "story_id": "steuerabzug",
@@ -1878,8 +1751,8 @@
     "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
     "first_mention_time": "00:06:22.391",
     "first_mention_program": "Schweiz aktuell",
-    "imageUrl": "../demo-data/images/20260330_48_Steuerabzug.jpg",
-    "rank": 48
+    "imageUrl": "",
+    "rank": 46
   },
   {
     "story_id": "young_pledari",
@@ -1913,7 +1786,115 @@
     "first_mention_urn": "urn:rtr:video:14e50194-3b39-4fa9-b4f7-e9160c80ff18",
     "first_mention_time": "00:09:42.685",
     "first_mention_program": "Telesguard",
-    "imageUrl": "../demo-data/images/20260330_49_Young-Pledari.jpg",
+    "imageUrl": "",
+    "rank": 47
+  },
+  {
+    "story_id": "spielzeugfreier_kindergarten",
+    "keyword": "Spielzeugfreier Kindergarten",
+    "phrase": "Spielzeugfreier Kindergarten",
+    "score": 567.83,
+    "novelty": 8.0,
+    "spread": 2.0,
+    "persistence": 4.0,
+    "prominence": 5.91,
+    "primetime": 1.5,
+    "n_segments": 7,
+    "n_repeats": 6,
+    "distinct_programs": 1,
+    "total_seconds": 1750.0,
+    "editorial_units": [
+      "Schweiz aktuell"
+    ],
+    "programs": [
+      "Schweiz aktuell",
+      "Schweiz aktuell in Gebärdensprache"
+    ],
+    "quotes": [
+      {
+        "title": "Schweiz aktuell",
+        "channel": "SRF 1",
+        "quote": "Mehrere Hundert Kindergartenlehrpersonen im Aargau absolvieren einen Kurs für spielzeugfreie Kindergärten, die Kreativität und Lebenskompetenzen fördern.",
+        "urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+        "startTime": "2026-03-30T19:00:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:ed582789-895c-4f9e-a269-f1e02cc46eeb",
+    "first_mention_time": "00:18:09.580",
+    "first_mention_program": "Schweiz aktuell",
+    "imageUrl": "",
+    "rank": 48
+  },
+  {
+    "story_id": "messerangriff_z_rich",
+    "keyword": "Messerangriff Zürich",
+    "phrase": "Messerangriff Zürich",
+    "score": 472.83,
+    "novelty": 10.0,
+    "spread": 2.0,
+    "persistence": 4.32,
+    "prominence": 3.65,
+    "primetime": 1.5,
+    "n_segments": 9,
+    "n_repeats": 7,
+    "distinct_programs": 1,
+    "total_seconds": 315.8,
+    "editorial_units": [
+      "Tagesschau"
+    ],
+    "programs": [
+      "Tagesschau",
+      "Tagesschau in Gebärdensprache",
+      "Tagesschau kompakt"
+    ],
+    "quotes": [
+      {
+        "title": "Tagesschau kompakt",
+        "channel": "SRF 1",
+        "quote": "Die Jugendanwaltschaft Zürich hat gegen einen 17-Jährigen Anklage wegen versuchten Mordes erhoben, nachdem dieser vor zwei Jahren einen orthodoxen Juden mit einem Messer angegriffen hatte.",
+        "urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+        "startTime": "2026-03-31T12:45:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:srf:video:1debfc52-3786-411d-b614-b9118a090c58",
+    "first_mention_time": "00:01:52.193",
+    "first_mention_program": "Tagesschau kompakt",
+    "imageUrl": "",
     "rank": 49
+  },
+  {
+    "story_id": "maienfeld_osterbrunnen",
+    "keyword": "Maienfeld Osterbrunnen",
+    "phrase": "Maienfeld Osterbrunnen",
+    "score": 463.36,
+    "novelty": 7.0,
+    "spread": 2.0,
+    "persistence": 3.81,
+    "prominence": 5.8,
+    "primetime": 1.5,
+    "n_segments": 6,
+    "n_repeats": 5,
+    "distinct_programs": 1,
+    "total_seconds": 1606.0,
+    "editorial_units": [
+      "Telesguard"
+    ],
+    "programs": [
+      "Telesguard"
+    ],
+    "quotes": [
+      {
+        "title": "Telesguard",
+        "channel": "SRF 1",
+        "quote": "In Maienfeld werden seit acht Jahren um Ostern 13 Brunnen und einer in der Fraktion Rofels vom FrauenForum dekoriert, eine Tradition die auf das 19. Jahrhundert zurückgeht.",
+        "urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
+        "startTime": "2026-04-02T17:40:00+02:00"
+      }
+    ],
+    "first_mention_urn": "urn:rtr:video:5f2002b3-433a-49e1-b0fa-efc134b24957",
+    "first_mention_time": "00:10:00.000",
+    "first_mention_program": "Telesguard",
+    "imageUrl": "",
+    "rank": 50
   }
 ]
