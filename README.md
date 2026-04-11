@@ -1,26 +1,25 @@
 # SRF Zeitgeist
 
-A topic-centric front page for the broadcast archive.
+A topic-centric page for the broadcast archive.
 
 Viewers think in topics.
-TV archives are organized by show — Tagesschau, 10 vor 10, Schweiz aktuell.
+TV content is organized by program.
+Telesguard. Schweiz aktuell. 10 vor 10.
 "What happened with Artemis?"
 "Why is everyone talking about PFAS?"
 "Has Italy qualified?"
 
-There is no way to answer these questions on Play SRF today. You have to know which show covered it, then scrub through the episode.
-
-**5×5** gives you the answer in one glance. 25 images. 25 words. One day of Swiss news.
+5×5 is a way to navigate SRF's recent news archive by topics.
 
 ## How it works
 
-We take every news broadcast SRF aired today (~50 programs, including repeats). We have their subtitles. We run them through a pipeline:
+Every day, SRF broadcasts ~50 news programs (including repeated broadcasts). We process the subtitles of each broadcast:
 
-1. **Segment** — an LLM reads each broadcast's subtitles and splits it into story segments. Each segment gets a keyword and a timestamp of its most important moment. ([prompt](backend/v2/segmenter.py), [output format](demo-data/v2/artifacts/))
-2. **Merge** — segments from different programs about the same event get grouped into one story. Matching is by keyword, validated against the text to prevent false merges. ([merge logic](backend/v2/segmenter.py))
-3. **Score** — each story gets a rank based on five signals. ([formula](#scoring))
-4. **Screenshot** — we grab a video frame at the peak moment, not the anchor intro. ([how](#screenshots))
-5. **Display** — top 25 stories become the grid. Click any cell for quotes and Play SRF links.
+1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment (see [prompt](backend/v2/segmenter.py), [output format](demo-data/v2/artifacts/))
+2. **Merge** — same segments from different broadcasts are grouped into unified stories by keyword matching, with fingerprint validation to prevent false merges
+3. **Score** — each story is ranked by five signals: `novelty × spread × persistence × prominence × primetime` (see [formula](#scoring))
+4. **Screenshot** — a video frame is extracted at the story's emotional peak (see [screenshots](#screenshots))
+5. **Display** — top 25 stories become a 5×5 grid with TV frames and source quotes
 
 ## Product decisions
 
