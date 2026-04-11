@@ -15,7 +15,7 @@ Telesguard. Schweiz aktuell. 10 vor 10.
 
 Every day, SRF broadcasts ~50 news programs (including repeated broadcasts). We process the subtitles of each broadcast:
 
-1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment (see [prompt](backend/segmenter.py), [output format](demo-data/artifacts/))
+1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment (see [prompts](docs/prompts.md), [output format](demo-data/artifacts/))
 2. **Merge** — same segments from different broadcasts are grouped into unified stories by keyword matching, with fingerprint validation to prevent false merges
 3. **Score** — each story is ranked by five signals: `novelty × spread × persistence × prominence × primetime` (see [formula](#scoring))
 4. **Screenshot** — a video frame is extracted at the story's emotional peak (see [screenshots](#screenshots))
