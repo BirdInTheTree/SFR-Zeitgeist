@@ -1,0 +1,222 @@
+{
+  "program": {
+    "date": "2026-03-26",
+    "channel": "SRF info",
+    "title": "SRF Börse in Gebärdensprache",
+    "startTime": "2026-03-26T19:25:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:3e83e216-823e-452c-87fa-2ed7ba862963",
+    "word_count": 271,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Guten Abend. Der Sportschuhhersteller On überraschte gestern mit einer Personalie: Konzernchef Martin Hoffmann verlässt das Unternehmen nach 13 Jahren - Anfang letztes Jahr wurde er alleiniger CEO. David Allemann links und Caspar Coppetti rechts, zwei der drei Gründer, teilen sich künftig den Titel CEO. In New York, wo On kotiert ist, kam das nicht gut an. Die Aktie büsste gestern rund 11 % an Wert ein. Auch heute startete der Titel deutlich im Minus. Die Analystin in New York schätzt das so ein: Die Sorge besteht, dass gerade viel Veränderung stattfindet. Der Konzernchef wechselt, gleichzeitig kommt ein neuer Finanzchef. Neue Leute an der Spitze, das gibt immer Anlass zu Sorge. Auf der anderen Seite überzeugt, dass die beiden Mitbegründer, die nun Co-CEOs werden, schon lange stark im Unternehmen eingebunden waren. Die Unternehmensstrategie sollte sich also nicht ändern. Eigentlich läuft das Geschäft prächtig, On macht über 3 Mrd. Fr. Umsatz und hat grosse Wachstumsambitionen. Die Aktie ist heute aber weniger wert als noch beim Börsenstart vor viereinhalb Jahren. Viele Aktien im Konsumgüterbereich haben im schwierigen Umfeld gelitten. Im Fall On besteht die Gefahr, dass sich andere Marken, insbesondere Nike, auf Kosten von On erholen und wieder dazugewinnen. Aber isoliert betrachtet waren die Ergebnisse von On sehr gut. Das letzte Quartal war ein Rekordquartal mit sehr hohem Wachstum und Rentabilität. Im Fundament der Firma deutet nichts darauf hin, dass sich die Dynamik verlangsamt. So viel zu On. Wir blicken noch auf den Schweizer Leitindex - der verliert heute 0,6 % Hier folgt nun die \"Tagesschau\" Schönen Abend und machen Sie's gut. SWISS TXT / Accessibility Services Sarah Häusermann"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:15.626",
+      "end_time": "00:00:22.075",
+      "segment_type": "intro",
+      "keyword": "Sendungsstart",
+      "short_label": "Begrüssung und Sendungstart",
+      "summary": "Moderatorin begrüsst das Publikum zur Ausgabe von SRF Börse in Gebärdensprache mit Live-Untertiteln von SWISS TXT.",
+      "key_entities": [
+        "SRF Börse",
+        "SWISS TXT",
+        "Gebärdensprache"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-26",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-26T19:25:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:3e83e216-823e-452c-87fa-2ed7ba862963",
+      "duration_seconds": 6.449,
+      "segment_text": ". Mit Live-Untertiteln von SWISS TXT Guten Abend.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Guten",
+          "LiveUntertiteln",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "abend",
+          "guten",
+          "liveuntertiteln",
+          "swiss"
+        ],
+        "word_count": 8
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:22.397",
+      "end_time": "01:59.783",
+      "segment_type": "story",
+      "keyword": "On CEO-Wechsel",
+      "short_label": "On: Führungswechsel und Aktienrückgang",
+      "summary": "Sportschuhhersteller On gibt überraschenden Führungswechsel bekannt. Konzernchef Martin Hoffmann verlässt das Unternehmen nach 13 Jahren. Die beiden Gründer David Allemann und Caspar Coppetti teilen sich künftig den Titel CEO. Die Aktie büsst in New York 11% an Wert ein, da Analysten Sorge vor zu vielen gleichzeitigen Veränderungen äussern. Trotz starker operativer Ergebnisse und hoher Wachstumsambitionen (3 Mrd. Fr. Umsatz) bleibt die Aktie unter dem Börsenstartpreis von vor viereinhalb Jahren.",
+      "key_entities": [
+        "On",
+        "Martin Hoffmann",
+        "David Allemann",
+        "Caspar Coppetti",
+        "New York",
+        "Nike",
+        "Sportschuhe"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-26",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-26T19:25:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:3e83e216-823e-452c-87fa-2ed7ba862963",
+      "duration_seconds": 97.386,
+      "segment_text": "Der Sportschuhhersteller On überraschte gestern mit einer Personalie: Konzernchef Martin Hoffmann verlässt das Unternehmen nach 13 Jahren - Anfang letztes Jahr wurde er alleiniger CEO. David Allemann links und Caspar Coppetti rechts, zwei der drei Gründer, teilen sich künftig den Titel CEO. In New York, wo On kotiert ist, kam das nicht gut an. Die Aktie büsste gestern rund 11 % an Wert ein. Auch heute startete der Titel deutlich im Minus. Die Analystin in New York schätzt das so ein: Die Sorge besteht, dass gerade viel Veränderung stattfindet. Der Konzernchef wechselt, gleichzeitig kommt ein neuer Finanzchef. Neue Leute an der Spitze, das gibt immer Anlass zu Sorge. Auf der anderen Seite überzeugt, dass die beiden Mitbegründer, die nun Co-CEOs werden, schon lange stark im Unternehmen eingebunden waren. Die Unternehmensstrategie sollte sich also nicht ändern. Eigentlich läuft das Geschäft prächtig, On macht über 3 Mrd. Fr. Umsatz und hat grosse Wachstumsambitionen. Die Aktie ist heute aber weniger wert als noch beim Börsenstart vor viereinhalb Jahren. Viele Aktien im Konsumgüterbereich haben im schwierigen Umfeld gelitten. Im Fall On besteht die Gefahr, dass sich andere Marken, insbesondere Nike, auf Kosten von On erholen und wieder dazugewinnen. Aber isoliert betrachtet waren die Ergebnisse von On sehr gut. Das letzte Quartal war ein Rekordquartal mit sehr hohem Wachstum und Rentabilität. Im Fundament der Firma deutet nichts darauf hin, dass sich die Dynamik verlangsamt. So viel zu On.",
+      "fingerprint": {
+        "entities": [
+          "Aktie",
+          "Aktien",
+          "Allemann",
+          "Analystin",
+          "Anfang",
+          "Anlass",
+          "Börsenstart",
+          "CEO",
+          "Caspar",
+          "CoCEOs",
+          "Coppetti",
+          "Dynamik",
+          "Ergebnisse",
+          "Fall",
+          "Finanzchef",
+          "Firma",
+          "Fundament",
+          "Gefahr",
+          "Geschäft",
+          "Gründer",
+          "Hoffmann",
+          "Jahr",
+          "Jahren",
+          "Konsumgüterbereich",
+          "Konzernchef",
+          "Kosten",
+          "Leute",
+          "Marken",
+          "Martin",
+          "Minus",
+          "Mitbegründer",
+          "Mrd",
+          "New",
+          "Nike",
+          "On",
+          "Personalie",
+          "Quartal",
+          "Rekordquartal",
+          "Rentabilität",
+          "Seite",
+          "Sorge",
+          "Spitze",
+          "Sportschuhhersteller",
+          "Titel",
+          "Umfeld",
+          "Unternehmen",
+          "Unternehmensstrategie",
+          "Veränderung",
+          "Wachstum",
+          "Wachstumsambitionen",
+          "Wert",
+          "York"
+        ],
+        "top_words": [
+          "gestern",
+          "jahren",
+          "konzernchef",
+          "titel",
+          "unternehmen"
+        ],
+        "word_count": 233
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "02:01.273",
+      "end_time": "02:06.300",
+      "segment_type": "transition",
+      "keyword": "SMI Update",
+      "short_label": "Schweizer Leitindex Ausblick",
+      "summary": "Kurzer Überblick über den SMI, der heute 0,6% verliert.",
+      "key_entities": [
+        "SMI",
+        "Schweizer Leitindex"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-26",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-26T19:25:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:3e83e216-823e-452c-87fa-2ed7ba862963",
+      "duration_seconds": 5.027000000000001,
+      "segment_text": "Wir blicken noch auf den Schweizer Leitindex - der verliert heute 0,6 %.",
+      "fingerprint": {
+        "entities": [
+          "Leitindex",
+          "Schweizer"
+        ],
+        "top_words": [
+          "blicken",
+          "leitindex",
+          "schweizer",
+          "verliert"
+        ],
+        "word_count": 13
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "02:07.994",
+      "end_time": "02:14.681",
+      "segment_type": "outro",
+      "keyword": "Sendungsende",
+      "short_label": "Abschlusswort und Verabschiedung",
+      "summary": "Moderatorin verabschiedet sich und wünscht den Zuschauern einen schönen Abend. Hinweis auf Tagesschau, SWISS TXT und Accessibility Services.",
+      "key_entities": [
+        "SWISS TXT",
+        "Accessibility Services",
+        "Tagesschau"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-26",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-26T19:25:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:3e83e216-823e-452c-87fa-2ed7ba862963",
+      "duration_seconds": 6.687000000000012,
+      "segment_text": "Hier folgt nun die \"Tagesschau\". Schönen Abend und machen Sie's gut. SWISS TXT / Accessibility Services Sarah Häusermann",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Accessibility",
+          "Häusermann",
+          "Sarah",
+          "Services",
+          "Sies",
+          "TXT",
+          "Tagesschau"
+        ],
+        "top_words": [
+          "abend",
+          "folgt",
+          "machen",
+          "schönen",
+          "tagesschau"
+        ],
+        "word_count": 18
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "program": {
+    "date": "2026-03-25",
+    "channel": "SRF 1",
+    "title": "Tagesschau kompakt",
+    "startTime": "2026-03-25T12:45:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+    "word_count": 491,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Das Wichtigste am Mittag - guten Tag und herzlich willkommen zur \"Tagesschau kompakt\" Die USA schlagen dem Iran offenbar einen 15-Punkteplan vor für einen Waffenstillstand. Als Vermittler zwischen den beiden kriegsführenden Ländern sind offenbar Diplomaten aus Pakistan und der Türkei im Einsatz. US-Präsident Trump hat die Verhandlungen gestern Abend bestätigt: Bei einem Auftritt während der Zeremonie für die Vereidigung des neuen Ministers für innere Sicherheit sagt Donald Trump: Wir verhandeln im Moment mit dem Iran. Marco Rubio und J.D. Vance sind involviert. Die Iraner hätten gerne einen Deal. Ihre Marine ist weg, ihre Luftwaffe ist weg. Die Kommunikationswege sind auch weg. Das ist das grösste Problem. Es ist sehr schwierig, mit ihnen zu kommunizieren. Ein Sprecher der iranischen Armee wollte in einem Video-Statement nichts von Gesprächen mit den USA über einen Friedensplan wissen. Er erklärte, die USA würden wohl mit sich selbst verhandeln. Dänemark hat gewählt. Die Sozialdemokraten von Regierungschefin Mette Frederiksen bleiben mit knapp 22 % der Wählerstimmen die stärkste Kraft. Auch wenn sie damit das schlechteste Wahlergebnis seit mehr als 120 Jahren verzeichnen. Laut Beobachtern wurde Frederiksen sowohl von links als auch von rechts für ihre Politik abgestraft. Linken Wählerinnen geht ihre Migrationspolitik zu weit. Rechte Wählende stimmen mit ihr in Wirtschaftsfragen nicht überein. Dänemark muss sich auf kompliziertere Koalitions- verhandlungen einstellen. Keines der politischen Lager hat bei der Parlamentswahl eine absolute Mehrheit erreicht. Vor der Ostseeküste bei Lübeck kämpfen Helfer/-innen weiter um das Leben eines gestrandeten Buckelwals. Seit Anfang Woche liegt das Tier auf einer Sandbank und kann sich nicht mehr aus eigener Kraft freikämpfen. Mehrere Versuche, den jungen Buckelwal zu befreien, sind bereits gescheitert. Auch das Hochwasser in der Nacht reichte nicht, um das 10 m lange Tier zurück ins Meer zu bringen. Ein Saugbagger sei laut Behörden auf dem Weg, um die Sandbank abzutragen, so dass der junge Wal zurück in die Freiheit schwimmen kann. Zum Sport: Die Schweizer Tennisspielerin Belinda Bencic wusste bisher am prestigeträchtigen WTA-1'000-Turnier in Miami zu überzeugen. Nachdem sie sich in Florida in ihren ersten drei Partien dreimal diskussionslos und ohne Satzverlust durchsetzte, waren die Hoffnungen für den Viertelfinal in der Nacht auf heute gross. Es kam jedoch anders. Ärgerliche Niederlage für Belinda Bencic im Viertelfinal des WTA-1'000- Turniers in Miami gegen Coco Gauff. Nachdem Bencic den Startsatz aufgrund zu vieler Eigenfehler abgeben musste, gelingt der Ostschweizerin im zweiten eine Korrektur. Sie holt sich den Satz gleich mit 6:1. Im Entscheidungssatz liegt Bencic zwischenzeitlich mit Break vorne - muss ihrer US-amerikanischen Gegnerin dann aber gleich vier Games in Folge zugestehen, sodass am Ende Gauff über den Halbfinaleinzug jubelt. Der vergleichsweise milde Start in den heutigen Tag trügt - eine Kaltfront nähert sich und bringt auch Schnee. Bis wo und wo genau, diese Prognosen gibt's gleich von Sandra Boner. Wir sind um 18 Uhr zurück mit der nächsten \"Tagesschau kompakt\" - Ihnen danke fürs Zuschauen und einen schönen Nachmittag. Adie mitenand. SWISS TXT / Accessibility Services Lilian Zbinden"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:04.208",
+      "end_time": "00:00:13.356",
+      "segment_type": "intro",
+      "keyword": "Tagesschau kompakt",
+      "short_label": "Sendungsstart",
+      "summary": "Begrüßung zur Tagesschau kompakt Mittagsausgabe mit Ankündigung der wichtigsten Nachrichten des Tages.",
+      "key_entities": [
+        "Tagesschau kompakt",
+        "SRF"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 9.148
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:15.026",
+      "end_time": "00:01:03.349",
+      "segment_type": "story",
+      "keyword": "USA Iran Waffenstillstand",
+      "short_label": "USA schlägt Iran 15-Punkteplan vor",
+      "summary": "Die USA präsentieren dem Iran einen 15-Punkteplan für einen Waffenstillstand. Vermittler aus Pakistan und der Türkei sind involviert. Präsident Trump bestätigt die Verhandlungen, während ein iranischer Sprecher diese dementiert.",
+      "key_entities": [
+        "USA",
+        "Iran",
+        "Donald Trump",
+        "Marco Rubio",
+        "J.D. Vance",
+        "Pakistan",
+        "Türkei",
+        "Waffenstillstand"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 48.32300000000001
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "00:01:16.340",
+      "end_time": "00:01:47.763",
+      "segment_type": "story",
+      "keyword": "Dänemark Wahl Sozialdemokraten",
+      "short_label": "Dänemark hat gewählt",
+      "summary": "Die Sozialdemokraten unter Mette Frederiksen bleiben mit knapp 22% die stärkste Kraft, erzielen aber ihr schlechtestes Ergebnis seit über 120 Jahren. Sie werden von links und rechts für ihre Politik kritisiert. Komplizierte Koalitionsverhandlungen stehen bevor.",
+      "key_entities": [
+        "Dänemark",
+        "Mette Frederiksen",
+        "Sozialdemokraten",
+        "Parlamentswahl",
+        "Koalitionsverhandlungen"
+      ],
+      "confidence": 0.93,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 31.423000000000002
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "00:01:59.173",
+      "end_time": "00:02:31.056",
+      "segment_type": "story",
+      "keyword": "Buckelwal Sandbank Lübeck",
+      "short_label": "Gestrandeter Buckelwal vor Lübeck",
+      "summary": "Ein junger Buckelwal ist seit Anfang der Woche auf einer Sandbank vor der Ostseeküste bei Lübeck gestrandet. Mehrere Befreiungsversuche sind gescheitert. Ein Saugbagger soll die Sandbank abtragen, um den 10 Meter langen Wal ins Meer zurückzubringen.",
+      "key_entities": [
+        "Buckelwal",
+        "Lübeck",
+        "Ostsee",
+        "Sandbank",
+        "Saugbagger"
+      ],
+      "confidence": 0.91,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 31.88300000000001
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": "00:02:33.103",
+      "end_time": "00:03:31.565",
+      "segment_type": "story",
+      "keyword": "Belinda Bencic Tennis Miami",
+      "short_label": "Bencic verliert im Viertelfinale",
+      "summary": "Schweizer Tennisspielerin Belinda Bencic verliert im Viertelfinale des WTA-1000-Turniers in Miami gegen Coco Gauff. Nach startem Start mit drei Siegen ohne Satzverlust unterliegt sie 6:7, 6:1, 4:6. Gauff zieht ins Halbfinale ein.",
+      "key_entities": [
+        "Belinda Bencic",
+        "Coco Gauff",
+        "WTA-1000",
+        "Miami",
+        "Tennis",
+        "Schweiz"
+      ],
+      "confidence": 0.94,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 58.46199999999999
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": "00:03:38.034",
+      "end_time": "00:03:50.755",
+      "segment_type": "transition",
+      "keyword": "Wetter Kaltfront",
+      "short_label": "Wetter-Teaser",
+      "summary": "Übergang zur Wettervorsage mit Ankündigung einer Kaltfront und Schneefall. Detaillierte Prognosen folgen von Sandra Boner.",
+      "key_entities": [
+        "Wetter",
+        "Kaltfront",
+        "Schnee",
+        "Sandra Boner"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 12.721000000000004
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": "00:03:51.076",
+      "end_time": "00:04:01.403",
+      "segment_type": "outro",
+      "keyword": "Tagesschau kompakt Ende",
+      "short_label": "Sendungsausklang",
+      "summary": "Verabschiedung der Zuschauer mit Ankündigung der nächsten Ausgabe um 18:00 Uhr und Danksagung.",
+      "key_entities": [
+        "Tagesschau kompakt",
+        "18:00 Uhr"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-25T12:45:00+01:00",
+      "urn": "urn:srf:video:c0213f93-2923-4f0a-b59f-478ac3927861",
+      "duration_seconds": 10.326999999999998
+    }
+  ]
+}

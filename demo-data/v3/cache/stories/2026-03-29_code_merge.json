@@ -1,0 +1,345 @@
+{
+  "date": "2026-03-29",
+  "stories": [
+    {
+      "story_id": "bern_canton_elections",
+      "canonical_keyword": "Bern Canton Elections",
+      "short_label": "Bern Government and Parliament Elections",
+      "summary": "Bern canton holds elections for government and parliament. Right-wing parties aim to expand from 4 to 5 government seats while left-green seeks same. According to latest gfs.bern poll, rightward shift expected with bourgeois gaining 5 seats and left-green reduced to 2. SVP is major parliamentary winner with +8 seats. SP gains ~3 seats. GLP, EVP, and Die Mitte lose seats. Race for seventh parliament seat extremely tight between SP's Reto Müller and SVP's Daniel Bichsel. Results expected around 19:00.",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "SEG003",
+        "SEG004",
+        "SEG005",
+        "SEG006",
+        "SEG007",
+        "SEG008",
+        "SEG009",
+        "SEG010",
+        "SEG011",
+        "SEG012",
+        "SEG013",
+        "SEG015",
+        "SEG016",
+        "SEG019",
+        "SEG020",
+        "seg_007",
+        "seg_009",
+        "seg_003",
+        "seg_005",
+        "seg_007",
+        "SEG003",
+        "SEG004",
+        "SEG005",
+        "SEG006",
+        "SEG007",
+        "SEG008",
+        "SEG009",
+        "SEG010",
+        "SEG011",
+        "SEG012",
+        "SEG013",
+        "SEG015",
+        "SEG016",
+        "SEG017",
+        "2",
+        "3",
+        "6",
+        "seg_002",
+        "seg_006",
+        "story_001",
+        "story_002",
+        "story_003",
+        "story_004",
+        "story_005",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "SEG003",
+        "SEG006",
+        "SEG007",
+        "SEG008",
+        "SEG009",
+        "SEG002",
+        "SEG003",
+        "SEG004",
+        "seg_004",
+        "SEG005",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_004"
+      ],
+      "repeat_segment_ids": [
+        "seg_008",
+        "seg_012",
+        "SEG019",
+        "SEG003",
+        "SEG004",
+        "SEG005",
+        "SEG006",
+        "SEG007",
+        "SEG009",
+        "SEG010",
+        "SEG011",
+        "SEG012",
+        "SEG013",
+        "SEG015",
+        "SEG016",
+        "SEG017",
+        "seg_002",
+        "seg_006",
+        "story_001",
+        "story_002",
+        "story_005",
+        "004",
+        "005",
+        "012",
+        "013",
+        "SEG003",
+        "SEG006",
+        "SEG007",
+        "SEG008",
+        "SEG009",
+        "SEG005",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_004"
+      ]
+    },
+    {
+      "story_id": "kehl_disco_fire",
+      "canonical_keyword": "Kehl Disco Fire",
+      "short_label": "Major Fire in German Border Disco",
+      "summary": "Fire breaks out in early morning hours at well-known disco in Kehl, Baden-Württemberg, Germany near Swiss-French border. Fire spreads through entire building. Approximately 750 people evacuated safely. No injuries reported. Fire attracts guests from France and Switzerland. Cause of fire currently unclear.",
+      "segment_ids": [
+        "4",
+        "seg_004"
+      ],
+      "repeat_segment_ids": [
+        "seg_004"
+      ]
+    },
+    {
+      "story_id": "women_s_football_cup_final",
+      "canonical_keyword": "Women's Football Cup Final",
+      "short_label": "Servette Wins Swiss Women's Football Cup",
+      "summary": "Servette defeats YB 1:0 in 50th Swiss Cup final for women's football. Servette third cup title, winning as clear favorites. Paula Serrano scores winning goal in 50th minute via shoulder-header from free kick. Strong defensive performance by Servette throughout season limits chances for YB. Third cup title for Servette in last four years.",
+      "segment_ids": [
+        "5",
+        "seg_005",
+        "SEG010"
+      ],
+      "repeat_segment_ids": [
+        "seg_005",
+        "SEG010"
+      ]
+    },
+    {
+      "story_id": "vaud_government_election",
+      "canonical_keyword": "Vaud Government Election",
+      "short_label": "Roger Nordmann Wins Vaud Election",
+      "summary": "Roger Nordmann (SP) wins the second round election for Vaud government seat with 51% of votes, defeating Jean-François Thuillard (SVP). Nordmann takes over from Rebecca Ruiz who resigned for health reasons and cited conflicts in divided Vaud government. He faces challenges including tax cuts, savings pressure, and health insurance subsidies.",
+      "segment_ids": [
+        "seg_003",
+        "SEG002"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "iran_us_military_conflict",
+      "canonical_keyword": "Iran-US Military Conflict",
+      "short_label": "US Troop Deployment in Gulf Region",
+      "summary": "As Iran-US conflict enters second month, military situation remains unclear. Pakistan positions itself as mediator between Iran and USA, hosting talks with foreign ministers from Saudi Arabia, Turkey, and Egypt on deescalation. However, Houthi forces announce war entry with rocket attacks toward Israel, while US military deploys additional ground troops including USS Tripoli with 3,500 personnel. Washington Post reports this could signal dangerous new conflict phase. Iranian parliament accuses US of double-play signaling negotiations publicly while planning ground operations secretly.",
+      "segment_ids": [
+        "SEG004",
+        "SEG005"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "morgenprognose",
+      "canonical_keyword": "Morgenprognose",
+      "short_label": "Montag: Bewölkt mit Schnee und Wind",
+      "summary": "Montag startet mit vielen Wolken. Von der Warmfront kann es stellenweise schneien, vor allem in den Bergen und lokal im Flachland. Im Tessin scheint die Sonne. Im Norden bleibt es meist bewölkt. Am Nachmittag bringen dunklere Wolken vielerorts Regen und Schnee mit Schneefallgrenze bei etwa 800m. Im Norden bleibt es kühl mit Höchstwerten unter 10°C, im Süden milder. Nordföhn tritt auf und bläst am Abend stark.",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "wochentrend",
+      "canonical_keyword": "Wochentrend",
+      "short_label": "Dienstag bis Mittwoch: Unbeständig mit Neuschnee",
+      "summary": "In der Nacht auf Dienstag kann es bis weit nach unten schneien. Während des Tages wird es im Mittelland zeitweise nass, in den Bergen schneit es kräftig weiter. Im Westen und Süden ist es zeitweise sonnig dank Nordföhn. Am Mittwoch bleibt es unbeständig mit leicht ansteigender Schneefallgrenze. Bis Mittwoch können bis zu 80cm Neuschnee oberhalb von 1000m erwartet werden.",
+      "segment_ids": [
+        "seg_003",
+        "seg_003"
+      ],
+      "repeat_segment_ids": [
+        "seg_003"
+      ]
+    },
+    {
+      "story_id": "fahrleitungen_hochspannung",
+      "canonical_keyword": "Fahrleitungen Hochspannung",
+      "short_label": "Fahrleitungen und Stromgefahren erklären",
+      "summary": "Interview mit Bruno von den SBB am Bahnhof Olten zur Erklärung der Gefahren von Fahrleitungen. Fahrleitungen haben 15'000 Volt - 65-mal mehr als Haushaltstrom. Ein Stromschlag kann bereits ab 2 Metern Abstand tödlich sein, ohne die Leitung zu berühren.",
+      "segment_ids": [
+        "seg_003",
+        "seg_006"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "schulzug_sicherheitserziehung",
+      "canonical_keyword": "Schulzug Sicherheitserziehung",
+      "short_label": "SBB Schulzug und Schülerreaktionen",
+      "summary": "Besuch der Klasse 6B aus Schafisheim im SBB-Schulzug zur Sensibilisierung über Stromgefahren. Schüler erleben Demonstration der Gefahren von Starkstrom. Schüleraussagen zur Warnung vor Trainsurfing und Unverständnis für diesen Trend.",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "trainsurfing_opfer_interview",
+      "canonical_keyword": "Trainsurfing Opfer Interview",
+      "short_label": "Interview mit ehemaliger Trainsurfing-Person",
+      "summary": "Vermummtes Interview mit einer Person, die früher Trainsurfing betrieben hat und dabei einen guten Freund verloren hat. Der Freund wurde von 15'000 Volt getroffen, verbrannte und starb auf einem Zugdach. Emotionale Reflexion über den Verlust und die Folgen für Freunde und Familie.",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "guest_introduction",
+      "canonical_keyword": "guest introduction",
+      "short_label": "Guest Introductions",
+      "summary": "Introduction of two guests: Martin Wittwer, President of Swiss Travel Association and former TUI Suisse CEO, and Sonja Müller-Lang, owner of Women Travel specialty agency since 1990 specializing in women-only travel.",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "gisin_severe_injury_overview",
+      "canonical_keyword": "Gisin severe injury overview",
+      "short_label": "Extent of injuries and recovery",
+      "summary": "Michelle Gisin describes her severe injuries from the December 11, 2025 accident at Corviglia: unstable cervical spine fracture, knee injuries with ACL and meniscus tears, hand injuries with three dislocated carpal bones, and shoulder damage with torn tendons. She explains the extent of injuries and notes that fortunately healing has progressed well independently.",
+      "segment_ids": [
+        "SEG002",
+        "SEG017",
+        "SEG018",
+        "SEG002",
+        "seg_002"
+      ],
+      "repeat_segment_ids": [
+        "SEG017",
+        "SEG018",
+        "SEG002",
+        "seg_002"
+      ]
+    },
+    {
+      "story_id": "rehabilitation_process_mental_motivation",
+      "canonical_keyword": "rehabilitation process mental motivation",
+      "short_label": "Recovery challenges and goal-setting",
+      "summary": "Gisin explains her rehabilitation approach, emphasizing the importance of goal-setting for mental motivation. She describes the difficult phase of rehabilitation where many things work well while others don't, and discusses how maintaining a goal prevents depression and keeps progress moving. She mentions wanting to ski a giant slalom in simple terrain as a test goal.",
+      "segment_ids": [
+        "SEG014",
+        "SEG014",
+        "seg_014"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "joana_h_hlen_retirement_injuries",
+      "canonical_keyword": "Joana Hählen retirement injuries",
+      "short_label": "Fellow skier's decision to end career",
+      "summary": "Discussion of skier Joana Hählen who recently retired due to accumulated physical and mental toll of injuries. Gisin expresses admiration for Hählen's resilience and recovery efforts despite severe knee injuries, but respects her decision that mental reserves were exhausted. She notes that Hählen was able to enjoy one more season before retiring.",
+      "segment_ids": [
+        "SEG018",
+        "seg_018"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "return_to_limit_versus_ability_question",
+      "canonical_keyword": "return to limit versus ability question",
+      "short_label": "Pushing limits and career continuation",
+      "summary": "Gisin articulates the sequence of decisions facing injured elite skiers: first whether they still want to ski, second whether they can do it, and third whether they can push limits. She emphasizes wanting to answer the 'do I want to' question while on skis rather than during physical therapy.",
+      "segment_ids": [
+        "SEG019",
+        "seg_019"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "summer_wedding_plans",
+      "canonical_keyword": "summer wedding plans",
+      "short_label": "Upcoming marriage to Luca De Aliprandini",
+      "summary": "Gisin discusses her upcoming wedding to Luca in June 2025, noting that the relationship has been strengthened through the difficult recovery period. She explains how having personal life focus during rehabilitation may provide beneficial distraction from skiing concerns. She jokes about the combined name being too long for television.",
+      "segment_ids": [
+        "SEG020",
+        "seg_020"
+      ],
+      "repeat_segment_ids": []
+    },
+    {
+      "story_id": "montag_prognose",
+      "canonical_keyword": "Montag Prognose",
+      "short_label": "Montag: Bewölkt mit Schnee und Wind",
+      "summary": "Montag startet mit vielen Wolken. Von der Warmfront kann es stellenweise schneien, vor allem in den Bergen und lokal im Flachland. Im Tessin scheint die Sonne. Im Norden bleibt es meist bewölkt. Am Nachmittag bringen dunklere Wolken vielerorts Regen und Schnee mit Schneefallgrenze bei etwa 800m. Im Norden bleibt es kühl mit Höchstwerten unter 10°C, im Süden milder. Nordföhn tritt auf und bläst am Abend stark.",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "repeat_segment_ids": []
+    }
+  ]
+}

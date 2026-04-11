@@ -1,0 +1,225 @@
+{
+  "program": {
+    "date": "2026-03-27",
+    "channel": "SRF info",
+    "title": "SRF Börse",
+    "startTime": "2026-03-27T22:40:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+    "word_count": 268,
+    "subtitle_text_clean": "Mit Untertiteln von SWISS TXT Guten Abend. Läuft es nicht so, wie er sich das vorstellt, reagiert US-Präsident Donald Trump meist empfindlich. So auch im Streit mit dem Tech-Konzern Anthropic. Anthropic beharrt darauf, dass seine KI-Modelle nicht zur Massenüberwachung von Amerikanern oder in autonomen Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die nationale Sicherheit. Ein ungewöhnlicher Schritt mit dem Ziel, Anthropic von Regierungsaufträgen auszuschliessen. Auf Klage des Konzerns hin blockiert jetzt allerdings eine kalifornische Bezirksrichterin das Vorhaben mit einer einstweiligen Verfügung. Darin steht u.a.: Heisst: Es ist unzulässig, dass die Regierung Trump Anthropic dafür bestraft, dass der Konzern sie öffentlich kritisiert und sich dem Druck nicht beugen möchte. Dazu sagt Börsenkorrespondent Jens Korte: Es ist auf jeden Fall ein wichtiger Teilerfolg für Anthropic, das finale Urteil könnte erst in einigen Monaten gefällt werden. Aber Anthropic peilt für dieses Jahr den Börsengang an, es könnte einer der grössten Börsengänge in der Geschichte der Wall Street sein. Und da ist es eben wichtig, den Investoren zu zeigen, dass Anthropic weiterhin Geschäfte mit der Regierung machen darf und v.a. auch mit Unternehmen, die wiederum mit der Regierung zusammenarbeiten. Das Urteil zeigt aber auch, dass die Gerichte offensichtlich nicht alles durchgehen lassen, was derzeit in Washington passiert. In Kraft tritt die Verfügung in einer Woche - die Regierung kann sie vor Bundesgericht anfechten. An der Schweizer Börse gibt es für den SMI trotz eines Minus heute die erste positive Wochenbilanz in diesem Monat. Vielen Dank fürs Zuschauen - ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:09.560",
+      "end_time": "00:00:16.800",
+      "segment_type": "intro",
+      "keyword": "Programmöffnung",
+      "short_label": "SRF Börse Eröffnung",
+      "summary": "Begrüssung zur Eröffnung der Sendung SRF Börse mit Hinweis auf Live-Untertitel von SWISS TXT.",
+      "key_entities": [
+        "SRF Börse",
+        "SWISS TXT"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-27T22:40:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+      "duration_seconds": 7.24,
+      "segment_text": ". Mit Untertiteln von SWISS TXT Guten Abend.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Guten",
+          "SWISS",
+          "TXT",
+          "Untertiteln"
+        ],
+        "top_words": [
+          "abend",
+          "guten",
+          "swiss",
+          "untertiteln"
+        ],
+        "word_count": 8
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:16.880",
+      "end_time": "00:02:03.160",
+      "segment_type": "story",
+      "keyword": "Anthropic Trump Rechtsstreit",
+      "short_label": "Anthropic vs. Trump-Regierung",
+      "summary": "US-Präsident Trump reagiert empfindlich auf den KI-Konzern Anthropic, der sich weigert, seine Modelle für Massenüberwachung oder autonome Waffensysteme freizugeben. Die Regierung erklärt Anthropic zum Lieferketten-Risiko für nationale Sicherheit und versucht, den Konzern von Regierungsaufträgen auszuschliessen. Eine kalifornische Richterin blockiert dieses Vorhaben mit einstweiliger Verfügung und untersagt damit Bestrafung für öffentliche Kritik. Der Börsengang von Anthropic könnte einer der grössten der Wall Street-Geschichte werden, daher ist dieser Teilerfolg wichtig für den Konzern.",
+      "key_entities": [
+        "Anthropic",
+        "Donald Trump",
+        "US-Regierung",
+        "kalifornische Bezirksrichterin",
+        "KI-Modelle",
+        "Massenüberwachung",
+        "autonome Waffensysteme",
+        "Börsengang",
+        "Wall Street",
+        "Jens Korte"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-27T22:40:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+      "duration_seconds": 106.28,
+      "segment_text": "Läuft es nicht so, wie er sich das vorstellt, reagiert US-Präsident Donald Trump meist empfindlich. So auch im Streit mit dem Tech-Konzern Anthropic. Anthropic beharrt darauf, dass seine KI-Modelle nicht zur Massenüberwachung von Amerikanern oder in autonomen Waffensystemen wie etwa Drohnen eingesetzt werden dürfen. Das stösst der US-Regierung sauer auf. Sie erklärte den Konzern kürzlich zum Lieferketten-Risiko für die nationale Sicherheit. Ein ungewöhnlicher Schritt mit dem Ziel, Anthropic von Regierungsaufträgen auszuschliessen. Auf Klage des Konzerns hin blockiert jetzt allerdings eine kalifornische Bezirksrichterin das Vorhaben mit einer einstweiligen Verfügung. Darin steht u.a.: Heisst: Es ist unzulässig, dass die Regierung Trump Anthropic dafür bestraft, dass der Konzern sie öffentlich kritisiert und sich dem Druck nicht beugen möchte. Dazu sagt Börsenkorrespondent Jens Korte: Es ist auf jeden Fall ein wichtiger Teilerfolg für Anthropic, das finale Urteil könnte erst in einigen Monaten gefällt werden. Aber Anthropic peilt für dieses Jahr den Börsengang an, es könnte einer der grössten Börsengänge in der Geschichte der Wall Street sein. Und da ist es eben wichtig, den Investoren zu zeigen, dass Anthropic weiterhin Geschäfte mit der Regierung machen darf und v.a. auch mit Unternehmen, die wiederum mit der Regierung zusammenarbeiten. Das Urteil zeigt aber auch, dass die Gerichte offensichtlich nicht alles durchgehen lassen, was derzeit in Washington passiert. In Kraft tritt die Verfügung in einer Woche - die Regierung kann sie vor Bundesgericht anfechten.",
+      "fingerprint": {
+        "entities": [
+          "Amerikanern",
+          "Anthropic",
+          "Bezirksrichterin",
+          "Bundesgericht",
+          "Börsengang",
+          "Börsengänge",
+          "Börsenkorrespondent",
+          "Donald",
+          "Drohnen",
+          "Druck",
+          "Fall",
+          "Gerichte",
+          "Geschichte",
+          "Geschäfte",
+          "Heisst",
+          "Investoren",
+          "Jahr",
+          "Jens",
+          "KIModelle",
+          "Klage",
+          "Konzern",
+          "Konzerns",
+          "Korte",
+          "Kraft",
+          "LieferkettenRisiko",
+          "Massenüberwachung",
+          "Monaten",
+          "Regierung",
+          "Regierungsaufträgen",
+          "Schritt",
+          "Sicherheit",
+          "Street",
+          "Streit",
+          "TechKonzern",
+          "Teilerfolg",
+          "Trump",
+          "USPräsident",
+          "USRegierung",
+          "Unternehmen",
+          "Urteil",
+          "Verfügung",
+          "Vorhaben",
+          "Waffensystemen",
+          "Wall",
+          "Washington",
+          "Woche",
+          "Ziel"
+        ],
+        "top_words": [
+          "anthropic",
+          "konzern",
+          "regierung",
+          "trump",
+          "verfügung"
+        ],
+        "word_count": 226
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "00:02:03.160",
+      "end_time": "00:02:08.720",
+      "segment_type": "story",
+      "keyword": "SMI Tagesrückblick",
+      "short_label": "Schweizer Marktübersicht",
+      "summary": "Der Schweizer Leitindex (SMI) verzeichnet heute ein Minus, aber die erste positive Wochenbilanz in diesem Monat.",
+      "key_entities": [
+        "SMI",
+        "Schweizer Börse"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-27T22:40:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+      "duration_seconds": 5.560000000000002,
+      "segment_text": "An der Schweizer Börse gibt es für den SMI trotz eines Minus heute die erste positive Wochenbilanz in diesem Monat.",
+      "fingerprint": {
+        "entities": [
+          "Börse",
+          "Minus",
+          "Monat",
+          "SMI",
+          "Schweizer",
+          "Wochenbilanz"
+        ],
+        "top_words": [
+          "börse",
+          "erste",
+          "minus",
+          "schweizer",
+          "trotz"
+        ],
+        "word_count": 20
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "00:02:08.720",
+      "end_time": "00:02:15.840",
+      "segment_type": "outro",
+      "keyword": "Programmende",
+      "short_label": "SRF Börse Abschluss",
+      "summary": "Abschliessende Grüsse und Verabschiedung mit Hinweis auf Accessibility Services von SWISS TXT.",
+      "key_entities": [
+        "SRF Börse",
+        "SWISS TXT",
+        "Accessibility Services",
+        "Sarah Häusermann"
+      ],
+      "confidence": 0.93,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-27T22:40:00+01:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6b202055-a872-47d8-8ccc-30f6eff19609",
+      "duration_seconds": 7.1200000000000045,
+      "segment_text": "Vielen Dank fürs Zuschauen - ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann",
+      "fingerprint": {
+        "entities": [
+          "Accessibility",
+          "Dank",
+          "Häusermann",
+          "Sarah",
+          "Services",
+          "TXT",
+          "Wochenende",
+          "Zuschauen"
+        ],
+        "top_words": [
+          "schönes",
+          "swiss",
+          "vielen",
+          "wochenende",
+          "zuschauen"
+        ],
+        "word_count": 15
+      }
+    }
+  ]
+}

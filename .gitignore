@@ -18,18 +18,11 @@ venv/
 # Screenshots
 *.png
 
-# Demo data: raw subtitle files and intermediate artifacts
-demo-data/frames/
-demo-data/grids/
+# Demo data: caches and intermediate artifacts
 demo-data/cache/
+demo-data/frames/
 demo-data/cropped/
-demo-data/v2/vtt_cache/
-demo-data/v2/segment_cache/
-demo-data/v2/merge_cache/
-demo-data/v2/frames/
-demo-data/v2/cropped/
-demo-data/v3/cache/
-demo-data/v3/images/
+demo-data/grids/
 demo-data/*.vtt
 demo-data/*.csv
 demo-data/llm_gate_log.txt

@@ -1,0 +1,267 @@
+{
+  "program": {
+    "date": "2026-04-01",
+    "channel": "SRF info",
+    "title": "Meteo in Gebärdensprache",
+    "startTime": "2026-04-01T19:55:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+    "word_count": 426,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Im Moment noch ziemlich frisch, Aber an Ostern wird es sonnig und warm. Das dank eines Hochdruckgebietes, dieses ist im Moment westlich von uns, dehnt sich aber schön aus und wird das Osterwetter beeinflussen. Aber diese Nacht wird es noch einmal ziemlich kalt. Auf der Alpennordseite erwarten wir verbreitet Frost. In der Genferseeregion oder auf der Alpensüdseite wird es nicht ganz so kalt. Der Gründonnerstag beginnt in vielen Regionen freundlich und sonnig. An den Voralpen hat es Hochnebel, der löst sich aber auf. Trotzdem kann es grössere Quellwolken geben, die auch Schatten bringen. Je länger der Tag dauert, desto mehr nimmt die Bewölkung zu. Gegen Abend könnte es in Nordbünden und in den Alpen ein paar Regentropfen geben. Sonst erwartet uns ein freundlicher Tag. Die Temperatur sind morgen schon ein bisschen höherer. Zwischen Basel, Zürich und Bern erwarten wir über 10 °C. Es fühlt sich aber nicht so angenehm an, da auch morgen die Bise weht. Es ist eine ziemlich windige Sache. Die Bise stellt langsam ab am Karsamstag und auch am Karfreitag. Der Karfreitag bringt in der ganzen Schweiz viel Sonne. Im Norden vielleicht ab und zu ein paar Wolkenfelder. Auf der Alpensüdseite haben wir schon wieder über 20 °C. In der Nacht auf Karsamstag kommen von Norden noch einmal Wolkenfelder. Am frühen Karsamstag könnte es noch grau sein, lokal vielleicht auch ein wenig Regen. Aber am Nachmittag scheint überall die Sonne, im Norden mit 16 °C. An Ostern kommt dann die Frühlingswärme. Auf beiden Seiten der Alpen gibt es über 20 °C mit viel Sonnenschein. Im Norden ziehen vielleicht ab und zu ein paar Wolkenfelder vorbei. Am Mittwoch kommen dann deutlich mehr Wolken. Dann gibt es langsam wieder eine Veränderung. Es geht so richtig los, es wird wieder wärmer. Und das ist ja eigentlich auch gut so. Denn schon in ein paar Wochen startet in vielen Regionen die Freibadsaison. Die Becken werden momentan geschrubbt, geputzt und langsam gefühlt und auch die Liegewiese wird bereits gemacht. Ähnlich wie in vielen Skigebieten möchten gewisse Freibäder dynamische Eintrittspreise einführen. Sie werden am morgen früh schauen, wie warm es wird. Wärmer, desto teurer. Ab 20 °C wird es deutlich teurer. Dort zahlt man zwischen 10-12 Fr. eintritt. Profitieren werden V.a. die Hartgesottenen, die auch bei tiefen Temperaturen baden. Oder auch diejenigen, die gerne mehr bezahlen und dafür keine überfüllte Badi haben. Saisonabo sind davon nicht betroffen. Was halten Sie davon? Lassen Sie es uns wissen auf der Webseite. Einen schönen Abend. SWISS TXT / Accessibility Services Lia Budowski"
+  },
+  "segments": [
+    {
+      "segment_id": "SEG001",
+      "start_time": "00:00:10.903",
+      "end_time": "00:00:25.942",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüssung zur Sendung SRF Meteo in Gebärdensprache mit Live-Untertiteln von SWISS TXT.",
+      "key_entities": [
+        "SRF Meteo",
+        "SWISS TXT"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-04-01T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+      "duration_seconds": 15.039,
+      "segment_text": ". Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "Herzlich",
+          "LiveUntertiteln",
+          "Meteo",
+          "SRF",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "herzlich",
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 11
+      }
+    },
+    {
+      "segment_id": "SEG002",
+      "start_time": "00:00:26.263",
+      "end_time": "02:02.250",
+      "segment_type": "story",
+      "keyword": "Osterprognose Aufwärmentrend",
+      "short_label": "Ostertage: Aufwärmentrend mit Sonne und mild",
+      "summary": "Detaillierte Wettervorsage für die Ostertage. Gründonnerstag freundlich und sonnig mit Hochnebel in Voralpen. Gründonnerstag 10°C mit Bise. Karfreitag viel Sonne in der ganzen Schweiz, Alpensüdseite über 20°C. Karsamstag früh grau mit etwas Regen, später sonnig mit 16°C im Norden. Ostern mit über 20°C auf beiden Seiten der Alpen und viel Sonnenschein. Mittwoch deutlich mehr Wolken mit Wetterveränderung.",
+      "key_entities": [
+        "Gründonnerstag",
+        "Karfreitag",
+        "Karsamstag",
+        "Ostern",
+        "Bise",
+        "Hochnebel",
+        "Alpensüdseite"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-04-01T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+      "duration_seconds": 95.987,
+      "segment_text": "Im Moment noch ziemlich frisch, Aber an Ostern wird es sonnig und warm. Das dank eines Hochdruckgebietes, dieses ist im Moment westlich von uns, dehnt sich aber schön aus und wird das Osterwetter beeinflussen. Aber diese Nacht wird es noch einmal ziemlich kalt. Auf der Alpennordseite erwarten wir verbreitet Frost. In der Genferseeregion oder auf der Alpensüdseite wird es nicht ganz so kalt. Der Gründonnerstag beginnt in vielen Regionen freundlich und sonnig. An den Voralpen hat es Hochnebel, der löst sich aber auf. Trotzdem kann es grössere Quellwolken geben, die auch Schatten bringen. Je länger der Tag dauert, desto mehr nimmt die Bewölkung zu. Gegen Abend könnte es in Nordbünden und in den Alpen ein paar Regentropfen geben. Sonst erwartet uns ein freundlicher Tag. Die Temperatur sind morgen schon ein bisschen höherer. Zwischen Basel, Zürich und Bern erwarten wir über 10 °C. Es fühlt sich aber nicht so angenehm an, da auch morgen die Bise weht. Es ist eine ziemlich windige Sache. Die Bise stellt langsam ab am Karsamstag und auch am Karfreitag. Der Karfreitag bringt in der ganzen Schweiz viel Sonne. Im Norden vielleicht ab und zu ein paar Wolkenfelder. Auf der Alpensüdseite haben wir schon wieder über 20 °C.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Alpen",
+          "Alpennordseite",
+          "Alpensüdseite",
+          "Basel",
+          "Bern",
+          "Bewölkung",
+          "Bise",
+          "Frost",
+          "Genferseeregion",
+          "Gründonnerstag",
+          "Hochdruckgebietes",
+          "Hochnebel",
+          "Karfreitag",
+          "Karsamstag",
+          "Moment",
+          "Nacht",
+          "Nordbünden",
+          "Norden",
+          "Ostern",
+          "Osterwetter",
+          "Quellwolken",
+          "Regentropfen",
+          "Regionen",
+          "Sache",
+          "Schatten",
+          "Schweiz",
+          "Sonne",
+          "Tag",
+          "Temperatur",
+          "Voralpen",
+          "Wolkenfelder",
+          "Zürich"
+        ],
+        "top_words": [
+          "alpensüdseite",
+          "erwarten",
+          "moment",
+          "sonnig",
+          "ziemlich"
+        ],
+        "word_count": 201
+      }
+    },
+    {
+      "segment_id": "SEG003",
+      "start_time": "02:02.571",
+      "end_time": "03:03.149",
+      "segment_type": "story",
+      "keyword": "Freibadsaison Vorbereitung",
+      "short_label": "Freibäder bereiten sich auf Sommersaison vor",
+      "summary": "Freibäder bereiten sich auf die Sommersaison vor. Becken werden gereinigt und gefüllt, Liegewiesen hergerichtet. In wenigen Wochen startet die Freibadsaison in vielen Regionen.",
+      "key_entities": [
+        "Freibäder",
+        "Sommersaison",
+        "Becken"
+      ],
+      "confidence": 0.85,
+      "is_repeat_previous_episode": false,
+      "date": "2026-04-01",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-04-01T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+      "duration_seconds": 60.578,
+      "segment_text": "In der Nacht auf Karsamstag kommen von Norden noch einmal Wolkenfelder. Am frühen Karsamstag könnte es noch grau sein, lokal vielleicht auch ein wenig Regen. Aber am Nachmittag scheint überall die Sonne, im Norden mit 16 °C. An Ostern kommt dann die Frühlingswärme. Auf beiden Seiten der Alpen gibt es über 20 °C mit viel Sonnenschein. Im Norden ziehen vielleicht ab und zu ein paar Wolkenfelder vorbei. Am Mittwoch kommen dann deutlich mehr Wolken. Dann gibt es langsam wieder eine Veränderung. Es geht so richtig los, es wird wieder wärmer. Und das ist ja eigentlich auch gut so. Denn schon in ein paar Wochen startet in vielen Regionen die Freibadsaison. Die Becken werden momentan geschrubbt, geputzt und langsam gefühlt und auch die Liegewiese wird bereits gemacht.",
+      "fingerprint": {
+        "entities": [
+          "Alpen",
+          "Becken",
+          "Freibadsaison",
+          "Frühlingswärme",
+          "Karsamstag",
+          "Liegewiese",
+          "Mittwoch",
+          "Nachmittag",
+          "Nacht",
+          "Norden",
+          "Ostern",
+          "Regen",
+          "Regionen",
+          "Seiten",
+          "Sonne",
+          "Sonnenschein",
+          "Veränderung",
+          "Wochen",
+          "Wolken",
+          "Wolkenfelder"
+        ],
+        "top_words": [
+          "karsamstag",
+          "kommen",
+          "norden",
+          "vielleicht",
+          "wolkenfelder"
+        ],
+        "word_count": 126
+      }
+    },
+    {
+      "segment_id": "SEG004",
+      "start_time": "03:04.513",
+      "end_time": "03:48.709",
+      "segment_type": "story",
+      "keyword": "Dynamische Eintrittspreise Freibäder",
+      "short_label": "Freibäder mit temperaturabhängigen Eintrittspreisen",
+      "summary": "Gewisse Freibäder möchten dynamische Eintrittspreise wie in Skigebieten einführen, ähnlich wie bei Airlines. Bei über 20°C wird der Eintritt deutlich teurer (10-12 CHF). Hartgesottene zahlen weniger bei niedrigen Temperaturen. Saisonabos sind nicht betroffen. Zuschauer werden aufgefordert, ihre Meinung zu äussern.",
+      "key_entities": [
+        "Freibäder",
+        "dynamische Preise",
+        "Temperatur",
+        "20°C",
+        "10-12 CHF",
+        "Saisonabo"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": false,
+      "date": "2026-04-01",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-04-01T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+      "duration_seconds": 44.196,
+      "segment_text": "Ähnlich wie in vielen Skigebieten möchten gewisse Freibäder dynamische Eintrittspreise einführen. Sie werden am morgen früh schauen, wie warm es wird. Wärmer, desto teurer. Ab 20 °C wird es deutlich teurer. Dort zahlt man zwischen 10-12 Fr. eintritt. Profitieren werden V.a. die Hartgesottenen, die auch bei tiefen Temperaturen baden. Oder auch diejenigen, die gerne mehr bezahlen und dafür keine überfüllte Badi haben. Saisonabo sind davon nicht betroffen. Was halten Sie davon?",
+      "fingerprint": {
+        "entities": [
+          "Badi",
+          "Eintrittspreise",
+          "Fr",
+          "Freibäder",
+          "Hartgesottenen",
+          "Skigebieten",
+          "Temperaturen",
+          "Va"
+        ],
+        "top_words": [
+          "davon",
+          "skigebieten",
+          "teurer",
+          "vielen",
+          "ähnlich"
+        ],
+        "word_count": 71
+      }
+    },
+    {
+      "segment_id": "SEG005",
+      "start_time": "03:50.767",
+      "end_time": "03:55.910",
+      "segment_type": "outro",
+      "keyword": "Sendungsende",
+      "short_label": "Abschluss der Sendung",
+      "summary": "Verabschiedung und Wunsch für einen schönen Abend. Credits für SWISS TXT und Accessibility Services.",
+      "key_entities": [
+        "SWISS TXT",
+        "Lia Budowski"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-04-01",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-04-01T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:fe3b99bf-e18c-44c4-80ad-a034e71f4d87",
+      "duration_seconds": 5.143000000000001,
+      "segment_text": "Einen schönen Abend. SWISS TXT / Accessibility Services Lia Budowski",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Accessibility",
+          "Budowski",
+          "Lia",
+          "Services",
+          "TXT"
+        ],
+        "top_words": [
+          "abend",
+          "accessibility",
+          "schönen",
+          "services",
+          "swiss"
+        ],
+        "word_count": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "program": {
+    "date": "2026-03-27",
+    "channel": "SRF info",
+    "title": "Meteo",
+    "startTime": "2026-03-27T22:35:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+    "word_count": 429,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT willkommen bei Meteo. Unser Wetter war mal so mal so. Einerseits tiefdruckbestimmt, andererseits auch hochdruckbestimmt. Das sehen wir auf der Animation vom Satellitenbild. Das Tief ist von der Adria her gekommen. Ein Hoch hat an Einfluss gewonnen. Das wird V.a. in der Nacht. Darum geht es meistens eine klare Nacht. In einer klaren Nacht kühlt es richtig ab. Vor allem wenn Schnee liegt. Bis morgen früh gibt es strengen Frost. Die Tiefstwerte liegen zwischen -2 und -7 °C. Etwas wärmer ist es im Süden. Aber auch da gibt es verbreitet Bodenfrost. Wenn es so kalt wird, haben Pflanzen, die blühen, keine Freude. Schon ab -2 °C nehmen sie Schaden. Wenn man das verhindern möchte, sollte man sie abdecken. Z.B. einen Kirschbaum wie diesen hier. Bei einer grösseren Kultur kann man mit Frost Regelung etwas tun. Es wird Wasser über die Plantage gespritzt. Nur wenig, aber durch die Nacht hindurch. Es wird Energie frei. Es bekommt einen Eispanzer. Drinnen bleiben die Temperaturen um 0 °C. Die Blüten nehmen dadurch keinen oder nur leichten Schaden. So kann man das in dieser Nacht etwas abgrenzen. Morgen früh starten wir vielerorts sonnig. Es gibt einen kalten Start. Die nächste Störung kommt schon näher. Viele Wolken gibt es in der Nordwestschweiz. Aber auch sonst trübt der Sonnenschein ein. Es ist nur noch im Süden sonnig. Im Laufe des Nachmittags nehmen die Wolken zu und es beginnt zu regnen oder schneien. Die Schneefallgrenze liegt zwischen 406 100 m. In tiefsten Lagen muss man nicht mit Schnee rechnen. Es bleibt im Osten noch lange trocken und auch im Süden. Die Temperaturen steigen nicht gross, für die Jahreszeit bleibt es also kühl. Dank Nordföhn bleibt es im Tessin mild. Er ist morgen nicht mehr so stark. Im Norden gibt es einen schwachen bis mässigen Südwestwind. Am Sonntag hängt die Störung noch. V.a. den Bergen entlang. Die Schneefallgrenze sinkt weiter. Aber vielerorts ist es dann über weite Strecken trocken. Es gibt nur noch vereinzelt Schneegestöber oder Regengüsse. Im Süden ist es meist trocken und sonnig. Dasselbe gilt für Montag. Es ist weiterhin angenehm mit 15 °C. Aber weiterhin Nordwind. Im Norden kommt die nächste Störung. Sie bringt Regen und Schnee. Die Schneefallgrenze zwischen 400 und zwischen 800. Am Dienstag geht es weiter durchzogen weiter. Ab Gründonnerstag wird es auch im Norden langsam milder. Wahrscheinlich bleibt es meist trocken. Die Sonne könnte sich besser durchsetzen. Je nach Modell könnte es auch für den Rest von Ostern gut aussehen. Aber die Unsicherheiten sind noch gross. Es sollte aber meist trocken und sonnig sein. Auf Wiedersehen."
+  },
+  "segments": [
+    {
+      "segment_id": "1",
+      "start_time": "00:00:15.410",
+      "end_time": "00:00:45.581",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung zur SRF Meteo Sendung mit Überblick über die aktuelle Wetterlage: Wechsel zwischen Tiefdruckeinfluss und Hochdruckbestimmung. Klare Nacht mit starkem Hochdruckeinfluss führt zu Abkühlung.",
+      "key_entities": [
+        "Tiefdruckbestimmung",
+        "Hochdruckbestimmung",
+        "Satellitenbild",
+        "Adria",
+        "klare Nacht"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 30.171000000000003,
+      "segment_text": "willkommen bei Meteo. Unser Wetter war mal so mal so. Einerseits tiefdruckbestimmt, andererseits auch hochdruckbestimmt. Das sehen wir auf der Animation vom Satellitenbild. Das Tief ist von der Adria her gekommen. Ein Hoch hat an Einfluss gewonnen. Das wird V.a. in der Nacht. Darum geht es meistens eine klare Nacht.",
+      "fingerprint": {
+        "entities": [
+          "Adria",
+          "Animation",
+          "Einfluss",
+          "Hoch",
+          "Meteo",
+          "Nacht",
+          "Satellitenbild",
+          "Tief",
+          "Va",
+          "Wetter"
+        ],
+        "top_words": [
+          "meteo",
+          "nacht",
+          "unser",
+          "wetter",
+          "willkommen"
+        ],
+        "word_count": 50
+      }
+    },
+    {
+      "segment_id": "2",
+      "start_time": "00:00:45.581",
+      "end_time": "01:57.560",
+      "segment_type": "story",
+      "keyword": "Frostschutz Blüten",
+      "short_label": "Frostschutz für blühende Pflanzen",
+      "summary": "In der kommenden Nacht wird es strengen Frost mit Tiefstwerten zwischen -2 und -7°C geben. Warnung vor Frostschäden bei blühenden Pflanzen bereits ab -2°C. Empfehlungen zum Schutz durch Abdecken oder Frostregelung mit Wasserspritzsystemen bei Kulturen wie Kirschbäumen und Aprikosenbäumen.",
+      "key_entities": [
+        "Frost",
+        "-2 bis -7°C",
+        "Bodenfrost",
+        "blühende Pflanzen",
+        "Kirschbaum",
+        "Aprikosebaum",
+        "Frostregelung",
+        "Wasserspritzsystem"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 71.979,
+      "segment_text": "In einer klaren Nacht kühlt es richtig ab. Vor allem wenn Schnee liegt. Bis morgen früh gibt es strengen Frost. Die Tiefstwerte liegen zwischen -2 und -7 °C. Etwas wärmer ist es im Süden. Aber auch da gibt es verbreitet Bodenfrost. Wenn es so kalt wird, haben Pflanzen, die blühen, keine Freude. Schon ab -2 °C nehmen sie Schaden. Wenn man das verhindern möchte, sollte man sie abdecken. Z.B. einen Kirschbaum wie diesen hier. Bei einer grösseren Kultur kann man mit Frost Regelung etwas tun. Es wird Wasser über die Plantage gespritzt. Nur wenig, aber durch die Nacht hindurch. Es wird Energie frei. Es bekommt einen Eispanzer. Drinnen bleiben die Temperaturen um 0 °C. Die Blüten nehmen dadurch keinen oder nur leichten Schaden. So kann man das in dieser Nacht etwas abgrenzen.",
+      "fingerprint": {
+        "entities": [
+          "Blüten",
+          "Bodenfrost",
+          "Eispanzer",
+          "Energie",
+          "Freude",
+          "Frost",
+          "Kirschbaum",
+          "Kultur",
+          "Nacht",
+          "Pflanzen",
+          "Plantage",
+          "Regelung",
+          "Schaden",
+          "Schnee",
+          "Süden",
+          "Temperaturen",
+          "Tiefstwerte",
+          "Wasser"
+        ],
+        "top_words": [
+          "etwas",
+          "frost",
+          "nacht",
+          "nehmen",
+          "schaden"
+        ],
+        "word_count": 132
+      }
+    },
+    {
+      "segment_id": "3",
+      "start_time": "01:59.644",
+      "end_time": "02:43.872",
+      "segment_type": "story",
+      "keyword": "Freitag Störung",
+      "short_label": "Freitag: Sonne wechselnd zu Regen und Schnee",
+      "summary": "Freitag startet vielerorts sonnig mit Schleierwolken. Ab Mittag Zunahme der Wolken, Regen und Schneefall im Laufe des Nachmittags. Schneefallgrenze zwischen 400-600m. Im Osten und Süden bleibt es länger trocken. Temperaturen bleiben kühl für die Jahreszeit, milder nur im Tessin dank Nordföhn.",
+      "key_entities": [
+        "Freitag",
+        "Schneefall",
+        "Schneefallgrenze 400-600m",
+        "Regen",
+        "Nordwestschweiz",
+        "Tessin",
+        "Nordföhn",
+        "Südwestwind"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 44.22800000000001,
+      "segment_text": "Es gibt einen kalten Start. Die nächste Störung kommt schon näher. Viele Wolken gibt es in der Nordwestschweiz. Aber auch sonst trübt der Sonnenschein ein. Es ist nur noch im Süden sonnig. Im Laufe des Nachmittags nehmen die Wolken zu und es beginnt zu regnen oder schneien. Die Schneefallgrenze liegt zwischen 406 100 m. In tiefsten Lagen muss man nicht mit Schnee rechnen. Es bleibt im Osten noch lange trocken und auch im Süden.",
+      "fingerprint": {
+        "entities": [
+          "Lagen",
+          "Laufe",
+          "Nachmittags",
+          "Nordwestschweiz",
+          "Osten",
+          "Schnee",
+          "Schneefallgrenze",
+          "Sonnenschein",
+          "Start",
+          "Störung",
+          "Süden",
+          "Wolken"
+        ],
+        "top_words": [
+          "kalten",
+          "nächste",
+          "start",
+          "süden",
+          "wolken"
+        ],
+        "word_count": 74
+      }
+    },
+    {
+      "segment_id": "4",
+      "start_time": "02:47.154",
+      "end_time": "03:35.813",
+      "segment_type": "story",
+      "keyword": "Wochenendwetter",
+      "short_label": "Sonntag bis Montag: Störungen mit Schneefall",
+      "summary": "Sonntag: Störung hängt v.a. in Bergen und Zentral-/Ostschweiz mit weiterem Schneefall. Schneefallgrenze sinkt weiter. Vielerorts aber trocken mit nur vereinzelten Schneegestöbern. Süden meist trocken und sonnig. Montag: Nächste Störung im Norden mit Regen und Schnee, Schneefallgrenze 400-800m. Süden angenehm mit 15°C.",
+      "key_entities": [
+        "Sonntag",
+        "Montag",
+        "Störung",
+        "Schneefall",
+        "Schneefallgrenze sinkt",
+        "Berge",
+        "Zentral- und Ostschweiz",
+        "Nordwind",
+        "15°C"
+      ],
+      "confidence": 0.97,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 48.65899999999999,
+      "segment_text": "Die Temperaturen steigen nicht gross, für die Jahreszeit bleibt es also kühl. Dank Nordföhn bleibt es im Tessin mild. Er ist morgen nicht mehr so stark. Im Norden gibt es einen schwachen bis mässigen Südwestwind. Am Sonntag hängt die Störung noch. V.a. den Bergen entlang. Die Schneefallgrenze sinkt weiter. Aber vielerorts ist es dann über weite Strecken trocken. Es gibt nur noch vereinzelt Schneegestöber oder Regengüsse. Im Süden ist es meist trocken und sonnig. Dasselbe gilt für Montag. Es ist weiterhin angenehm mit 15 °C. Aber weiterhin Nordwind.",
+      "fingerprint": {
+        "entities": [
+          "Bergen",
+          "Jahreszeit",
+          "Montag",
+          "Norden",
+          "Nordföhn",
+          "Nordwind",
+          "Regengüsse",
+          "Schneefallgrenze",
+          "Schneegestöber",
+          "Sonntag",
+          "Strecken",
+          "Störung",
+          "Süden",
+          "Südwestwind",
+          "Temperaturen",
+          "Tessin"
+        ],
+        "top_words": [
+          "bleibt",
+          "steigen",
+          "temperaturen",
+          "trocken",
+          "weiterhin"
+        ],
+        "word_count": 88
+      }
+    },
+    {
+      "segment_id": "5",
+      "start_time": "03:35.813",
+      "end_time": "04:20.302",
+      "segment_type": "story",
+      "keyword": "Wochentrend",
+      "short_label": "Nächste Woche: Unbeständig mit langsamer Erwärmung",
+      "summary": "Nächste Woche unbeständiges Wetter mit wiederholten Störungen und zwischendurch längerer Sonnenscheindauer. Ab Gründonnerstag wird es im Norden langsam milder mit wahrscheinlich trockenem Wetter und besserer Sonneneinstrahlung. Für Ostern wird es vermutlich meist trocken und sonnig, allerdings mit noch großen Unsicherheiten.",
+      "key_entities": [
+        "nächste Woche",
+        "unbeständiges Wetter",
+        "Störungen",
+        "Gründonnerstag",
+        "milder",
+        "Ostern",
+        "trocken",
+        "sonnig"
+      ],
+      "confidence": 0.94,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 44.48900000000003,
+      "segment_text": "Im Norden kommt die nächste Störung. Sie bringt Regen und Schnee. Die Schneefallgrenze zwischen 400 und zwischen 800. Am Dienstag geht es weiter durchzogen weiter. Ab Gründonnerstag wird es auch im Norden langsam milder. Wahrscheinlich bleibt es meist trocken. Die Sonne könnte sich besser durchsetzen. Je nach Modell könnte es auch für den Rest von Ostern gut aussehen. Aber die Unsicherheiten sind noch gross. Es sollte aber meist trocken und sonnig sein. Auf Wiedersehen.",
+      "fingerprint": {
+        "entities": [
+          "Dienstag",
+          "Gründonnerstag",
+          "Modell",
+          "Norden",
+          "Ostern",
+          "Regen",
+          "Rest",
+          "Schnee",
+          "Schneefallgrenze",
+          "Sonne",
+          "Störung",
+          "Unsicherheiten",
+          "Wiedersehen"
+        ],
+        "top_words": [
+          "könnte",
+          "meist",
+          "norden",
+          "trocken",
+          "weiter"
+        ],
+        "word_count": 74
+      }
+    },
+    {
+      "segment_id": "6",
+      "start_time": "04:17.779",
+      "end_time": "04:20.302",
+      "segment_type": "outro",
+      "keyword": "Sendungsabschluss",
+      "short_label": "Auf Wiedersehen",
+      "summary": "Abschließender Gruß und Ende der Sendung.",
+      "key_entities": [
+        "Auf Wiedersehen"
+      ],
+      "confidence": 0.99,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-27T22:35:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:e45b23e1-b4a6-41a8-8f8e-92784ce3b12d",
+      "duration_seconds": 2.5230000000000246,
+      "segment_text": "Auf Wiedersehen.",
+      "fingerprint": {
+        "entities": [
+          "Wiedersehen"
+        ],
+        "top_words": [
+          "wiedersehen"
+        ],
+        "word_count": 2
+      }
+    }
+  ]
+}

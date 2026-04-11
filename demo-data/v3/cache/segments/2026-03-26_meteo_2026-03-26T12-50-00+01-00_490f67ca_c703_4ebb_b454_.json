@@ -1,0 +1,159 @@
+{
+  "program": {
+    "date": "2026-03-26",
+    "channel": "SRF 1",
+    "title": "Meteo",
+    "startTime": "2026-03-26T12:50:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:490f67ca-c703-4ebb-b454-0b53d69a1f9f",
+    "word_count": 275,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Der Winter ist zurückgekehrt. Wir haben eindrückliche Bilder zugeschickt bekommen. Das erste ist aus Schwanden. Auf rund 700 m, der Garten verschneit. Auch in Fribourg sehen wir Pflanzen am Boden, Die ein Winter Kleid bekommen haben.äSEND$ Alpennordhang hat es immer wieder geschneit. Es gab Schneegestöber. In diesen Lagen ist es Regen. So geht es weiter. Es gibt einen windigen und kühleren Tag. Morgen ist der Schnee kein Thema mehr. Es gibt aber noch Regionen, wo es schneit. Es gibt viele Wolken. Speziell im Wallis und im Mittelland lockern sie aber auf, und die Sonne zeigt sich für längere Zeit. Im Norden sind die Wolken zäh, gegen Abend können Sie sich auflockern. Sonnig ist es im Süden. Den Winter spürt man auch an den Temperaturen. V.a. morgen früh, es gibt eine frostige Nacht. Die Temperaturen fallen unter 0 °C. Wärmer ist es im Süden. Während des Tages gibt es 4-6 °C im Norden, deutlich wärmer ist es im Tessin. V.a. an windgeschützten Orten. Im Süden gibt es einen kräftigen Nordföhn. Im Mittelland spüren wir eine zügige Bise. Das ganze fühlt sich also kühler an, als Atheist. Am Samstag gibt es eine klare Nacht. Aber auch eine frostige Nacht. Am Samstagmorgen sind die Temperaturen bei -5 °C. Dazu starten wir aber sonnig. Von Westen her ziehen Wolken auf. Sie gehören zu einer Front. Am Samstagabend und in der Nacht auf Sonntag zieht die Front durch und bringt verbreitet Regen. Die Schneefallgrenze liegt zwischen 400 und 800 m im Westen und im Die Schneefallgrenze liegt zwischen 400 und 800 m. Am Montag geht es im gleichen Stil weiter."
+  },
+  "segments": [
+    {
+      "segment_id": "SEG001",
+      "start_time": "00:00:01.866",
+      "end_time": "00:00:15.995",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung und Sendungseröffnung von SRF Meteo mit Ankündigung der Rückkehr des Winters.",
+      "key_entities": [
+        "SRF Meteo",
+        "Winter"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-26",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-26T12:50:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:490f67ca-c703-4ebb-b454-0b53d69a1f9f",
+      "duration_seconds": 14.129,
+      "segment_text": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "Herzlich",
+          "LiveUntertiteln",
+          "Meteo",
+          "SRF",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "herzlich",
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 10
+      }
+    },
+    {
+      "segment_id": "SEG002",
+      "start_time": "00:00:16.424",
+      "end_time": "01:05.591",
+      "segment_type": "story",
+      "keyword": "Wintereinbruch Neuschnee",
+      "short_label": "Winterliches Wetter mit Schneefall und Kaltfront",
+      "summary": "Der Winter ist zurückgekehrt mit Schneefall auf verschiedenen Höhenlagen. Auf etwa 700m liegt Neuschnee (Schwanden, Fribourg). Alpennordhang hat wiederholten Schneefall und Schneegestöber. Heute windig und kühl. Morgen kein großes Schnee-Thema mehr, aber weitere Niederschläge in gewissen Regionen. Wallis und Mittelland lockern auf mit Sonnenschein. Norden bleibt bewölkt. Süden sonnig. Frostige Nächte mit Temperaturen unter 0°C im Norden (4-6°C tagsüber), wärmer im Tessin. Kräftiger Nordföhn im Süden, Bise im Mittelland.",
+      "key_entities": [
+        "Schwanden",
+        "Fribourg",
+        "Alpennordhang",
+        "Wallis",
+        "Mittelland",
+        "Tessin",
+        "Schneefallgrenze 700m",
+        "Frosttemperaturen",
+        "Nordföhn",
+        "Bise"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-26",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-26T12:50:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:490f67ca-c703-4ebb-b454-0b53d69a1f9f",
+      "duration_seconds": 49.166999999999994,
+      "segment_text": "Der Winter ist zurückgekehrt. Wir haben eindrückliche Bilder zugeschickt bekommen. Das erste ist aus Schwanden. Auf rund 700 m, der Garten verschneit. Auch in Fribourg sehen wir Pflanzen am Boden, Die ein Winter Kleid bekommen haben.äSEND$ Alpennordhang hat es immer wieder geschneit. Es gab Schneegestöber. In diesen Lagen ist es Regen. So geht es weiter. Es gibt einen windigen und kühleren Tag. Morgen ist der Schnee kein Thema mehr. Es gibt aber noch Regionen, wo es schneit.",
+      "fingerprint": {
+        "entities": [
+          "Alpennordhang",
+          "Bilder",
+          "Boden",
+          "Fribourg",
+          "Garten",
+          "Kleid",
+          "Lagen",
+          "Pflanzen",
+          "Regen",
+          "Regionen",
+          "Schnee",
+          "Schneegestöber",
+          "Schwanden",
+          "Tag",
+          "Thema",
+          "Winter"
+        ],
+        "top_words": [
+          "bekommen",
+          "bilder",
+          "eindrückliche",
+          "winter",
+          "zurückgekehrt"
+        ],
+        "word_count": 77
+      }
+    },
+    {
+      "segment_id": "SEG003",
+      "start_time": "02:06.387",
+      "end_time": "02:34.686",
+      "segment_type": "story",
+      "keyword": "Wochenendwetter Samstag Sonntag",
+      "short_label": "Wettertrend für Samstag und Sonntag",
+      "summary": "Samstag beginnt sonnig nach frostiger Nacht (-5°C). Von Westen ziehen Wolken auf, die zu einer Front gehören. Samstagabend und Nacht auf Sonntag: Front zieht durch mit verbreitetem Regen. Schneefallgrenze zwischen 400-800m im Westen. Montag Fortsetzung im gleichen Stil.",
+      "key_entities": [
+        "Samstag",
+        "Sonntag",
+        "Montag",
+        "Wetterfrontfront",
+        "Regen",
+        "Schneefallgrenze 400-800m"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-26",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-26T12:50:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:490f67ca-c703-4ebb-b454-0b53d69a1f9f",
+      "duration_seconds": 28.299000000000007,
+      "segment_text": "Aber auch eine frostige Nacht. Am Samstagmorgen sind die Temperaturen bei -5 °C. Dazu starten wir aber sonnig. Von Westen her ziehen Wolken auf. Sie gehören zu einer Front. Am Samstagabend und in der Nacht auf Sonntag zieht die Front durch und bringt verbreitet Regen.",
+      "fingerprint": {
+        "entities": [
+          "Front",
+          "Nacht",
+          "Regen",
+          "Samstagabend",
+          "Samstagmorgen",
+          "Sonntag",
+          "Temperaturen",
+          "Westen",
+          "Wolken"
+        ],
+        "top_words": [
+          "front",
+          "frostige",
+          "nacht",
+          "samstagmorgen",
+          "temperaturen"
+        ],
+        "word_count": 45
+      }
+    }
+  ]
+}

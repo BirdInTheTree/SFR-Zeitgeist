@@ -1,76 +1,68 @@
 """
-SRF Zeitgeist pipeline — news-only edition.
+SRF Zeitgeist pipeline — story-level segmentation.
 
-Reads pre-fetched program data from demo-data/week/*.json,
-filters to Nachrichten genre only (including re-broadcasts),
-extracts noun phrases + named entities via spaCy,
-computes keyness (spike vs 14-day baseline),
-and outputs a zeitgeist JSON for the frontend 6×6 grid.
+New approach vs v1:
+- LLM segments each broadcast into stories (not spaCy phrase extraction)
+- Stories merged across broadcasts (not phrase-level dedup)
+- Scoring: novelty × spread × persistence × prominence
+- Repeats counted through log-dampened persistence/prominence (not excluded)
+
+Usage:
+    python -m backend.pipeline 2026-04-01
+    python -m backend.pipeline --all
 """
 
 import json
-import math
-import os
-import re
+import logging
 import sys
-from collections import Counter, defaultdict
+from collections import defaultdict
+from datetime import date, timedelta
 from pathlib import Path
 
-import hashlib
-import subprocess
-import urllib.request
-
 from dotenv import load_dotenv
-import numpy as np
-import spacy
-from nltk.tokenize import TextTilingTokenizer
-
-# Load .env from project root
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
-from PIL import Image
-from sentence_transformers import SentenceTransformer
 
-from smart_crop import smart_crop, download_image
+from .scorer import score_story, novelty, spread, persistence, prominence, primetime, PRIMETIME_HOUR
+from .segmenter import (
+    fetch_vtt_url,
+    download_vtt,
+    parse_vtt,
+    vtt_blocks_to_transcript,
+    get_vtt_cached,
+    save_vtt_cache,
+    segment_broadcast,
+    merge_segments_into_stories,
+    generate_summaries,
+    compute_fingerprint,
+    extract_segment_text,
+    find_importance_peak,
+    seconds_to_tc,
+    tc_to_seconds,
+)
+
+logger = logging.getLogger(__name__)
+
+# smart_crop import — optional, loaded once
+try:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from smart_crop import smart_crop as _smart_crop
+    from PIL import Image as _Image
+    _HAS_SMART_CROP = True
+except ImportError:
+    _HAS_SMART_CROP = False
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 WEEK_DIR = PROJECT_ROOT / "demo-data" / "week"
 OUTPUT_DIR = PROJECT_ROOT / "demo-data"
+VTT_CACHE_DIR = OUTPUT_DIR / "cache" / "vtt"
+SEGMENT_CACHE_DIR = OUTPUT_DIR / "cache" / "segments"
+MERGE_CACHE_DIR = OUTPUT_DIR / "cache" / "merge"
+ARTIFACTS_DIR = OUTPUT_DIR / "artifacts"
+REGISTRY_PATH = OUTPUT_DIR / "story_registry.json"
 
-GRID_SIZE = 49
-MIN_EDITORIAL_UNITS = 1   # no EU filter — spike + LLM gate handle quality
-REFERENCE_DAYS = 7         # previous week as baseline
-MIN_PHRASE_LEN = 2        # skip single-char phrases
-MIN_WORD_COUNT = 5        # skip programs with near-empty subtitles
-MAX_PHRASE_WORDS = 4      # skip overly long noun chunks (usually parsing noise)
-
-# Junk phrases that leak from subtitle metadata, not news content
-_JUNK_PATTERNS = [
-    "SWISS TXT",
-    "Accessibility Services",
-    "Live-Untertitel",
-    "Untertitelung",
-]
-
-# Gebärdensprache versions share content with their base show.
-# We collapse variant broadcasts into editorial units.
-# Tagesschau in Gebärdensprache and Tagesschau kompakt are the same editorial desk.
-_EDITORIAL_SUFFIXES = [
-    " in Gebärdensprache",
-    " kompakt",
-    " extra",
-]
-
-
-def editorial_unit(title: str) -> str:
-    """Collapse variant broadcasts into base editorial unit.
-
-    'Tagesschau in Gebärdensprache' → 'Tagesschau'
-    'Tagesschau kompakt' → 'Tagesschau'
-    """
-    for suffix in _EDITORIAL_SUFFIXES:
-        if title.endswith(suffix):
-            return title[: -len(suffix)]
-    return title
+GRID_SIZE = 25
+MIN_WORD_COUNT = 5
+BASELINE_DAYS = 7
 
 
 def load_day(date_str: str) -> list[dict]:
@@ -78,10 +70,7 @@ def load_day(date_str: str) -> list[dict]:
     path = WEEK_DIR / f"{date_str}.json"
     if not path.exists():
         return []
-    data = json.loads(path.read_text())
-    if not data:
-        return []
-    return data
+    return json.loads(path.read_text()) or []
 
 
 def filter_news(programs: list[dict]) -> list[dict]:
@@ -93,779 +82,866 @@ def filter_news(programs: list[dict]) -> list[dict]:
     ]
 
 
-def extract_phrases(nlp, text: str) -> list[dict]:
-    """Extract noun phrases + named entities from German subtitle text.
+def editorial_unit(title: str) -> str:
+    """Collapse variant broadcasts into base editorial unit.
 
-    Returns list of {lemma, surface, char_idx} dicts.
-    lemma: for counting/dedup. surface: for display. char_idx: position in text.
+    'Tagesschau in Gebärdensprache' → 'Tagesschau'
     """
-    doc = nlp(text)
-    # Track best (most frequent) surface form per lemma
-    seen: dict[str, dict] = {}  # lemma → {surface, char_idx, count}
+    for suffix in (" in Gebaerdensprache", " in Gebärdensprache", " kompakt", " extra"):
+        if title.endswith(suffix):
+            return title[: -len(suffix)]
+    return title
 
-    # Noun chunks
-    for chunk in doc.noun_chunks:
-        has_noun = any(t.pos_ in ("NOUN", "PROPN") for t in chunk)
-        if not has_noun:
+
+# ---------------------------------------------------------------------------
+# Step 1: Fetch VTT subtitles
+# ---------------------------------------------------------------------------
+
+def fetch_program_vtt(program: dict) -> list[dict] | None:
+    """Fetch and parse VTT for a program. Returns parsed blocks or None."""
+    urn = program.get("urn", "")
+    if not urn:
+        return None
+
+    # Check cache
+    cached = get_vtt_cached(urn, VTT_CACHE_DIR)
+    if cached:
+        blocks = parse_vtt(cached)
+        return blocks if blocks else None
+
+    # Fetch from Integration Layer
+    media_info = fetch_vtt_url(urn)
+    vtt_url = media_info.get("vttUrl", "")
+    if not vtt_url:
+        return None
+
+    try:
+        vtt_text = download_vtt(vtt_url)
+    except Exception as e:
+        logger.warning("VTT download failed for %s: %s", urn, e)
+        return None
+
+    save_vtt_cache(urn, vtt_text, VTT_CACHE_DIR)
+
+    # Store HLS URL for later frame extraction
+    hls_url = media_info.get("hlsUrl", "")
+    if hls_url:
+        program["_hlsUrl"] = hls_url
+    img_url = media_info.get("imageUrl", "")
+    if img_url:
+        program["_imageUrl"] = img_url
+
+    blocks = parse_vtt(vtt_text)
+    return blocks if blocks else None
+
+
+# ---------------------------------------------------------------------------
+# Step 2: Segment broadcasts
+# ---------------------------------------------------------------------------
+
+def _segment_cache_path(program: dict) -> Path:
+    """Cache path for segmentation result."""
+    urn = program.get("urn", "").replace(":", "_").replace("/", "_")
+    return SEGMENT_CACHE_DIR / f"{urn}.json"
+
+
+def segment_all_broadcasts(programs: list[dict]) -> list[dict]:
+    """Segment all news programs into stories via LLM.
+
+    Processes broadcasts chronologically. Each broadcast receives the keyword
+    list from previously processed broadcasts so the LLM reuses keywords
+    for the same stories. After LLM segmentation, code computes a fingerprint
+    for each segment from the VTT text.
+
+    Re-broadcasts with the same URN are not re-segmented — they reuse the
+    first airing's segments but with their own startTime (for primetime calc).
+
+    Returns flat list of segments (intro/outro/teaser filtered out),
+    each with program metadata and fingerprint.
+    """
+    SEGMENT_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Sort by start time so keyword chaining works chronologically
+    sorted_programs = sorted(programs, key=lambda p: p.get("startTime", ""))
+
+    all_segments = []
+    known_keywords = []  # Accumulated from all processed broadcasts
+    seen_urns: dict[str, list[dict]] = {}  # URN → segments from first airing
+
+    for i, prog in enumerate(sorted_programs):
+        title = prog["title"]
+        urn = prog.get("urn", "")
+        cache_path = _segment_cache_path(prog)
+
+        # Re-broadcast with same URN: reuse segments but with this airing's startTime
+        if urn and urn in seen_urns:
+            reused = _clone_segments_for_rebroadcast(seen_urns[urn], prog)
+            all_segments.extend(reused)
+            print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} rebroadcast ({len(reused)} segments)")
             continue
 
-        content_tokens = [
-            t for t in chunk
-            if t.pos_ in ("NOUN", "PROPN", "ADJ")
-            and not t.is_stop
-        ]
-        if not content_tokens:
+        # Check cache
+        if cache_path.exists():
+            segments = json.loads(cache_path.read_text())
+            segments = _filter_story_segments(segments)
+            print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} cached ({len(segments)} segments)")
+            for seg in segments:
+                kw = seg.get("keyword", "")
+                if kw and kw not in known_keywords:
+                    known_keywords.append(kw)
+            if urn:
+                seen_urns[urn] = segments
+            all_segments.extend(segments)
             continue
 
-        lemma = " ".join(t.lemma_ for t in content_tokens).strip()
-        surface = " ".join(t.text for t in content_tokens).strip()
-
-        if len(lemma) < MIN_PHRASE_LEN or len(lemma.split()) > MAX_PHRASE_WORDS:
+        # Fetch VTT
+        blocks = fetch_program_vtt(prog)
+        if not blocks:
+            print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} no VTT")
             continue
 
-        if lemma not in seen:
-            seen[lemma] = {"surface": surface, "char_idx": chunk.start_char, "count": 1}
-        else:
-            seen[lemma]["count"] += 1
-            # Keep the most frequent surface form
-            if surface != seen[lemma]["surface"]:
-                seen[lemma]["surface"] = surface  # last seen wins; could track Counter
-
-    # Named entities — surface form = entity text as-is
-    for ent in doc.ents:
-        if ent.label_ not in ("PER", "ORG", "LOC", "GPE"):
+        # Build transcript and segment with keyword chaining
+        transcript = vtt_blocks_to_transcript(blocks)
+        try:
+            segments = segment_broadcast(
+                transcript, title,
+                existing_keywords=known_keywords if known_keywords else None,
+            )
+        except Exception as e:
+            print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} LLM error: {e}")
             continue
-        cleaned = ent.text.strip()
-        if len(cleaned) < MIN_PHRASE_LEN or len(cleaned.split()) > MAX_PHRASE_WORDS:
-            continue
-        # For NER, lemma = surface (names don't get lemmatized)
-        if cleaned not in seen:
-            seen[cleaned] = {"surface": cleaned, "char_idx": ent.start_char, "count": 1}
-        else:
-            seen[cleaned]["count"] += 1
 
-    # Remove subtitle metadata junk
+        # Attach metadata and compute fingerprints
+        for seg in segments:
+            seg["urn"] = urn
+            seg["channel"] = prog.get("channel", "")
+            seg["editorial_unit"] = editorial_unit(title)
+            seg["startTime"] = prog.get("startTime", "")
+
+            # Extract segment text from VTT and compute fingerprint
+            seg_text = extract_segment_text(
+                blocks, seg.get("start_time", ""), seg.get("end_time", ""),
+            )
+            seg["segment_text"] = seg_text
+            seg["fingerprint"] = compute_fingerprint(seg_text)
+
+            # If LLM didn't return peak_time, compute from text importance
+            if not seg.get("peak_time") and blocks:
+                try:
+                    start_sec = tc_to_seconds(seg.get("start_time", "0:0:0"))
+                    end_sec = tc_to_seconds(seg.get("end_time", "0:0:0"))
+                    peak_sec = find_importance_peak(blocks, start_sec, end_sec)
+                    if peak_sec is not None:
+                        seg["peak_time"] = seconds_to_tc(peak_sec)
+                except (ValueError, IndexError):
+                    pass
+
+            # Accumulate keyword for next broadcasts
+            kw = seg.get("keyword", "")
+            if kw and kw not in known_keywords:
+                known_keywords.append(kw)
+
+        # Cache ALL segments (including intro/outro) — filter is applied on read
+        cache_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2))
+
+        # Filter for pipeline: keep only story/weather/sport segments
+        segments = _filter_story_segments(segments)
+
+        if urn:
+            seen_urns[urn] = segments
+        print(f"  [{i+1}/{len(sorted_programs)}] {title[:40]:<40s} {len(segments)} segments")
+        all_segments.extend(segments)
+
+    return all_segments
+
+
+# Segment types that represent actual news content (not structural)
+_CONTENT_TYPES = {"story", "weather", "sport"}
+
+
+def _filter_story_segments(segments: list[dict]) -> list[dict]:
+    """Remove intro/outro/teaser segments — they're not stories."""
+    return [s for s in segments if s.get("segment_type", "story") in _CONTENT_TYPES]
+
+
+def _clone_segments_for_rebroadcast(
+    original_segments: list[dict], prog: dict,
+) -> list[dict]:
+    """Create copies of segments with a re-broadcast's metadata.
+
+    Same content, but different startTime (for primetime calculation)
+    and marked as rebroadcast.
+    """
+    import copy
+    cloned = []
+    for seg in original_segments:
+        new_seg = copy.deepcopy(seg)
+        new_seg["startTime"] = prog.get("startTime", "")
+        new_seg["program"] = prog["title"]
+        new_seg["editorial_unit"] = editorial_unit(prog["title"])
+        new_seg["is_rebroadcast"] = True
+        cloned.append(new_seg)
+    return cloned
+
+
+# ---------------------------------------------------------------------------
+# Step 3: Merge into stories and score
+# ---------------------------------------------------------------------------
+
+def _real_air_sort_key(seg: dict) -> float:
+    """Sort key for finding first mention: program start + segment offset.
+
+    Returns total seconds from midnight so segments sort by real air time.
+    """
+    hour = _extract_hour(seg.get("startTime", ""))
+    if hour is None:
+        return 99 * 3600  # No data — sort last
+
+    # Program start in seconds from midnight
+    iso = seg.get("startTime", "")
+    try:
+        time_part = iso.split("T")[1][:8]
+        h, m, s = int(time_part[:2]), int(time_part[3:5]), int(time_part[6:8])
+        prog_seconds = h * 3600 + m * 60 + s
+    except (IndexError, ValueError):
+        return 99 * 3600
+
+    # Segment offset within program
+    try:
+        offset = tc_to_seconds(seg.get("start_time", "00:00:00"))
+    except (ValueError, IndexError):
+        offset = 0
+
+    return prog_seconds + offset
+
+
+def _extract_hour(start_time_iso: str) -> int | None:
+    """Extract hour from ISO start time like '2026-04-01T19:30:00+02:00'."""
+    if not start_time_iso or "T" not in start_time_iso:
+        return None
+    try:
+        return int(start_time_iso.split("T")[1][:2])
+    except (IndexError, ValueError):
+        return None
+
+
+def _segment_duration(seg: dict) -> float:
+    """Compute segment duration in seconds from start_time/end_time."""
+    try:
+        start = tc_to_seconds(seg.get("start_time", ""))
+        end = tc_to_seconds(seg.get("end_time", ""))
+        return max(end - start, 0)
+    except (ValueError, IndexError):
+        return 0
+
+
+def build_stories(
+    all_segments: list[dict],
+    stories_meta: list[dict],
+    baseline_segment_counts: dict[str, float],
+) -> list[dict]:
+    """Build scored story entries from merged story metadata.
+
+    Args:
+        all_segments: flat list of all segments from today's broadcasts
+        stories_meta: LLM merge output — story_id, keyword, segment_indices, repeat_indices
+        baseline_segment_counts: story_id → average daily segments in baseline period
+    """
     results = []
-    for lemma, info in seen.items():
-        if any(junk.lower() in lemma.lower() for junk in _JUNK_PATTERNS):
+
+    for story in stories_meta:
+        story_id = story["story_id"]
+        keyword = story["keyword"]
+        indices = story.get("segment_indices", [])
+        repeat_indices = set(story.get("repeat_indices", []))
+
+        if not indices:
             continue
+
+        # Collect segments for this story, keyed by global index
+        idx_to_seg = {}
+        for idx in indices:
+            if 0 <= idx < len(all_segments):
+                idx_to_seg[idx] = all_segments[idx]
+
+        if not idx_to_seg:
+            continue
+
+        story_segments = list(idx_to_seg.values())
+
+        # Count metrics
+        n_today = len(story_segments)  # N_today: all segments including repeats
+        programs = set()
+        editorial_units = set()
+        total_seconds = 0
+        has_pre18 = False
+        has_post18 = False
+
+        for seg in story_segments:
+            programs.add(seg.get("program", ""))
+            editorial_units.add(seg.get("editorial_unit", ""))
+            total_seconds += _segment_duration(seg)
+            # Primetime tier from program start time (e.g. "2026-04-01T19:30:00+02:00")
+            prog_start = seg.get("startTime", "")
+            hour = _extract_hour(prog_start)
+            if hour is not None:
+                if hour < PRIMETIME_HOUR:
+                    has_pre18 = True
+                else:
+                    has_post18 = True
+
+        distinct_programs = len(editorial_units)  # U_today: distinct editorial units
+        baseline_avg = baseline_segment_counts.get(story_id, 0)
+
+        final_score = score_story(
+            today_segments=n_today,
+            baseline_avg_segments=baseline_avg,
+            distinct_programs=distinct_programs,
+            total_segments=n_today,
+            total_story_seconds=total_seconds,
+            has_pre18=has_pre18,
+            has_post18=has_post18,
+        )
+
+        # Find first mention (earliest start_time among non-repeat segments)
+        original_segments = [
+            idx_to_seg[idx] for idx in indices
+            if idx in idx_to_seg and idx not in repeat_indices
+        ]
+        if not original_segments:
+            original_segments = story_segments
+
+        # First mention = earliest by program air time + segment offset.
+        # startTime is ISO like "2026-04-01T12:45:00+02:00", start_time is VTT offset.
+        # Combining gives the real clock time when this story first aired.
+        first_seg = min(original_segments, key=_real_air_sort_key)
+
+        # Collect quotes (summaries from different editorial units)
+        seen_units = set()
+        quotes = []
+        for seg in story_segments:
+            eu = seg.get("editorial_unit", "")
+            if eu in seen_units:
+                continue
+            seen_units.add(eu)
+            quotes.append({
+                "title": seg.get("program", ""),
+                "channel": seg.get("channel", ""),
+                "quote": seg.get("summary", ""),
+                "urn": seg.get("urn", ""),
+                "startTime": seg.get("startTime", ""),
+            })
+
         results.append({
-            "lemma": lemma,
-            "surface": info["surface"],
-            "char_idx": info["char_idx"],
+            "story_id": story_id,
+            "keyword": keyword,
+            "phrase": keyword,  # frontend compatibility (v1 uses "phrase")
+            "score": round(final_score, 2),
+            "novelty": round(novelty(n_today, baseline_avg), 2),
+            "spread": round(spread(distinct_programs), 2),
+            "persistence": round(persistence(n_today), 2),
+            "prominence": round(prominence(total_seconds), 2),
+            "primetime": round(primetime(has_pre18, has_post18), 2),
+            "n_segments": n_today,
+            "n_repeats": len(repeat_indices & set(indices)),
+            "distinct_programs": distinct_programs,
+            "total_seconds": round(total_seconds, 1),
+            "editorial_units": sorted(editorial_units),
+            "programs": sorted(programs),
+            "quotes": quotes[:5],
+            "first_mention_urn": first_seg.get("urn", ""),
+            # peak_time = most important moment (from LLM), fallback to start_time
+            "first_mention_time": first_seg.get("peak_time", "") or first_seg.get("start_time", ""),
+            "first_mention_program": first_seg.get("program", ""),
+            "imageUrl": "",
         })
+
+    results.sort(key=lambda x: x["score"], reverse=True)
+
+    for i, entry in enumerate(results):
+        entry["rank"] = i + 1
 
     return results
 
 
-# TextTiling requires paragraphs separated by blank lines.
-# Subtitle text is continuous, so we split into pseudo-paragraphs by sentence.
-_tiler = TextTilingTokenizer(w=20, k=10)
-
-
-def segment_into_stories(text: str) -> list[str]:
-    """Split a news program transcript into story segments via TextTiling.
-
-    Returns a list of text segments, each roughly one news story.
-    Falls back to the full text as a single segment if TextTiling fails
-    (e.g. text too short or too uniform).
-    """
-    # TextTiling needs paragraph breaks (blank lines) between text blocks.
-    # We treat each sentence as a "paragraph" so the tiler can find topic shifts.
-    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
-    if len(sentences) < 3:
-        return [text]
-
-    # Join sentences with blank lines to form pseudo-paragraphs
-    prepared = "\n\n".join(sentences)
-    try:
-        segments = _tiler.tokenize(prepared)
-    except ValueError:
-        # TextTiling raises ValueError when text is too short or uniform
-        return [text]
-
-    # Filter out empty segments
-    segments = [s.strip() for s in segments if s.strip()]
-    return segments if segments else [text]
-
-
-def extract_quote(text: str, phrase: str, context_chars: int = 80) -> str:
-    """Find phrase in subtitle text and return surrounding context."""
-    idx = text.lower().find(phrase.lower())
-    if idx == -1:
-        # Try individual words from the phrase
-        words = phrase.split()
-        for word in words:
-            idx = text.lower().find(word.lower())
-            if idx != -1:
-                break
-    if idx == -1:
-        return ""
-
-    start = max(0, idx - context_chars)
-    end = min(len(text), idx + len(phrase) + context_chars)
-    snippet = text[start:end].strip()
-
-    # Clean up boundaries to whole words
-    if start > 0:
-        snippet = "..." + snippet[snippet.find(" ") + 1:]
-    if end < len(text):
-        last_space = snippet.rfind(" ")
-        if last_space > 0:
-            snippet = snippet[:last_space] + "..."
-
-    return snippet
-
-
-_EMBED_MODEL = None
-
-def _get_embedder():
-    global _EMBED_MODEL
-    if _EMBED_MODEL is None:
-        print("Loading embedding model for dedup...")
-        _EMBED_MODEL = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-    return _EMBED_MODEL
-
-
-def _story_dedup(entries: list[dict], segment_phrases: list[set[str]],
-                 overlap_threshold: float = 0.5) -> list[dict]:
-    """Dedup phrases that belong to the same news story.
-
-    Two phrases are considered part of the same story if they co-occur
-    in a high fraction of their segments. We keep the higher-scoring one.
-    """
-    if not entries or not segment_phrases:
-        return entries
-
-    # Build segment sets for each lemma: which segments mention it
-    lemma_segments: dict[str, set[int]] = defaultdict(set)
-    for seg_idx, seg_lemmas in enumerate(segment_phrases):
-        for lemma in seg_lemmas:
-            lemma_segments[lemma].add(seg_idx)
-
-    # Greedy dedup: iterate top-down (already sorted by score),
-    # skip if phrase co-occurs with an already-selected phrase in most of its segments
-    selected = []
-    for entry in entries:
-        lemma = entry["lemma"]
-        my_segs = lemma_segments.get(lemma, set())
-        if not my_segs:
-            selected.append(entry)
-            continue
-
-        is_dup = False
-        for sel in selected:
-            sel_segs = lemma_segments.get(sel["lemma"], set())
-            if not sel_segs:
-                continue
-            overlap = len(my_segs & sel_segs)
-            # Fraction of the smaller set that overlaps
-            min_size = min(len(my_segs), len(sel_segs))
-            if overlap / min_size >= overlap_threshold:
-                is_dup = True
-                break
-        if not is_dup:
-            selected.append(entry)
-
-    n_removed = len(entries) - len(selected)
-    if n_removed > 0:
-        print(f"  Story dedup removed {n_removed} phrases (co-occurrence threshold={overlap_threshold})")
-    return selected
-
-
-def _normalize_quote_text(text: str) -> str:
-    """Normalize quote text so similar evidence blocks compare reliably."""
-    text = text.lower()
-    text = re.sub(r"\.\.\.", " ", text)
-    text = re.sub(r"[^\w\säöüß]", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-
-def _quote_signature(entry: dict) -> str:
-    """Build a compact signature of the evidence used to justify a phrase."""
-    quotes = []
-    for quote in entry.get("quotes", [])[:3]:
-        cleaned = _normalize_quote_text(quote.get("quote", ""))
-        if cleaned:
-            quotes.append(cleaned)
-    return " ".join(quotes)
-
-
-def _quote_dedup(entries: list[dict], threshold: float = 0.72) -> list[dict]:
-    """Remove phrases that are backed by essentially the same quote evidence.
-
-    This catches duplicates that survive phrase-level dedup because the wording is
-    different but the underlying segment or story is the same.
-    """
-    if not entries:
-        return entries
-
-    signatures = [_quote_signature(entry) for entry in entries]
-    if not any(signatures):
-        return entries
-
-    model = _get_embedder()
-    embeddings = model.encode(signatures, normalize_embeddings=True)
-
-    selected_indices = []
-    for i, entry in enumerate(entries):
-        signature = signatures[i]
-        if not signature:
-            selected_indices.append(i)
-            continue
-
-        entry_programs = set(entry.get("programs", []))
-        entry_units = set(entry.get("editorial_units", []))
-        is_dup = False
-
-        for j in selected_indices:
-            other = entries[j]
-            other_signature = signatures[j]
-            if not other_signature:
-                continue
-
-            shared_programs = entry_programs & set(other.get("programs", []))
-            shared_units = entry_units & set(other.get("editorial_units", []))
-            if not shared_programs and not shared_units:
-                continue
-
-            sim = float(np.dot(embeddings[i], embeddings[j]))
-            if sim >= threshold:
-                is_dup = True
-                break
-
-        if not is_dup:
-            selected_indices.append(i)
-
-    deduped = [entries[i] for i in selected_indices]
-    n_removed = len(entries) - len(deduped)
-    if n_removed > 0:
-        print(f"  Quote dedup removed {n_removed} phrases (threshold={threshold})")
-    return deduped
-
-
-def _cosine_dedup(entries: list[dict], threshold: float = 0.6) -> list[dict]:
-    """Greedy dedup: iterate top-down, skip if cosine ≥ threshold to any selected."""
-    if not entries:
-        return entries
-
-    model = _get_embedder()
-    phrases = [e["phrase"] for e in entries]
-    embeddings = model.encode(phrases, normalize_embeddings=True)
-
-    selected_indices = []
-    for i in range(len(entries)):
-        is_dup = False
-        for j in selected_indices:
-            sim = float(np.dot(embeddings[i], embeddings[j]))
-            if sim >= threshold:
-                is_dup = True
-                break
-        if not is_dup:
-            selected_indices.append(i)
-
-    deduped = [entries[i] for i in selected_indices]
-    n_removed = len(entries) - len(deduped)
-    if n_removed > 0:
-        print(f"  Cosine dedup removed {n_removed} phrases (threshold={threshold})")
-    return deduped
-
-
-def load_nlp():
-    """Load spaCy model once."""
-    print("Loading spaCy model...")
-    nlp = spacy.load("de_core_news_md")
-    nlp.max_length = 2_000_000
-    return nlp
-
-
-def build_zeitgeist(target_date: str, nlp=None) -> list[dict]:
-    """
-    Main pipeline: compute weekly zeitgeist ending on target_date.
-
-    1. Load 7 days of news programs (target week)
-    2. Load 14-day reference period before the week
-    3. Extract phrases with spaCy, segment programs into stories
-    4. Compute spike = target_freq / reference_avg_freq
-    5. Filter: ≥2 distinct editorial units
-    6. Score = spike × log₂(unit_count)
-    7. Dedup: substring → cosine → story co-occurrence
-    8. Return top GRID_SIZE entries
-    """
-    from datetime import date, timedelta
-
-    if nlp is None:
-        nlp = load_nlp()
-
-    target_dt = date.fromisoformat(target_date)
-
-    # --- Load target week (7 days ending on target_date) ---
-    target_programs = []
-    target_days = 7
-    for i in range(target_days):
-        day_date = (target_dt - timedelta(days=i)).isoformat()
-        day_news = filter_news(load_day(day_date))
-        target_programs.extend(day_news)
-    if not target_programs:
-        print(f"No news programs found for week ending {target_date}")
-        return []
-    week_start = (target_dt - timedelta(days=target_days - 1)).isoformat()
-    print(f"Target week {week_start} → {target_date}: {len(target_programs)} news programs")
-
-    # --- Load reference period (previous week) ---
-    ref_programs = []
-    ref_end = target_dt - timedelta(days=target_days)
-    for i in range(REFERENCE_DAYS):
-        ref_date = (ref_end - timedelta(days=i)).isoformat()
-        day_news = filter_news(load_day(ref_date))
-        ref_programs.extend(day_news)
-    print(f"Reference ({REFERENCE_DAYS} days): {len(ref_programs)} news programs")
-
-    # --- Extract phrases from target ---
-    print("Extracting phrases from target day...")
-    # lemma → {programs, editorial_units, count, quotes, surface_forms}
-    target_data = defaultdict(lambda: {
-        "programs": set(),
-        "editorial_units": set(),
-        "count": 0,
-        "quotes": [],
-        "surface_forms": Counter(),  # surface → count
-    })
-
-    # segment_id → set of lemmas (for co-occurrence dedup later)
-    segment_phrases: list[set[str]] = []
-
-    for prog in target_programs:
-        text = prog.get("subtitle_text_clean", "")
-        if not text:
-            continue
-        title = prog["title"]
-        eu = editorial_unit(title)
-        segments = segment_into_stories(text)
-
-        for segment in segments:
-            phrase_dicts = extract_phrases(nlp, segment)
-            seg_lemmas = {pd["lemma"] for pd in phrase_dicts}
-            segment_phrases.append(seg_lemmas)
-
-        # Count per-program (not per-segment) — extract_phrases dedupes within text
-        phrase_dicts = extract_phrases(nlp, text)
-        for pd in phrase_dicts:
-            lemma = pd["lemma"]
-            entry = target_data[lemma]
-            entry["programs"].add(title)
-            entry["editorial_units"].add(eu)
-            entry["count"] += 1
-            entry["surface_forms"][pd["surface"]] += 1
-
-            # Collect a quote if we don't have one from this program yet
-            prog_titles_with_quotes = {q["title"] for q in entry["quotes"]}
-            if title not in prog_titles_with_quotes:
-                quote = extract_quote(text, lemma)
-                if not quote:
-                    quote = extract_quote(text, pd["surface"])
-                if quote:
-                    entry["quotes"].append({
-                        "title": title,
-                        "channel": prog.get("channel", ""),
-                        "quote": quote,
-                        "urn": prog.get("urn", ""),
-                        "startTime": prog.get("startTime", ""),
-                    })
-
-    print(f"  {len(target_data)} unique phrases, {len(segment_phrases)} story segments")
-
-    # --- Extract phrases from reference ---
-    print("Extracting phrases from reference period...")
-    ref_freq = Counter()
-    for prog in ref_programs:
-        text = prog.get("subtitle_text_clean", "")
-        if not text:
-            continue
-        phrase_dicts = extract_phrases(nlp, text)
-        for pd in phrase_dicts:
-            ref_freq[pd["lemma"]] += 1
-
-    print(f"  {len(ref_freq)} unique phrases in reference")
-
-    # --- Compute keyness ---
-    print("Computing keyness scores...")
-    results = []
-
-    for phrase, data in target_data.items():
-        n_editorial_units = len(data["editorial_units"])
-        if n_editorial_units < MIN_EDITORIAL_UNITS:
-            continue
-
-        target_count = data["count"]
-        ref_count = ref_freq.get(phrase, 0)
-
-        # Spike: ratio of target week frequency to reference week frequency.
-        # Both periods are 7 days, so no per-day normalization needed.
-        # Smoothing: assume at least 1 occurrence in reference week.
-        ref_smoothed = max(ref_count, 1)
-        spike = target_count / ref_smoothed
-
-        score = spike * math.log2(n_editorial_units)
-
-        # Best surface form: most frequent original spelling
-        best_surface = data["surface_forms"].most_common(1)[0][0] if data["surface_forms"] else phrase
-
-        results.append({
-            "phrase": best_surface,   # display form (correct German)
-            "lemma": phrase,          # normalized form (for dedup/counting)
-            "spike": round(spike, 1),
-            "target_count": target_count,
-            "unit_count": n_editorial_units,
-            "editorial_units": sorted(data["editorial_units"]),
-            "programs": sorted(data["programs"]),
-            "quotes": data["quotes"][:5],  # max 5 quotes
-            "score": round(score, 1),
-        })
-
-    # --- Rank (tiebreaker: target_count) ---
-    results.sort(key=lambda x: (x["score"], x["target_count"]), reverse=True)
-
-    # --- Dedup: substring + cosine similarity ---
-    # Step 1: substring on lemma — "Bosnien" inside "Bosnien-Herzegowina" → keep longer.
-    # Step 2: cosine on phrase — "Mond" / "Mondlandung" → same story.
-    deduped = []
-    for entry in results:
-        lemma_low = entry["lemma"].lower()
-        is_dup = False
-        for selected in deduped:
-            sel_low = selected["lemma"].lower()
-            if lemma_low in sel_low or sel_low in lemma_low:
-                is_dup = True
-                break
-        if not is_dup:
-            deduped.append(entry)
-
-    # Cosine dedup on the substring-deduped list
-    deduped = _cosine_dedup(deduped, threshold=0.6)
-
-    # Story dedup: phrases co-occurring in the same segments are from the same story
-    deduped = _story_dedup(deduped, segment_phrases)
-
-    # Quote dedup: if two phrases are justified by nearly identical evidence,
-    # keep only the higher-ranked one.
-    deduped = _quote_dedup(deduped, threshold=0.72)
-
-    # --- LLM Quality Gate (optional) ---
-    candidates = deduped[:GRID_SIZE * 3]  # send up to 3x grid size
-    filtered = llm_quality_gate(candidates)
-    top = filtered[:GRID_SIZE]
-
-    # Add rank field
-    for i, entry in enumerate(top):
-        entry["rank"] = i + 1
-        entry["imageUrl"] = ""
-
-    print(f"\nTop {len(top)} phrases for {target_date}:")
-    for entry in top[:10]:
-        print(f"  {entry['rank']:2d}. {entry['phrase']:<30s} "
-              f"spike={entry['spike']:>8.1f}  "
-              f"units={entry['unit_count']}  "
-              f"score={entry['score']:>8.1f}")
-
-    return top
-
-
 # ---------------------------------------------------------------------------
-# LLM Quality Gate
+# Step 4: Frame extraction
 # ---------------------------------------------------------------------------
 
-_LLM_PROMPT = """\
-Ты фильтр для дашборда "О чём говорит Швейцария на этой неделе".
-Для каждой фразы ответь: 1 (zeitgeist) или 0 (шум).
+def fetch_frames(entries: list[dict], date_str: str) -> None:
+    """Extract video frames for top stories. Updates imageUrl in-place.
 
-Zeitgeist (1): КОНКРЕТНЫЕ имена собственные, названия, специфические термины
-привязанные к конкретному событию или теме недели.
-Примеры: "Bosnien-Herzegowina", "Kunsthaus Zürich", "NASA", "TikTok",
-"Cyberangriff", "Solaranlage", "Netanjahu", "Todesstrafe".
-
-Шум (0): общие/абстрактные существительные, которые могут появиться
-в любых новостях любой недели. Даже если слово "звучит серьёзно",
-если оно не привязано к конкретной теме — это шум.
-Примеры: "Studium", "Protest", "Mannschaften", "Kontinent",
-"Grenzwerte", "Rat", "Stimmen", "Versicherung", "Umwelt",
-"Auseinandersetzungen", "Verbündeten", "Wechsel", "Trend".
-
-Правило: если фразу нельзя загуглить и найти ОДНУ конкретную новость — это 0.
-
-Ответь ТОЛЬКО цифрами через запятую, без пробелов. Пример: 1,0,1,1,0
-
-Фразы:
-{phrases}"""
-
-
-def llm_quality_gate(entries: list[dict]) -> list[dict]:
-    """Filter entries through Claude Haiku in batches. Returns only zeitgeist=1 entries.
-
-    Requires ANTHROPIC_API_KEY env var. Skips silently if not set.
+    Reuses the Integration Layer + ffmpeg approach from v1.
     """
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        print("  LLM gate: skipped (no ANTHROPIC_API_KEY)")
-        return entries
+    import re  # noqa: used for safe filename
+    import subprocess
 
-    try:
-        import anthropic
-    except ImportError:
-        print("  LLM gate: skipped (anthropic package not installed)")
-        return entries
-
-    client = anthropic.Anthropic(api_key=api_key)
-    log_path = OUTPUT_DIR / "llm_gate_log.txt"
-
-    # Process in batches of 40 so Haiku can reliably return all verdicts
-    BATCH_SIZE = 40
-    all_filtered = []
-    total_passed = 0
-
-    print(f"  LLM gate: sending {len(entries)} candidates to Claude Haiku...")
-    for batch_start in range(0, len(entries), BATCH_SIZE):
-        batch = entries[batch_start:batch_start + BATCH_SIZE]
-
-        phrase_lines = []
-        for i, e in enumerate(batch):
-            programs = ", ".join(e.get("editorial_units", [])[:3])
-            phrase_lines.append(f"{i+1}. {e['phrase']} (spike={e['spike']}, programs: {programs})")
-
-        prompt = _LLM_PROMPT.format(phrases="\n".join(phrase_lines))
-        response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=512,
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        text = response.content[0].text.strip()
-        with open(log_path, "a") as f:
-            f.write(f"\n--- batch {batch_start//BATCH_SIZE + 1}, {len(batch)} candidates ---\n{text}\n")
-
-        try:
-            verdicts = [int(v.strip()) for v in text.split(",")]
-        except ValueError:
-            print(f"  LLM gate: parse error in batch, keeping all. Response: {text[:100]}")
-            all_filtered.extend(batch)
-            continue
-
-        if len(verdicts) != len(batch):
-            print(f"  LLM gate: count mismatch ({len(verdicts)} vs {len(batch)}) in batch, keeping all")
-            all_filtered.extend(batch)
-            continue
-
-        passed = [e for e, v in zip(batch, verdicts) if v == 1]
-        total_passed += len(passed)
-        all_filtered.extend(passed)
-
-    print(f"  LLM gate: {total_passed}/{len(entries)} passed")
-    return all_filtered
-
-
-# ---------------------------------------------------------------------------
-# Frame Extraction
-# ---------------------------------------------------------------------------
-
-IL_BASE = "https://il.srgssr.ch/integrationlayer/2.1/mediaComposition/byUrn"
-FRAMES_DIR = OUTPUT_DIR / "frames"
-CROPPED_DIR = OUTPUT_DIR / "cropped"
-
-
-def _fetch_media_info(urn: str) -> dict:
-    """Get VTT subtitle URL + HLS stream URL from Integration Layer."""
-    url = f"{IL_BASE}/{urn}?onlyChapters=true&vector=portalplay"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-    except Exception:
-        return {}
-
-    chapter = data.get("chapterList", [{}])[0]
-    result = {}
-    # Image URL (fallback)
-    img = chapter.get("imageUrl", "")
-    if img:
-        result["imageUrl"] = img
-    # VTT subtitle
-    for sub in chapter.get("subtitleList", []):
-        if sub.get("format") == "VTT":
-            result["vttUrl"] = sub["url"]
-            break
-    # HLS stream
-    for res in chapter.get("resourceList", []):
-        if res.get("streaming") == "HLS" and res.get("quality") == "HD":
-            result["hlsUrl"] = res["url"]
-            break
-    if "hlsUrl" not in result:
-        for res in chapter.get("resourceList", []):
-            if res.get("streaming") == "HLS":
-                result["hlsUrl"] = res["url"]
-                break
-    return result
-
-
-def _find_timecode(vtt_text: str, phrase: str) -> str:
-    """Find timecode where phrase appears in VTT."""
-    blocks = re.split(r"\n\n+", vtt_text)
-    phrase_lower = phrase.lower()
-
-    for block in blocks:
-        lines = block.strip().split("\n")
-        for i, line in enumerate(lines):
-            if "-->" in line:
-                text = re.sub(r"<[^>]+>", "", " ".join(lines[i+1:])).lower()
-                if phrase_lower in text:
-                    return line.split("-->")[0].strip()
-
-    # Fallback: try longest word from phrase
-    words = sorted(phrase.split(), key=len, reverse=True)
-    for word in words:
-        if len(word) < 3:
-            continue
-        for block in blocks:
-            lines = block.strip().split("\n")
-            for i, line in enumerate(lines):
-                if "-->" in line:
-                    text = re.sub(r"<[^>]+>", "", " ".join(lines[i+1:])).lower()
-                    if word.lower() in text:
-                        return line.split("-->")[0].strip()
-    return ""
-
-
-def _compute_air_time(start_time_iso: str, vtt_timecode: str) -> str:
-    """Compute real air time from program start + VTT offset.
-
-    start_time_iso: '2026-04-01T19:30:00+02:00'
-    vtt_timecode: '00:05:23.456'
-    Returns: '19:35' (HH:MM in local time)
-    """
-    if not start_time_iso or not vtt_timecode:
-        return ""
-    try:
-        from datetime import datetime, timedelta
-        # Parse start time (take just HH:MM:SS, ignore timezone for display)
-        time_part = start_time_iso[11:19]  # 'HH:MM:SS'
-        h, m, s = int(time_part[:2]), int(time_part[3:5]), int(time_part[6:8])
-        start_seconds = h * 3600 + m * 60 + s
-
-        # Parse VTT timecode 'HH:MM:SS.mmm'
-        tc_parts = vtt_timecode.replace(",", ".").split(":")
-        tc_h = int(tc_parts[0])
-        tc_m = int(tc_parts[1])
-        tc_s = float(tc_parts[2])
-        offset_seconds = tc_h * 3600 + tc_m * 60 + tc_s
-
-        total = start_seconds + int(offset_seconds)
-        air_h = (total // 3600) % 24
-        air_m = (total % 3600) // 60
-        return f"{air_h:02d}:{air_m:02d}"
-    except Exception:
-        return ""
-
-
-def fetch_frames(entries: list[dict], date_str: str) -> list[dict]:
-    """Fetch video frames for each entry. Updates imageUrl in-place."""
-    FRAMES_DIR.mkdir(exist_ok=True)
-    CROPPED_DIR.mkdir(exist_ok=True)
-
-    vtt_cache: dict[str, str] = {}
+    frames_dir = OUTPUT_DIR / "frames"
+    cropped_dir = OUTPUT_DIR / "cropped"
+    frames_dir.mkdir(parents=True, exist_ok=True)
+    cropped_dir.mkdir(parents=True, exist_ok=True)
 
     for i, entry in enumerate(entries):
-        quotes = entry.get("quotes", [])
-        if not quotes:
-            continue
-        urn = quotes[0].get("urn", "")
+        urn = entry.get("first_mention_urn", "")
         if not urn:
             continue
 
-        phrase = entry["phrase"]
-        safe = re.sub(r"[^\w-]", "_", phrase)[:40]
-        crop_path = CROPPED_DIR / f"{date_str}_{i+1:02d}_{safe}.jpg"
+        keyword = entry["keyword"]
+        safe = re.sub(r"[^\w-]", "_", keyword)[:40]
+        crop_path = cropped_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
 
-        # Skip if already exists
         if crop_path.exists():
-            entry["imageUrl"] = f"../demo-data/cropped/{crop_path.name}"
+            entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
             continue
 
-        print(f"  [{i+1:2d}/{len(entries)}] {phrase[:35]:<35s} ", end="", flush=True)
+        print(f"  [{i+1:2d}/{len(entries)}] {keyword[:35]:<35s} ", end="", flush=True)
 
-        info = _fetch_media_info(urn)
-        if not info:
+        # Get media URLs
+        media_info = fetch_vtt_url(urn)
+        if not media_info:
             print("no media")
             continue
 
-        hls_url = info.get("hlsUrl", "")
-        vtt_url = info.get("vttUrl", "")
-        fallback_img = info.get("imageUrl", "")
+        hls_url = media_info.get("hlsUrl", "")
+        vtt_url = media_info.get("vttUrl", "")
+        fallback_img = media_info.get("imageUrl", "")
 
-        frame_path = FRAMES_DIR / f"{date_str}_{i+1:02d}_{safe}.jpg"
+        frame_path = frames_dir / f"{date_str}_{i+1:02d}_{safe}.jpg"
         got_frame = False
 
-        # Try frame at timecode
-        if hls_url and vtt_url:
-            if vtt_url not in vtt_cache:
-                req = urllib.request.Request(vtt_url, headers={"User-Agent": "Mozilla/5.0"})
-                try:
-                    with urllib.request.urlopen(req, timeout=15) as resp:
-                        vtt_cache[vtt_url] = resp.read().decode("utf-8", errors="replace")
-                except Exception:
-                    vtt_cache[vtt_url] = ""
+        # Try frame at peak/first mention timecode
+        # If the frame is blank, retry 5 seconds later (avoids black transitions)
+        tc = entry.get("first_mention_time", "")
+        if hls_url and tc:
+            try:
+                subprocess.run(
+                    ["ffmpeg", "-y", "-ss", tc, "-i", hls_url,
+                     "-frames:v", "1", "-q:v", "2", str(frame_path)],
+                    capture_output=True, timeout=30,
+                )
+                got_frame = frame_path.exists()
 
-            tc = _find_timecode(vtt_cache[vtt_url], phrase)
-            if not tc:
-                tc = _find_timecode(vtt_cache[vtt_url], entry.get("lemma", phrase))
-            if tc:
-                try:
-                    subprocess.run(
-                        ["ffmpeg", "-y", "-ss", tc, "-i", hls_url,
-                         "-frames:v", "1", "-q:v", "2", str(frame_path)],
-                        capture_output=True, timeout=30,
-                    )
-                    got_frame = frame_path.exists()
-                    if got_frame:
+                # Check if frame is blank — if so, try 5 seconds later
+                if got_frame:
+                    from smart_crop import is_blank
+                    test_img = _Image.open(str(frame_path))
+                    if is_blank(test_img):
+                        offset = tc_to_seconds(tc) + 5.0
+                        retry_tc = seconds_to_tc(offset)
+                        subprocess.run(
+                            ["ffmpeg", "-y", "-ss", retry_tc, "-i", hls_url,
+                             "-frames:v", "1", "-q:v", "2", str(frame_path)],
+                            capture_output=True, timeout=30,
+                        )
+                        print(f"retry@{retry_tc} ", end="", flush=True)
+                    else:
                         print(f"frame@{tc} ", end="", flush=True)
-                        # Compute air time = program startTime + subtitle offset
-                        entry["timecode"] = tc
-                        start_time = quotes[0].get("startTime", "")
-                        air_time = _compute_air_time(start_time, tc)
-                        if air_time:
-                            entry["airTime"] = air_time
+            except Exception as e:
+                logger.warning("Frame extraction failed for %s: %s", keyword, e)
+
+        # Fallback: find keyword in VTT to get a better timecode
+        if not got_frame and hls_url and vtt_url:
+            cached_vtt = get_vtt_cached(urn, VTT_CACHE_DIR)
+            if not cached_vtt:
+                try:
+                    cached_vtt = download_vtt(vtt_url)
+                    save_vtt_cache(urn, cached_vtt, VTT_CACHE_DIR)
                 except Exception:
-                    pass
+                    cached_vtt = ""
+
+            if cached_vtt:
+                blocks = parse_vtt(cached_vtt)
+                keyword_tc = _find_keyword_in_blocks(blocks, keyword)
+                if keyword_tc and hls_url:
+                    tc_str = seconds_to_tc(keyword_tc)
+                    try:
+                        subprocess.run(
+                            ["ffmpeg", "-y", "-ss", tc_str, "-i", hls_url,
+                             "-frames:v", "1", "-q:v", "2", str(frame_path)],
+                            capture_output=True, timeout=30,
+                        )
+                        got_frame = frame_path.exists()
+                        if got_frame:
+                            print(f"frame@keyword ", end="", flush=True)
+                    except Exception:
+                        pass
 
         # Fallback: thumbnail
         if not got_frame and fallback_img:
             try:
-                img = download_image(fallback_img)
-                img.save(str(frame_path), quality=90)
+                import urllib.request
+                req = urllib.request.Request(
+                    fallback_img + "/scale/width/640",
+                    headers={"User-Agent": "Mozilla/5.0"},
+                )
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    frame_path.write_bytes(resp.read())
                 got_frame = True
                 print("thumbnail ", end="", flush=True)
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning("Frame extraction failed for %s: %s", keyword, e)
 
         if not got_frame:
             print("no image")
             continue
 
         # Smart crop
-        try:
-            img = Image.open(str(frame_path))
-            cropped = smart_crop(img)
+        if _HAS_SMART_CROP:
+            img = _Image.open(str(frame_path))
+            cropped = _smart_crop(img)
             cropped.save(str(crop_path), quality=85)
-            entry["imageUrl"] = f"../demo-data/cropped/{crop_path.name}"
+            entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
             print("OK")
-        except Exception as e:
-            print(f"crop err: {e}")
+        else:
+            import shutil
+            shutil.copy2(frame_path, crop_path)
+            entry["imageUrl"] = str(crop_path.relative_to(PROJECT_ROOT))
+            print("OK (no crop)")
 
-    return entries
+
+def _find_keyword_in_blocks(blocks: list[dict], keyword: str) -> float | None:
+    """Find the first VTT block that mentions the keyword. Returns seconds or None."""
+    kw_lower = keyword.lower()
+    words = kw_lower.split()
+
+    # Try exact match
+    for block in blocks:
+        if kw_lower in block["text"].lower():
+            return block["start"]
+
+    # Try longest word
+    for word in sorted(words, key=len, reverse=True):
+        if len(word) < 3:
+            continue
+        for block in blocks:
+            if word in block["text"].lower():
+                return block["start"]
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Main pipeline
+# ---------------------------------------------------------------------------
+
+def _add_summaries(all_segments: list[dict], top_stories: list[dict]) -> None:
+    """Generate summaries for top stories' quotes.
+
+    For each story, picks one representative segment per editorial unit
+    and generates a one-sentence summary via LLM. Updates quotes in-place.
+    """
+    # Collect segments that need summaries
+    segments_to_summarize = []
+    story_quote_map = []  # (story_idx, quote_idx) for each segment
+
+    for si, story in enumerate(top_stories):
+        for qi, quote in enumerate(story.get("quotes", [])):
+            if quote.get("quote") and len(quote["quote"]) > 10:
+                continue  # Already has a good summary
+            # Find the segment for this quote — match by urn + keyword + program
+            # to avoid picking a rebroadcast's copy of the same segment
+            urn = quote.get("urn", "")
+            quote_program = quote.get("title", "")
+            for seg in all_segments:
+                if (seg.get("urn") == urn
+                        and seg.get("keyword") == story.get("keyword")
+                        and seg.get("program", "") == quote_program):
+                    segments_to_summarize.append(seg)
+                    story_quote_map.append((si, qi))
+                    break
+
+    if not segments_to_summarize:
+        return
+
+    try:
+        summaries = generate_summaries(segments_to_summarize)
+        for (si, qi), summary in zip(story_quote_map, summaries):
+            if summary:
+                top_stories[si]["quotes"][qi]["quote"] = summary
+    except Exception as e:
+        logger.warning("Summary generation failed: %s", e)
+
+
+# ---------------------------------------------------------------------------
+# Canonical story registry — cross-day keyword consistency
+# ---------------------------------------------------------------------------
+
+def _load_registry() -> dict:
+    """Load the canonical story registry.
+
+    Format: {story_id: {keyword, first_seen, last_seen, entities, top_words}}
+    """
+    if REGISTRY_PATH.exists():
+        return json.loads(REGISTRY_PATH.read_text())
+    return {}
+
+
+def _save_registry(registry: dict) -> None:
+    """Save the canonical story registry."""
+    REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    REGISTRY_PATH.write_text(json.dumps(registry, ensure_ascii=False, indent=2))
+
+
+def _build_story_fingerprint(
+    story_meta: dict, all_segments: list[dict],
+) -> tuple[set, set]:
+    """Aggregate fingerprint across all segments of a story."""
+    all_entities = set()
+    all_words = set()
+    for idx in story_meta.get("segment_indices", []):
+        if idx < len(all_segments):
+            fp = all_segments[idx].get("fingerprint", {})
+            all_entities.update(fp.get("entities", []))
+            all_words.update(fp.get("top_words", []))
+    return all_entities, all_words
+
+
+# Story-level fingerprint match thresholds.
+# High because aggregated fingerprints are long (10-20 entities per story)
+# and German capitalizes all nouns → many false entity matches.
+# Prefer top_words match (content words are more discriminating).
+_REGISTRY_ENTITY_THRESHOLD = 8
+_REGISTRY_WORD_THRESHOLD = 5
+
+
+def _normalize_with_registry(
+    stories_meta: list[dict],
+    all_segments: list[dict],
+    registry: dict,
+    target_date: str,
+) -> tuple[list[dict], int]:
+    """Match today's stories against the registry. Adopt canonical keywords.
+
+    Returns (updated stories_meta, number of matches found).
+    """
+    n_matched = 0
+
+    for story in stories_meta:
+        story_entities, story_words = _build_story_fingerprint(story, all_segments)
+
+        # Try to find a match in the registry
+        best_match = None
+        best_overlap = 0
+
+        for reg_id, reg_data in registry.items():
+            reg_entities = set(reg_data.get("entities", []))
+            reg_words = set(reg_data.get("top_words", []))
+
+            entity_overlap = len(story_entities & reg_entities)
+            word_overlap = len(story_words & reg_words)
+
+            # Must meet at least one threshold
+            if (entity_overlap >= _REGISTRY_ENTITY_THRESHOLD
+                    or word_overlap >= _REGISTRY_WORD_THRESHOLD):
+                total = entity_overlap + word_overlap
+                if total > best_overlap:
+                    best_overlap = total
+                    best_match = reg_id
+
+        if best_match:
+            old_kw = story["keyword"]
+            story["story_id"] = best_match
+            story["keyword"] = registry[best_match]["keyword"]
+            registry[best_match]["last_seen"] = target_date
+            # Update fingerprint with new entities/words
+            registry[best_match]["entities"] = sorted(
+                set(registry[best_match].get("entities", [])) | story_entities
+            )[:20]
+            registry[best_match]["top_words"] = sorted(
+                set(registry[best_match].get("top_words", [])) | story_words
+            )[:15]
+            if old_kw != story["keyword"]:
+                n_matched += 1
+                logger.info(
+                    "Registry match: '%s' → '%s' (from %s)",
+                    old_kw, story["keyword"], registry[best_match]["first_seen"],
+                )
+        else:
+            # New story — register it
+            sid = story["story_id"]
+            registry[sid] = {
+                "keyword": story["keyword"],
+                "first_seen": target_date,
+                "last_seen": target_date,
+                "entities": sorted(story_entities)[:20],
+                "top_words": sorted(story_words)[:15],
+            }
+
+    return stories_meta, n_matched
+
+
+def _save_artifact(target_date: str, stage: str, data) -> None:
+    """Save intermediate pipeline result as a permanent artifact.
+
+    Artifacts are the source of truth. Caches can be rebuilt; artifacts persist.
+    Stages: segments, stories, scored.
+    """
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    path = ARTIFACTS_DIR / f"{target_date}_{stage}.json"
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _load_merge_cache(target_date: str) -> list[dict] | None:
+    """Load cached merge result for a date. Returns None if not cached."""
+    path = MERGE_CACHE_DIR / f"merged_{target_date}.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    return None
+
+
+def _save_merge_cache(target_date: str, stories_meta: list[dict]) -> None:
+    """Cache merge result for a date."""
+    MERGE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    path = MERGE_CACHE_DIR / f"merged_{target_date}.json"
+    path.write_text(json.dumps(stories_meta, ensure_ascii=False, indent=2))
+
+
+def load_baseline(target_date: str) -> dict[str, float]:
+    """Load baseline segment counts from previous BASELINE_DAYS days.
+
+    Reads cached merge results for each prior day, counts segments
+    per story_id, returns average daily count per story_id.
+    """
+    target_dt = date.fromisoformat(target_date)
+    story_counts: dict[str, list[int]] = defaultdict(list)
+    days_found = 0
+
+    for i in range(1, BASELINE_DAYS + 1):
+        prev_date = (target_dt - timedelta(days=i)).isoformat()
+        cached = _load_merge_cache(prev_date)
+        if cached is None:
+            continue
+        days_found += 1
+        # Count segments per story for this day
+        day_stories = set()
+        for story in cached:
+            sid = story.get("story_id", "")
+            n_segs = len(story.get("segment_indices", []))
+            story_counts[sid].append(n_segs)
+            day_stories.add(sid)
+
+        # Stories not present on this day get 0
+        for sid in story_counts:
+            if sid not in day_stories:
+                story_counts[sid].append(0)
+
+    if days_found == 0:
+        logger.info("No baseline data found for %d days before %s", BASELINE_DAYS, target_date)
+        return {}
+
+    # Average across days found
+    baseline = {}
+    for sid, counts in story_counts.items():
+        # Pad with zeros for days with no merge cache
+        while len(counts) < days_found:
+            counts.append(0)
+        baseline[sid] = sum(counts) / days_found
+
+    logger.info("Baseline loaded: %d stories from %d days", len(baseline), days_found)
+    return baseline
+
+
+def build_zeitgeist(target_date: str) -> list[dict]:
+    """Main pipeline: build zeitgeist for target_date.
+
+    1. Load today's news programs
+    2. Fetch VTT, segment each broadcast via LLM
+    3. Merge segments into stories via LLM (cached)
+    4. Load baseline from previous days
+    5. Score stories
+    6. Return top GRID_SIZE
+    """
+    target_dt = date.fromisoformat(target_date)
+
+    # Load today's news
+    day_programs = filter_news(load_day(target_date))
+    if not day_programs:
+        print(f"No news programs for {target_date}")
+        return []
+    print(f"Target date {target_date}: {len(day_programs)} news programs")
+
+    # Step 1-2: Segment all broadcasts
+    print("\nSegmenting broadcasts...")
+    all_segments = segment_all_broadcasts(day_programs)
+    if not all_segments:
+        print("No segments extracted")
+        return []
+    print(f"\nTotal segments: {len(all_segments)}")
+
+    # Save all segments as artifact (permanent, not just cache)
+    _save_artifact(target_date, "segments", all_segments)
+
+    # Step 3: Merge segments into stories (code-based, not LLM)
+    stories_meta = _load_merge_cache(target_date)
+    if stories_meta is not None:
+        print(f"\nMerge cache hit: {len(stories_meta)} stories")
+    else:
+        print("\nMerging segments into stories (keyword + fingerprint)...")
+        stories_meta = merge_segments_into_stories(all_segments)
+        if not stories_meta:
+            print("No stories found after merge")
+            return []
+        _save_merge_cache(target_date, stories_meta)
+        print(f"Found {len(stories_meta)} stories (cached)")
+
+    # Step 3b: Normalize keywords via canonical registry
+    # If a story matches a previously seen story (from earlier days),
+    # adopt the original keyword and story_id for continuity.
+    registry = _load_registry()
+    stories_meta, n_matched = _normalize_with_registry(
+        stories_meta, all_segments, registry, target_date,
+    )
+    _save_registry(registry)
+    if n_matched:
+        # Re-save merge with normalized keywords
+        _save_merge_cache(target_date, stories_meta)
+        print(f"  Registry: {n_matched} stories matched to previous days")
+
+    # Save merge result as artifact
+    _save_artifact(target_date, "stories", stories_meta)
+
+    # Step 4: Load baseline from previous days
+    baseline = load_baseline(target_date)
+
+    # Step 5: Score
+    print("\nScoring stories...")
+    results = build_stories(all_segments, stories_meta, baseline)
+
+    # Save scored results as artifact (before filtering to top-N)
+    _save_artifact(target_date, "scored", results)
+
+    top = results[:GRID_SIZE]
+
+    # Step 6: Generate summaries only for top stories (cheap, targeted)
+    print(f"\nGenerating summaries for top {len(top)} stories...")
+    _add_summaries(all_segments, top)
+
+    print(f"\nTop stories for {target_date}:")
+    for entry in top[:10]:
+        print(
+            f"  {entry['rank']:2d}. {entry['keyword']:<30s} "
+            f"score={entry['score']:>6.2f}  "
+            f"n={entry['novelty']:.1f} s={entry['spread']:.1f} "
+            f"p={entry['persistence']:.1f} pr={entry['prominence']:.1f} "
+            f"pt={entry['primetime']:.1f}  "
+            f"units={entry['distinct_programs']}  "
+            f"segs={entry['n_segments']} ({entry['n_repeats']} rpt)  "
+            f"{entry['total_seconds']:.0f}s"
+        )
+
+    return top
 
 
 def save_zeitgeist(results: list[dict], target_date: str) -> Path:
-    """Write zeitgeist JSON and return path."""
+    """Write zeitgeist JSON for frontend."""
     day_compact = target_date.replace("-", "")
+
+    # Fix image paths for frontend (relative to frontend/ directory)
+    for entry in results:
+        img = entry.get("imageUrl", "")
+        if img and not img.startswith("../"):
+            entry["imageUrl"] = f"../{img}"
+
     out_path = OUTPUT_DIR / f"zeitgeist_{day_compact}.json"
     out_path.write_text(
         json.dumps(results, ensure_ascii=False, indent=2),
@@ -874,43 +950,45 @@ def save_zeitgeist(results: list[dict], target_date: str) -> Path:
     return out_path
 
 
-def find_processable_days(min_news: int = 10) -> list[str]:
-    """Find all days with enough news programs."""
+def find_processable_days(min_news: int = 5) -> list[str]:
+    """Find all days in week/ with enough news programs."""
     days = []
     for f in sorted(WEEK_DIR.glob("*.json")):
         data = json.loads(f.read_text())
-        news = [p for p in data
-                if p.get("genre") == "Nachrichten"
-                and p.get("word_count", 0) >= MIN_WORD_COUNT]
+        news = [
+            p for p in data
+            if p.get("genre") == "Nachrichten"
+            and p.get("word_count", 0) >= MIN_WORD_COUNT
+        ]
         if len(news) >= min_news:
             days.append(f.stem)
     return days
 
 
 def main():
-    batch = "--all" in sys.argv
-
     skip_images = "--no-images" in sys.argv
+    batch = "--all" in sys.argv
 
     if batch:
         dates = find_processable_days()
-        print(f"=== SRF Zeitgeist Pipeline (News Only) — Batch ===")
+        print(f"=== SRF Zeitgeist Pipeline — Batch ===")
         print(f"Processing {len(dates)} days: {dates[0]} → {dates[-1]}\n")
-        nlp = load_nlp()
         generated = []
         for d in dates:
-            results = build_zeitgeist(d, nlp=nlp)
+            print(f"\n{'='*60}")
+            results = build_zeitgeist(d)
             if results:
                 if not skip_images:
-                    print(f"  Fetching frames...")
+                    print("\nFetching frames...")
                     fetch_frames(results, d.replace("-", ""))
                 out = save_zeitgeist(results, d)
                 generated.append(d.replace("-", ""))
-                print(f"  Saved → {out}\n")
+                print(f"Saved → {out}")
+
         # Write manifest for frontend
-        manifest = OUTPUT_DIR / "days.json"
-        manifest.write_text(json.dumps(sorted(generated)))
-        print(f"\nManifest with {len(generated)} days → {manifest}")
+        sorted_days = sorted(generated)
+        (OUTPUT_DIR / "days.json").write_text(json.dumps(sorted_days))
+        print(f"\nManifest with {len(sorted_days)} days")
     else:
         if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
             target_date = sys.argv[1]
@@ -918,16 +996,16 @@ def main():
             files = sorted(WEEK_DIR.glob("*.json"))
             target_date = files[-1].stem if files else "2026-04-01"
 
-        print(f"=== SRF Zeitgeist Pipeline (News Only) ===")
+        print(f"=== SRF Zeitgeist Pipeline ===")
         print(f"Target date: {target_date}\n")
 
         results = build_zeitgeist(target_date)
         if results:
             if not skip_images:
-                print(f"\nFetching frames...")
+                print("\nFetching frames...")
                 fetch_frames(results, target_date.replace("-", ""))
             out = save_zeitgeist(results, target_date)
-            print(f"\nSaved {len(results)} entries to {out}")
+            print(f"\nSaved {len(results)} stories to {out}")
 
 
 if __name__ == "__main__":

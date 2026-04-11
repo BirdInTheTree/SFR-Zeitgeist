@@ -1,0 +1,176 @@
+{
+  "program": {
+    "date": "2026-03-25",
+    "channel": "SRF info",
+    "title": "Meteo in Gebärdensprache",
+    "startTime": "2026-03-25T20:00:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:708b3baa-fc27-4236-973f-155f69fd8a7b",
+    "word_count": 355,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Willkommen bei \"Meteo\" Was für ein Wetterkrimi! Der Winter ist wieder zurück. Und es ist schnell gegangen. Es kam eine Kaltfront, dahinter kalte Luft. Zum Beispiel in Basel wurde es innerhalb von 1 Stunde 8 °C kälter. Es ist Polarluft, die uns erreicht hat. Sie kommt direkt vom Norden. Sie ist zwischen dem Hochdruckgebiet im Westen und dem Tiefdruckgebiet im Norden direkt in den Alpenraum geflossen. Die Luft ist nicht nur kalt, sondern auch feucht. Die Schneefallgrenze sank Richtung 700 m. In der Nacht sinkt sie bis in tiefste Lagen. Hinter der Front ist es Schauerwetter, des wird Graupel und Schnee geben, aber nicht durchgehend. Die Temperaturen sinken gegen 0 °C. Es kann glatt sein oder winterlich auf den Strassen. Morgen geht es mit dem Winterwetter weiter. Ein Alpennordhang ist es bedeckt. Es schneit pausenlos weiter. Wir erwarten viel Neuschnee. Ab 600 m 30 bis 80 cm. In Basel und im Genferseegebiet gibt es auch Regen. Teils kann es sogar Gewitter geben. Im Süden gibt es zunächst viele Wolken, dann kommt Sonne mit Nordföhn. Die Temperaturen sind im Vergleich zu den letzten Tagen deutlich tiefer. Auf der Alpensüdseite haben wir 13 °C, aber es ist gar nicht angenehm. Wegen des starken Nordföhns. Der Neuschnee und der starke Wind habe natürlich auch Folgen für die Lawinengefahr. Es kann sich spontan eine Lawine lösen. Und exponierte Teile von Verkehrswegen könnten morgen gefährdet sein. Es ist noch nicht vorbei mit dem Wintereinbruch, es geht am Freitagmorgen kalt weiter. Dann kommen die letzten Schneeflocken. Im Süden ist es sonnig. Die Nacht auf Samstag ist klar und dann wird es richtig kalt. Wir erwarten einen strengen Frost. Es gibt am Samstagmorgen -5 °C. Der Samstag selber ist dank eines Zwischenhochs freundlich und sonnig. Gegen Abend kann es aber im Westen wieder regnen. In der Nacht auf Sonntag gibt es wieder Schneegestöber. Am Sonntag scheint ab und zu die Sonne. Dann wird es unbeständig, aber wieder wärmer. Im Süden ist es durchgehend freundlicher und wärmer. Es ist einiges los beim Wetter. Nächste Woche sind die Temperaturen noch gedämpft. Am Mittwoch sind wir aber wieder bei Frühlingstemperaturen."
+  },
+  "segments": [
+    {
+      "segment_id": "1",
+      "start_time": "00:00:11.039",
+      "end_time": "00:00:20.896",
+      "segment_type": "intro",
+      "keyword": "Meteo Sendungsstart",
+      "short_label": "Sendungseröffnung",
+      "summary": "Willkommen zur Sendung Meteo in Gebärdensprache mit Live-Untertiteln.",
+      "key_entities": [
+        "SWISS TXT",
+        "Meteo"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-03-25T20:00:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:708b3baa-fc27-4236-973f-155f69fd8a7b",
+      "duration_seconds": 9.857000000000001,
+      "segment_text": "Mit Live-Untertiteln von SWISS TXT Willkommen bei \"Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "LiveUntertiteln",
+          "Meteo",
+          "SWISS",
+          "TXT",
+          "Willkommen"
+        ],
+        "top_words": [
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 8
+      }
+    },
+    {
+      "segment_id": "2",
+      "start_time": "00:00:21.430",
+      "end_time": "01:46.794",
+      "segment_type": "story",
+      "keyword": "Wintereinbruch Kaltfront",
+      "short_label": "Plötzlicher Wintereinbruch mit Polarluft",
+      "summary": "Ein dramatischer Wintereinbruch mit Kaltfront und Polarluft aus dem Norden erreicht die Schweiz. In Basel sank die Temperatur innerhalb einer Stunde um 8°C. Die Schneefallgrenze sinkt bis in tiefe Lagen. Morgen erwartet man am Alpennordhang 30-80 cm Neuschnee, im Süden Regen und Föhn. Lawinengefahr ist erhöht.",
+      "key_entities": [
+        "Basel",
+        "Kaltfront",
+        "Polarluft",
+        "Alpennordhang",
+        "Neuschnee",
+        "Lawinengefahr",
+        "Alpensüdseite",
+        "Nordföhn"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-03-25T20:00:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:708b3baa-fc27-4236-973f-155f69fd8a7b",
+      "duration_seconds": 85.364,
+      "segment_text": "Was für ein Wetterkrimi! Der Winter ist wieder zurück. Und es ist schnell gegangen. Es kam eine Kaltfront, dahinter kalte Luft. Zum Beispiel in Basel wurde es innerhalb von 1 Stunde 8 °C kälter. Es ist Polarluft, die uns erreicht hat. Sie kommt direkt vom Norden. Sie ist zwischen dem Hochdruckgebiet im Westen und dem Tiefdruckgebiet im Norden direkt in den Alpenraum geflossen. Die Luft ist nicht nur kalt, sondern auch feucht. Die Schneefallgrenze sank Richtung 700 m. In der Nacht sinkt sie bis in tiefste Lagen. Hinter der Front ist es Schauerwetter, des wird Graupel und Schnee geben, aber nicht durchgehend. Die Temperaturen sinken gegen 0 °C. Es kann glatt sein oder winterlich auf den Strassen. Morgen geht es mit dem Winterwetter weiter. Ein Alpennordhang ist es bedeckt. Es schneit pausenlos weiter. Wir erwarten viel Neuschnee.",
+      "fingerprint": {
+        "entities": [
+          "Alpennordhang",
+          "Alpenraum",
+          "Basel",
+          "Beispiel",
+          "Front",
+          "Graupel",
+          "Hochdruckgebiet",
+          "Kaltfront",
+          "Lagen",
+          "Luft",
+          "Nacht",
+          "Neuschnee",
+          "Norden",
+          "Polarluft",
+          "Richtung",
+          "Schauerwetter",
+          "Schnee",
+          "Schneefallgrenze",
+          "Strassen",
+          "Stunde",
+          "Temperaturen",
+          "Tiefdruckgebiet",
+          "Westen",
+          "Wetterkrimi",
+          "Winter",
+          "Winterwetter"
+        ],
+        "top_words": [
+          "direkt",
+          "norden",
+          "weiter",
+          "wetterkrimi",
+          "winter"
+        ],
+        "word_count": 137
+      }
+    },
+    {
+      "segment_id": "3",
+      "start_time": "02:55.453",
+      "end_time": "04:03.810",
+      "segment_type": "story",
+      "keyword": "Wochenausblick Winter",
+      "short_label": "Wetterverlauf bis Mittwoch",
+      "summary": "Der Wintereinbruch setzt sich bis Freitagmorgen fort mit letzten Schneeflocken. In der Nacht auf Samstag erwartet man strengen Frost bis -5°C. Samstag wird freundlich und sonnig, am Abend zieht Regen im Westen auf. Sonntag bleibt unbeständig und wird wieder wärmer. Nächste Woche steigen die Temperaturen bis Mittwoch auf Frühlingstemperaturen.",
+      "key_entities": [
+        "Freitag",
+        "Samstag",
+        "Sonntag",
+        "Mittwoch",
+        "Frost",
+        "-5°C",
+        "Frühlingstemperaturen"
+      ],
+      "confidence": 0.97,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "Meteo in Gebärdensprache",
+      "program_start_time": "2026-03-25T20:00:00+01:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:708b3baa-fc27-4236-973f-155f69fd8a7b",
+      "duration_seconds": 68.357,
+      "segment_text": "Es ist noch nicht vorbei mit dem Wintereinbruch, es geht am Freitagmorgen kalt weiter. Dann kommen die letzten Schneeflocken. Im Süden ist es sonnig. Die Nacht auf Samstag ist klar und dann wird es richtig kalt. Wir erwarten einen strengen Frost. Es gibt am Samstagmorgen -5 °C. Der Samstag selber ist dank eines Zwischenhochs freundlich und sonnig. Gegen Abend kann es aber im Westen wieder regnen. In der Nacht auf Sonntag gibt es wieder Schneegestöber. Am Sonntag scheint ab und zu die Sonne. Dann wird es unbeständig, aber wieder wärmer. Im Süden ist es durchgehend freundlicher und wärmer. Es ist einiges los beim Wetter. Nächste Woche sind die Temperaturen noch gedämpft. Am Mittwoch sind wir aber wieder bei Frühlingstemperaturen.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Freitagmorgen",
+          "Frost",
+          "Frühlingstemperaturen",
+          "Mittwoch",
+          "Nacht",
+          "Samstag",
+          "Samstagmorgen",
+          "Schneeflocken",
+          "Schneegestöber",
+          "Sonne",
+          "Sonntag",
+          "Süden",
+          "Temperaturen",
+          "Westen",
+          "Wetter",
+          "Wintereinbruch",
+          "Woche",
+          "Zwischenhochs"
+        ],
+        "top_words": [
+          "nacht",
+          "samstag",
+          "sonnig",
+          "süden",
+          "wieder"
+        ],
+        "word_count": 119
+      }
+    }
+  ]
+}

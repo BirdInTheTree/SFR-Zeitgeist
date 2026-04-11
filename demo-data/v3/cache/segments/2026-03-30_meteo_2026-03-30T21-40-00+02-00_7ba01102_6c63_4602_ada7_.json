@@ -1,0 +1,317 @@
+{
+  "program": {
+    "date": "2026-03-30",
+    "channel": "SRF info",
+    "title": "Meteo",
+    "startTime": "2026-03-30T21:40:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+    "word_count": 555,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT herzlich willkommen bei \"SRF Meteo\" Dass es ziemlich dunkel ist, ist nicht verwunderlich. Es geht in die Nacht. Aber in vielen Gebieten war es heute auch tagsüber dunkel, und zwar wegen dichte Wolken. Der eine oder die andere dachte vielleicht, man weiss nicht, ob es regnen oder schneien kommt oder ob es grundsätzlich grau und kühl ist. Darum haben sie sich vielleicht bevorzugt drinnen aufgehalten und das Wetter vom warmen Wohnzimmer aus beobachtet. Vielleicht machen sie das auch morgen mal gerne, wir sind weiterhin im Einflussgebiet von feuchter Luft. Wir sind am Rand eines Hochs, aber eben auch im Bereich eines Tiefs, in einer Zone, wo der Wind ziemlich zügig von Nordwesten her über die Alpen bläst. Mit diesem Nordwestwind kommt weitere Feuchtigkeit über die Alpennordseite Richtung Voralpen. Das ist auch heute Nacht der Fall. Es gibt immer mal wieder Niederschlag. Denn Alpen entlang in Form von Schnee. Dabei besteht die Gefahr, dass es schneebedeckte Strassen gibt, also winterliche Strassenverhältnisse. Es gibt morgen früh 2-4 °C. Auch morgen gibt es viele Wolken an den Alpen und an den Voralpen. Und es gibt weiteren Niederschlag. Die Schneefallgrenze sinkt in der Nacht auf 400 m. Aber morgen dürfte zumindest in den westlichen Landesteilen die Chance bestehen, dass es weitgehend trockenbleibt. Vielleicht reicht es sogar für ein paar sonnige Abschnitte, so auch im Zentralwallis und im Tessin sowieso. Die Schneefallgrenze steigt dann wieder auf 600 m. Denn ab entlang bleibt es bis am Abend trübe und es kann weiter schneien. Es kommen noch ein paar Dezimeter Schnee dazu. Aber im Westen wird es freundlicher, die Abendsonne zeigt sich vielleicht dort im Flachland. So auch im Wallis und im Tessin. Aber auch in Südbünden und inneralpin dürften die Wolken sich auflockern. Im Tessin sowieso, wir haben zügigen Nordwind. Der bläst ins Mitteltessin und in Südtessin und sorgt dort für trockene Verhältnisse. Im Mittelland gibt es z.T. mässige Bise. Das wirkt sich auf die Temperaturen aus. Im Tessin gibt es 15 °C, aber mit dem Nordwind ist es eher unangenehm. Im Norden gibt es 6-9 °C. Zu den weiteren Aussichten. Auch am Mittwoch ist es noch nicht überall trocken. Es gibt immer noch ab und zu schauer, im Westen, im Wallis und natürlich weiterhin im Tessin zeigt sich die Sonne, auch wenn es im Tessin ein paar Wolken gibt. Am Donnerstag ist es trocken, die Sonne zeigt sich häufiger. Es gibt noch etwas Nebel, aber die Sonne zeigt sich von der guten Seite. Die Temperaturen steigen wieder auf 11 °C. Dieser Trend zieht sich dann über die Ostertage hin. Karfreitag bis Ostermontag dürften die Temperaturen sukzessive ansteigen. Am Ostersonntag und am Ostermontag gibt es knapp 20 °C. Die Sonnenscheindauer macht mit. Aber am Samstag besteht gewisse Unsicherheit. Es ist nicht ganz sauber. Am Karfreitag haben wir z.T. ausgedehnte Schleierwolken. Aber die Sonne zeigt sich recht häufig. Dann wird in der Nacht auf Samstag eine schwache Front reinziehen, vielleicht bringt sie vorübergehend noch etwas Regen, sie dürfte aber am Samstag wieder wegziehen. An Ostern haben wir ausgedehnte Schleierwolken, aber doch recht viel Sonne. Und es ist relativ mild. Vielleicht gibt es auf Ostermontag noch eine weitere Front. Wir sind an sich auf gutem Weg, was die Ostertage betrifft, aber es gibt da und dort ein paar Unsicherheiten. Wir hoffen, dass wir die bis morgen lösen können."
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:09.605",
+      "end_time": "00:00:18.364",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung zur SRF Meteo Sendung mit Hinweis auf Live-Untertitel.",
+      "key_entities": [
+        "SRF Meteo",
+        "Live-Untertitel"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 8.759,
+      "segment_text": "Mit Live-Untertiteln von SWISS TXT herzlich willkommen bei \"SRF Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "LiveUntertiteln",
+          "Meteo",
+          "SRF",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "herzlich",
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 10
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:18.686",
+      "end_time": "01:00.177",
+      "segment_type": "story",
+      "keyword": "Nasses Winterwetter",
+      "short_label": "Aktuelle Wetterlage heute",
+      "summary": "Heute weiterhin nasses Winterwetter mit dichten Wolken und Tiefdruckeinfluss. Regen und Schnee in den Alpen, Schneefallgrenze sinkt nachts auf 400m. Winterliche Straßenverhältnisse möglich. Temperaturen 2-4°C in der Früh. Nordwestwind bringt weitere Feuchtigkeit über Alpennordseite. Gefahr von schneebedeckten Straßen.",
+      "key_entities": [
+        "Wolken",
+        "Niederschlag",
+        "Alpen",
+        "Schneefallgrenze 400m",
+        "Winterliche Straßenverhältnisse",
+        "Nordwestwind"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 41.491,
+      "segment_text": "Dass es ziemlich dunkel ist, ist nicht verwunderlich. Es geht in die Nacht. Aber in vielen Gebieten war es heute auch tagsüber dunkel, und zwar wegen dichte Wolken. Der eine oder die andere dachte vielleicht, man weiss nicht, ob es regnen oder schneien kommt oder ob es grundsätzlich grau und kühl ist. Darum haben sie sich vielleicht bevorzugt drinnen aufgehalten und das Wetter vom warmen Wohnzimmer aus beobachtet. Vielleicht machen sie das auch morgen mal gerne, wir sind weiterhin",
+      "fingerprint": {
+        "entities": [
+          "Gebieten",
+          "Nacht",
+          "Wetter",
+          "Wohnzimmer",
+          "Wolken"
+        ],
+        "top_words": [
+          "dunkel",
+          "nacht",
+          "verwunderlich",
+          "vielleicht",
+          "ziemlich"
+        ],
+        "word_count": 79
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "01:00.497",
+      "end_time": "02:08.166",
+      "segment_type": "story",
+      "keyword": "Morgen Prognose Dienstag",
+      "short_label": "Morgen: Besserung im Westen",
+      "summary": "Dienstag im Westen trocken mit möglichem Sonnenschein und Abendsonne im Flachland. Wallis und Tessin mit Nordföhn trocken und sonnig, Schneefallgrenze bei 600m. Osten bleibt bis Abend trübe und nass mit Schneefall (weitere Dezimeter Schnee). Südtessin und Südbünden mit aufgelockerten Wolken. Zügiger Nordwind im Tessin für trockene Verhältnisse.",
+      "key_entities": [
+        "Dienstag",
+        "Westen trocken",
+        "Tessin",
+        "Wallis",
+        "Nordföhn",
+        "Schneefallgrenze 600m",
+        "Osten trübe"
+      ],
+      "confidence": 0.91,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 67.669,
+      "segment_text": "im Einflussgebiet von feuchter Luft. Wir sind am Rand eines Hochs, aber eben auch im Bereich eines Tiefs, in einer Zone, wo der Wind ziemlich zügig von Nordwesten her über die Alpen bläst. Mit diesem Nordwestwind kommt weitere Feuchtigkeit über die Alpennordseite Richtung Voralpen. Das ist auch heute Nacht der Fall. Es gibt immer mal wieder Niederschlag. Denn Alpen entlang in Form von Schnee. Dabei besteht die Gefahr, dass es schneebedeckte Strassen gibt, also winterliche Strassenverhältnisse. Es gibt morgen früh 2-4 °C. Auch morgen gibt es viele Wolken an den Alpen und an den Voralpen. Und es gibt weiteren Niederschlag. Die Schneefallgrenze sinkt in der Nacht auf 400 m. Aber morgen dürfte zumindest in den westlichen Landesteilen die Chance bestehen, dass es weitgehend trockenbleibt. Vielleicht reicht es sogar für ein paar sonnige Abschnitte,",
+      "fingerprint": {
+        "entities": [
+          "Abschnitte",
+          "Alpen",
+          "Alpennordseite",
+          "Bereich",
+          "Chance",
+          "Einflussgebiet",
+          "Fall",
+          "Feuchtigkeit",
+          "Form",
+          "Gefahr",
+          "Hochs",
+          "Landesteilen",
+          "Luft",
+          "Nacht",
+          "Niederschlag",
+          "Nordwesten",
+          "Nordwestwind",
+          "Rand",
+          "Richtung",
+          "Schnee",
+          "Schneefallgrenze",
+          "Strassen",
+          "Strassenverhältnisse",
+          "Tiefs",
+          "Voralpen",
+          "Wind",
+          "Wolken",
+          "Zone"
+        ],
+        "top_words": [
+          "alpen",
+          "morgen",
+          "nacht",
+          "niederschlag",
+          "voralpen"
+        ],
+        "word_count": 133
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "02:08.487",
+      "end_time": "02:57.929",
+      "segment_type": "story",
+      "keyword": "Temperaturen Dienstag",
+      "short_label": "Temperaturen und Wind Dienstag",
+      "summary": "Dienstag Temperaturen: Tessin 15°C (mit unangenehmen Nordwind), Norden 6-9°C mit mäßiger Bise im Mittelland. Wind wirkt sich auf Temperaturempfinden aus.",
+      "key_entities": [
+        "Tessin 15°C",
+        "Norden 6-9°C",
+        "Bise",
+        "Nordwind"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 49.44200000000001,
+      "segment_text": "so auch im Zentralwallis und im Tessin sowieso. Die Schneefallgrenze steigt dann wieder auf 600 m. Denn ab entlang bleibt es bis am Abend trübe und es kann weiter schneien. Es kommen noch ein paar Dezimeter Schnee dazu. Aber im Westen wird es freundlicher, die Abendsonne zeigt sich vielleicht dort im Flachland. So auch im Wallis und im Tessin. Aber auch in Südbünden und inneralpin dürften die Wolken sich auflockern. Im Tessin sowieso, wir haben zügigen Nordwind. Der bläst ins Mitteltessin und in Südtessin und sorgt dort für trockene Verhältnisse. Im Mittelland gibt es z.T. mässige Bise. Das wirkt sich auf die Temperaturen aus.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Abendsonne",
+          "Bise",
+          "Dezimeter",
+          "Flachland",
+          "Mittelland",
+          "Mitteltessin",
+          "Nordwind",
+          "Schnee",
+          "Schneefallgrenze",
+          "Südbünden",
+          "Südtessin",
+          "Temperaturen",
+          "Tessin",
+          "Verhältnisse",
+          "Wallis",
+          "Westen",
+          "Wolken",
+          "Zentralwallis"
+        ],
+        "top_words": [
+          "schneefallgrenze",
+          "sowieso",
+          "steigt",
+          "tessin",
+          "zentralwallis"
+        ],
+        "word_count": 104
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": "03:10.270",
+      "end_time": "03:35.711",
+      "segment_type": "story",
+      "keyword": "Wochentrend Mittwoch bis Donnerstag",
+      "short_label": "Wochentrend: Besserung und Sonne",
+      "summary": "Mittwoch teilweise verhangen mit ab und zu Schauern, aber im Westen, Wallis und Tessin zeigt sich die Sonne trotz einzelner Wolken. Donnerstag endlich trocken mit häufiger Sonne und etwas Nebel. Temperaturen steigen auf 11°C.",
+      "key_entities": [
+        "Mittwoch",
+        "Schauer",
+        "Donnerstag trocken",
+        "Sonne",
+        "11°C"
+      ],
+      "confidence": 0.9,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 25.441000000000003,
+      "segment_text": "Auch am Mittwoch ist es noch nicht überall trocken. Es gibt immer noch ab und zu schauer, im Westen, im Wallis und natürlich weiterhin im Tessin zeigt sich die Sonne, auch wenn es im Tessin ein paar Wolken gibt. Am Donnerstag ist es trocken, die Sonne zeigt sich häufiger.",
+      "fingerprint": {
+        "entities": [
+          "Donnerstag",
+          "Mittwoch",
+          "Sonne",
+          "Tessin",
+          "Wallis",
+          "Westen",
+          "Wolken"
+        ],
+        "top_words": [
+          "mittwoch",
+          "sonne",
+          "tessin",
+          "trocken",
+          "zeigt"
+        ],
+        "word_count": 49
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": "03:51.884",
+      "end_time": "04:56.186",
+      "segment_type": "story",
+      "keyword": "Osterprognose",
+      "short_label": "Osterprognose: Trocken und warm",
+      "summary": "Karfreitag bis Ostermontag Temperaturen steigen sukzessive auf knapp 20°C am Ostersonntag und Ostermontag. Recht viel Sonnenscheindauer mit ausgedehnten Schleierwolken am Karfreitag und über Ostern. Nacht auf Samstag: schwache Front mit möglich vorübergehendem Regen. Front zieht bis Samstag weg. Insgesamt auf gutem Weg mit steigenden Temperaturen, aber einige Unsicherheiten bestehen, besonders für Ostermontag.",
+      "key_entities": [
+        "Karfreitag",
+        "Ostersonntag",
+        "Ostermontag",
+        "20°C",
+        "Schleierwolken",
+        "schwache Front",
+        "Regen möglich"
+      ],
+      "confidence": 0.89,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-30T21:40:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:7ba01102-6c63-4602-ada7-8a2a1df2de65",
+      "duration_seconds": 64.30199999999996,
+      "segment_text": "Karfreitag bis Ostermontag dürften die Temperaturen sukzessive ansteigen. Am Ostersonntag und am Ostermontag gibt es knapp 20 °C. Die Sonnenscheindauer macht mit. Aber am Samstag besteht gewisse Unsicherheit. Es ist nicht ganz sauber. Am Karfreitag haben wir z.T. ausgedehnte Schleierwolken. Aber die Sonne zeigt sich recht häufig. Dann wird in der Nacht auf Samstag eine schwache Front reinziehen, vielleicht bringt sie vorübergehend noch etwas Regen, sie dürfte aber am Samstag wieder wegziehen. An Ostern haben wir ausgedehnte Schleierwolken, aber doch recht viel Sonne. Und es ist relativ mild. Vielleicht gibt es auf Ostermontag noch eine weitere Front. Wir sind an sich auf gutem Weg, was die Ostertage betrifft, aber es gibt da und dort ein paar Unsicherheiten. Wir hoffen, dass wir die bis morgen lösen können.",
+      "fingerprint": {
+        "entities": [
+          "Front",
+          "Karfreitag",
+          "Nacht",
+          "Ostermontag",
+          "Ostern",
+          "Ostersonntag",
+          "Ostertage",
+          "Regen",
+          "Samstag",
+          "Schleierwolken",
+          "Sonne",
+          "Sonnenscheindauer",
+          "Temperaturen",
+          "Unsicherheit",
+          "Unsicherheiten",
+          "Weg"
+        ],
+        "top_words": [
+          "ausgedehnte",
+          "karfreitag",
+          "ostermontag",
+          "samstag",
+          "schleierwolken"
+        ],
+        "word_count": 126
+      }
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "program": {
+    "date": "2026-03-27",
+    "channel": "SRF 1",
+    "title": "Tagesschau kompakt",
+    "startTime": "2026-03-27T18:00:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+    "word_count": 508,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Willkommen zurück zu einem kurzen Nachrichtenüberblick. Die Aussenminister der G7-Staaten haben am Nachmittag in Paris über den Krieg in Nahost diskutiert. Sie fordern den Iran auf, Angriffe auf Zivilisten und zivile Infrastruktur zu stoppen und die Schifffahrt durch die Strasse von Hormus wieder zu erlauben. US-Aussenminister Marco Rubio hat versucht, die europäischen G7-Staaten zu einem militärischen Eingreifen zur Sicherung der Strasse von Hormus zu bewegen. Die Europäer halten sich aber immer noch zurück. Ich konnte mit dem Kollegen Rubio ein erstes Gespräch am Rande der Beratung führen. Und habe noch einmal unsere Position dazu verdeutlichen können, die ihm auch klar war. Dass es durchaus eine Bereitschaft Deutschlands gibt, nach Ende der Kampfhandlungen eine Rolle zu spielen. Wenn es darum geht, die Sicherheit des Schiffsverkehrs in der Strasse von Hormus sicherzustellen. Die Zahl der Waffenscheine, die in der Deutschschweiz vergeben werden, steigt weiter. 2025 waren es je nach Kanton zwischen 10 und 30 % mehr als im Jahr davor. Das zeigt eine Umfrage der \"Tagesschau\" Studien zufolge werden die Waffen hauptsächlich für sportliche Zwecke eingesetzt. Auch die unsichere Weltlage sei ein Grund für die Zunahme, sagt die Präsidentin der kantonalen Justiz- und Polizeidirektorinnen. Die Waffenkäufe seien aber kein Grund zur Sorge. Entscheidend ist nicht die Anzahl der Bewilligungen, sondern dass wir wissen, wer unter welchen Voraussetzungen zu einer Waffe gelangt und wo diese Waffe eingesetzt wird. Im Moment könne man das gewährleisten, sagt Kayser-Frutschi weiter. Auf der Autobahn A1 zwischen Winterthur und Zürich kam es heute Morgen zu einem Unfall mit einem Lastwagen-Anhänger, was zu einem Stau über mehrere Stunden führte. Beim Bremsen sei das Fahrzeug ins Schlingern geraten und gekippt, schreibt die Kantonspolizei Zürich. Dabei habe sich das tonnenschwere Gegengewicht des Gleisbaggers gelöst, was zu einem Folgeunfall führte. Aufgrund der komplexen Bergungsarbeit stauten sich die Autos bis in den Nachmittag. Milch muss aus einem Euter kommen, sonst ist es keine Milch. Das hat heute das Bundesgericht in Lausanne entschieden. Auf dem Alpro-Haferdrink des Lebensmittelkonzerns Danone steht: \"Das ist keine Milch\" Ein kantonales Labor hatte den Verkauf 2022 wegen Irreführung untersagt. Danone ging dagegen vor, nun urteilt das Bundesgericht: Es ist nicht erlaubt, ein veganes Produkt Milch oder \"Das ist keine Milch\" zu nennen. Die Menschen in der Schweiz geben Jahr für Jahr mehr Geld für Musik aus: 259 Mio. Fr. waren es vergangenes Jahr. Das teilt der Branchenverband der Schweizer Musiklabels heute mit. Über 90 % der Umsätze fallen auf Streamingdienste. Auf tiefem Niveau stieg erstmals seit Jahren auch der Verkauf von Vinylplatten wieder - um fast 20 % Internationale Stars wie Taylor Swift werden am häufigsten gehört, ihnen fliesst somit auch am meisten Geld zu. Mit Patent Ochsner und Trauffer schaffen es aber auch zwei Schweizer Bands unter die zehn Künstler mit den meistgehörten Alben des Jahres. Um 19 Uhr übernehmen hier die Kollegen von \"Schweiz aktuell\" Sie berichten u.a. über die nächste Runde im jahrelangen Streit um ein Villen-Grundstück am Ägerisee. Von uns war's das, danke fürs Interesse und ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann, Sabine Näpflin"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:01.436",
+      "end_time": "00:00:10.716",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Tagesschau kompakt Eröffnung",
+      "summary": "Willkommen zur Tagesschau kompakt mit Live-Untertiteln von SWISS TXT.",
+      "key_entities": [
+        "SWISS TXT",
+        "Tagesschau kompakt"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 9.28,
+      "segment_text": ". Mit Live-Untertiteln von SWISS TXT Willkommen zurück zu einem kurzen Nachrichtenüberblick.",
+      "fingerprint": {
+        "entities": [
+          "LiveUntertiteln",
+          "Nachrichtenüberblick",
+          "SWISS",
+          "TXT",
+          "Willkommen"
+        ],
+        "top_words": [
+          "kurzen",
+          "liveuntertiteln",
+          "swiss",
+          "willkommen",
+          "zurück"
+        ],
+        "word_count": 12
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:11.898",
+      "end_time": "00:01:07.214",
+      "segment_type": "story",
+      "keyword": "G7 Nahost Konflikt",
+      "short_label": "G7-Aussenminister zum Krieg in Nahost",
+      "summary": "Die Aussenminister der G7-Staaten diskutieren in Paris über den Krieg in Nahost. Sie fordern den Iran auf, Angriffe auf Zivilisten zu stoppen und die Schifffahrt durch die Strasse von Hormus zu erlauben. US-Aussenminister Marco Rubio versucht, die europäischen G7-Staaten zu militärischem Eingreifen zu bewegen, doch die Europäer halten sich zurück. Deutschland signalisiert Bereitschaft, nach Ende der Kampfhandlungen eine Rolle bei der Sicherung der Schifffahrt zu spielen.",
+      "key_entities": [
+        "G7-Staaten",
+        "Paris",
+        "Marco Rubio",
+        "Iran",
+        "Strasse von Hormus",
+        "Deutschland"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 55.316,
+      "segment_text": "Die Aussenminister der G7-Staaten haben am Nachmittag in Paris über den Krieg in Nahost diskutiert. Sie fordern den Iran auf, Angriffe auf Zivilisten und zivile Infrastruktur zu stoppen und die Schifffahrt durch die Strasse von Hormus wieder zu erlauben. US-Aussenminister Marco Rubio hat versucht, die europäischen G7-Staaten zu einem militärischen Eingreifen zur Sicherung der Strasse von Hormus zu bewegen. Die Europäer halten sich aber immer noch zurück. Ich konnte mit dem Kollegen Rubio ein erstes Gespräch am Rande der Beratung führen. Und habe noch einmal unsere Position dazu verdeutlichen können, die ihm auch klar war. Dass es durchaus eine Bereitschaft Deutschlands gibt, nach Ende der Kampfhandlungen eine Rolle zu spielen. Wenn es darum geht, die Sicherheit des Schiffsverkehrs in der Strasse von Hormus sicherzustellen.",
+      "fingerprint": {
+        "entities": [
+          "Angriffe",
+          "Aussenminister",
+          "Beratung",
+          "Bereitschaft",
+          "Deutschlands",
+          "Eingreifen",
+          "Ende",
+          "Europäer",
+          "G7Staaten",
+          "Gespräch",
+          "Hormus",
+          "Infrastruktur",
+          "Iran",
+          "Kampfhandlungen",
+          "Kollegen",
+          "Krieg",
+          "Marco",
+          "Nachmittag",
+          "Nahost",
+          "Paris",
+          "Position",
+          "Rande",
+          "Rolle",
+          "Rubio",
+          "Schifffahrt",
+          "Schiffsverkehrs",
+          "Sicherheit",
+          "Sicherung",
+          "Strasse",
+          "Zivilisten"
+        ],
+        "top_words": [
+          "aussenminister",
+          "g7staaten",
+          "hormus",
+          "rubio",
+          "strasse"
+        ],
+        "word_count": 124
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "00:01:10.992",
+      "end_time": "00:01:54.544",
+      "segment_type": "story",
+      "keyword": "Waffenscheine Deutschschweiz",
+      "short_label": "Anstieg der Waffenscheine in der Deutschschweiz",
+      "summary": "Die Zahl der vergebenen Waffenscheine in der Deutschschweiz steigt weiter. 2025 waren es je nach Kanton zwischen 10 und 30 Prozent mehr als im Vorjahr. Studien zeigen, dass die Waffen hauptsächlich für sportliche Zwecke eingesetzt werden. Die unsichere Weltlage ist ein weiterer Grund für die Zunahme. Die kantonale Justiz- und Polizeikonferenz sagt, dass dies kein Grund zur Sorge ist, solange bekannt ist, wer unter welchen Voraussetzungen zu einer Waffe gelangt.",
+      "key_entities": [
+        "Deutschschweiz",
+        "Waffenscheine",
+        "Kantone",
+        "Kayser-Frutschi"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 43.55199999999999,
+      "segment_text": "die in der Deutschschweiz vergeben werden, steigt weiter. 2025 waren es je nach Kanton zwischen 10 und 30 % mehr als im Jahr davor. Das zeigt eine Umfrage der \"Tagesschau\". Studien zufolge werden die Waffen hauptsächlich für sportliche Zwecke eingesetzt. Auch die unsichere Weltlage sei ein Grund für die Zunahme, sagt die Präsidentin der kantonalen Justiz- und Polizeidirektorinnen. Die Waffenkäufe seien aber kein Grund zur Sorge. Entscheidend ist nicht die Anzahl der Bewilligungen, sondern dass wir wissen, wer unter welchen Voraussetzungen zu einer Waffe gelangt und wo diese Waffe eingesetzt wird. Im Moment könne man das gewährleisten, sagt Kayser-Frutschi weiter.",
+      "fingerprint": {
+        "entities": [
+          "Anzahl",
+          "Bewilligungen",
+          "Deutschschweiz",
+          "Grund",
+          "Jahr",
+          "Justiz",
+          "Kanton",
+          "KayserFrutschi",
+          "Moment",
+          "Polizeidirektorinnen",
+          "Präsidentin",
+          "Sorge",
+          "Tagesschau",
+          "Umfrage",
+          "Voraussetzungen",
+          "Waffe",
+          "Waffen",
+          "Waffenkäufe",
+          "Weltlage",
+          "Zunahme",
+          "Zwecke"
+        ],
+        "top_words": [
+          "deutschschweiz",
+          "eingesetzt",
+          "grund",
+          "waffe",
+          "weiter"
+        ],
+        "word_count": 100
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "00:01:59.440",
+      "end_time": "00:02:25.847",
+      "segment_type": "story",
+      "keyword": "Autobahn Unfall A1 Lastwagen",
+      "short_label": "Lastwagen-Unfall auf Autobahn A1",
+      "summary": "Auf der Autobahn A1 zwischen Winterthur und Zürich kommt es zu einem Unfall mit einem Lastwagen-Anhänger. Das Fahrzeug gerät beim Bremsen ins Schlingern und kippt um. Ein tonnenschweres Gegengewicht eines Gleisbaggers löst sich und verursacht einen Folgeunfall. Aufgrund der komplexen Bergungsarbeiten stauen sich die Autos bis in den Nachmittag.",
+      "key_entities": [
+        "Autobahn A1",
+        "Winterthur",
+        "Zürich",
+        "Lastwagen-Anhänger",
+        "Gleisbagger",
+        "Kantonspolizei Zürich"
+      ],
+      "confidence": 0.97,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 26.40700000000001,
+      "segment_text": "kam es heute Morgen zu einem Unfall mit einem Lastwagen-Anhänger, was zu einem Stau über mehrere Stunden führte. Beim Bremsen sei das Fahrzeug ins Schlingern geraten und gekippt, schreibt die Kantonspolizei Zürich. Dabei habe sich das tonnenschwere Gegengewicht des Gleisbaggers gelöst, was zu einem Folgeunfall führte. Aufgrund der komplexen Bergungsarbeit stauten sich die Autos bis in den Nachmittag.",
+      "fingerprint": {
+        "entities": [
+          "Autos",
+          "Bergungsarbeit",
+          "Bremsen",
+          "Fahrzeug",
+          "Folgeunfall",
+          "Gegengewicht",
+          "Gleisbaggers",
+          "Kantonspolizei",
+          "LastwagenAnhänger",
+          "Morgen",
+          "Nachmittag",
+          "Schlingern",
+          "Stau",
+          "Stunden",
+          "Unfall",
+          "Zürich"
+        ],
+        "top_words": [
+          "führte",
+          "lastwagenanhänger",
+          "mehrere",
+          "morgen",
+          "unfall"
+        ],
+        "word_count": 58
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": "00:02:31.192",
+      "end_time": "00:02:57.116",
+      "segment_type": "story",
+      "keyword": "Bundesgericht Milch Definition",
+      "short_label": "Bundesgericht: Vegan-Produkte dürfen nicht Milch heissen",
+      "summary": "Das Bundesgericht in Lausanne entscheidet, dass Milch aus einem Euter kommen muss. Das vegan Alpro-Haferdrink von Danone darf nicht Milch genannt werden, auch nicht mit dem Zusatz 'Das ist keine Milch'. Ein kantonales Labor hatte den Verkauf 2022 wegen Irreführung untersagt. Das Bundesgericht bestätigt diese Entscheidung.",
+      "key_entities": [
+        "Bundesgericht Lausanne",
+        "Danone",
+        "Alpro",
+        "Haferdrink",
+        "kantonales Labor"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 25.923999999999978,
+      "segment_text": "Milch muss aus einem Euter kommen, sonst ist es keine Milch. Das hat heute das Bundesgericht in Lausanne entschieden. Auf dem Alpro-Haferdrink des Lebensmittelkonzerns Danone steht: \"Das ist keine Milch\". Ein kantonales Labor hatte den Verkauf 2022 wegen Irreführung untersagt. Danone ging dagegen vor, nun urteilt das Bundesgericht: Es ist nicht erlaubt, ein veganes Produkt Milch oder \"Das ist keine Milch\" zu nennen.",
+      "fingerprint": {
+        "entities": [
+          "AlproHaferdrink",
+          "Bundesgericht",
+          "Danone",
+          "Euter",
+          "Irreführung",
+          "Labor",
+          "Lausanne",
+          "Lebensmittelkonzerns",
+          "Milch",
+          "Produkt",
+          "Verkauf"
+        ],
+        "top_words": [
+          "bundesgericht",
+          "danone",
+          "euter",
+          "kommen",
+          "milch"
+        ],
+        "word_count": 63
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": "00:03:01.782",
+      "end_time": "00:03:39.926",
+      "segment_type": "story",
+      "keyword": "Musikkonsum Schweiz",
+      "short_label": "Schweizer geben mehr für Musik aus",
+      "summary": "Die Menschen in der Schweiz geben 2024 mit 259 Millionen Franken mehr Geld für Musik aus. Über 90 Prozent der Umsätze entfallen auf Streamingdienste. Der Verkauf von Vinylplatten steigt erstmals seit Jahren um fast 20 Prozent. International dominieren Stars wie Taylor Swift, doch auch Schweizer Bands wie Patent Ochsner und Trauffer schaffen es unter die Top-10 der meistgehörten Alben.",
+      "key_entities": [
+        "Schweiz",
+        "259 Millionen Franken",
+        "Streaming",
+        "Vinylplatten",
+        "Taylor Swift",
+        "Patent Ochsner",
+        "Trauffer"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 38.14399999999998,
+      "segment_text": "geben Jahr für Jahr mehr Geld für Musik aus: 259 Mio. Fr. waren es vergangenes Jahr. Das teilt der Branchenverband der Schweizer Musiklabels heute mit. Über 90 % der Umsätze fallen auf Streamingdienste. Auf tiefem Niveau stieg erstmals seit Jahren auch der Verkauf von Vinylplatten wieder - um fast 20 %. Internationale Stars wie Taylor Swift werden am häufigsten gehört, ihnen fliesst somit auch am meisten Geld zu. Mit Patent Ochsner und Trauffer schaffen es aber auch zwei Schweizer Bands unter die zehn Künstler mit den meistgehörten Alben des Jahres.",
+      "fingerprint": {
+        "entities": [
+          "Alben",
+          "Bands",
+          "Branchenverband",
+          "Geld",
+          "Jahr",
+          "Jahren",
+          "Jahres",
+          "Künstler",
+          "Mio",
+          "Musik",
+          "Musiklabels",
+          "Niveau",
+          "Ochsner",
+          "Patent",
+          "Schweizer",
+          "Stars",
+          "Streamingdienste",
+          "Swift",
+          "Taylor",
+          "Trauffer",
+          "Umsätze",
+          "Verkauf",
+          "Vinylplatten"
+        ],
+        "top_words": [
+          "geben",
+          "musik",
+          "schweizer",
+          "teilt",
+          "vergangenes"
+        ],
+        "word_count": 90
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": "00:03:45.911",
+      "end_time": "00:04:02.174",
+      "segment_type": "outro",
+      "keyword": "Sendungsabschluss",
+      "short_label": "Tagesschau kompakt Verabschiedung",
+      "summary": "Verabschiedung der Zuschauer. Um 19 Uhr übernehmen die Kollegen von 'Schweiz aktuell', die über die nächste Runde im Villen-Grundstück-Streit am Ägerisee berichten. Dank für das Interesse und ein schönes Wochenende.",
+      "key_entities": [
+        "Schweiz aktuell",
+        "Ägerisee"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-27",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-27T18:00:00+01:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:a2367c1a-db7d-44ed-986c-c2d2aedd5148",
+      "duration_seconds": 16.263000000000005,
+      "segment_text": "Sie berichten u.a. über die nächste Runde im jahrelangen Streit um ein Villen-Grundstück am Ägerisee. Von uns war's das, danke fürs Interesse und ein schönes Wochenende. SWISS TXT / Accessibility Services Sarah Häusermann, Sabine Näpflin",
+      "fingerprint": {
+        "entities": [
+          "Accessibility",
+          "Häusermann",
+          "Interesse",
+          "Näpflin",
+          "Runde",
+          "Sabine",
+          "Sarah",
+          "Services",
+          "Streit",
+          "TXT",
+          "VillenGrundstück",
+          "Wochenende",
+          "Ägerisee"
+        ],
+        "top_words": [
+          "berichten",
+          "jahrelangen",
+          "nächste",
+          "runde",
+          "streit"
+        ],
+        "word_count": 35
+      }
+    }
+  ]
+}

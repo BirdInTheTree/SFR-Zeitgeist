@@ -1,0 +1,289 @@
+{
+  "program": {
+    "date": "2026-03-31",
+    "channel": "SRF 1",
+    "title": "Meteo",
+    "startTime": "2026-03-31T12:50:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+    "word_count": 299,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Der letzte Märztag. Es hat richtig geschneit in den letzten vier 20 Std. Es hat richtig geschneit in den letzten 24 Std. Es ist einiges zusammengekommen. In Braunwald gab es mehr als einen halben Meter Schnee. Auf ähnlicher Höhe gab es auch viel Schnee. Z.B. in Adelboden oder Engelberg. In Alpnach gibt es heute Nachmittag noch weiterhin Schnee. Die Schneefallgrenze auf 500-700 m. Es kann aber auch Aufhellungen geben. Vor allem in der Westschweiz, im Wallis oder im Tessin. Im Tessins lässt auch der Nordföhn. In der Nacht wird es kalt, die Temperaturen sinken. Es wird frostig. Morgen früh ist es ein Wechselspiel zwischen sonnigen Phasen und ab und zu dichteren Wolkenfeldern. Es kann auch z.T. schneien. Schneefallgrenze: 500-800 m. Durch den Tag werden die sonnigen Phasen weiter. In der Westschweiz, im Wallis und Tessin ist es meistens sonnig. Die Temperaturen steigen ein wenig. Morgen Nachmittag haben wir in der Westschweiz Höchstwerte um die 10 °C, im Tessin 15 °C. Im Tessin weht nach wie vor der Nordföhn. Und wir haben die Bise, beim Genfersee stärker. Die Bise wird dann Donnerstag und Freitag schwächer. Am Donnerstag wird es an den Alpen noch dichtere Wolkenfelder haben, dort gibt es aber auch sonnige Phasen. Es bleibt trocken. In der Westschweiz und im Wallis ist es sehr sonnig. Am Karfreitag werden die Wolken dünner, nur am Nordrand könnte es dichtere Wolkenfelder haben, sonst ist es sonnig. Die Temperaturen steigen wieder. Am Morgen ist es nach wie vor kalt, am Nachmittag wird es wärmer. Der Trend bleibt so, es wird wärmer. Am Montag fast 20 °C. Der Frühling zeigt sich so richtig zum Osterwochenende. Ostern werden also sonnig. Deutlich wärmer. Wir sind deutlich über dem langjährigen Schnitt. Ich wünsche Ihnen jetzt noch Durchhalten,"
+  },
+  "segments": [
+    {
+      "segment_id": "SEG_001",
+      "start_time": "00:00:05.850",
+      "end_time": "00:00:17.295",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung zur SRF Meteo Sendung mit Hinweis auf Live-Untertitel.",
+      "key_entities": [
+        "SRF Meteo",
+        "Live-Untertitel"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 11.445000000000002,
+      "segment_text": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "Herzlich",
+          "LiveUntertiteln",
+          "Meteo",
+          "SRF",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "herzlich",
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 10
+      }
+    },
+    {
+      "segment_id": "SEG_002",
+      "start_time": "00:00:17.614",
+      "end_time": "00:01:05.717",
+      "segment_type": "story",
+      "keyword": "Märzschneefall",
+      "short_label": "Starker Schneefall Ende März",
+      "summary": "Letzter Märztag mit intensivem Schneefall in den letzten 24 Stunden. In Braunwald, Adelboden und Engelberg über 50cm Schnee gefallen. Schneefallgrenze auf 500-700m, teilweise Aufhellungen in Westschweiz, Wallis und Tessin mit Nordföhn. Nachts wird es kalt und frostig.",
+      "key_entities": [
+        "Braunwald",
+        "Adelboden",
+        "Engelberg",
+        "Alpnach",
+        "Wallis",
+        "Tessin",
+        "Schneefallgrenze",
+        "Nordföhn"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 48.102999999999994,
+      "segment_text": "Der letzte Märztag. Es hat richtig geschneit in den letzten vier 20 Std. Es hat richtig geschneit in den letzten 24 Std. Es ist einiges zusammengekommen. In Braunwald gab es mehr als einen halben Meter Schnee. Auf ähnlicher Höhe gab es auch viel Schnee. Z.B. in Adelboden oder Engelberg. In Alpnach gibt es heute Nachmittag noch weiterhin Schnee. Die Schneefallgrenze auf 500-700 m. Es kann aber auch Aufhellungen geben. Vor allem in der Westschweiz, im Wallis oder im Tessin. Im Tessins lässt auch der Nordföhn. In der Nacht wird es kalt, die Temperaturen sinken.",
+      "fingerprint": {
+        "entities": [
+          "Adelboden",
+          "Alpnach",
+          "Aufhellungen",
+          "Braunwald",
+          "Engelberg",
+          "Höhe",
+          "Meter",
+          "Märztag",
+          "Nachmittag",
+          "Nacht",
+          "Nordföhn",
+          "Schnee",
+          "Schneefallgrenze",
+          "Std",
+          "Temperaturen",
+          "Tessin",
+          "Tessins",
+          "Wallis",
+          "Westschweiz"
+        ],
+        "top_words": [
+          "geschneit",
+          "letzte",
+          "letzten",
+          "richtig",
+          "schnee"
+        ],
+        "word_count": 94
+      }
+    },
+    {
+      "segment_id": "SEG_003",
+      "start_time": "00:01:11.867",
+      "end_time": "00:01:45.685",
+      "segment_type": "story",
+      "keyword": "Donnerstag Prognose",
+      "short_label": "Prognose Donnerstag: Wechsel mit Aufhellungen",
+      "summary": "Donnerstag wechselnd zwischen sonnigen Phasen und dichteren Wolkenfeldern mit teilweise Schneefall. Schneefallgrenze 500-800m. Im Tagesverlauf mehr Sonne. Westschweiz, Wallis und Tessin meist sonnig. Höchstwerte Westschweiz 10°C, Tessin 15°C. Nordföhn im Tessin, Bise beim Genfersee.",
+      "key_entities": [
+        "Donnerstag",
+        "Westschweiz",
+        "Wallis",
+        "Tessin",
+        "Nordföhn",
+        "Bise",
+        "10°C",
+        "15°C"
+      ],
+      "confidence": 0.9,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 33.818,
+      "segment_text": "Morgen früh ist es ein Wechselspiel zwischen sonnigen Phasen und ab und zu dichteren Wolkenfeldern. Es kann auch z.T. schneien. Schneefallgrenze: 500-800 m. Durch den Tag werden die sonnigen Phasen weiter. In der Westschweiz, im Wallis und Tessin ist es meistens sonnig. Die Temperaturen steigen ein wenig. Morgen Nachmittag haben wir in der Westschweiz Höchstwerte um die 10 °C, im Tessin 15 °C.",
+      "fingerprint": {
+        "entities": [
+          "Höchstwerte",
+          "Nachmittag",
+          "Phasen",
+          "Tag",
+          "Temperaturen",
+          "Tessin",
+          "Wallis",
+          "Wechselspiel",
+          "Westschweiz",
+          "Wolkenfeldern"
+        ],
+        "top_words": [
+          "morgen",
+          "phasen",
+          "sonnigen",
+          "tessin",
+          "westschweiz"
+        ],
+        "word_count": 63
+      }
+    },
+    {
+      "segment_id": "SEG_004",
+      "start_time": "00:02:02.491",
+      "end_time": "00:02:21.975",
+      "segment_type": "story",
+      "keyword": "Osterwochenende Prognose",
+      "short_label": "Karfreitag bis Ostermontag: Trocken und sonnig",
+      "summary": "Donnerstag und Freitag: Bise wird schwächer. Alpen mit dichteren Wolkenfeldern aber Sonnenphasen, bleibt trocken. Westschweiz und Wallis sehr sonnig. Karfreitag: Wolken dünner, am Nordrand dichtere Wolkenfelder möglich, sonst sonnig. Temperaturen steigen wieder.",
+      "key_entities": [
+        "Karfreitag",
+        "Alpen",
+        "Nordrand",
+        "Westschweiz",
+        "Wallis",
+        "Bise"
+      ],
+      "confidence": 0.88,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 19.483999999999995,
+      "segment_text": "Die Bise wird dann Donnerstag und Freitag schwächer. Am Donnerstag wird es an den Alpen noch dichtere Wolkenfelder haben, dort gibt es aber auch sonnige Phasen. Es bleibt trocken. In der Westschweiz und im Wallis ist es sehr sonnig. Am Karfreitag werden die Wolken dünner, nur am Nordrand könnte es dichtere Wolkenfelder haben, sonst ist es sonnig.",
+      "fingerprint": {
+        "entities": [
+          "Alpen",
+          "Bise",
+          "Donnerstag",
+          "Freitag",
+          "Karfreitag",
+          "Nordrand",
+          "Phasen",
+          "Wallis",
+          "Westschweiz",
+          "Wolken",
+          "Wolkenfelder"
+        ],
+        "top_words": [
+          "dichtere",
+          "donnerstag",
+          "freitag",
+          "sonnig",
+          "wolkenfelder"
+        ],
+        "word_count": 57
+      }
+    },
+    {
+      "segment_id": "SEG_005",
+      "start_time": "00:02:25.686",
+      "end_time": "00:02:53.114",
+      "segment_type": "story",
+      "keyword": "Ostertrend warm",
+      "short_label": "Osterwochenende: Frühling mit bis 20°C",
+      "summary": "Trend bleibt steigend, es wird wärmer. Ostermontag fast 20°C. Der Frühling zeigt sich richtig zum Osterwochenende. Ostern sonnig und deutlich wärmer als langjähriger Durchschnitt.",
+      "key_entities": [
+        "Ostern",
+        "Ostermontag",
+        "Ostersonntag",
+        "20°C",
+        "Frühling"
+      ],
+      "confidence": 0.91,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 27.427999999999997,
+      "segment_text": "Am Morgen ist es nach wie vor kalt, am Nachmittag wird es wärmer. Der Trend bleibt so, es wird wärmer. Am Montag fast 20 °C. Der Frühling zeigt sich so richtig zum Osterwochenende. Ostern werden also sonnig. Deutlich wärmer. Wir sind deutlich über dem langjährigen Schnitt.",
+      "fingerprint": {
+        "entities": [
+          "Frühling",
+          "Montag",
+          "Morgen",
+          "Nachmittag",
+          "Osterwochenende",
+          "Schnitt",
+          "Trend"
+        ],
+        "top_words": [
+          "deutlich",
+          "morgen",
+          "nachmittag",
+          "trend",
+          "wärmer"
+        ],
+        "word_count": 46
+      }
+    },
+    {
+      "segment_id": "SEG_006",
+      "start_time": "00:02:53.436",
+      "end_time": "00:02:55.113",
+      "segment_type": "outro",
+      "keyword": "Verabschiedung",
+      "short_label": "Abschlusswort",
+      "summary": "Moderator wünscht den Zuschauern noch Durchhalten.",
+      "key_entities": [
+        "Verabschiedung"
+      ],
+      "confidence": 0.85,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-31",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-31T12:50:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:df2f368c-70c9-4f0e-b47d-983bcc7d121d",
+      "duration_seconds": 1.6769999999999925,
+      "segment_text": "Ich wünsche Ihnen jetzt noch Durchhalten,",
+      "fingerprint": {
+        "entities": [
+          "Durchhalten",
+          "Ihnen"
+        ],
+        "top_words": [
+          "durchhalten",
+          "ihnen",
+          "wünsche"
+        ],
+        "word_count": 6
+      }
+    }
+  ]
+}

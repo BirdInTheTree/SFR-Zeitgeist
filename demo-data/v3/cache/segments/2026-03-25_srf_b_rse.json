@@ -1,0 +1,121 @@
+{
+  "program": {
+    "date": "2026-03-25",
+    "channel": "SRF 1",
+    "title": "SRF Börse",
+    "startTime": "2026-03-25T19:25:00+01:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+    "word_count": 271,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Guten Abend. Der Sportschuhhersteller On überraschte gestern mit einer Personalie: Konzernchef Martin Hoffmann verlässt das Unternehmen nach 13 Jahren - Anfang letztes Jahr wurde er alleiniger CEO. David Allemann links und Caspar Coppetti rechts, zwei der drei Gründer, teilen sich künftig den Titel CEO. In New York, wo On kotiert ist, kam das nicht gut an. Die Aktie büsste gestern rund 11 % an Wert ein. Auch heute startete der Titel deutlich im Minus. Die Analystin in New York schätzt das so ein: Die Sorge besteht, dass gerade viel Veränderung stattfindet. Der Konzernchef wechselt, gleichzeitig kommt ein neuer Finanzchef. Neue Leute an der Spitze, das gibt immer Anlass zu Sorge. Auf der anderen Seite überzeugt, dass die beiden Mitbegründer, die nun Co-CEOs werden, schon lange stark im Unternehmen eingebunden waren. Die Unternehmensstrategie sollte sich also nicht ändern. Eigentlich läuft das Geschäft prächtig, On macht über 3 Mrd. Fr. Umsatz und hat grosse Wachstumsambitionen. Die Aktie ist heute aber weniger wert als noch beim Börsenstart vor viereinhalb Jahren. Viele Aktien im Konsumgüterbereich haben im schwierigen Umfeld gelitten. Im Fall On besteht die Gefahr, dass sich andere Marken, insbesondere Nike, auf Kosten von On erholen und wieder dazugewinnen. Aber isoliert betrachtet waren die Ergebnisse von On sehr gut. Das letzte Quartal war ein Rekordquartal mit sehr hohem Wachstum und Rentabilität. Im Fundament der Firma deutet nichts darauf hin, dass sich die Dynamik verlangsamt. So viel zu On. Wir blicken noch auf den Schweizer Leitindex - der verliert heute 0,6 % Hier folgt nun die \"Tagesschau\" Schönen Abend und machen Sie's gut. SWISS TXT / Accessibility Services Sarah Häusermann"
+  },
+  "segments": [
+    {
+      "segment_id": "1",
+      "start_time": "00:00:10.480",
+      "end_time": "00:00:16.920",
+      "segment_type": "intro",
+      "keyword": "Börsenübersicht",
+      "short_label": "Sendungsintro",
+      "summary": "Begrüssung zur SRF Börse mit Hinweis auf Live-Untertitel.",
+      "key_entities": [
+        "SRF Börse",
+        "SWISS TXT"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-25T19:25:00+01:00",
+      "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+      "duration_seconds": 6.440000000000001
+    },
+    {
+      "segment_id": "2",
+      "start_time": "00:00:17.000",
+      "end_time": "00:01:14.640",
+      "segment_type": "story",
+      "keyword": "On CEO-Wechsel",
+      "short_label": "On Holding: Führungswechsel und Aktienkurs",
+      "summary": "Der Sportschuhhersteller On überrascht mit Personalwechsel: CEO Martin Hoffmann verlässt das Unternehmen nach 13 Jahren. Die Gründer David Allemann und Caspar Coppetti werden künftig Co-CEOs. An der New Yorker Börse verliert die Aktie daraufhin etwa 11% an Wert. Analystin erklärt die negative Reaktion durch die Sorge vor zu vielen gleichzeitigen Veränderungen in der Führungsebene.",
+      "key_entities": [
+        "On Holding",
+        "Martin Hoffmann",
+        "David Allemann",
+        "Caspar Coppetti",
+        "CEO",
+        "New York"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-25T19:25:00+01:00",
+      "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+      "duration_seconds": 57.64
+    },
+    {
+      "segment_id": "3",
+      "start_time": "00:01:16.480",
+      "end_time": "00:01:51.680",
+      "segment_type": "story",
+      "keyword": "On Geschäftsentwicklung",
+      "short_label": "On: Geschäft läuft prächtig trotz Aktienkursverlust",
+      "summary": "On macht über 3 Milliarden Franken Umsatz und verfolgt grosse Wachstumsambitionen. Die Aktie ist heute weniger wert als beim Börsenstart vor viereinhalb Jahren. Gründe: Viele Konsumgüteraktien haben im schwierigen Umfeld gelitten. Konkurrenz von Nike könnte On Marktanteile abnehmen. Trotzdem waren die isolierten Ergebnisse von On sehr gut - das letzte Quartal war ein Rekordquartal mit hohem Wachstum und Rentabilität. Die fundamentale Dynamik der Firma ist intakt.",
+      "key_entities": [
+        "On Holding",
+        "Umsatz",
+        "Konsumgüter",
+        "Nike",
+        "Aktienkurs"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-25T19:25:00+01:00",
+      "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+      "duration_seconds": 35.2
+    },
+    {
+      "segment_id": "4",
+      "start_time": "00:01:53.520",
+      "end_time": "00:02:01.160",
+      "segment_type": "transition",
+      "keyword": "SMI Tagesabschluss",
+      "short_label": "Schweizer Leitindex im Minus",
+      "summary": "Der Schweizer Leitindex SMI verliert heute 0,6%. Überleitung zur Tagesschau.",
+      "key_entities": [
+        "SMI",
+        "Schweiz"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-25T19:25:00+01:00",
+      "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+      "duration_seconds": 7.639999999999986
+    },
+    {
+      "segment_id": "5",
+      "start_time": "00:02:02.840",
+      "end_time": "00:02:09.560",
+      "segment_type": "outro",
+      "keyword": "Sendungsabschluss",
+      "short_label": "Sendungsende und Überleitung",
+      "summary": "Abschluss der SRF Börse mit Überleitung zur Tagesschau. Verabschiedung der Zuschauer.",
+      "key_entities": [
+        "Tagesschau",
+        "SWISS TXT"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-25",
+      "program_title": "SRF Börse",
+      "program_start_time": "2026-03-25T19:25:00+01:00",
+      "urn": "urn:srf:video:ac2e9a52-3225-4080-bb6e-99a0ce0ca625",
+      "duration_seconds": 6.719999999999999
+    }
+  ]
+}

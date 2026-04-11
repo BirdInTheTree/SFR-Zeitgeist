@@ -15,7 +15,7 @@ Telesguard. Schweiz aktuell. 10 vor 10.
 
 Every day, SRF broadcasts ~50 news programs (including repeated broadcasts). We process the subtitles of each broadcast:
 
-1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment (see [prompt](backend/v2/segmenter.py), [output format](demo-data/v2/artifacts/))
+1. **Segment** — an LLM splits each broadcast into editorial story segments, assigning a keyword and identifying the most important moment (see [prompt](backend/segmenter.py), [output format](demo-data/artifacts/))
 2. **Merge** — same segments from different broadcasts are grouped into unified stories by keyword matching, with fingerprint validation to prevent false merges
 3. **Score** — each story is ranked by five signals: `novelty × spread × persistence × prominence × primetime` (see [formula](#scoring))
 4. **Screenshot** — a video frame is extracted at the story's emotional peak (see [screenshots](#screenshots))
@@ -54,7 +54,7 @@ Repeats (same newscast re-aired later) are not thrown out. An editor choosing to
 
 Evergreen topics like weather suppress themselves. They appear every day, so their novelty stays at ~1.0. A spike like "Artemis launch" going from 0 to 20 segments scores orders of magnitude higher.
 
-Full rationale: [backend/v2/README.md](backend/v2/README.md)
+Full rationale: [backend/FORMULA.md](backend/FORMULA.md)
 
 ### Screenshots
 
@@ -98,12 +98,12 @@ The EPG API keeps only ~2 weeks of data. We fetch and save it to build history b
 ```
 demo-data/week/*.json             ← daily schedules with subtitles
         │
-backend/v2/pipeline.py            ← segment → merge → score → frames
+backend/pipeline.py            ← segment → merge → score → frames
         │
-        ├── demo-data/v2/segment_cache/   LLM segmentation results
-        ├── demo-data/v2/merge_cache/     story merge results
-        ├── demo-data/v2/artifacts/       all intermediate results
-        └── demo-data/v2/story_registry.json
+        ├── demo-data/cache/segments/      LLM segmentation results
+        ├── demo-data/cache/merge/         story merge results
+        ├── demo-data/artifacts/           all intermediate results
+        └── demo-data/story_registry.json
         │
 demo-data/zeitgeist_YYYYMMDD.json ← output for frontend
         │
@@ -114,10 +114,10 @@ frontend/                         ← vanilla HTML/CSS/JS
 
 | File | What it does |
 |------|-------------|
-| `backend/v2/pipeline.py` | Orchestrates everything: segment → merge → score → frames → output |
-| `backend/v2/segmenter.py` | LLM prompts, keyword chaining, fingerprinting, story merge |
-| `backend/v2/scorer.py` | The five-signal scoring formula |
-| `backend/v2/fetch_epg.py` | Fetches daily program data from EPG API |
+| `backend/pipeline.py` | Orchestrates everything: segment → merge → score → frames → output |
+| `backend/segmenter.py` | LLM prompts, keyword chaining, fingerprinting, story merge |
+| `backend/scorer.py` | The five-signal scoring formula |
+| `backend/fetch_epg.py` | Fetches daily program data from EPG API |
 | `backend/smart_crop.py` | Face-aware image cropping, blank detection, zoom |
 | `frontend/app.js` | Grid, fish-eye word list, zoom overlay, day navigation |
 
@@ -127,13 +127,13 @@ frontend/                         ← vanilla HTML/CSS/JS
 source ~/venvs/SFR_env/bin/activate
 
 # Fetch EPG data (run weekly to accumulate history)
-python -m backend.v2.fetch_epg --range 14
+python -m backend.fetch_epg --range 14
 
 # Generate one day (with images)
-python -m backend.v2.pipeline 2026-04-01
+python -m backend.pipeline 2026-04-01
 
 # Generate all available days
-python -m backend.v2.pipeline --all
+python -m backend.pipeline --all
 
 # Serve
 python -m http.server 8080

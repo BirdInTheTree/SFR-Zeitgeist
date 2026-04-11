@@ -1,0 +1,196 @@
+{
+  "program": {
+    "date": "2026-03-29",
+    "channel": "SRF 1",
+    "title": "Meteo",
+    "startTime": "2026-03-29T19:55:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:23c10b12-03d7-4d32-9e96-6b93c6eb37c6",
+    "word_count": 347,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Regen und Schnee sind zwar immer seltener geworden. Aber die Sonne war häufig hinter den Wolken versteckt. Die Störung verletze Nachfrist abgezogen. Mit der Bise ist viel Feuchtigkeit über der Alpennordseite hängen geblieben. Darum war es bewölkt. Ausser in der Westschweiz. Jetzt ziehen Wolken von einer neuen Warmfront heran. Während der Nacht bleibt es meist trocken. Es ist aber bewölkt. Die Temperaturen gehen auf etwa 0 °C zurück. Morgen starten wir mit vielen Wolken in die Woche. Teils ist es nachts. Von der Warmfront Kanne stellenweise schneien. Vor allem den Bergen entlang. Lokal auch im Flachland. Sonst ist es vielerorts trocken. Im Tessin scheint morgen die Sonne. Im Norden sieht man die Sonne selten. Die Wolken können auflockern. Es ist aber meist bewölkt. Am Nachmittag werden die Wolken noch dunkler und bringen vielerorts Regen und Schnee. Die Schneefallgrenze liegt bei etwa 800 m. Es ist auch morgen kühl. Zumindest im Norden. Da bleiben die Höchstwerte unter 10 °C. Im Süden ist es milder. Dann kommt im Laufe des Tages Nordföhn auf. Er bläst V.a. Am Abend stark. Im Norden ist es ein zügiger Westwind, teils mit Böen. Dann kommt kühlere Luft zu uns. In der Nacht auf Dienstag kann es bis weit nach unten schneien. Während des Tages wird es im Mittelland zeitweise nass. Den Bergen entlang schneit es kräftig weiter. Im Westen und Süden ist es zeitweise ziemlich sonnig. Dank des Nordföhns. Auch am Mittwoch bleibt es unbeständig. Die Schneefallgrenze steigt leicht an. Es gibt aber viel Neuschnee bis Mittwoch oberhalb von 1000 m. Da können wir bis zu 80 cm Neuschnee erwarten. Dann ist es aber trocken können. Ab Donnerstag ist es trocken und sonnig. Die restlichen Wolken machen der Sonne Platz. Auch Karfreitag und Karsamstag sehen freundlich aus. Es ist nicht ausgeschlossen, dass als regnen kann. Vor allem am Samstag und am Sonntag. Die Prognose ist aber noch unsicher. Es sieht so aus, als die Temperaturen langsam auf etwa 16 °C ansteigen. Im Süden ist es häufig sonnig und mild bei rund 18 °C."
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:10.029",
+      "end_time": "00:00:50.570",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung zur SRF Meteo Sendung mit Überblick über die aktuelle Wetterlage. Regen und Schnee sind seltener geworden, aber die Sonne war häufig hinter Wolken versteckt. Mit der Bise bleibt viel Feuchtigkeit über der Alpennordseite. Eine neue Warmfront zieht heran. Während der Nacht bleibt es meist trocken und bewölkt mit Temperaturen um 0°C.",
+      "key_entities": [
+        "Alpennordseite",
+        "Warmfront",
+        "Bise",
+        "Feuchtigkeit"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-29",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-29T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:23c10b12-03d7-4d32-9e96-6b93c6eb37c6",
+      "duration_seconds": 40.541,
+      "segment_text": "Herzlich willkommen zu \"SRF Meteo\". Regen und Schnee sind zwar immer seltener geworden. Aber die Sonne war häufig hinter den Wolken versteckt. Die Störung verletze Nachfrist abgezogen. Mit der Bise ist viel Feuchtigkeit über der Alpennordseite hängen geblieben. Darum war es bewölkt. Ausser in der Westschweiz. Jetzt ziehen Wolken von einer neuen Warmfront heran. Während der Nacht bleibt es meist trocken. Es ist aber bewölkt.",
+      "fingerprint": {
+        "entities": [
+          "Alpennordseite",
+          "Bise",
+          "Feuchtigkeit",
+          "Meteo",
+          "Nachfrist",
+          "Nacht",
+          "SRF",
+          "Schnee",
+          "Sonne",
+          "Störung",
+          "Warmfront",
+          "Westschweiz",
+          "Wolken"
+        ],
+        "top_words": [
+          "bewölkt",
+          "herzlich",
+          "meteo",
+          "willkommen",
+          "wolken"
+        ],
+        "word_count": 65
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:59:577",
+      "end_time": "01:45.923",
+      "segment_type": "story",
+      "keyword": "Morgenprognose",
+      "short_label": "Montag: Bewölkt mit Schnee und Wind",
+      "summary": "Montag startet mit vielen Wolken. Von der Warmfront kann es stellenweise schneien, vor allem in den Bergen und lokal im Flachland. Im Tessin scheint die Sonne. Im Norden bleibt es meist bewölkt. Am Nachmittag bringen dunklere Wolken vielerorts Regen und Schnee mit Schneefallgrenze bei etwa 800m. Im Norden bleibt es kühl mit Höchstwerten unter 10°C, im Süden milder. Nordföhn tritt auf und bläst am Abend stark.",
+      "key_entities": [
+        "Montag",
+        "Warmfront",
+        "Schneefallgrenze 800m",
+        "Nordföhn",
+        "Tessin",
+        "Alpen"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-29",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-29T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:23c10b12-03d7-4d32-9e96-6b93c6eb37c6",
+      "duration_seconds": 0.0,
+      "segment_text": "",
+      "fingerprint": {
+        "entities": [],
+        "top_words": [],
+        "word_count": 0
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "01:59.056",
+      "end_time": "02:47.755",
+      "segment_type": "story",
+      "keyword": "Wochentrend",
+      "short_label": "Dienstag bis Mittwoch: Unbeständig mit Neuschnee",
+      "summary": "In der Nacht auf Dienstag kann es bis weit nach unten schneien. Während des Tages wird es im Mittelland zeitweise nass, in den Bergen schneit es kräftig weiter. Im Westen und Süden ist es zeitweise sonnig dank Nordföhn. Am Mittwoch bleibt es unbeständig mit leicht ansteigender Schneefallgrenze. Bis Mittwoch können bis zu 80cm Neuschnee oberhalb von 1000m erwartet werden.",
+      "key_entities": [
+        "Dienstag",
+        "Mittwoch",
+        "Neuschnee",
+        "80cm",
+        "1000m",
+        "Mittelland",
+        "Nordföhn"
+      ],
+      "confidence": 0.93,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-29",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-29T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:23c10b12-03d7-4d32-9e96-6b93c6eb37c6",
+      "duration_seconds": 48.699,
+      "segment_text": "Dann kommt kühlere Luft zu uns. In der Nacht auf Dienstag kann es bis weit nach unten schneien. Während des Tages wird es im Mittelland zeitweise nass. Den Bergen entlang schneit es kräftig weiter. Im Westen und Süden ist es zeitweise ziemlich sonnig. Dank des Nordföhns. Auch am Mittwoch bleibt es unbeständig. Die Schneefallgrenze steigt leicht an. Es gibt aber viel Neuschnee bis Mittwoch oberhalb von 1000 m. Da können wir bis zu 80 cm Neuschnee erwarten. Dann ist es aber trocken können. Ab Donnerstag ist es trocken und sonnig.",
+      "fingerprint": {
+        "entities": [
+          "Bergen",
+          "Dienstag",
+          "Donnerstag",
+          "Luft",
+          "Mittelland",
+          "Mittwoch",
+          "Nacht",
+          "Neuschnee",
+          "Nordföhns",
+          "Schneefallgrenze",
+          "Süden",
+          "Tages",
+          "Westen"
+        ],
+        "top_words": [
+          "mittwoch",
+          "neuschnee",
+          "sonnig",
+          "trocken",
+          "zeitweise"
+        ],
+        "word_count": 90
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "02:44.805",
+      "end_time": "03:19.859",
+      "segment_type": "story",
+      "keyword": "Osterprognose",
+      "short_label": "Ostern: Trocken und sonnig mit möglichem Regen",
+      "summary": "Ab Donnerstag wird es trocken und sonnig. Auch Karfreitag und Karsamstag sehen freundlich aus. Es ist nicht ausgeschlossen, dass es regnen kann, vor allem am Samstag und Sonntag. Die Prognose ist aber noch unsicher. Die Temperaturen steigen langsam auf etwa 16°C an. Im Süden ist es häufig sonnig und mild bei rund 18°C.",
+      "key_entities": [
+        "Donnerstag",
+        "Karfreitag",
+        "Karsamstag",
+        "Ostern",
+        "16°C",
+        "18°C",
+        "Süden"
+      ],
+      "confidence": 0.91,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-29",
+      "program_title": "Meteo",
+      "program_start_time": "2026-03-29T19:55:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:23c10b12-03d7-4d32-9e96-6b93c6eb37c6",
+      "duration_seconds": 35.054,
+      "segment_text": "Ab Donnerstag ist es trocken und sonnig. Die restlichen Wolken machen der Sonne Platz. Auch Karfreitag und Karsamstag sehen freundlich aus. Es ist nicht ausgeschlossen, dass als regnen kann. Vor allem am Samstag und am Sonntag. Die Prognose ist aber noch unsicher. Es sieht so aus, als die Temperaturen langsam auf etwa 16 °C ansteigen. Im Süden ist es häufig sonnig und mild bei rund 18 °C.",
+      "fingerprint": {
+        "entities": [
+          "Donnerstag",
+          "Karfreitag",
+          "Karsamstag",
+          "Platz",
+          "Prognose",
+          "Samstag",
+          "Sonne",
+          "Sonntag",
+          "Süden",
+          "Temperaturen",
+          "Wolken"
+        ],
+        "top_words": [
+          "donnerstag",
+          "restlichen",
+          "sonnig",
+          "trocken",
+          "wolken"
+        ],
+        "word_count": 67
+      }
+    }
+  ]
+}

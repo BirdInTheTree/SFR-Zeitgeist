@@ -1,0 +1,262 @@
+{
+  "program": {
+    "date": "2026-04-01",
+    "channel": "SRF info",
+    "title": "Meteo",
+    "startTime": "2026-04-01T16:05:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+    "word_count": 347,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\" Jetzt ist er da, der erste richtige Frühlingsmonat, der April. Man weiss nicht genau, woher der Name April kommt. War Scheinlich aus dem lateinischen: aprire, sich öffnen. Die Natur öffnet sich. Der April macht aber auch, was er will. Heute wechselt er auch zwischen dichteren Quellwolken und freundlichen Abschnitten. Die Temperaturen sind ein wenig höher. Nachts wird es wieder kalt. Verbreitet gibt das auf der Alpennordseite Frost. Auf der Alpensüdseite sinken die Temperaturen nicht so stark. Morgen haben wir an den meisten Orten einen sonnigen Tag. Einzig den Alpen entlang hat es z.T. Hochnebelfelder. Diese lösen sich zwar relativ schnell auf, gleichzeitig gibt es daraus auch grössere Quellwolken, besonders in den Bergen. Die bringen tagsüber ein bisschen mehr Schatten. Am Abend nimmt die Bewölkung von Norden und Osten zu, wir können nicht ausschliessen, dass es dort auch noch ein bisschen schneien könnte. Sonst ist es meistens ein sonniger Tag. Am meisten Sonne gibt es im Wallis und im Tessin. Die Temperaturen sind morgen Nachmittag schon wieder ein bisschen höher. In Basel gibt es Höchstwerte um die 12 °C, zwischen Zürich und Bern zwischen 10-11 °C. Dazu bläst nach wie vor die Bise, aber nicht mehr ganz so kräftig. Karfreitag und Karsamstag sind nicht mehr ganz so windig. Der Nordföhn wird auch einschlafen. Wir erwarten Frühlingswetter. Am Karfreitag gibt es in der ganzen Schweiz Sonnenschein. Auf der Alpensüdseite nahezu Sonne los und schon über 20 °C. Im Norden 14 °C, ab und zu ziehen Wolkenfelder vorbei. Am Karsamstag gibt es von Norden her immer wieder dichtere Wolkenfelder, mehrheitlich ist es allerdings freundlich. Es gibt auch immer wieder längere sonnige Phasen. Auf der Alpensüdseite ist es immer noch mehrheitlich sonnig. Die Temperaturen steigen, im Norden 16 °C, im Süden über 20 °C. Kommt der Osterhase. Der bringt uns am Sonntag und Ostermontag tatsächlich Frühlingswetter. Auf beiden Seiten der Alpen viel Sonnenschein. Und auch im Norden über 20 °C. Der Stau vor dem Gotthard lohnt sich heuer nicht wirklich. Einen schönen Nachmittag. SWISS TXT / Accessibility Services Lia Budowski Nachmittag."
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:15.200",
+      "end_time": "00:00:29.206",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Willkommen zu SRF Meteo",
+      "summary": "Begrüßung zur SRF Meteo Sendung mit Hinweis auf Live-Untertitel von SWISS TXT.",
+      "key_entities": [
+        "SRF Meteo",
+        "SWISS TXT"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo",
+      "program_start_time": "2026-04-01T16:05:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+      "duration_seconds": 14.006,
+      "segment_text": "Mit Live-Untertiteln von SWISS TXT Herzlich willkommen zu \"SRF Meteo\".",
+      "fingerprint": {
+        "entities": [
+          "Herzlich",
+          "LiveUntertiteln",
+          "Meteo",
+          "SRF",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "herzlich",
+          "liveuntertiteln",
+          "meteo",
+          "swiss",
+          "willkommen"
+        ],
+        "word_count": 10
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:29.527",
+      "end_time": "01:06.716",
+      "segment_type": "story",
+      "keyword": "April Wetter Frühlingsmonat",
+      "short_label": "April: Wechselhafte Frühjahrswitterung",
+      "summary": "Der April ist da und bringt wechselhafte Bedingungen mit dichteren Quellwolken und freundlichen Abschnitten. Tagsüber milde Temperaturen, nachts Frost verbreitet auf der Alpennordseite. Unterschiedliche Bedingungen zwischen Nord- und Südseite der Alpen.",
+      "key_entities": [
+        "April",
+        "Quellwolken",
+        "Frost",
+        "Alpennordseite",
+        "Alpensüdseite"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo",
+      "program_start_time": "2026-04-01T16:05:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+      "duration_seconds": 37.18899999999999,
+      "segment_text": "Jetzt ist er da, der erste richtige Frühlingsmonat, der April. Man weiss nicht genau, woher der Name April kommt. War Scheinlich aus dem lateinischen: aprire, sich öffnen. Die Natur öffnet sich. Der April macht aber auch, was er will. Heute wechselt er auch zwischen dichteren Quellwolken und freundlichen Abschnitten. Die Temperaturen sind ein wenig höher. Nachts wird es wieder kalt.",
+      "fingerprint": {
+        "entities": [
+          "Abschnitten",
+          "April",
+          "Frühlingsmonat",
+          "Name",
+          "Natur",
+          "Quellwolken",
+          "Scheinlich",
+          "Temperaturen"
+        ],
+        "top_words": [
+          "april",
+          "erste",
+          "frühlingsmonat",
+          "richtige",
+          "weiss"
+        ],
+        "word_count": 60
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "01:16.225",
+      "end_time": "02:01.799",
+      "segment_type": "story",
+      "keyword": "Freitag Wetter Sonnenschein",
+      "short_label": "Freitag: Sonnig mit Quellwolken in den Alpen",
+      "summary": "Morgen wird ein überwiegend sonniger Tag mit Hochnebelfeldern entlang der Alpen, die sich auflösen. Größere Quellwolken besonders in den Bergen bringen tagsüber Schatten. Am Abend nimmt Bewölkung von Norden zu. Höchstwerte Basel 12°C, Zürich-Bern 10-11°C. Bise weht noch aber schwächer.",
+      "key_entities": [
+        "Freitag",
+        "Sonnenschein",
+        "Hochnebelfelder",
+        "Alpen",
+        "Basel",
+        "Zürich",
+        "Bern",
+        "Bise",
+        "12°C",
+        "10-11°C"
+      ],
+      "confidence": 0.97,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo",
+      "program_start_time": "2026-04-01T16:05:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+      "duration_seconds": 45.57400000000001,
+      "segment_text": "Morgen haben wir an den meisten Orten einen sonnigen Tag. Einzig den Alpen entlang hat es z.T. Hochnebelfelder. Diese lösen sich zwar relativ schnell auf, gleichzeitig gibt es daraus auch grössere Quellwolken, besonders in den Bergen. Die bringen tagsüber ein bisschen mehr Schatten. Am Abend nimmt die Bewölkung von Norden und Osten zu, wir können nicht ausschliessen, dass es dort auch noch ein bisschen schneien könnte. Sonst ist es meistens ein sonniger Tag. Am meisten Sonne gibt es im Wallis und im Tessin. Die Temperaturen sind morgen Nachmittag schon wieder ein bisschen höher. In Basel gibt es Höchstwerte um die 12 °C, zwischen Zürich und Bern zwischen 10-11 °C. Dazu bläst nach wie vor die Bise, aber nicht mehr ganz so kräftig.",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Alpen",
+          "Basel",
+          "Bergen",
+          "Bern",
+          "Bewölkung",
+          "Bise",
+          "Höchstwerte",
+          "Nachmittag",
+          "Norden",
+          "Orten",
+          "Osten",
+          "Quellwolken",
+          "Schatten",
+          "Sonne",
+          "Tag",
+          "Temperaturen",
+          "Tessin",
+          "Wallis",
+          "Zürich"
+        ],
+        "top_words": [
+          "bisschen",
+          "meisten",
+          "morgen",
+          "orten",
+          "sonnigen"
+        ],
+        "word_count": 122
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "02:06.886",
+      "end_time": "02:56.751",
+      "segment_type": "story",
+      "keyword": "Karfreitag Karsamstag Ostern Frühlingswetter",
+      "short_label": "Karfreitag bis Ostern: Frühlingswetter und Wärme",
+      "summary": "Karfreitag bringt in der ganzen Schweiz Sonnenschein, auf der Alpensüdseite über 20°C. Karsamstag mit dichteren Wolkenfeldern von Norden, aber mehrheitlich freundlich mit längeren sonnigen Phasen und Temperaturen im Norden 16°C, Süden über 20°C. Ostern und Ostermontag: viel Sonnenschein auf beiden Seiten der Alpen, auch im Norden über 20°C.",
+      "key_entities": [
+        "Karfreitag",
+        "Karsamstag",
+        "Ostern",
+        "Ostermontag",
+        "Alpensüdseite",
+        "Frühlingswetter",
+        "20°C",
+        "16°C"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo",
+      "program_start_time": "2026-04-01T16:05:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+      "duration_seconds": 49.86500000000001,
+      "segment_text": "Der Nordföhn wird auch einschlafen. Wir erwarten Frühlingswetter. Am Karfreitag gibt es in der ganzen Schweiz Sonnenschein. Auf der Alpensüdseite nahezu Sonne los und schon über 20 °C. Im Norden 14 °C, ab und zu ziehen Wolkenfelder vorbei. Am Karsamstag gibt es von Norden her immer wieder dichtere Wolkenfelder, mehrheitlich ist es allerdings freundlich. Es gibt auch immer wieder längere sonnige Phasen. Auf der Alpensüdseite ist es immer noch mehrheitlich sonnig. Die Temperaturen steigen, im Norden 16 °C, im Süden über 20 °C. Kommt der Osterhase. Der bringt uns am Sonntag und Ostermontag tatsächlich Frühlingswetter. Auf beiden Seiten der Alpen viel Sonnenschein. Und auch im Norden über 20 °C.",
+      "fingerprint": {
+        "entities": [
+          "Alpen",
+          "Alpensüdseite",
+          "Frühlingswetter",
+          "Karfreitag",
+          "Karsamstag",
+          "Norden",
+          "Nordföhn",
+          "Osterhase",
+          "Ostermontag",
+          "Phasen",
+          "Schweiz",
+          "Seiten",
+          "Sonne",
+          "Sonnenschein",
+          "Sonntag",
+          "Süden",
+          "Temperaturen",
+          "Wolkenfelder"
+        ],
+        "top_words": [
+          "alpensüdseite",
+          "frühlingswetter",
+          "immer",
+          "norden",
+          "sonnenschein"
+        ],
+        "word_count": 109
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": "02:56.751",
+      "end_time": "03:06.525",
+      "segment_type": "outro",
+      "keyword": "Sendungsende",
+      "short_label": "Verabschiedung",
+      "summary": "Verabschiedung der Sendung mit Wunsch für einen schönen Nachmittag. Credits für SWISS TXT Accessibility Services.",
+      "key_entities": [
+        "SWISS TXT",
+        "Accessibility Services",
+        "Lia Budowski"
+      ],
+      "confidence": 0.97,
+      "is_repeat_previous_episode": true,
+      "date": "2026-04-01",
+      "program_title": "Meteo",
+      "program_start_time": "2026-04-01T16:05:00+02:00",
+      "editorial_unit": "Meteo",
+      "urn": "urn:srf:video:d1509c24-5939-46b4-b332-c59541036d94",
+      "duration_seconds": 9.774000000000001,
+      "segment_text": "Der Stau vor dem Gotthard lohnt sich heuer nicht wirklich. Einen schönen Nachmittag. SWISS TXT / Accessibility Services Lia Budowski Nachmittag.",
+      "fingerprint": {
+        "entities": [
+          "Accessibility",
+          "Budowski",
+          "Gotthard",
+          "Lia",
+          "Nachmittag",
+          "Services",
+          "Stau",
+          "TXT"
+        ],
+        "top_words": [
+          "gotthard",
+          "heuer",
+          "lohnt",
+          "nachmittag",
+          "wirklich"
+        ],
+        "word_count": 21
+      }
+    }
+  ]
+}

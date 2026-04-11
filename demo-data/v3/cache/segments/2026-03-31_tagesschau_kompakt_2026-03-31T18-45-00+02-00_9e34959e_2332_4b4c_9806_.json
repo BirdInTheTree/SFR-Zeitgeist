@@ -1,0 +1,386 @@
+{
+  "program": {
+    "date": "2026-03-31",
+    "channel": "SRF info",
+    "title": "Tagesschau kompakt",
+    "startTime": "2026-03-31T18:45:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+    "word_count": 518,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Das Newsupdate um 18 Uhr - guten Abend und herzlich willkommen zur \"Tagesschau kompakt\" Einen Brief verschicken: Couvert zu, Marke drauf und ab die Post - ab morgen Mittwoch ist das auch anders möglich. Und zwar digital: Der sog. digitale Brief gehört neu zur Grundversorgung der Schweizer Post. Digitale Briefe sollen sicherer sein als E-Mails. Dafür kosten sie aber auch. Digitale Briefe können z.B. mit der Post-App auf dem Smartphone verschickt werden. Dafür lädt man eine Datei in der App hoch, der Versand kostet 40 Rp. Der digitale Brief ist anders als eine E-Mail: Erstens, weil er an eine postalische Adresse gerichtet ist, also nicht an eine E-Mail-Adresse. Zum Zweiten: In diesem System sind alle Versender und Empfänger verifiziert. Und zum Dritten ist es auch zeitgestempelt. Und es gibt eine Quittung dafür, dass es wirklich abgeschickt und angenommen worden ist. Wenn ein Empfänger keine digitale Post empfangen kann oder will, druckt die Post den digital aufgegebenen Brief aus und stellt ihn weiterhin physisch zu, was für den Absender zusätzliche Kosten zur Folge hat. ÖV-Tickets und Abos werden teurer. Ab Dezember 2026 steigen die Preise für Fahrten mit öffentlichen Verkehrsmitteln um durchschnittlich 3,9 % Das hat der Strategierat der Alliance SwissPass beschlossen. Betroffen sind national gültige Billette und Abonnemente. Allerdings werden nicht alle Preise im gleichen Ausmass erhöht. Angebote für Kinder, Jugendliche und Familien sollen gar nicht oder nur wenig teurer werden. Der Preis für das GA steigt etwas stärker als jener für Einzelbillette. Die Alliance SwissPass begründet die Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden. Zum Irankrieg: US- Verteidigungsminister Pete Hegseth trat heute in Washington vor die Medien. Neues zur Strategie der USA gab es nicht zu hören. Dafür einen erneuten Appell an die europäischen Verbündeten, sich stärker am Einsatz für die Öffnung der Strasse von Hormus zu beteiligen. Es gibt noch andere Länder auf der Welt, die sich für diese wichtige Handelsroute einsetzen sollten. Die USA sind nicht die einzigen. Die britische Royal Navy z.B wäre auch in der Lage, dort für Sicherheit zu sorgen. Die Königin der Balladen ist zurück - Celine Dion feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der kanadische Superstar diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft verkündete Celine Dion gestern, an ihrem 58. Geburtstag, ihre Rückkehr auf die Konzertbühne. Ich möchte euch wissen lassen, dass es mir gesundheitlich sehr gut geht. Ich fühle mich gut. Ich singe wieder. Und ich tanze sogar ein bisschen. Ich liebe es so sehr. Zehn Konzerte gibt die Sängerin im September und Oktober in der Nähe von Paris. Es ist das Comeback nach sechs Jahren krankheitsbedingter Pause. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst. So viel von uns für den Moment. Regionale News gibt's um 19.00 Uhr. \"Schweiz aktuell\" berichtet dann u.a. über Poldis - so werden Lehrpersonen ohne Diplom genannt. Die werden im Kanton Zürich aufgrund des nicht mehr so akuten Lehrermangels nicht mehr gebraucht. Besten Dank fürs Interesse, einen schönen Abend und auf Wiedersehen. SWISS TXT / Accessibility Services Lisa Pfeiffer, Chiara Winkelmann"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:02.641",
+      "end_time": "00:00:14.051",
+      "segment_type": "intro",
+      "keyword": "Sendungseröffnung",
+      "short_label": "Tagesschau kompakt Eröffnung",
+      "summary": "Begrüßung zur Tagesschau kompakt, dem News-Update um 18 Uhr mit Live-Untertiteln von SWISS TXT.",
+      "key_entities": [
+        "Tagesschau kompakt",
+        "SWISS TXT"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 11.41,
+      "segment_text": ". Mit Live-Untertiteln von SWISS TXT Das Newsupdate um 18 Uhr - guten Abend und herzlich willkommen zur \"Tagesschau kompakt\".",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "LiveUntertiteln",
+          "Newsupdate",
+          "SWISS",
+          "TXT",
+          "Tagesschau",
+          "Uhr"
+        ],
+        "top_words": [
+          "abend",
+          "guten",
+          "liveuntertiteln",
+          "newsupdate",
+          "swiss"
+        ],
+        "word_count": 20
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:15.004",
+      "end_time": "00:01:21.382",
+      "segment_type": "story",
+      "keyword": "Digitaler Brief Schweizer Post",
+      "short_label": "Digitale Briefe ab morgen verfügbar",
+      "summary": "Die Schweizer Post führt ab Mittwoch digitale Briefe als neue Grundversorgung ein. Diese können über die Post-App auf dem Smartphone versendet werden für 40 Rappen. Digitale Briefe sind sicherer als E-Mails, da Versender und Empfänger verifiziert sind, die Versendung zeitgestempelt wird und es eine Quittung gibt. Falls ein Empfänger keine digitalen Briefe empfangen kann, druckt die Post den Brief aus und stellt ihn physisch zu.",
+      "key_entities": [
+        "Schweizer Post",
+        "digitale Briefe",
+        "Post-App",
+        "40 Rappen"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 66.378,
+      "segment_text": "Einen Brief verschicken: Couvert zu, Marke drauf und ab die Post - ab morgen Mittwoch ist das auch anders möglich. Und zwar digital: Der sog. digitale Brief gehört neu zur Grundversorgung der Schweizer Post. Digitale Briefe sollen sicherer sein als E-Mails. Dafür kosten sie aber auch. Digitale Briefe können z.B. mit der Post-App auf dem Smartphone verschickt werden. Dafür lädt man eine Datei in der App hoch, der Versand kostet 40 Rp. Der digitale Brief ist anders als eine E-Mail: Erstens, weil er an eine postalische Adresse gerichtet ist, also nicht an eine E-Mail-Adresse. Zum Zweiten: In diesem System sind alle Versender und Empfänger verifiziert. Und zum Dritten ist es auch zeitgestempelt. Und es gibt eine Quittung dafür, dass es wirklich abgeschickt und angenommen worden ist. Wenn ein Empfänger keine digitale Post empfangen kann oder will, druckt die Post den digital aufgegebenen Brief aus und stellt ihn weiterhin physisch zu, was für den Absender zusätzliche Kosten zur Folge hat.",
+      "fingerprint": {
+        "entities": [
+          "Absender",
+          "Adresse",
+          "App",
+          "Brief",
+          "Briefe",
+          "Couvert",
+          "Datei",
+          "Dritten",
+          "EMail",
+          "EMailAdresse",
+          "EMails",
+          "Empfänger",
+          "Erstens",
+          "Folge",
+          "Grundversorgung",
+          "Kosten",
+          "Marke",
+          "Mittwoch",
+          "Post",
+          "PostApp",
+          "Quittung",
+          "Rp",
+          "Schweizer",
+          "Smartphone",
+          "System",
+          "Versand",
+          "Versender",
+          "Zweiten"
+        ],
+        "top_words": [
+          "anders",
+          "brief",
+          "dafür",
+          "digital",
+          "digitale"
+        ],
+        "word_count": 159
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "00:01:23.547",
+      "end_time": "00:02:01.632",
+      "segment_type": "story",
+      "keyword": "ÖV-Preiserhöhung",
+      "short_label": "Tickets und Abos für öffentliche Verkehrsmittel werden teurer",
+      "summary": "Ab Dezember 2026 steigen die Preise für Fahrten mit öffentlichen Verkehrsmitteln um durchschnittlich 3,9 Prozent. Der Strategierat der Alliance SwissPass hat diesen Entscheid getroffen. Betroffen sind national gültige Billette und Abonnemente. Angebote für Kinder, Jugendliche und Familien werden gar nicht oder nur wenig teurer. Der Preis für das GA steigt stärker als jener für Einzelbillette.",
+      "key_entities": [
+        "Alliance SwissPass",
+        "ÖV",
+        "Dezember 2026",
+        "3,9 Prozent"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 38.08500000000001,
+      "segment_text": "ÖV-Tickets und Abos werden teurer. Ab Dezember 2026 steigen die Preise für Fahrten mit öffentlichen Verkehrsmitteln um durchschnittlich 3,9 %. Das hat der Strategierat der Alliance SwissPass beschlossen. Betroffen sind national gültige Billette und Abonnemente. Allerdings werden nicht alle Preise im gleichen Ausmass erhöht. Angebote für Kinder, Jugendliche und Familien sollen gar nicht oder nur wenig teurer werden. Der Preis für das GA steigt etwas stärker als jener für Einzelbillette. Die Alliance SwissPass begründet die Tarifanpassung mit steigenden Kosten, aber auch mit politischen Entscheiden.",
+      "fingerprint": {
+        "entities": [
+          "Abonnemente",
+          "Abos",
+          "Alliance",
+          "Ausmass",
+          "Billette",
+          "Dezember",
+          "Einzelbillette",
+          "Entscheiden",
+          "Fahrten",
+          "Familien",
+          "GA",
+          "Jugendliche",
+          "Kinder",
+          "Kosten",
+          "Preis",
+          "Preise",
+          "Strategierat",
+          "SwissPass",
+          "Tarifanpassung",
+          "Verkehrsmitteln"
+        ],
+        "top_words": [
+          "alliance",
+          "preise",
+          "swisspass",
+          "teurer",
+          "övtickets"
+        ],
+        "word_count": 84
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "00:02:03.363",
+      "end_time": "00:02:36.986",
+      "segment_type": "story",
+      "keyword": "Iran Strasse von Hormus",
+      "short_label": "USA fordert europäische Alliierte zum Einsatz auf",
+      "summary": "US-Verteidigungsminister Pete Hegseth trat in Washington vor die Medien und forderte europäische Verbündete auf, sich stärker am Einsatz für die Öffnung der Strasse von Hormus zu beteiligen. Er betont, dass nicht nur die USA Verantwortung tragen sollten, sondern auch andere Länder wie Großbritannien mit ihrer Royal Navy.",
+      "key_entities": [
+        "Pete Hegseth",
+        "USA",
+        "Strasse von Hormus",
+        "Royal Navy",
+        "Großbritannien"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 33.62299999999999,
+      "segment_text": "Zum Irankrieg: US- Verteidigungsminister Pete Hegseth trat heute in Washington vor die Medien. Neues zur Strategie der USA gab es nicht zu hören. Dafür einen erneuten Appell an die europäischen Verbündeten, sich stärker am Einsatz für die Öffnung der Strasse von Hormus zu beteiligen. Es gibt noch andere Länder auf der Welt, die sich für diese wichtige Handelsroute einsetzen sollten. Die USA sind nicht die einzigen. Die britische Royal Navy z.B wäre auch in der Lage, dort für Sicherheit zu sorgen.",
+      "fingerprint": {
+        "entities": [
+          "Appell",
+          "Einsatz",
+          "Handelsroute",
+          "Hegseth",
+          "Hormus",
+          "Irankrieg",
+          "Lage",
+          "Länder",
+          "Medien",
+          "Navy",
+          "Pete",
+          "Royal",
+          "Sicherheit",
+          "Strasse",
+          "Strategie",
+          "US",
+          "USA",
+          "Verbündeten",
+          "Verteidigungsminister",
+          "Washington",
+          "Welt",
+          "Öffnung"
+        ],
+        "top_words": [
+          "hegseth",
+          "irankrieg",
+          "medien",
+          "verteidigungsminister",
+          "washington"
+        ],
+        "word_count": 81
+      }
+    },
+    {
+      "segment_id": "seg_005",
+      "start_time": "00:02:38.345",
+      "end_time": "00:03:30.828",
+      "segment_type": "story",
+      "keyword": "Celine Dion Comeback",
+      "short_label": "Celine Dion feiert Comeback mit Konzerten in Paris",
+      "summary": "Celine Dion kündigt ihr Comeback nach mehreren Jahren krankheitsbedingter Pause an. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft kündigte die kanadische Sängerin an ihrem 58. Geburtstag zehn Konzerte im September und Oktober nahe Paris an. Sie gab bekannt, dass es ihr gesundheitlich gut geht und sie wieder singen und tanzen kann. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst.",
+      "key_entities": [
+        "Celine Dion",
+        "Paris",
+        "Comeback",
+        "Stiff-Person-Syndrom",
+        "58. Geburtstag"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 52.483000000000004,
+      "segment_text": "Die Königin der Balladen ist zurück - Celine Dion feiert ihr Comeback. Nach mehreren Jahren krankheitsbedingter Pause will der kanadische Superstar diesen Herbst für zehn Konzerte in Paris auftreten. Mit einer Lichtshow am Pariser Eiffelturm und einer Videobotschaft verkündete Celine Dion gestern, an ihrem 58. Geburtstag, ihre Rückkehr auf die Konzertbühne. Ich möchte euch wissen lassen, dass es mir gesundheitlich sehr gut geht. Ich fühle mich gut. Ich singe wieder. Und ich tanze sogar ein bisschen. Ich liebe es so sehr. Zehn Konzerte gibt die Sängerin im September und Oktober in der Nähe von Paris. Es ist das Comeback nach sechs Jahren krankheitsbedingter Pause. Die Sängerin leidet am Stiff-Person-Syndrom, das Muskelsteifheit und Krämpfe auslöst.",
+      "fingerprint": {
+        "entities": [
+          "Balladen",
+          "Celine",
+          "Comeback",
+          "Dion",
+          "Eiffelturm",
+          "Herbst",
+          "Jahren",
+          "Konzertbühne",
+          "Konzerte",
+          "Krämpfe",
+          "Königin",
+          "Lichtshow",
+          "Muskelsteifheit",
+          "Nähe",
+          "Oktober",
+          "Paris",
+          "Pariser",
+          "Pause",
+          "Rückkehr",
+          "September",
+          "StiffPersonSyndrom",
+          "Superstar",
+          "Sängerin",
+          "Videobotschaft"
+        ],
+        "top_words": [
+          "celine",
+          "comeback",
+          "jahren",
+          "krankheitsbedingter",
+          "pause"
+        ],
+        "word_count": 114
+      }
+    },
+    {
+      "segment_id": "seg_006",
+      "start_time": "00:03:35.316",
+      "end_time": "00:03:50.337",
+      "segment_type": "transition",
+      "keyword": "Sendungsausblick",
+      "short_label": "Ausblick auf regionale News und Schweiz aktuell",
+      "summary": "Ausblick auf die regionale News um 19.00 Uhr und die Sendung 'Schweiz aktuell', die über Poldis (Lehrpersonen ohne Diplom) berichten wird, die im Kanton Zürich aufgrund des nicht mehr so akuten Lehrermangels nicht mehr gebraucht werden.",
+      "key_entities": [
+        "regionale News",
+        "Schweiz aktuell",
+        "Poldis",
+        "Zürich",
+        "Lehrermangel"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 15.020999999999987,
+      "segment_text": "So viel von uns für den Moment. Regionale News gibt's um 19.00 Uhr. \"Schweiz aktuell\" berichtet dann u.a. über Poldis - so werden Lehrpersonen ohne Diplom genannt. Die werden im Kanton Zürich aufgrund des nicht mehr so akuten Lehrermangels nicht mehr gebraucht.",
+      "fingerprint": {
+        "entities": [
+          "Diplom",
+          "Kanton",
+          "Lehrermangels",
+          "Lehrpersonen",
+          "Moment",
+          "News",
+          "Poldis",
+          "Uhr",
+          "Zürich"
+        ],
+        "top_words": [
+          "aktuell",
+          "gibts",
+          "moment",
+          "regionale",
+          "schweiz"
+        ],
+        "word_count": 42
+      }
+    },
+    {
+      "segment_id": "seg_007",
+      "start_time": "00:03:50.337",
+      "end_time": "00:03:59.340",
+      "segment_type": "outro",
+      "keyword": "Sendungsabschluss",
+      "short_label": "Tagesschau kompakt Verabschiedung",
+      "summary": "Ende des News-Updates um 18 Uhr. Danksagung für das Interesse und Verabschiedung der Zuschauer.",
+      "key_entities": [
+        "Tagesschau kompakt",
+        "Verabschiedung"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-31",
+      "program_title": "Tagesschau kompakt",
+      "program_start_time": "2026-03-31T18:45:00+02:00",
+      "editorial_unit": "Tagesschau",
+      "urn": "urn:srf:video:9e34959e-2332-4b4c-9806-32ce8150ed4b",
+      "duration_seconds": 9.003000000000014,
+      "segment_text": "Besten Dank fürs Interesse, einen schönen Abend und auf Wiedersehen. SWISS TXT / Accessibility Services Lisa Pfeiffer, Chiara Winkelmann",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Accessibility",
+          "Chiara",
+          "Dank",
+          "Interesse",
+          "Lisa",
+          "Pfeiffer",
+          "Services",
+          "TXT",
+          "Wiedersehen",
+          "Winkelmann"
+        ],
+        "top_words": [
+          "abend",
+          "besten",
+          "interesse",
+          "schönen",
+          "wiedersehen"
+        ],
+        "word_count": 19
+      }
+    }
+  ]
+}

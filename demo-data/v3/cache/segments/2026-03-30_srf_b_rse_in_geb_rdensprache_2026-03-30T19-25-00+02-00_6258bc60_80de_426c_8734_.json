@@ -1,0 +1,222 @@
+{
+  "program": {
+    "date": "2026-03-30",
+    "channel": "SRF info",
+    "title": "SRF Börse in Gebärdensprache",
+    "startTime": "2026-03-30T19:25:00+02:00",
+    "genre": "Nachrichten",
+    "urn": "urn:srf:video:6258bc60-80de-426c-8734-0fc01c8d9421",
+    "word_count": 282,
+    "subtitle_text_clean": "Mit Live-Untertiteln von SWISS TXT Guten Abend. Er zittert, bebt, reagiert auf jede Nachricht einer Entwicklung im Iran-Krieg: Die Rede ist vom Ölpreis. Wobei: E i n e n Ölpreis gibt es nicht. Der wichtigste globale Preis ist der für die Rohölsorte Brent. Sie stammt aus der Nordsee und wird als globale Referenz für andere Sorten verwendet. Daneben steht an den Märkten West Texas Intermediate, kurz WTI, im Fokus - dessen Preis ist als Referenz im amerikanischen Binnenmarkt entscheidend. In normalen Zeiten unterscheiden sich die Preise für Brent und WTI nur wenig - seit Beginn des Iran-Kriegs ist die Differenz deutlich. Brent kostete am Nachmittag knapp 113 $, WTI über 101 $ pro Fass. Der Grund: Brent ist globaler und reagiert stärker auf Mangellagen, etwa in Asien. In den letzten Wochen hat man eben gesehen: Am einen Ort gibt es eine physische Mangelsituation, die es an anderen nicht in dem Masse gibt. Deshalb ist der Preis beim einen, wo es die physische Mangellage gibt, mehr gestiegen als beim anderen. Aber beim anderen ist der Preis ebenfalls gestiegen. Für die Mangellage verantwortlich ist bekanntlich die fast vollständige Blockade der Strasse von Hormus durch Iran. Gewisse Schiffe dürfen noch passieren, zu freundlichen Nationen. Also China hat seine iranischen Öllieferungen erhalten. Es durften ein paar indische Schiffe passieren, und Pakistan ist gerade in Verhandlungen mit Iran. Gewisse Iran-freundliche Nationen werden gewisse Frachten durchbringen. Aber das ist minimal im Vergleich zu dem, was normalerweise diese Stelle passiert. Vom Öl zum Aktienmarkt: Dieser zeigt sich heute für einmal unbeeindruckt von den Preissprüngen beim Öl, der SMI gewinnt 0,8 % Hier folgt nun die \"Tagesschau\" Schönen Abend und machen Sie's gut. SWISS TXT / Accessibility Services Dana Widmer"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start_time": "00:00:12.156",
+      "end_time": "00:00:21.173",
+      "segment_type": "intro",
+      "keyword": "Sendungsstart",
+      "short_label": "Begrüssung und Sendungstart",
+      "summary": "Moderatorin begrüsst das Publikum zur Ausgabe von SRF Börse in Gebärdensprache mit Live-Untertiteln von SWISS TXT und leitet zum Thema Ölpreise über.",
+      "key_entities": [
+        "SRF Börse",
+        "SWISS TXT",
+        "Gebärdensprache"
+      ],
+      "confidence": 0.95,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-30T19:25:00+02:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6258bc60-80de-426c-8734-0fc01c8d9421",
+      "duration_seconds": 9.016999999999998,
+      "segment_text": ". Mit Live-Untertiteln von SWISS TXT Guten Abend. Er zittert, bebt, reagiert auf jede Nachricht",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Guten",
+          "LiveUntertiteln",
+          "Nachricht",
+          "SWISS",
+          "TXT"
+        ],
+        "top_words": [
+          "abend",
+          "guten",
+          "liveuntertiteln",
+          "swiss",
+          "zittert"
+        ],
+        "word_count": 15
+      }
+    },
+    {
+      "segment_id": "seg_002",
+      "start_time": "00:00:21.173",
+      "end_time": "00:02:02.167",
+      "segment_type": "story",
+      "keyword": "Ölpreise Iran-Konflikt",
+      "short_label": "Ölpreis-Volatilität durch Iran-Krise",
+      "summary": "Der Ölpreis reagiert volatile auf die Entwicklungen im Iran-Krieg. Brent-Öl kostet knapp 113 Dollar, WTI über 101 Dollar pro Fass. Die Blockade der Strasse von Hormus durch Iran führt zu Mangellagen, besonders in Asien. Brent reagiert stärker auf globale Engpässe als WTI, das eher am amerikanischen Binnenmarkt orientiert ist.",
+      "key_entities": [
+        "Ölpreis",
+        "Brent",
+        "WTI",
+        "Strasse von Hormus",
+        "Iran",
+        "Asien",
+        "China",
+        "Indien",
+        "Pakistan"
+      ],
+      "confidence": 0.98,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-30",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-30T19:25:00+02:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6258bc60-80de-426c-8734-0fc01c8d9421",
+      "duration_seconds": 100.994,
+      "segment_text": "einer Entwicklung im Iran-Krieg: Die Rede ist vom Ölpreis. Wobei: E i n e n Ölpreis gibt es nicht. Der wichtigste globale Preis ist der für die Rohölsorte Brent. Sie stammt aus der Nordsee und wird als globale Referenz für andere Sorten verwendet. Daneben steht an den Märkten West Texas Intermediate, kurz WTI, im Fokus - dessen Preis ist als Referenz im amerikanischen Binnenmarkt entscheidend. In normalen Zeiten unterscheiden sich die Preise für Brent und WTI nur wenig - seit Beginn des Iran-Kriegs ist die Differenz deutlich. Brent kostete am Nachmittag knapp 113 $, WTI über 101 $ pro Fass. Der Grund: Brent ist globaler und reagiert stärker auf Mangellagen, etwa in Asien. In den letzten Wochen hat man eben gesehen: Am einen Ort gibt es eine physische Mangelsituation, die es an anderen nicht in dem Masse gibt. Deshalb ist der Preis beim einen, wo es die physische Mangellage gibt, mehr gestiegen als beim anderen. Aber beim anderen ist der Preis ebenfalls gestiegen. Für die Mangellage verantwortlich ist bekanntlich die fast vollständige Blockade der Strasse von Hormus durch Iran. Gewisse Schiffe dürfen noch passieren, zu freundlichen Nationen. Also China hat seine iranischen Öllieferungen erhalten. Es durften ein paar indische Schiffe passieren, und Pakistan ist gerade in Verhandlungen mit Iran. Gewisse Iran-freundliche Nationen werden gewisse Frachten durchbringen. Aber das ist minimal im Vergleich zu dem, was normalerweise diese Stelle passiert.",
+      "fingerprint": {
+        "entities": [
+          "Asien",
+          "Beginn",
+          "Binnenmarkt",
+          "Blockade",
+          "Brent",
+          "China",
+          "Differenz",
+          "Entwicklung",
+          "Fass",
+          "Fokus",
+          "Frachten",
+          "Grund",
+          "Hormus",
+          "Intermediate",
+          "Iran",
+          "IranKrieg",
+          "IranKriegs",
+          "Iranfreundliche",
+          "Mangellage",
+          "Mangellagen",
+          "Mangelsituation",
+          "Masse",
+          "Märkten",
+          "Nachmittag",
+          "Nationen",
+          "Nordsee",
+          "Ort",
+          "Pakistan",
+          "Preis",
+          "Preise",
+          "Rede",
+          "Referenz",
+          "Rohölsorte",
+          "Schiffe",
+          "Sorten",
+          "Stelle",
+          "Strasse",
+          "Texas",
+          "Vergleich",
+          "Verhandlungen",
+          "WTI",
+          "West",
+          "Wochen",
+          "Zeiten",
+          "Öllieferungen",
+          "Ölpreis"
+        ],
+        "top_words": [
+          "brent",
+          "gewisse",
+          "globale",
+          "preis",
+          "ölpreis"
+        ],
+        "word_count": 229
+      }
+    },
+    {
+      "segment_id": "seg_003",
+      "start_time": "00:02:05.588",
+      "end_time": "00:02:10.951",
+      "segment_type": "story",
+      "keyword": "SMI Update",
+      "short_label": "Schweizer Aktienmarkt gewinnt",
+      "summary": "Der SMI zeigt sich unbeeindruckt von den Ölpreis-Schwankungen und verzeichnet einen Gewinn von 0,8 Prozent.",
+      "key_entities": [
+        "SMI",
+        "Schweizer Aktienmarkt"
+      ],
+      "confidence": 0.92,
+      "is_repeat_previous_episode": false,
+      "date": "2026-03-30",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-30T19:25:00+02:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6258bc60-80de-426c-8734-0fc01c8d9421",
+      "duration_seconds": 5.3629999999999995,
+      "segment_text": "für einmal unbeeindruckt von den Preissprüngen beim Öl, der SMI gewinnt 0,8 %.",
+      "fingerprint": {
+        "entities": [
+          "Preissprüngen",
+          "SMI",
+          "Öl"
+        ],
+        "top_words": [
+          "einmal",
+          "gewinnt",
+          "preissprüngen",
+          "unbeeindruckt"
+        ],
+        "word_count": 13
+      }
+    },
+    {
+      "segment_id": "seg_004",
+      "start_time": "00:02:13.981",
+      "end_time": "00:02:22.281",
+      "segment_type": "outro",
+      "keyword": "Sendungsende",
+      "short_label": "Abschlusswort und Verabschiedung",
+      "summary": "Moderatorin verabschiedet sich vom Publikum und überleitet zur Tagesschau. Hinweis auf SWISS TXT und Accessibility Services.",
+      "key_entities": [
+        "Tagesschau",
+        "SWISS TXT",
+        "Accessibility Services",
+        "Dana Widmer"
+      ],
+      "confidence": 0.96,
+      "is_repeat_previous_episode": true,
+      "date": "2026-03-30",
+      "program_title": "SRF Börse in Gebärdensprache",
+      "program_start_time": "2026-03-30T19:25:00+02:00",
+      "editorial_unit": "SRF Börse",
+      "urn": "urn:srf:video:6258bc60-80de-426c-8734-0fc01c8d9421",
+      "duration_seconds": 8.300000000000011,
+      "segment_text": "Hier folgt nun die \"Tagesschau\". Schönen Abend und machen Sie's gut. SWISS TXT / Accessibility Services Dana Widmer",
+      "fingerprint": {
+        "entities": [
+          "Abend",
+          "Accessibility",
+          "Dana",
+          "Services",
+          "Sies",
+          "TXT",
+          "Tagesschau",
+          "Widmer"
+        ],
+        "top_words": [
+          "abend",
+          "folgt",
+          "machen",
+          "schönen",
+          "tagesschau"
+        ],
+        "word_count": 18
+      }
+    }
+  ]
+}
