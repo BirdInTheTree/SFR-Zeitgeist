@@ -36,48 +36,19 @@ The grid works because of *information scent* ([Pirolli, 2007](#references)): ea
 
 The word list uses a fish-eye effect: the active word is large and red, neighbors shrink into dust-grey.
 
-### Scoring
+### [Scoring](docs/scoring.md)
 
-$$score(s) = novelty \times spread \times persistence \times prominence \times primetime$$
+$$score = novelty \times spread \times persistence \times prominence \times primetime$$
 
-| Signal | What it asks | Formula |
-|--------|-------------|---------|
-| novelty | Is this new today? | $(N_{today} + 1) / (\overline{N}_{prev7} + 1)$ |
-| spread | Did multiple desks cover it? | $1 + \log_2(1 + U_{today})$ |
-| persistence | Did it keep coming back? | $1 + \log_2(1 + N_{today})$ |
-| prominence | How much airtime did it get? | $1 + \log_2(1 + M_{today}/60)$ |
-| primetime | Did it make the evening news? | $1 + 0.25 \times tier$ |
+Five signals multiplied. A story needs all five to rank high. Evergreen topics suppress themselves — weather appears every day, so novelty stays at ~1.0. A spike like "Artemis launch" scores orders of magnitude higher.
 
-The signals multiply. A story needs all five to rank high. High novelty but low spread = a niche spike in one show. High spread but low novelty = yesterday's ongoing story.
+### [Screenshots](docs/screenshots.md)
 
-Repeats (same newscast re-aired later) are not thrown out. An editor choosing to keep a story in the 19:30 re-airing is a signal. But 5 re-airings don't count as 5× importance — the logarithm handles that.
+The LLM marks the *peak moment* of each segment — the key fact, the decisive quote. The video frame is grabbed there, not at the anchor intro. Blank frames are retried. No-face frames are zoomed tighter.
 
-Evergreen topics like weather suppress themselves. They appear every day, so their novelty stays at ~1.0. A spike like "Artemis launch" going from 0 to 20 segments scores orders of magnitude higher.
+### [Keywords](docs/keywords.md)
 
-
-### Screenshots
-
-The LLM marks the *peak moment* of each segment — the key fact, the decisive quote, not the anchor reading the intro. The video frame is grabbed there.
-
-If the frame is blank (black transition), we retry 5 seconds later. If no face is detected, we zoom to 70% of the frame for a tighter crop. The goal: every cell should show the *story*, not the studio.
-
-### Keyword selection
-
-The keyword is what appears on the grid. It must work as a trigger word ([Pirolli, 2007](#references)) — one glance and you know the story.
-
-Rules for the LLM:
-- Use the most recognizable proper noun: "Roveredo", "Keller-Sutter", "Artemis"
-- Add a second word only if the first is ambiguous: "Trump NATO" vs "Trump Briefwahl"
-- No nicknames. No English. No merged words.
-- If two segments cover the same story, use the same keyword
-
-Broadcasts are processed in chronological order. Each one receives the keywords already assigned earlier that day, so the LLM reuses them for the same story across programs.
-
-### Cross-day consistency
-
-A story that runs for multiple days should keep its keyword. "Israel Todesstrafe" on Monday must still be "Israel Todesstrafe" on Tuesday — even if Tuesday's LLM might prefer "Knesset Todesstrafe."
-
-A canonical registry stores every story's keyword and fingerprint (entities + frequent words). When a new day is processed, each story is matched against the registry. If it matches, the original keyword is kept. ([Shahaf & Guestrin, 2010](#references) on coherent story chains across time.)
+The keyword must work as a trigger word ([Pirolli, 2007](#references)) — one glance and you know the story. Use proper nouns. Max 2 words. No nicknames. Broadcasts are processed chronologically with keyword chaining so the LLM reuses keywords across programs. A canonical registry keeps keywords stable across days.
 
 ## Data and architecture
 
