@@ -97,7 +97,14 @@ function buildWords() {
         const w = document.createElement('div');
         w.className = 'w';
         w.dataset.i = i;
-        w.innerHTML = `<span class="num">${i+1}.</span><span class="txt">${kw.phrase}</span>`;
+        const num = document.createElement('span');
+        num.className = 'num';
+        num.textContent = `${i+1}.`;
+        const txt = document.createElement('span');
+        txt.className = 'txt';
+        txt.textContent = kw.phrase;
+        w.appendChild(num);
+        w.appendChild(txt);
         w.addEventListener('mouseenter', () => light(i));
         w.addEventListener('mouseleave', dim);
         w.addEventListener('click', () => openZoom(i));

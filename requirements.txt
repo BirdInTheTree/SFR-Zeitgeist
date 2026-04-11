@@ -1,0 +1,5 @@
+anthropic>=0.88
+python-dotenv>=1.0
+Pillow>=12.0
+numpy>=2.0
+face-recognition>=1.3
